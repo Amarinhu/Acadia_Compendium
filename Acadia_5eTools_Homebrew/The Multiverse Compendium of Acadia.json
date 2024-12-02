@@ -241,7 +241,7 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "Acadian Magic Rebalancing [PLACEHOLDER]",
+			"name": "[PLACEHOLDER] Acadian Magic Rebalancing",
 			"ruleType": "C",
 			"entries": [
 				"This includes a new group of Arcane, Primal, Occult and Divine spells, instead of each class having their own spell list. It also revises basically every spell and add new one's. Ban, reformulate etc."
@@ -249,7 +249,7 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "Optional: Hiper-Class: Acadian [PLACEHOLDER]",
+			"name": "[PLACEHOLDER] Optional: Hiper-Class: Acadian",
 			"ruleType": "C",
 			"entries": [
 				"Acadian HiperClass is quite broken and let players create abilities at 3rd Level, 6th Level, 10th Level, 14th level. It also gives then access to making planeswalking."
@@ -303,7 +303,7 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "Ajudantes [PLACEHOLDER]",
+			"name": "[PLACEHOLDER] Apoiador",
 			"ruleType": "C",
 			"entries": [
 				"Regras para companheiros, familiares ou ajudantes.",
@@ -312,43 +312,23 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "Cena [PLACEHOLDER]",
+			"name": "Misc. Reactions",
 			"ruleType": "C",
 			"entries": [
-				"Introdução de mecânicas narrativas baseadas em cenas específicas.",
-				"Define limites e recompensas para conclusão de cenas."
+				"This section introduces a set of extra reactions a creature can take. These reactions can be used at the start or end of an action on another creature's turn. They include:",
+				{
+					"type": "list",
+					"items": [
+						"<b>Close Eyes:</b> Use a reaction to close your eyes until the end of your next turn. This is meant for avoiding effects like a Medusa's Petrifying Gaze.",
+						"<b>Focus Attention:</b> Use a reaction to ignore a number of creatures of your choice until the end of your next turn. You are considered blinded to them but ignore them for effects that take advantage of your distraction with more than one creature, like Sneak Attack or Flanking.",
+						"<b>Say Key Word:</b> Use a reaction to say a key word that activates a specific effect. For example, this could trigger a {@spell Contingency} spell or a magic item that requires a verbal activation."
+					]
+				}
 			]
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "Fechar Olhos [PLACEHOLDER]",
-			"ruleType": "C",
-			"entries": [
-				"Impactos mecânicos ao fechar os olhos durante combate.",
-				"Explora cegueira temporária e percepção."
-			]
-		},
-		{
-			"source": "CompendiumofAcadia",
-			"name": "Virar Costas [PLACEHOLDER]",
-			"ruleType": "C",
-			"entries": [
-				"Mecânica para interações ao ignorar ou virar as costas para inimigos.",
-				"Inclui consequências táticas e sociais."
-			]
-		},
-		{
-			"source": "CompendiumofAcadia",
-			"name": "Ignorar Alvo [PLACEHOLDER]",
-			"ruleType": "C",
-			"entries": [
-				"Regras para ignorar alvos em situações específicas.",
-				"Explora o impacto de foco e distração."
-			]
-		},
-		{
-			"source": "CompendiumofAcadia",
-			"name": "Magia Criativa [PLACEHOLDER]",
+			"name": "[PLACEHOLDER] Magia Criativa",
 			"ruleType": "C",
 			"entries": [
 				"Permite a criação de efeitos mágicos personalizados.",
@@ -357,7 +337,7 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "Deck do Destino [PLACEHOLDER]",
+			"name": "[PLACEHOLDER] Deck do Destino",
 			"ruleType": "C",
 			"entries": [
 				"Mecânica baseada em cartas para eventos aleatórios.",
@@ -366,7 +346,7 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "Criação de Itens [PLACEHOLDER]",
+			"name": "[PLACEHOLDER] Criação de Itens",
 			"ruleType": "C",
 			"entries": [
 				"Regras detalhadas para criar itens mágicos e mundanos.",
@@ -375,7 +355,7 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "Condições [PLACEHOLDER]",
+			"name": "[PLACEHOLDER] Condições",
 			"ruleType": "C",
 			"entries": [
 				"Nova abordagem para condições como envenenado, atordoado, etc.",
@@ -384,7 +364,7 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "Vestimentas [PLACEHOLDER]",
+			"name": "[PLACEHOLDER] Vestimentas",
 			"ruleType": "C",
 			"entries": [
 				"Impacto de roupas e armaduras no jogo.",
@@ -393,7 +373,7 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "Limite de Itens Mágicos Não Consumíveis [PLACEHOLDER]",
+			"name": "[PLACEHOLDER] Limite de Itens Mágicos Não Consumíveis",
 			"ruleType": "C",
 			"entries": [
 				"Estabelece limites claros para itens mágicos não consumíveis por personagem.",
@@ -402,7 +382,7 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "Forçar Casting [PLACEHOLDER]",
+			"name": "[PLACEHOLDER] Forçar Casting",
 			"ruleType": "C",
 			"entries": [
 				"Permite pressionar conjuradores a lançar magias contra sua vontade.",
@@ -411,7 +391,7 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "Forçar Corpo [PLACEHOLDER]",
+			"name": "[PLACEHOLDER] Forçar Corpo",
 			"ruleType": "C",
 			"entries": [
 				"Explora os limites físicos de um personagem.",
@@ -420,7 +400,7 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "Mana [PLACEHOLDER]",
+			"name": "[PLACEHOLDER] Mana",
 			"ruleType": "C",
 			"entries": [
 				"Sistema de mana para conjuração de magias.",
@@ -429,7 +409,7 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "Rolagens de Destino [PLACEHOLDER]",
+			"name": "[PLACEHOLDER] Rolagens de Destino",
 			"ruleType": "C",
 			"entries": [
 				"Sistema de rolagens específicas para eventos de destino.",
@@ -438,16 +418,24 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "Reflexos, Fortitude e Vontade [PLACEHOLDER]",
+			"name": "Reflex, Fortitude, and Will",
 			"ruleType": "C",
 			"entries": [
-				"Mecânica para salvar-se contra efeitos com base em reflexos, resistência e força de vontade.",
-				"Inclui exemplos de aplicação e testes."
+				"Saving throws are replaced with 'Reflex, Fortitude and Will'. They are determined by the highest value of two ability scores, reflecting different aspects of a character's resilience:",
+				{
+					"type": "list",
+					"items": [
+						"<b>Reflex:</b> The highest between Dexterity and Intelligence.",
+						"<b>Fortitude:</b> The highest between Constitution and Strength.",
+						"<b>Will:</b> The highest between Wisdom and Charisma."
+					]
+				},
+				"When a class provides proficiency in two saving throws from different categories, the player chooses only one. For example, a Sorcerer (proficient in Constitution saves and Charisma saves) instead must choose proficiency in either Fortitude or Will."
 			]
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "Foco Arcano Resistente [PLACEHOLDER]",
+			"name": "[PLACEHOLDER] Alimentos",
 			"ruleType": "C",
 			"entries": [
 				"Itens arcanos que oferecem mais durabilidade e utilidade.",
@@ -456,31 +444,81 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "Pergaminhos Universais [PLACEHOLDER]",
+			"name": "Universal Spell Scrolls",
 			"ruleType": "C",
 			"entries": [
-				"Regras para pergaminhos utilizáveis por qualquer classe mágica.",
-				"Inclui limitações e custos adicionais."
+				"When Scribing Spell Scrolls, a spellcaster can choose to make it a Universal Spell Scroll. This type of scroll can be used by any creature that can understand any language, even if the spell is not on their spell list.",
+				"If the creature does not have a spell list, or if the spell on the scroll is of a higher level than they can normally cast, they must make the ability check for casting it as described in the Spell Scroll rules. If the creature is not a spellcaster, they may choose Intelligence, Wisdom, or Charisma for the check.",
+				"A creature can spend 1 hour familiarizing itself with a spell scroll and its casting process. If it does so, it adds its proficiency bonus to the ability check made to cast the spell. This familiarity lasts until the creature takes a Long Rest."
 			]
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "Necessidades de Casting Variante [PLACEHOLDER]",
+			"name": "Rest Quality",
 			"ruleType": "C",
 			"entries": [
-				"Abordagem variante para requisitos de conjuração de magias.",
-				"Inclui gestos, componentes e tempo extra."
+				"This rule assumes the use of Slow Natural Healing from {@variantrule Healing|DMG}.",
+				"The quality of the location where characters sleep impacts the effectiveness of their {@variantrule Short Rest|XPHB} or {@variantrule Long Rest|XPHB}, as described below:",
+				{
+					"type": "table",
+					"caption": "Rest Quality Effects",
+					"colLabels": [
+						"Quality",
+						"Effect",
+						"Description"
+					],
+					"colStyles": [
+						"col-2",
+						"col-4",
+						"col-6"
+					],
+					"rows": [
+						[
+							"Squalid",
+							"All Hit Dice are treated as rolling a 1.",
+							"A dirty, unsanitary place, worse than camping with a bedroll. May involve extreme cold or heat, with food being of extremely poor quality or unavailable."
+						],
+						[
+							"Poor",
+							"Recover half the hit points normally restored by spending Hit Dice.",
+							"Sleeping on the ground with minimal cover or bedding. Access to low-quality or insufficient food."
+						],
+						[
+							"Modest",
+							"Recover hit points from Hit Dice as normal.",
+							"A well-prepared campsite with adequate bedding, warm clothing or blankets, and access to standard rations or normal food."
+						],
+						[
+							"Comfortable",
+							"Roll additional Hit Dice equal to your proficiency bonus.",
+							"Staying in a comfortable inn or a similar environment, with good food and a warm, safe place to sleep."
+						],
+						[
+							"Aristocratic",
+							"Roll additional Hit Dice equal to twice your proficiency bonus.",
+							"Sleeping in a castle or similarly lavish environment, with the finest food, drinks, and accommodations."
+						]
+					]
+				}
 			]
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "Holding Casters [PLACEHOLDER]",
+			"name": "Alternate Spell Casting",
 			"ruleType": "C",
 			"entries": [
-				"Sistema para segurar ou conter conjuradores durante o combate.",
-				"Explora mecânicas de neutralização e controle."
+				"All spells require both verbal and somatic components. Rules regarding material (M) components remains the same."
 			]
-		}
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Grappling Spellcasters",
+			"ruleType": "C",
+			"entries": [
+			  "If a creature is Grappled, Prone, or Restrained and attempts to cast a spell that requires somatic components, it must succeed on a DC 15 Concentration check. On a failure, the spell does not take effect, and the spell slot is not expended."
+			]
+		  }
+		  
 	],
 	"spell": [
 		{
