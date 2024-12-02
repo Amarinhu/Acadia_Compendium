@@ -364,11 +364,18 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "[PLACEHOLDER] Vestimentas",
+			"name": "Clothing and Attire",
 			"ruleType": "C",
 			"entries": [
-				"Impacto de roupas e armaduras no jogo.",
-				"Explora funcionalidade e narrativa."
+				"Clothing can provide bonuses to skills or specific scenarios if thematically appropriate.",
+				{
+					"type": "list",
+					"items": [
+						"<b>Common Clothing:</b> Grants a +1 bonus to a relevant skill or situation (e.g., goggles for sight-related Perception checks).",
+						"<b>Rare Clothing:</b> Grants a +2 bonus to a relevant skill or situation.",
+						"The number of clothing items providing bonuses is limited by equipment rules (see equipment guidelines)."
+					]
+				}
 			]
 		},
 		{
@@ -435,11 +442,71 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "[PLACEHOLDER] Alimentos",
+			"name": "Enhanced Foods",
 			"ruleType": "C",
 			"entries": [
-				"Itens arcanos que oferecem mais durabilidade e utilidade.",
-				"Inclui mecânicas de resistência contra desgaste."
+				"Specially prepared foods provide adventurers with unique benefits during their journeys.",
+				"A creature can only have one food effect active at a time. If a creature consumes another food that grants a food effect, it must choose whether to keep the current effect or replace it with the new one.",
+				"There are two types of foods:",
+				{
+					"type": "list",
+					"items": [
+						"<b>Snacks:</b> Can be consumed with a bonus action and provide short-term benefits.",
+						"<b>Meals:</b> Require at least 10 minutes to consume but offer more lasting and impactful effects."
+					]
+				},
+				"Here are some example foods and their effects:",
+				{
+					"type": "table",
+					"caption": "Enhanced Foods",
+					"colLabels": [
+						"Food Name",
+						"Type",
+						"Effect"
+					],
+					"rows": [
+						[
+							"Spiced Jerky",
+							"Snack",
+							"Gain temporary hit points equal to your proficiency bonus."
+						],
+						[
+							"Energy Bar",
+							"Snack",
+							"You have advantage on the next saving throw you make until the end of your next turn."
+						],
+						[
+							"Trail Mix",
+							"Snack",
+							"You gain a +1d6 bonus to your next attack roll made within 1 minute."
+						],
+						[
+							"Chocolate Cookie",
+							"Snack",
+							"You gain 10 feet of additional movement until the end of your next turn."
+						],
+						[
+							"Hearty Stew",
+							"Meal",
+							"When spending Hit Dice during a rest, add +1d8 to the total recovered."
+						],
+						[
+							"Grilled Skewers",
+							"Meal",
+							"Gain a pool of 1d6 to add to an ability check using Strength, Dexterity, or Constitution. This pool refreshes after a long rest."
+						],
+						[
+							"Scholar’s Broth",
+							"Meal",
+							"Gain a pool of 1d6 to add to an ability check using Intelligence, Wisdom, or Charisma. This pool refreshes after a long rest."
+						],
+						[
+							"Savory Herb Roast",
+							"Meal",
+							"For the next hour, you gain advantage on Constitution saving throws to resist exhaustion or environmental effects (such as extreme heat or cold)."
+						]
+					]
+				}
 			]
 		},
 		{
@@ -515,10 +582,9 @@
 			"name": "Grappling Spellcasters",
 			"ruleType": "C",
 			"entries": [
-			  "If a creature is Grappled, Prone, or Restrained and attempts to cast a spell that requires somatic components, it must succeed on a DC 15 Concentration check. On a failure, the spell does not take effect, and the spell slot is not expended."
+				"If a creature is Grappled, Prone, or Restrained and attempts to cast a spell that requires somatic components, it must succeed on a DC 15 Concentration check. On a failure, the spell does not take effect, and the spell slot is not expended."
 			]
-		  }
-		  
+		}
 	],
 	"spell": [
 		{
