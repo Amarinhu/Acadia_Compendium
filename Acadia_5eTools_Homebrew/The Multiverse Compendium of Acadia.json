@@ -1,0 +1,593 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"dateAdded": 1732722304,
+		"dateLastModified": 1732722304,
+		"edition": "one",
+		"sources": [
+			{
+				"json": "CompendiumofAcadia",
+				"abbreviation": "MCA",
+				"full": "The Multiverse Compendium of Acadia",
+				"version": "1",
+				"authors": [
+					"Gabriel Amaral Passos"
+				],
+				"convertedBy": [
+					"Gabriel Amaral Passos"
+				],
+				"color": "4682b4"
+			}
+		]
+	},
+	"item": [
+		{
+			"name": "Item Teste Mágico",
+			"source": "CompendiumofAcadia",
+			"page": "-",
+			"rarity": "uncommon",
+			"reqAttune": "by a monk",
+			"weight": 20,
+			"value": 15000,
+			"reqAttuneTags": [
+				{
+					"class": "monk"
+				}
+			],
+			"wondrous": true,
+			"entries": [
+				"This finely detailed belt is made of dragonhide. While wearing it, you gain a +1 bonus to the saving throw DCs of your ki features. In addition, you can use an action to regain ki points equal to a roll of your Martial Arts die. You can't use this action again until the next dawn."
+			]
+		},
+		{
+			"name": "Item Teste Mundano",
+			"source": "CompendiumofAcadia",
+			"page": "-",
+			"freeRules2024": true,
+			"type": "G",
+			"rarity": "none",
+			"weight": 1,
+			"value": 5000,
+			"entries": [
+				"When you take the {@action Attack|XPHB} action, you can replace one of your attacks with throwing a flask of Alchemist's Fire. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and {@variantrule Proficiency|XPHB|Proficiency Bonus}) or take {@damage 1d4} Fire damage and start burning."
+			]
+		}
+	],
+	"variantrule": [
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Called Shots",
+			"ruleType": "C",
+			"entries": [
+				"Once per round, when you declare an {@action Attack|XPHB}, you can choose to make a Called Shot to impose specific effects on the target. The effect only applies if the targeted part qualifies under the following guidelines, subject to the DM's discretion.",
+				"If the effect requires a saving throw, the DC is determined by the attribute used for the attack roll.",
+				"If your Called Shot exceeds the target's AC by 5 or more, you may apply one of the following effects:",
+				{
+					"type": "entries",
+					"name": "Optional Rule. Martials Only!",
+					"entries": [
+						"By default, Called Shots are intended to be used only by players (or NPCs with notable martial prowess) whose majority of levels are in Martial Classes (classes that gain Weapon Mastery)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Targeting Body Parts.",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Movement Parts.",
+							"entries": [
+								"Parts responsible for movement. Until the end of the creatures next turn, the creature’s speed associated with the part hitten is reduced by 10 feet."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Weapon Parts",
+							"entries": [
+								"Parts used as weapons. The creature have {@variantrule Disadvantage|XPHB} on the next attack roll it makes before the end of its next turn."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Armor Parts",
+							"entries": [
+								"Parts used to protect the user. On a failed Constitution saving throw, the creature’s AC is reduced by an amount based on the part's contribution until the end of its next turn. This does not apply to body armor of any sorts, as it 'passively' protects the body."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Weak Point Parts",
+							"entries": [
+								"Parts that are some type of vulnerability. Your attack deals an additional 1d10 damage of the same type."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Special Ability Parts",
+							"entries": [
+								"Parts responsible for a Special Ability. On a failed Constitution saving throw, the creature is unable to use that ability until the end of its next turn. The DM determines whether the Special Ability is fully or partially disabled."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Utility Parts",
+							"entries": [
+								"Parts used for utility or miscellaneous tasks. On a failed Constitution saving throw the part becomes impaired until the end of the creature's next turn. It impedes the target part to be used to activate magic items, performing somatic components (if hand), verbal components (if a mouth or jaw), use held items as components of spells, and impede speech (if a mouth or jaw).",
+								"If appropriate, the DM might apply this effect as a bonus to other effect. Targeting a dragon's jaw to impede its breath weapon (under Special Ability Parts) might apply this effect and impede its speech as well."
+							]
+						}
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Examples of Targeted Body Parts",
+					"colLabels": [
+						"Part Type",
+						"Examples"
+					],
+					"colStyles": [
+						"col-4",
+						"col-8"
+					],
+					"rows": [
+						[
+							"Movement Parts",
+							"Wings (affects flying speed), Legs (affects walking speed)."
+						],
+						[
+							"Weapon Parts",
+							"Arm holding a sword, Arms, Claws, Mouth (for bite attacks)."
+						],
+						[
+							"Armor Parts",
+							"Arm holding a shield."
+						],
+						[
+							"Utility Parts",
+							"Hands, Jaw, Throat, Tentacle."
+						],
+						[
+							"Weak Point Parts",
+							"Existing injury, Soft spot in armor or carapace."
+						],
+						[
+							"Special Ability Parts",
+							"Jaw (disable Fire Breath for a Red Dragon), Eye stalk (disable Eye Ray for a Beholder), Throat (disable Wail for a Banshee), Face (disable Petrifying Gaze for a Medusa)."
+						]
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Targeting Equipment",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Worn, Carried and Held Items",
+							"entries": [
+								"You can target items being held, carried or worn by a creature. The object AC is the higher value between the item's AC and the creature's AC. Its HP is the higher value beetween half the creature's maximum HP or the items HP (see {@variantrule Breaking Objects|XPHB} for AC and HP of items). On a hit, you only deal damage to the item. If the item need to make a save, it doesn't automatically fail and use the creature's saving throw bonuses instead.",
+								"Magic items can only be damaged by items that have equal or stronger magic than itself. You can use the rarity as a guideline to determine the relative strength of a magic item.",
+								"Alternativaly, you can consider rarity to have a equivalency with spell levels. Like Common (1st level), Uncommon (3rd Level), Rare (6th Level), Very Rare (8th Level), and Legendary (9th Level)"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Ready Counterspell",
+			"ruleType": "C",
+			"entries": [
+				"You can use the {@action Ready|XPHB} action to prepare a counterspell. You do not need to know or have the ability to cast {@spell Counterspell|XPHB} to use this feature. When a creature you can see begins casting a spell, you may trigger your readied action to interrupt it.",
+				"This effect functions as the {@spell Counterspell|XPHB} spell, and you must fulfill all the normal costs of casting {@spell Counterspell|XPHB}, including expending a spell slot and performing any required components. If you are capable of casting {@spell Counterspell|XPHB} with your reaction but choose to use Ready Counterspell instead, the target makes its saving throw with disadvantage."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Non-Lethal Damage",
+			"ruleType": "C",
+			"entries": [
+				"When making an attack roll or dealing damage with an effect that requires a saving throw (such as a spell), you can choose to make it non-lethal. In this case, if the creature would die as a result of the damage, it instead falls unconscious and follows the rules for death saving throws ({@variantrule Death Saving Throw|XPHB}) rather than dying outright.",
+				{
+					"type": "entries",
+					"name": "Optional Rule: It's Hard to Spare Lives",
+					"entries": [
+						"When attempting a non-lethal attack or spell using this rule, your attack roll is made with disadvantage, and if the effect involves a saving throw, the target has advantage on its saving throw. This reflects the difficulty of subduing a target without dealing fatal damage and may make capturing enemies more challenging."
+					]
+				}
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Coup de Grace",
+			"ruleType": "C",
+			"entries": [
+				"You can use your action to attempt to execute a {@condition Incapacitated|XPHB} or {@condition Paralyzed|XPHB} creature. Make an attack roll that automatically hits. Roll 1d4 to determine the outcome:",
+				{
+					"type": "list",
+					"items": [
+						"On a roll of 1–3, the creature dies instantly.",
+						"On a roll of 4, the creature takes the normal damage from the attack instead of dying."
+					]
+				},
+				"If the target is a player character or an important NPC, it only instantly dies on a roll of 1. Otherwise, it takes the normal damage from the attack.",
+				{
+					"type": "entries",
+					"name": "Optional Rule: Cinematic Only!",
+					"entries": [
+						"The Coup de Grace can only be used in scenes outside of combat."
+					]
+				}
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Aimed Strike",
+			"ruleType": "C",
+			"entries": [
+				"As an Action, you focus your next attack, taking time to aim. Your next attack roll until the end of your next turn have Advantage. After using Aimed Strike, your speed becomes 0 until the end of your next turn or until you make the attack."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Death's Door",
+			"ruleType": "C",
+			"entries": [
+				"When reduced to 0 hit points, a character can choose to enter 'Death's Door' instead of falling unconscious, remaining conscious but at risk of death.",
+				"While at Death's Door, taking damage causes one failed death saving throw, or two on a critical hit. A creature with three failed death saving throws dies.",
+				"Stabilizing a character at Death's Door only grants two successful death saving throws instead of actually stabilizing. Three successes restore the character to 1 HP and end Death's Door.",
+				"At the end of each turn, a character in Death's Door gains one level of exhaustion. They may choose to fall unconscious at this moment, ending Death's Door and following the usual rules for being at 0 hit points."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Acadian Magic Rebalancing [PLACEHOLDER]",
+			"ruleType": "C",
+			"entries": [
+				"This includes a new group of Arcane, Primal, Occult and Divine spells, instead of each class having their own spell list. It also revises basically every spell and add new one's. Ban, reformulate etc."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Optional: Hiper-Class: Acadian [PLACEHOLDER]",
+			"ruleType": "C",
+			"entries": [
+				"Acadian HiperClass is quite broken and let players create abilities at 3rd Level, 6th Level, 10th Level, 14th level. It also gives then access to making planeswalking."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Optional: Unshaped Class",
+			"ruleType": "C",
+			"entries": [
+				"You start at level 0 as an Unshaped character, a flexible state before choosing a class. Use the following guidelines to create your Unshaped character:",
+				{
+					"type": "entries",
+					"name": "Unshaped Core Traits",
+					"entries": [
+						"Primary Ability: None",
+						"Hit Points: 6 + your Constitution modifier",
+						"Weapon Proficiencies: Simple weapons",
+						"Proficiency Bonus: +2",
+						"Starting Attributes: 14, 14, 12, 12, 10, 8",
+						"Starting Equipment: One or two simple weapons of your choice, an Explorer's Pack, common clothes, one common or uncommon magic item, and 5 GP."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creating Your Character",
+					"entries": [
+						"1. Choose a Race: Select a race as per standard character creation rules.",
+						"2. Choose a Background: Pick a background for your character to determine skills, tools, and features."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Unshaped Luck",
+					"entries": [
+						"You have a unique ability that reflects the fluid nature of an Unshaped character. When you roll a d20 for a D20 Test, you can grant yourself Advantage on the roll. Alternatively, when a creature rolls a d20 for an attack roll against you, you can impose Disadvantage on that roll.",
+						"You can use this feature twice. You regain all expended uses when you finish a Short or Long Rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Gaining a Class Level",
+					"entries": [
+						"When an Unshaped character advances to 1st level, they must choose a class. This transition represents their training and specialization into a specific role within the adventuring group. Follow these steps:",
+						"1. You can choose to replace your 'Unshaped Luck' feature for an Ability Score Improvement feat or another feat of your choice for which you qualify.",
+						"2. Gain all 1st-level features of the chosen class, except starting equipment. Adjust proficiencies, saving throws, and other abilities as per the class rules.",
+						"3. Replace your current hit points with the hit points granted at 1st level by the chosen class."
+					]
+				}
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Ajudantes [PLACEHOLDER]",
+			"ruleType": "C",
+			"entries": [
+				"Regras para companheiros, familiares ou ajudantes.",
+				"Inclui mecânicas de crescimento e interação."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Cena [PLACEHOLDER]",
+			"ruleType": "C",
+			"entries": [
+				"Introdução de mecânicas narrativas baseadas em cenas específicas.",
+				"Define limites e recompensas para conclusão de cenas."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Fechar Olhos [PLACEHOLDER]",
+			"ruleType": "C",
+			"entries": [
+				"Impactos mecânicos ao fechar os olhos durante combate.",
+				"Explora cegueira temporária e percepção."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Virar Costas [PLACEHOLDER]",
+			"ruleType": "C",
+			"entries": [
+				"Mecânica para interações ao ignorar ou virar as costas para inimigos.",
+				"Inclui consequências táticas e sociais."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Ignorar Alvo [PLACEHOLDER]",
+			"ruleType": "C",
+			"entries": [
+				"Regras para ignorar alvos em situações específicas.",
+				"Explora o impacto de foco e distração."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Magia Criativa [PLACEHOLDER]",
+			"ruleType": "C",
+			"entries": [
+				"Permite a criação de efeitos mágicos personalizados.",
+				"Define limitações e riscos baseados na criatividade."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Deck do Destino [PLACEHOLDER]",
+			"ruleType": "C",
+			"entries": [
+				"Mecânica baseada em cartas para eventos aleatórios.",
+				"Inclui recompensas e desafios temáticos."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Criação de Itens [PLACEHOLDER]",
+			"ruleType": "C",
+			"entries": [
+				"Regras detalhadas para criar itens mágicos e mundanos.",
+				"Inclui custos, tempo e testes necessários."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Condições [PLACEHOLDER]",
+			"ruleType": "C",
+			"entries": [
+				"Nova abordagem para condições como envenenado, atordoado, etc.",
+				"Inclui maior variedade e impacto."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Vestimentas [PLACEHOLDER]",
+			"ruleType": "C",
+			"entries": [
+				"Impacto de roupas e armaduras no jogo.",
+				"Explora funcionalidade e narrativa."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Limite de Itens Mágicos Não Consumíveis [PLACEHOLDER]",
+			"ruleType": "C",
+			"entries": [
+				"Estabelece limites claros para itens mágicos não consumíveis por personagem.",
+				"Inclui balanceamento entre progressão e poder."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Forçar Casting [PLACEHOLDER]",
+			"ruleType": "C",
+			"entries": [
+				"Permite pressionar conjuradores a lançar magias contra sua vontade.",
+				"Explora custo psicológico e físico."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Forçar Corpo [PLACEHOLDER]",
+			"ruleType": "C",
+			"entries": [
+				"Explora os limites físicos de um personagem.",
+				"Inclui penalidades por ultrapassar esses limites."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Mana [PLACEHOLDER]",
+			"ruleType": "C",
+			"entries": [
+				"Sistema de mana para conjuração de magias.",
+				"Inclui custos e recuperação baseados no tempo."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Rolagens de Destino [PLACEHOLDER]",
+			"ruleType": "C",
+			"entries": [
+				"Sistema de rolagens específicas para eventos de destino.",
+				"Inclui recompensas por arriscar grandes apostas."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Reflexos, Fortitude e Vontade [PLACEHOLDER]",
+			"ruleType": "C",
+			"entries": [
+				"Mecânica para salvar-se contra efeitos com base em reflexos, resistência e força de vontade.",
+				"Inclui exemplos de aplicação e testes."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Foco Arcano Resistente [PLACEHOLDER]",
+			"ruleType": "C",
+			"entries": [
+				"Itens arcanos que oferecem mais durabilidade e utilidade.",
+				"Inclui mecânicas de resistência contra desgaste."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Pergaminhos Universais [PLACEHOLDER]",
+			"ruleType": "C",
+			"entries": [
+				"Regras para pergaminhos utilizáveis por qualquer classe mágica.",
+				"Inclui limitações e custos adicionais."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Necessidades de Casting Variante [PLACEHOLDER]",
+			"ruleType": "C",
+			"entries": [
+				"Abordagem variante para requisitos de conjuração de magias.",
+				"Inclui gestos, componentes e tempo extra."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Holding Casters [PLACEHOLDER]",
+			"ruleType": "C",
+			"entries": [
+				"Sistema para segurar ou conter conjuradores durante o combate.",
+				"Explora mecânicas de neutralização e controle."
+			]
+		}
+	],
+	"spell": [
+		{
+			"name": "Magia Template",
+			"source": "CompendiumofAcadia",
+			"page": "-",
+			"level": 5,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Description",
+					"entries": [
+						"You add the description of the spell here. Example: You create a magical white barrier around yourself."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mechanic",
+					"entries": [
+						"You add the machanical part here. Example: You gain +2 AC."
+					]
+				}
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"LGT",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "TestesManeiros"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"subschools": [
+				"Green 🟢",
+				"Blue 🔵",
+				"Black ⚫",
+				"White ⚪",
+				"Red 🔴",
+				"Purple 🟣",
+				"Colorless ◯",
+				"Martial ⚔️"
+			],
+			"optionalfeatures": [
+				{
+					"name": "Divina 🙏",
+					"source": "TestesManeiros"
+				},
+				{
+					"name": "Arcana ✨",
+					"source": "TestesManeiros"
+				},
+				{
+					"name": "Primordial 🌿",
+					"source": "TestesManeiros"
+				}
+			]
+		}
+	]
+}

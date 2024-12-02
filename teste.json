@@ -1,0 +1,15 @@
+{
+    "source": "CompendiumofAcadia",
+    "name": "Coup de Grace",
+    "ruleType": "C",
+    "entries": [
+        "You can try executing a Uncoinscious or Paralysed target",
+        {
+            "type": "entries",
+            "name": "Optional Rule. Martials Only!",
+            "entries": [
+                "By default, Called Shots are intended to be used only by players (or NPCs with notable martial prowess) whose majority of levels are in Martial Classes (classes that gain Weapon Mastery)."
+            ]
+        }
+    ]
+}
