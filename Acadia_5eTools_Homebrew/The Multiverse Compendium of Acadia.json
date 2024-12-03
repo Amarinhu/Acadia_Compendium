@@ -249,10 +249,44 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "[PLACEHOLDER] Optional: Hiper-Class: Acadian",
+			"name": "Hiper-Class: Acadian",
 			"ruleType": "C",
 			"entries": [
-				"Acadian HiperClass is quite broken and let players create abilities at 3rd Level, 6th Level, 10th Level, 14th level. It also gives then access to making planeswalking."
+				{
+					"name": "Hiper-Class Overview",
+					"type": "section",
+					"entries": [
+						"The Acadian Hyper-Class is a special subclass granted by the DM on top of a character's normal class. These Hyper-Classes are intentionally powerful and designed for campaigns that emphasize storytelling and epic gameplay over strict balance.",
+						"As part of this Hyper-Class, players create custom abilities in collaboration with their DM, which follow a progression of power similar to a wizard subclass. These abilities are unlocked at levels 3, 6, 10, and 14. Additionally, this Hyper-Class grants access to unique planar abilities, including the capacity to use Pathfind."
+					]
+				},
+				{
+					"name": "Level 1: Pathfinder",
+					"type": "section",
+					"entries": [
+						"Starting at 1st level, you gain the ability to cast the spell {@spell Acadian Pathfind} without expending a spell slot. You can do so a number of times equal to your proficiency bonus.",
+						"These uses are replenished after completing a Long Rest, during which you must spend at least 1 hour in a process called Syphoning.",
+						{
+							"name": "Syphoning",
+							"type": "list",
+							"items": [
+								"During Syphoning, you attune to the flow of mana around you, entering a trance-like state.",
+								"In this state, you experience vivid hallucinations of objects, creatures, and places that may or may not exist.",
+								"These visions might be drawn from other worlds, alternate realities, or possibilities that defy conventional time and space.",
+								"This imaginative process strengthens your bond with planar energies, recharging your ability to use Pathfind."
+							]
+						}
+					]
+				},
+				{
+					"name": "Level 3: Acadian Latent Power",
+					"type": "section",
+					"entries": [
+						"At 3rd level, you unlock your first Acadian Latent Power. These abilities are developed in collaboration with your DM and should follow the power level of a wizard subclass feature for the corresponding level.",
+						"Examples of such abilities could include minor planar manipulation, summoning creatures from other dimensions, or enhancing spells with unique planar effects.",
+						"You gain additional Acadian Latent Powers at 6th, 10th, and 14th levels. Each power should align with the narrative and thematic elements of planar exploration."
+					]
+				}
 			]
 		},
 		{
@@ -303,15 +337,6 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "[PLACEHOLDER] Apoiador",
-			"ruleType": "C",
-			"entries": [
-				"Regras para companheiros, familiares ou ajudantes.",
-				"Inclui mecânicas de crescimento e interação."
-			]
-		},
-		{
-			"source": "CompendiumofAcadia",
 			"name": "Misc. Reactions",
 			"ruleType": "C",
 			"entries": [
@@ -328,15 +353,6 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "[PLACEHOLDER] Magia Criativa",
-			"ruleType": "C",
-			"entries": [
-				"Permite a criação de efeitos mágicos personalizados.",
-				"Define limitações e riscos baseados na criatividade."
-			]
-		},
-		{
-			"source": "CompendiumofAcadia",
 			"name": "[PLACEHOLDER] Deck do Destino",
 			"ruleType": "C",
 			"entries": [
@@ -346,20 +362,19 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "[PLACEHOLDER] Criação de Itens",
+			"name": "Additional Conditions",
 			"ruleType": "C",
 			"entries": [
-				"Regras detalhadas para criar itens mágicos e mundanos.",
-				"Inclui custos, tempo e testes necessários."
-			]
-		},
-		{
-			"source": "CompendiumofAcadia",
-			"name": "[PLACEHOLDER] Condições",
-			"ruleType": "C",
-			"entries": [
-				"Nova abordagem para condições como envenenado, atordoado, etc.",
-				"Inclui maior variedade e impacto."
+				"This introduces new conditions:",
+				{
+					"type": "list",
+					"items": [
+						"{@condition Ablaze|CompendiumofAcadia}",
+						"{@condition Steeled|CompendiumofAcadia}",
+						"{@condition Confused|CompendiumofAcadia}",
+						"{@condition Covered|CompendiumofAcadia}"
+					]
+				}
 			]
 		},
 		{
@@ -389,20 +404,19 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "[PLACEHOLDER] Forçar Casting",
+			"name": "Rush of Power",
 			"ruleType": "C",
 			"entries": [
-				"Permite pressionar conjuradores a lançar magias contra sua vontade.",
-				"Explora custo psicológico e físico."
-			]
-		},
-		{
-			"source": "CompendiumofAcadia",
-			"name": "[PLACEHOLDER] Forçar Corpo",
-			"ruleType": "C",
-			"entries": [
-				"Explora os limites físicos de um personagem.",
-				"Inclui penalidades por ultrapassar esses limites."
+				"You can push yourself beyond your natural limits through a surge of adrenaline or arcane power, but this comes at a significant cost to your body and mind.",
+				{
+					"type": "list",
+					"items": [
+						"<b>Adrenaline Rush</b>. When you fail an ability check, attack roll, or saving throw, you can reroll the attempt. You can use this feature a number of times equal to your proficiency bonus per Long Rest.",
+						"<b>Arcane Rush</b>. As a spellcaster, you can regain a spell slot, with the spell slot level limited by your proficiency bonus. You can use this feature once per Long Rest."
+					]
+				},
+				"At the end of 1 minute, lethargy sets in. You gain levels of Exhaustion equal to the level of the spell slot regained through Arcane Rush, plus the total number of times you have used Adrenaline Rush.",
+				"You cannot use either feature if you have any level of Exhaustion. Additionally, the total Exhaustion levels you can accumulate from these features cannot exceed your proficiency bonus. If you reach this limit, you can no longer use these features until you finish a Long Rest."
 			]
 		},
 		{
@@ -583,6 +597,72 @@
 			"ruleType": "C",
 			"entries": [
 				"If a creature is Grappled, Prone, or Restrained and attempts to cast a spell that requires somatic components, it must succeed on a DC 15 Concentration check. On a failure, the spell does not take effect, and the spell slot is not expended."
+			]
+		}
+	],
+	"condition": [
+		{
+			"name": "Ablaze",
+			"source": "CompendiumofAcadia",
+			"entries": [
+				"The creature is engulfed in flames and takes 5 fire damage at the start of each of its turns. The creature can use its action to muffle and extinguish the flames, ending the condition."
+			]
+		},
+		{
+			"name": "Steeled",
+			"source": "CompendiumofAcadia",
+			"entries": [
+				"The creature is wearing metal armor or clothing. Attacks that deal electric damage have advantage against a Steeled creature, and the creature makes saving throws against effects that deal electric damage with disadvantage."
+			]
+		},
+		{
+			"name": "Confused",
+			"source": "CompendiumofAcadia",
+			"entries": [
+				"The target can't take Bonus Actions or Reactions and must roll {@dice 1d10} at the start of each of its turns to determine its behavior for that turn, consulting the table below.",
+				{
+					"type": "table",
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"colLabels": [
+						"1d10",
+						"Behavior for the Turn"
+					],
+					"rows": [
+						[
+							"1",
+							"The target doesn't take an action, and it uses all its movement to move. Roll {@dice 1d4} for the direction: {@b 1}, north; {@b 2}, east; {@b 3}, south; or {@b 4}, west."
+						],
+						[
+							"2-6",
+							"The target doesn't move or take actions."
+						],
+						[
+							"7-8",
+							"The target doesn't move, and it takes the {@action Attack} action to make one melee attack against a random creature within reach. If none are within reach, the target takes no action."
+						],
+						[
+							"9-10",
+							"The target chooses its behavior."
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Covered",
+			"source": "CompendiumofAcadia",
+			"entries": [
+				"The creature is covered in a substance, typically liquid. When Covered, specify the substance (e.g., Covered (Oil), Covered (Water)). The DM determines additional properties for specific substances. Examples:",
+				{
+					"type": "list",
+					"items": [
+						"Oil: If the creature takes Fire damage, it takes an additional 5 fire damage.",
+						"Water: If the creature takes Electric damage, it takes an additional 5 electric damage."
+					]
+				}
 			]
 		}
 	],
