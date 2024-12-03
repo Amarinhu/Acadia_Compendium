@@ -91,7 +91,7 @@
 							"type": "entries",
 							"name": "Armor Parts",
 							"entries": [
-								"Parts used to protect the user. On a failed Constitution saving throw, the creature’s AC is reduced by an amount based on the part's contribution until the end of its next turn. This does not apply to body armor of any sorts, as it 'passively' protects the body."
+								"Parts used to protect the user. On a failed Constitution saving throw, the creature’s AC is reduced by an amount based on the part's contribution until the end of its nexat turn. This does not apply to body armor of any sorts, as it 'passively' protects the body."
 							]
 						},
 						{
@@ -252,24 +252,18 @@
 			"name": "Hiper-Class: Acadian",
 			"ruleType": "C",
 			"entries": [
-				{
-					"name": "Hiper-Class Overview",
-					"type": "section",
-					"entries": [
-						"The Acadian Hyper-Class is a special subclass granted by the DM on top of a character's normal class. These Hyper-Classes are intentionally powerful and designed for campaigns that emphasize storytelling and epic gameplay over strict balance.",
-						"As part of this Hyper-Class, players create custom abilities in collaboration with their DM, which follow a progression of power similar to a wizard subclass. These abilities are unlocked at levels 3, 6, 10, and 14. Additionally, this Hyper-Class grants access to unique planar abilities, including the capacity to use Pathfind."
-					]
-				},
+				"The Acadian Hyper-Class is a special subclass granted by the DM on top of a character's normal class. These Hyper-Classes are intentionally powerful and designed for campaigns that emphasize storytelling and epic gameplay over strict balance.",
+				"As part of this Hyper-Class, players create custom abilities in collaboration with their DM, which follow a progression of power similar to a wizard subclass. These abilities are unlocked at levels 3, 6, 10, and 14. Additionally, this Hyper-Class grants access to unique planar abilities, including the capacity to use Pathfind.",
 				{
 					"name": "Level 1: Pathfinder",
 					"type": "section",
 					"entries": [
-						"Starting at 1st level, you gain the ability to cast the spell {@spell Acadian Pathfind} without expending a spell slot. You can do so a number of times equal to your proficiency bonus.",
+						"Starting at 1st level, you gain the ability to cast the spell {@spell Pathfinding} without expending a spell slot. You can do so a number of times equal to your proficiency bonus.",
 						"These uses are replenished after completing a Long Rest, during which you must spend at least 1 hour in a process called Syphoning.",
 						{
 							"name": "Syphoning",
-							"type": "list",
-							"items": [
+							"type": "entries",
+							"entries": [
 								"During Syphoning, you attune to the flow of mana around you, entering a trance-like state.",
 								"In this state, you experience vivid hallucinations of objects, creatures, and places that may or may not exist.",
 								"These visions might be drawn from other worlds, alternate realities, or possibilities that defy conventional time and space.",
@@ -283,8 +277,7 @@
 					"type": "section",
 					"entries": [
 						"At 3rd level, you unlock your first Acadian Latent Power. These abilities are developed in collaboration with your DM and should follow the power level of a wizard subclass feature for the corresponding level.",
-						"Examples of such abilities could include minor planar manipulation, summoning creatures from other dimensions, or enhancing spells with unique planar effects.",
-						"You gain additional Acadian Latent Powers at 6th, 10th, and 14th levels. Each power should align with the narrative and thematic elements of planar exploration."
+						"You gain additional Acadian Latent Powers at 6th, 10th, and 14th levels. Each power should align with the narrative and thematic elements of your character."
 					]
 				}
 			]
@@ -379,23 +372,7 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "Clothing and Attire",
-			"ruleType": "C",
-			"entries": [
-				"Clothing can provide bonuses to skills or specific scenarios if thematically appropriate.",
-				{
-					"type": "list",
-					"items": [
-						"<b>Common Clothing:</b> Grants a +1 bonus to a relevant skill or situation (e.g., goggles for sight-related Perception checks).",
-						"<b>Rare Clothing:</b> Grants a +2 bonus to a relevant skill or situation.",
-						"The number of clothing items providing bonuses is limited by equipment rules (see equipment guidelines)."
-					]
-				}
-			]
-		},
-		{
-			"source": "CompendiumofAcadia",
-			"name": "[PLACEHOLDER] Limite de Itens Mágicos Não Consumíveis",
+			"name": "Alternative Rules for Attunement",
 			"ruleType": "C",
 			"entries": [
 				"Estabelece limites claros para itens mágicos não consumíveis por personagem.",
@@ -430,11 +407,12 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "[PLACEHOLDER] Rolagens de Destino",
+			"name": "Luck Rolls",
 			"ruleType": "C",
 			"entries": [
-				"Sistema de rolagens específicas para eventos de destino.",
-				"Inclui recompensas por arriscar grandes apostas."
+				"Luck Rolls are rolls made when an event's outcome is determined primarily by luck or chance, rather than skill or direct action.",
+				"These rolls can include modifiers but are not considered d20 Tests, even when using a d20 as the rolling die.",
+				"An example of a Luck Roll is determining whether a Wand of Magic Missiles breaks after expending all charges."
 			]
 		},
 		{
