@@ -253,6 +253,7 @@
 			"ruleType": "C",
 			"entries": [
 				"The Acadian Hyper-Class is a special subclass granted by the DM on top of a character's normal class. These Hyper-Classes are intentionally powerful and designed for campaigns that emphasize storytelling and epic gameplay over strict balance.",
+				"You also have access to {@variantrule Pathfinder Mana System|CompendiumofAcadia}.",
 				"As part of this Hyper-Class, players create custom abilities in collaboration with their DM, which follow a progression of power similar to a wizard subclass. These abilities are unlocked at levels 3, 6, 10, and 14. Additionally, this Hyper-Class grants access to unique planar abilities, including the capacity to use Pathfind.",
 				{
 					"name": "Level 1: Pathfinder",
@@ -398,11 +399,162 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "[PLACEHOLDER] Mana",
+			"name": "Pathfinder Mana System",
 			"ruleType": "C",
 			"entries": [
-				"Sistema de mana para conjuração de magias.",
-				"Inclui custos e recuperação baseados no tempo."
+				"The Pathfinder Mana System governs the use and recovery of mana in the multiverse. Creatures capable of accessing mana can store an amount of mana equal to their level. Each round, they can spend an amount of mana equal to their proficiency modifier. Mana recovery is as follows:",
+				{
+					"type": "section",
+					"name": "Mana Types",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "{@variantrule 🟢 Green Mana|CompendiumofAcadia}",
+							"entries": [
+								"Tied to elements, nature, growth, and the cycles of creation. It embodies vitality and the primal connection to the world. It sees the world as a product of primordial forces that do what they do by nature. It's the oppressor of {@variantrule ⚫ Black Mana|CompendiumofAcadia} and oppressed by {@variantrule ⚪ White Mana|CompendiumofAcadia}.",
+								"Typically associated with spells from the Primordial spell list, Evocation school, those dealing elemental damage, or interacting with spirits."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "{@variantrule 🔵 Blue Mana|CompendiumofAcadia}",
+							"entries": [
+								"Represents self-reference, essential forms, paradoxes, and magical instructions. It is linked to Gnostic understanding and the fundamental patterns of existence.",
+								"Blue Mana is neutral and excels in countermagic, pattern recognition, and manipulating the flow of spells."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "{@variantrule ⚫ Black Mana|CompendiumofAcadia}",
+							"entries": [
+								"Associated with entropy, death, and time. It channels decay and the inevitability of the void.",
+								"It's the oppressor of {@variantrule 🔴 Red Mana|CompendiumofAcadia} and oppressed by {@variantrule 🟢 Green Mana|CompendiumofAcadia}.",
+								"Typically associated with spells from the Necromancy school, chronomancy, and effects that manipulate life or death cycles."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "{@variantrule ⚪ White Mana|CompendiumofAcadia}",
+							"entries": [
+								"Rooted in order, rationality, and mental discipline. It governs laws, knowledge, and oaths.",
+								"It's the oppressor of {@variantrule 🟢 Green Mana|CompendiumofAcadia} and oppressed by {@variantrule 🔴 Red Mana|CompendiumofAcadia}.",
+								"Typically associated with spells from the Divine spell list, enchantments, and abilities tied to names and contracts."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "{@variantrule 🔴 Red Mana|CompendiumofAcadia}",
+							"entries": [
+								"Reflects passion, emotion, and willpower. It fuels the raw, unfiltered power of creativity and destruction.",
+								"It's the oppressor of {@variantrule ⚪ White Mana|CompendiumofAcadia} and oppressed by {@variantrule ⚫ Black Mana|CompendiumofAcadia}.",
+								"Typically associated with destructive spells, fire and blood magic, and effects tied to raw emotion."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Regras de Opressão",
+							"entries": [
+								"<div style='text-align: center;'><img src='https://i.ibb.co/ZNkFXng/Acadia-Reborn-1-1.png' width='350' height='350'></div>"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "🟢 Green Mana",
+			"ruleType": "C",
+			"entries": [
+				"Green Mana is tied to elements, nature, growth, and the cycles of creation. It embodies vitality and the primal connection to the world.",
+				"It sees the world as a product of primordial forces that operate by nature's will, focusing on growth and balance.",
+				{
+					"type": "list",
+					"name": "Associated Features",
+					"items": [
+						"Spells from the Primordial spell list",
+						"Evocation school spells",
+						"Elemental damage spells",
+						"Interactions with spirits"
+					]
+				},
+				"Green Mana oppresses {@variantrule ⚫ Black Mana|CompendiumofAcadia} and is oppressed by {@variantrule ⚪ White Mana|CompendiumofAcadia}."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "🔵 Blue Mana",
+			"ruleType": "C",
+			"entries": [
+				"Blue Mana represents self-reference, essential forms, paradoxes, and magical instructions.",
+				"It is tied to Gnostic understanding and the fundamental patterns of existence, excelling in countermagic and the manipulation of spells.",
+				{
+					"type": "list",
+					"name": "Associated Features",
+					"items": [
+						"Countermagic spells",
+						"Spells that alter or disrupt patterns",
+						"Abilities that manipulate time or flow"
+					]
+				},
+				"Blue Mana is neutral and does not participate in the oppression cycle, often acting as a stabilizer among the mana types."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "⚫ Black Mana",
+			"ruleType": "C",
+			"entries": [
+				"Black Mana is associated with entropy, death, and time. It channels decay and the inevitability of the void.",
+				"This mana thrives on the life-death cycle, often tied to necromancy and chronomancy.",
+				{
+					"type": "list",
+					"name": "Associated Features",
+					"items": [
+						"Spells from the Necromancy school",
+						"Chronomancy and time manipulation",
+						"Effects that drain or transfer life energy"
+					]
+				},
+				"Black Mana oppresses {@variantrule 🔴 Red Mana|CompendiumofAcadia} and is oppressed by {@variantrule 🟢 Green Mana|CompendiumofAcadia}."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "⚪ White Mana",
+			"ruleType": "C",
+			"entries": [
+				"White Mana is rooted in order, rationality, and mental discipline. It governs laws, knowledge, and oaths.",
+				"This mana supports structure and harmony, often linked to divine spells and contracts.",
+				{
+					"type": "list",
+					"name": "Associated Features",
+					"items": [
+						"Spells from the Divine spell list",
+						"Enchantment spells",
+						"Abilities tied to names and oaths"
+					]
+				},
+				"White Mana oppresses {@variantrule 🟢 Green Mana|CompendiumofAcadia} and is oppressed by {@variantrule 🔴 Red Mana|CompendiumofAcadia}."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "🔴 Red Mana",
+			"ruleType": "C",
+			"entries": [
+				"Red Mana reflects passion, emotion, and willpower. It fuels the raw, unfiltered power of creativity and destruction.",
+				"This mana thrives on chaos and change, often tied to fire and blood magic.",
+				{
+					"type": "list",
+					"name": "Associated Features",
+					"items": [
+						"Destructive spells",
+						"Fire and blood magic",
+						"Abilities tied to raw emotion and willpower"
+					]
+				},
+				"Red Mana oppresses {@variantrule ⚪ White Mana|CompendiumofAcadia} and is oppressed by {@variantrule ⚫ Black Mana|CompendiumofAcadia}."
 			]
 		},
 		{
