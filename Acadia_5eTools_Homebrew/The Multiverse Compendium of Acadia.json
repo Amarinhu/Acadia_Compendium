@@ -411,43 +411,181 @@
 							"type": "entries",
 							"name": "{@variantrule 🟢 Green Mana|CompendiumofAcadia}",
 							"entries": [
-								"Tied to elements, nature, growth, and the cycles of creation. It embodies vitality and the primal connection to the world. It sees the world as a product of primordial forces that do what they do by nature. It's the oppressor of {@variantrule ⚫ Black Mana|CompendiumofAcadia} and oppressed by {@variantrule ⚪ White Mana|CompendiumofAcadia}.",
-								"Typically associated with spells from the Primordial spell list, Evocation school, those dealing elemental damage, or interacting with spirits."
+								"Green Mana is tied to elements, nature, growth, and the cycles of creation. It embodies vitality and the primal connection to the world.",
+								"Green Mana views reality as a product of the primordial forces that govern existence, each acting according to its inherent nature. These forces encompass balance, growth, and the unyielding will of nature.",
+								{
+									"type": "list",
+									"name": "Core Themes",
+									"items": [
+										"Nature and intuition",
+										"Spirits, animals, and trees",
+										"Alchemy and natural processes",
+										"Manipulation of fire, water, air, earth, electricity, sound, and metals"
+									]
+								},
+								"Green Mana's manifestations are primarily elemental, invoking the divine forces of nature. These manifestations reflect a belief in a reality shaped by the interplay of greater natural forces.",
+								{
+									"type": "list",
+									"name": "Associated Features",
+									"items": [
+										"Spells from the Primordial spell list 🌿",
+										"Evocation school spells ✨",
+										{
+											"type": "list",
+											"name": "Elemental Damage Associations",
+											"items": [
+												"Fire: Fire damage 🔥",
+												"Air: Electric damage ⚡",
+												"Earth: Acid damage 🧪",
+												"Water: Cold damage ❄️"
+											]
+										},
+										"Interactions with spirits and nature-based entities",
+										"Healing and medicinal applications",
+										"Use of poisons and acids"
+									]
+								},
+								"Green Mana oppresses {@variantrule ⚫ Black Mana|CompendiumofAcadia}, representing its ability to foster growth and vitality against entropy and decay. It is, however, oppressed by {@variantrule ⚪ White Mana|CompendiumofAcadia}, as order and rationality can constrain its primal and untamed nature."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "{@variantrule 🔵 Blue Mana|CompendiumofAcadia}",
 							"entries": [
-								"Represents self-reference, essential forms, paradoxes, and magical instructions. It is linked to Gnostic understanding and the fundamental patterns of existence.",
-								"Blue Mana is neutral and excels in countermagic, pattern recognition, and manipulating the flow of spells."
+								"Blue Mana represents self-reference, essential forms, paradoxes, and the manipulation of magical instructions. It is deeply tied to the recognition of patterns and a Gnostic understanding of reality.",
+								"Blue Mana views reality through a syncretic lens, perceiving all things as fundamentally the same in essence. Differences are seen as interpretations or distortions of a common form, emphasizing unity and interconnectedness.",
+								{
+									"type": "list",
+									"name": "Core Themes",
+									"items": [
+										"Self-reference and essential forms",
+										"Recognition of patterns and paradoxes",
+										"Countermagic and spell manipulation",
+										"Gnosticism and syncretism",
+										"Arcane perception of reality's underlying structures",
+										"Unbiased magical instructions as the foundation of all spells"
+									]
+								},
+								"The primary manifestation of Blue Mana is through essential patterns. These patterns reveal the underlying structures of all things, acting as a self-referential force that unveils the arcane truths of existence.",
+								"Blue Mana is also fundamentally tied to the creation and manipulation of magical instructions. Every spell uses Blue Mana as the instructional core that defines its function, making it the purest form of unbiased magic. This neutral essence can be shaped or biased by other mana types, channeling their specific properties.",
+								{
+									"type": "list",
+									"name": "Associated Features",
+									"items": [
+										"Countermagic spells ✨",
+										"Force damage",
+										"Spells that alter or disrupt patterns",
+										"Abilities that manipulate time, flow, or causality",
+										"Understanding and revealing hidden truths",
+										"Perception and reconfiguration of magical forms",
+										"Force damage as a manifestation of pure magical energy"
+									]
+								},
+								"Blue Mana is neutral and does not participate in the oppression cycle. It often serves as a stabilizer or mediator, ensuring balance among the other mana types."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "{@variantrule ⚫ Black Mana|CompendiumofAcadia}",
 							"entries": [
-								"Associated with entropy, death, and time. It channels decay and the inevitability of the void.",
-								"It's the oppressor of {@variantrule 🔴 Red Mana|CompendiumofAcadia} and oppressed by {@variantrule 🟢 Green Mana|CompendiumofAcadia}.",
-								"Typically associated with spells from the Necromancy school, chronomancy, and effects that manipulate life or death cycles."
+								"Black Mana is associated with entropy, death, time, and the inexorable decay of all things. It embodies the inevitability of the void and the silent, inert end of existence.",
+								"Black Mana views reality as a process destined for constant entropy and eventual cessation. It thrives on the cycles of life and death, wielding power over decay, anti-life, causality, unrealized potential, and the manipulation of chaos and gravity.",
+								{
+									"type": "list",
+									"name": "Core Themes",
+									"items": [
+										"Forces of time, space, and entropy",
+										"Decay, necromancy, and anti-life",
+										"Causality and unrealized potential",
+										"Darkness, inertia, and immobility",
+										"Cycles of life and death",
+										"Graviturgy (manipulation of gravity)",
+										"Chaos as a fundamental force"
+									]
+								},
+								"The primary manifestation of Black Mana is through the forces of movement. These are profane powers that manipulate the fundamental forces governing time, space, gravity, and decay. This perspective sees reality as an inevitable march toward entropy and the void.",
+								"While Black Mana is often associated with evil, its nature is more apathetic than malevolent. Its historical association with taboo practices—such as manipulating life and death—has led to its stigmatization and misuse for dark purposes. This misunderstanding has fueled its reputation for villainy, but Black Mana is, at its core, a neutral force of inevitability.",
+								{
+									"type": "list",
+									"name": "Associated Features",
+									"items": [
+										"Spells from the Necromancy school ✨",
+										"Chronomancy and time manipulation",
+										"Graviturgy and gravity-based effects",
+										"Effects that drain or transfer life energy",
+										"Spells tied to darkness and immobilization",
+										"Manipulation of decay, destruction, and chaos"
+									]
+								},
+								"Black Mana is oppressive toward {@variantrule 🔴 Red Mana|CompendiumofAcadia}, consuming its passion and vitality with inevitable decay. It is, however, oppressed by {@variantrule 🟢 Green Mana|CompendiumofAcadia}, which counters its entropy with growth and renewal."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "{@variantrule ⚪ White Mana|CompendiumofAcadia}",
 							"entries": [
-								"Rooted in order, rationality, and mental discipline. It governs laws, knowledge, and oaths.",
-								"It's the oppressor of {@variantrule 🟢 Green Mana|CompendiumofAcadia} and oppressed by {@variantrule 🔴 Red Mana|CompendiumofAcadia}.",
-								"Typically associated with spells from the Divine spell list, enchantments, and abilities tied to names and contracts."
+								"White Mana is rooted in order, rationality, and mental discipline. It governs laws, knowledge, oaths, and the power of the mind to shape reality through structure and rules.",
+								"White Mana views reality as a construct of the mind, where the act of observing, naming, and defining creates a framework for existence. It thrives on the enforcement of structure through contracts, laws, and mental discipline.",
+								{
+									"type": "list",
+									"name": "Core Themes",
+									"items": [
+										"Order, rationality, and mental discipline",
+										"Contracts, laws, and oaths (including devil’s contracts)",
+										"Spells and powers tied to genies and wishes",
+										"Reality as a mental construct shaped by observation and rules",
+										"Transcendence through discipline and structure"
+									]
+								},
+								"The primary manifestation of White Mana is through psychic forces and conceptual powers that impose order on the chaotic. These include the power to create and enforce agreements, from divine pacts to devil's contracts, as well as granting powers through oaths and the granting or fulfillment of wishes, such as those from genies.",
+								{
+									"type": "list",
+									"name": "Associated Features",
+									"items": [
+										"Spells from the Divine spell list 🙏",
+										"Enchantment spells ✨",
+										"Abilities tied to contracts, laws, and oaths",
+										"Spells that enforce agreements or compel actions",
+										"Powers that stem from oaths, such as genie-granted wishes",
+										"Contracts with supernatural entities, including devils"
+									]
+								},
+								"White Mana oppresses {@variantrule 🟢 Green Mana|CompendiumofAcadia} by overriding natural chaos and primal growth with mental constructs and rationality. It is, however, oppressed by {@variantrule 🔴 Red Mana|CompendiumofAcadia}, which counters its rigidity and structure with raw emotion and passion."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "{@variantrule 🔴 Red Mana|CompendiumofAcadia}",
 							"entries": [
-								"Reflects passion, emotion, and willpower. It fuels the raw, unfiltered power of creativity and destruction.",
-								"It's the oppressor of {@variantrule ⚪ White Mana|CompendiumofAcadia} and oppressed by {@variantrule ⚫ Black Mana|CompendiumofAcadia}.",
-								"Typically associated with destructive spells, fire and blood magic, and effects tied to raw emotion."
+								"Red Mana reflects passion, emotion, and willpower. It fuels the raw, unfiltered power of creativity, destruction, and the manifestation of one's inner strength.",
+								"Red Mana views reality as a canvas for emotion and will, where desires and passions are the forces that shape the world. It thrives on chaos, change, and the direct realization of personal goals.",
+								{
+									"type": "list",
+									"name": "Core Themes",
+									"items": [
+										"Emotion, passion, and raw willpower",
+										"Musculature and regeneration",
+										"Biological and blood manipulation",
+										"Manifestation of emotions in physical form (e.g., demons)",
+										"Chaos, unrestrained creativity, and transmutation",
+										"Grounding in physical reality and its malleability"
+									]
+								},
+								"The primary manifestation of Red Mana is through Martial Arts ⚔️, a discipline that channels the user's willpower into superhuman feats. These arts combine refined technique with an individual's raw determination to turn their objectives into reality. Though not inherently magical, Martial Arts harness the power within the practitioner, making the impossible achievable through sheer will and mastery.",
+								"Creatures made of manifested emotions, such as demons, are often shaped and molded by Red Mana. These beings are the physical embodiment of raw emotional energy, given form and intent through this primal force.",
+								{
+									"type": "list",
+									"name": "Associated Features",
+									"items": [
+										"Destructive spells fueled by passion",
+										"Fire magic and pyromancy 🔥",
+										"Blood magic and biological manipulation",
+										"Abilities tied to raw emotion and personal willpower",
+										"Martial techniques that achieve superhuman feats",
+										"Transmutation spells that reshape physical reality"
+									]
+								},
+								"Red Mana oppresses {@variantrule ⚪ White Mana|CompendiumofAcadia}, breaking through its rigid structures with raw passion and chaos. However, it is oppressed by {@variantrule ⚫ Black Mana|CompendiumofAcadia}, which consumes its vitality and passion with entropy and inevitability."
 							]
 						},
 						{
@@ -467,18 +605,40 @@
 			"ruleType": "C",
 			"entries": [
 				"Green Mana is tied to elements, nature, growth, and the cycles of creation. It embodies vitality and the primal connection to the world.",
-				"It sees the world as a product of primordial forces that operate by nature's will, focusing on growth and balance.",
+				"Green Mana views reality as a product of the primordial forces that govern existence, each acting according to its inherent nature. These forces encompass balance, growth, and the unyielding will of nature.",
+				{
+					"type": "list",
+					"name": "Core Themes",
+					"items": [
+						"Nature and intuition",
+						"Spirits, animals, and trees",
+						"Alchemy and natural processes",
+						"Manipulation of fire, water, air, earth, electricity, sound, and metals"
+					]
+				},
+				"Green Mana's manifestations are primarily elemental, invoking the divine forces of nature. These manifestations reflect a belief in a reality shaped by the interplay of greater natural forces.",
 				{
 					"type": "list",
 					"name": "Associated Features",
 					"items": [
-						"Spells from the Primordial spell list",
-						"Evocation school spells",
-						"Elemental damage spells",
-						"Interactions with spirits"
+						"Spells from the Primordial spell list 🌿",
+						"Evocation school spells ✨",
+						{
+							"type": "list",
+							"name": "Elemental Damage Associations",
+							"items": [
+								"Fire: Fire damage 🔥",
+								"Air: Electric damage ⚡",
+								"Earth: Acid damage 🧪",
+								"Water: Cold damage ❄️"
+							]
+						},
+						"Interactions with spirits and nature-based entities",
+						"Healing and medicinal applications",
+						"Use of poisons and acids"
 					]
 				},
-				"Green Mana oppresses {@variantrule ⚫ Black Mana|CompendiumofAcadia} and is oppressed by {@variantrule ⚪ White Mana|CompendiumofAcadia}."
+				"Green Mana oppresses {@variantrule ⚫ Black Mana|CompendiumofAcadia}, representing its ability to foster growth and vitality against entropy and decay. It is, however, oppressed by {@variantrule ⚪ White Mana|CompendiumofAcadia}, as order and rationality can constrain its primal and untamed nature."
 			]
 		},
 		{
@@ -486,18 +646,36 @@
 			"name": "🔵 Blue Mana",
 			"ruleType": "C",
 			"entries": [
-				"Blue Mana represents self-reference, essential forms, paradoxes, and magical instructions.",
-				"It is tied to Gnostic understanding and the fundamental patterns of existence, excelling in countermagic and the manipulation of spells.",
+				"Blue Mana represents self-reference, essential forms, paradoxes, and the manipulation of magical instructions. It is deeply tied to the recognition of patterns and a Gnostic understanding of reality.",
+				"Blue Mana views reality through a syncretic lens, perceiving all things as fundamentally the same in essence. Differences are seen as interpretations or distortions of a common form, emphasizing unity and interconnectedness.",
+				{
+					"type": "list",
+					"name": "Core Themes",
+					"items": [
+						"Self-reference and essential forms",
+						"Recognition of patterns and paradoxes",
+						"Countermagic and spell manipulation",
+						"Gnosticism and syncretism",
+						"Arcane perception of reality's underlying structures",
+						"Unbiased magical instructions as the foundation of all spells"
+					]
+				},
+				"The primary manifestation of Blue Mana is through essential patterns. These patterns reveal the underlying structures of all things, acting as a self-referential force that unveils the arcane truths of existence.",
+				"Blue Mana is also fundamentally tied to the creation and manipulation of magical instructions. Every spell uses Blue Mana as the instructional core that defines its function, making it the purest form of unbiased magic. This neutral essence can be shaped or biased by other mana types, channeling their specific properties.",
 				{
 					"type": "list",
 					"name": "Associated Features",
 					"items": [
-						"Countermagic spells",
+						"Countermagic spells ✨",
+						"Force damage",
 						"Spells that alter or disrupt patterns",
-						"Abilities that manipulate time or flow"
+						"Abilities that manipulate time, flow, or causality",
+						"Understanding and revealing hidden truths",
+						"Perception and reconfiguration of magical forms",
+						"Force damage as a manifestation of pure magical energy"
 					]
 				},
-				"Blue Mana is neutral and does not participate in the oppression cycle, often acting as a stabilizer among the mana types."
+				"Blue Mana is neutral and does not participate in the oppression cycle. It often serves as a stabilizer or mediator, ensuring balance among the other mana types."
 			]
 		},
 		{
@@ -505,18 +683,36 @@
 			"name": "⚫ Black Mana",
 			"ruleType": "C",
 			"entries": [
-				"Black Mana is associated with entropy, death, and time. It channels decay and the inevitability of the void.",
-				"This mana thrives on the life-death cycle, often tied to necromancy and chronomancy.",
+				"Black Mana is associated with entropy, death, time, and the inexorable decay of all things. It embodies the inevitability of the void and the silent, inert end of existence.",
+				"Black Mana views reality as a process destined for constant entropy and eventual cessation. It thrives on the cycles of life and death, wielding power over decay, anti-life, causality, unrealized potential, and the manipulation of chaos and gravity.",
+				{
+					"type": "list",
+					"name": "Core Themes",
+					"items": [
+						"Forces of time, space, and entropy",
+						"Decay, necromancy, and anti-life",
+						"Causality and unrealized potential",
+						"Darkness, inertia, and immobility",
+						"Cycles of life and death",
+						"Graviturgy (manipulation of gravity)",
+						"Chaos as a fundamental force"
+					]
+				},
+				"The primary manifestation of Black Mana is through the forces of movement. These are profane powers that manipulate the fundamental forces governing time, space, gravity, and decay. This perspective sees reality as an inevitable march toward entropy and the void.",
+				"While Black Mana is often associated with evil, its nature is more apathetic than malevolent. Its historical association with taboo practices—such as manipulating life and death—has led to its stigmatization and misuse for dark purposes. This misunderstanding has fueled its reputation for villainy, but Black Mana is, at its core, a neutral force of inevitability.",
 				{
 					"type": "list",
 					"name": "Associated Features",
 					"items": [
-						"Spells from the Necromancy school",
+						"Spells from the Necromancy school ✨",
 						"Chronomancy and time manipulation",
-						"Effects that drain or transfer life energy"
+						"Graviturgy and gravity-based effects",
+						"Effects that drain or transfer life energy",
+						"Spells tied to darkness and immobilization",
+						"Manipulation of decay, destruction, and chaos"
 					]
 				},
-				"Black Mana oppresses {@variantrule 🔴 Red Mana|CompendiumofAcadia} and is oppressed by {@variantrule 🟢 Green Mana|CompendiumofAcadia}."
+				"Black Mana is oppressive toward {@variantrule 🔴 Red Mana|CompendiumofAcadia}, consuming its passion and vitality with inevitable decay. It is, however, oppressed by {@variantrule 🟢 Green Mana|CompendiumofAcadia}, which counters its entropy with growth and renewal."
 			]
 		},
 		{
@@ -524,18 +720,33 @@
 			"name": "⚪ White Mana",
 			"ruleType": "C",
 			"entries": [
-				"White Mana is rooted in order, rationality, and mental discipline. It governs laws, knowledge, and oaths.",
-				"This mana supports structure and harmony, often linked to divine spells and contracts.",
+				"White Mana is rooted in order, rationality, and mental discipline. It governs laws, knowledge, oaths, and the power of the mind to shape reality through structure and rules.",
+				"White Mana views reality as a construct of the mind, where the act of observing, naming, and defining creates a framework for existence. It thrives on the enforcement of structure through contracts, laws, and mental discipline.",
+				{
+					"type": "list",
+					"name": "Core Themes",
+					"items": [
+						"Order, rationality, and mental discipline",
+						"Contracts, laws, and oaths (including devil’s contracts)",
+						"Spells and powers tied to genies and wishes",
+						"Reality as a mental construct shaped by observation and rules",
+						"Transcendence through discipline and structure"
+					]
+				},
+				"The primary manifestation of White Mana is through psychic forces and conceptual powers that impose order on the chaotic. These include the power to create and enforce agreements, from divine pacts to devil's contracts, as well as granting powers through oaths and the granting or fulfillment of wishes, such as those from genies.",
 				{
 					"type": "list",
 					"name": "Associated Features",
 					"items": [
-						"Spells from the Divine spell list",
-						"Enchantment spells",
-						"Abilities tied to names and oaths"
+						"Spells from the Divine spell list 🙏",
+						"Enchantment spells ✨",
+						"Abilities tied to contracts, laws, and oaths",
+						"Spells that enforce agreements or compel actions",
+						"Powers that stem from oaths, such as genie-granted wishes",
+						"Contracts with supernatural entities, including devils"
 					]
 				},
-				"White Mana oppresses {@variantrule 🟢 Green Mana|CompendiumofAcadia} and is oppressed by {@variantrule 🔴 Red Mana|CompendiumofAcadia}."
+				"White Mana oppresses {@variantrule 🟢 Green Mana|CompendiumofAcadia} by overriding natural chaos and primal growth with mental constructs and rationality. It is, however, oppressed by {@variantrule 🔴 Red Mana|CompendiumofAcadia}, which counters its rigidity and structure with raw emotion and passion."
 			]
 		},
 		{
@@ -543,18 +754,35 @@
 			"name": "🔴 Red Mana",
 			"ruleType": "C",
 			"entries": [
-				"Red Mana reflects passion, emotion, and willpower. It fuels the raw, unfiltered power of creativity and destruction.",
-				"This mana thrives on chaos and change, often tied to fire and blood magic.",
+				"Red Mana reflects passion, emotion, and willpower. It fuels the raw, unfiltered power of creativity, destruction, and the manifestation of one's inner strength.",
+				"Red Mana views reality as a canvas for emotion and will, where desires and passions are the forces that shape the world. It thrives on chaos, change, and the direct realization of personal goals.",
+				{
+					"type": "list",
+					"name": "Core Themes",
+					"items": [
+						"Emotion, passion, and raw willpower",
+						"Musculature and regeneration",
+						"Biological and blood manipulation",
+						"Manifestation of emotions in physical form (e.g., demons)",
+						"Chaos, unrestrained creativity, and transmutation",
+						"Grounding in physical reality and its malleability"
+					]
+				},
+				"The primary manifestation of Red Mana is through Martial Arts ⚔️, a discipline that channels the user's willpower into superhuman feats. These arts combine refined technique with an individual's raw determination to turn their objectives into reality. Though not inherently magical, Martial Arts harness the power within the practitioner, making the impossible achievable through sheer will and mastery.",
+				"Creatures made of manifested emotions, such as demons, are often shaped and molded by Red Mana. These beings are the physical embodiment of raw emotional energy, given form and intent through this primal force.",
 				{
 					"type": "list",
 					"name": "Associated Features",
 					"items": [
-						"Destructive spells",
-						"Fire and blood magic",
-						"Abilities tied to raw emotion and willpower"
+						"Destructive spells fueled by passion",
+						"Fire magic and pyromancy 🔥",
+						"Blood magic and biological manipulation",
+						"Abilities tied to raw emotion and personal willpower",
+						"Martial techniques that achieve superhuman feats",
+						"Transmutation spells that reshape physical reality"
 					]
 				},
-				"Red Mana oppresses {@variantrule ⚪ White Mana|CompendiumofAcadia} and is oppressed by {@variantrule ⚫ Black Mana|CompendiumofAcadia}."
+				"Red Mana oppresses {@variantrule ⚪ White Mana|CompendiumofAcadia}, breaking through its rigid structures with raw passion and chaos. However, it is oppressed by {@variantrule ⚫ Black Mana|CompendiumofAcadia}, which consumes its vitality and passion with entropy and inevitability."
 			]
 		},
 		{
