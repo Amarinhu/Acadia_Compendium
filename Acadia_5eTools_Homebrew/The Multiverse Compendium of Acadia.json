@@ -241,7 +241,7 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "[PLACEHOLDER] Acadian Magic Rebalancing",
+			"name": "Acadian Magic Rebalancing",
 			"ruleType": "C",
 			"entries": [
 				"This includes a new group of Arcane, Primal, Occult and Divine spells, instead of each class having their own spell list. It also revises basically every spell and add new one's. Ban, reformulate etc."
@@ -249,7 +249,7 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "Hiper-Class: Acadian",
+			"name": "Hyper-Class: Acadian",
 			"ruleType": "C",
 			"entries": [
 				"The Acadian Hyper-Class is a special subclass granted by the DM on top of a character's normal class. These Hyper-Classes are intentionally powerful and designed for campaigns that emphasize storytelling and epic gameplay over strict balance.",
@@ -259,7 +259,7 @@
 					"name": "Level 1: Pathfinder",
 					"type": "section",
 					"entries": [
-						"Starting at 1st level, you gain the ability to cast the spell {@spell Pathfinding} without expending a spell slot. You can do so a number of times equal to your proficiency bonus.",
+						"Starting at 1st level, you gain the ability to cast the spell {@spell Pathfinding|CompendiumofAcadia} without a spell slot, and you always have it prepared. You can do so a number of times equal to your proficiency bonus.",
 						"These uses are replenished after completing a Long Rest, during which you must spend at least 1 hour in a process called Syphoning.",
 						{
 							"name": "Syphoning",
@@ -347,11 +347,115 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "[PLACEHOLDER] Deck do Destino",
+			"name": "Wheel of Destiny",
 			"ruleType": "C",
 			"entries": [
-				"Mecânica baseada em cartas para eventos aleatórios.",
-				"Inclui recompensas e desafios temáticos."
+				"Some heroes rise and fall, but the Wheel of Destiny keeps spinning, weaving tales yet untold. Fear not! There is always a hero for the stories to find their voice!",
+				"The Wheel of Destiny is a mystical game of fate, played by beings of immense power to guide stories and influence the tides of destiny. In essence, it is a deck of cards, The Deck of Destiny, that channels the will of fate for those it deems worthy.",
+				"At the start of each session, players draw a card from the Deck of Destiny. At the end of the session, all cards are returned to the deck, and it is shuffled for the next cycle.",
+				{
+					"type": "entries",
+					"name": "Deck of Destiny Composition",
+					"entries": [
+						"To use this mechanic, you’ll need a deck of playing cards. Assemble the deck as follows:",
+						"- 7 cards from each suit (Hearts, Diamonds, Clubs, Spades): 8, 9, 10, J (Jack), Q (Queen), K (King), and Aces.",
+						"- Add 2 Jokers.",
+						"This creates a custom 30-card deck for the Wheel of Destiny. Shuffle the deck after arranging it."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Card Values",
+					"colLabels": [
+						"Card",
+						"Value"
+					],
+					"rows": [
+						[
+							"8, 9, 10",
+							"Face value (8, 9, 10)"
+						],
+						[
+							"J (Jack)",
+							"11"
+						],
+						[
+							"Q (Queen)",
+							"12"
+						],
+						[
+							"K (King)",
+							"13"
+						],
+						[
+							"Aces (Ace)",
+							"20 (Special mechanics apply)"
+						],
+						[
+							"Jokers",
+							"0"
+						]
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Activation Rules",
+					"entries": [
+						"Destiny Cards can be activated at any time. The player, not the character, activates the card. This means cards can still be used even if the character is unconscious or dead. If the GM allow, it can even be used in scenes where the player character is not present.",
+						"Instead of using the suit's effect, players may choose an effect from the 'Essential Use' list.",
+						"After activation, the card is placed in the discard pile. Once all cards have been used, a {@variantrule Wheel Of Destiny Spin|CompendiumofAcadia} occurs, and the deck is restored."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Effects",
+					"colLabels": [
+						"Mana Type",
+						"Effect"
+					],
+					"rows": [
+						[
+							"♥ Hearts",
+							"Heal twice the card’s value; or<br>Make a weapon attack (Aces grant an additional action instead of an attack); or<br>Gain temporary {@variantrule 🔴 Red Mana|CompendiumofAcadia} equal to half your level, expiring after a Long Rest."
+						],
+						[
+							"♦ Diamonds",
+							"Add the card’s value as a bonus to any d20 Test; or<br>Recover a spell slot up to 4th level (Aces recover a spell slot of any level); or<br> Gain temporary {@variantrule ⚪ White Mana|CompendiumofAcadia} equal to half your level, expiring after a Long Rest."
+						],
+						[
+							"♣ Clubs",
+							"Give disadvantage to a d20 Test made by a creature you can see (Aces make the creature roll an additional d20 and take the lowest result); or<br>After a creature takes damage, add damage equal to the card's value of the same type; or<br>Gain temporary {@variantrule ⚫ Black Mana|CompendiumofAcadia} equal to half your level, expiring after a Long Rest."
+						],
+						[
+							"♠ Spades",
+							"Increase your AC by the card's value until the end of this turn; or<br>Gain temporary {@variantrule 🟢 Green Mana|CompendiumofAcadia} equal to half your level, expiring after a Long Rest."
+						],
+						[
+							"🃏 Jokers",
+							"After knowing the result of a d20 Test, make it fail; or<br>Choose a specific result for a Luck Roll; or<br>Gain 1 temporary {@variantrule 🟣 Purple Mana|CompendiumofAcadia}, lasting until the end of this turn."
+						],
+						[
+							"⚙️ Essential Use",
+							"Replace a d20 Test made by you with the card’s value (declare before rolling); or<br>Gain a {@variantrule Heroic Inspiration|XPHB}; or<br>Gain temporary {@variantrule 🔵 Blue Mana|CompendiumofAcadia} equal to half your level, expiring after a Long Rest."
+						]
+					]
+				}
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Wheel Of Destiny Spin",
+			"ruleType": "C",
+			"entries": [
+				"O JOGO! 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️"
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "🟣 Purple Mana",
+			"ruleType": "C",
+			"entries": [
+				"O JOGO! 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️"
 			]
 		},
 		{
@@ -372,14 +476,16 @@
 			]
 		},
 		{
-			"source": "CompendiumofAcadia",
-			"name": "Alternative Rules for Attunement",
+			"source": "Compendium of Acadia",
+			"name": "Alternative Magic Item Use",
 			"ruleType": "C",
 			"entries": [
-				"Estabelece limites claros para itens mágicos não consumíveis por personagem.",
-				"Inclui balanceamento entre progressão e poder."
+				"Instead of attunement slots, every character can have up to 6 non-consumable magic items activated for use at any time. These activated items represent the character's ability to harness their magical properties effectively.",
+				"To change which items are activated, you must spend an action to rearrange the magic items you are wearing or carrying. Only activated items can be used or provide their benefits.",
+				"If a class feature or ability grants additional attunement slots, it instead increases your number of activated items. For example, an Artificer feature that grants an additional attunement slot (4 instead of 3) allows you to activate up to 7 magic items instead of 6."
 			]
-		},
+		}
+		,
 		{
 			"source": "CompendiumofAcadia",
 			"name": "Rush of Power",
@@ -792,7 +898,7 @@
 			"entries": [
 				"Luck Rolls are rolls made when an event's outcome is determined primarily by luck or chance, rather than skill or direct action.",
 				"These rolls can include modifiers but are not considered d20 Tests, even when using a d20 as the rolling die.",
-				"An example of a Luck Roll is determining whether a Wand of Magic Missiles breaks after expending all charges."
+				"An example of a Luck Roll is determining whether a Wand of Magic Missiles breaks after expending all charges. Or the roll made for choosing with Ray the beholder will shoot"
 			]
 		},
 		{
@@ -850,7 +956,7 @@
 						[
 							"Trail Mix",
 							"Snack",
-							"You gain a +1d6 bonus to your next attack roll made within 1 minute."
+							"You gain a +1d4 bonus to your next attack roll made within 1 minute."
 						],
 						[
 							"Chocolate Cookie",
@@ -865,12 +971,12 @@
 						[
 							"Grilled Skewers",
 							"Meal",
-							"Gain a pool of 1d6 to add to an ability check using Strength, Dexterity, or Constitution. This pool refreshes after a long rest."
+							"Gain a 1d6 to add to an ability check using Strength, Dexterity, or Constitution. This pool refreshes after a long rest."
 						],
 						[
 							"Scholar’s Broth",
 							"Meal",
-							"Gain a pool of 1d6 to add to an ability check using Intelligence, Wisdom, or Charisma. This pool refreshes after a long rest."
+							"Gain a 1d6 to add to an ability check using Intelligence, Wisdom, or Charisma. This pool refreshes after a long rest."
 						],
 						[
 							"Savory Herb Roast",
@@ -954,7 +1060,7 @@
 			"name": "Grappling Spellcasters",
 			"ruleType": "C",
 			"entries": [
-				"If a creature is Grappled, Prone, or Restrained and attempts to cast a spell that requires somatic components, it must succeed on a DC 15 Concentration check. On a failure, the spell does not take effect, and the spell slot is not expended."
+				"If a creature is {@condition Grappled}, {@condition Prone}, or {@condition Restrained} and attempts to cast a spell that requires somatic components, it must succeed on a DC 15 Concentration check. On a failure, the spell does not take effect, and the spell slot is not expended."
 			]
 		}
 	],
@@ -1025,6 +1131,49 @@
 		}
 	],
 	"spell": [
+		{
+			"name": "Pathfinding",
+			"source": "CompendiumofAcadia",
+			"level": 7,
+			"school": "C",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute",
+					"condition": "if you are level 5 or lower"
+				},
+				{
+					"number": 1,
+					"unit": "minute",
+					"condition": "if you are level 11 or lower"
+				},
+				{
+					"number": 1,
+					"unit": "action",
+					"condition": "if you are level 17 or higher"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You are transported to another world (from any plane of existence).",
+				"To cast this spell, you must be aware of the world's existence, even if you don't know its name. Your destination in the other world must be a location you have seen before. This could be through direct experience (as a Pathfinder, potentially using Syphoning) or through memories transferred to you via spells such as {@spell Dream|XPHB} or similar effects.",
+				"If you have only an accurate description of the location, you can attempt to teleport there. However, there is a 25% chance (rolling a d4, with a result of 1 indicating failure) of a mishap. If a mishap occurs, the spell fails, the spell slot is consumed, and you take 3d10 force damage."
+			]
+		},
 		{
 			"name": "Magia Template",
 			"source": "CompendiumofAcadia",
