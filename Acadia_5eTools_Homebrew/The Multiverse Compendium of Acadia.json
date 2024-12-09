@@ -91,7 +91,7 @@
 							"type": "entries",
 							"name": "Armor Parts",
 							"entries": [
-								"Parts used to protect the user. On a failed Constitution saving throw, the creature’s AC is reduced by an amount based on the part's contribution until the end of its nexat turn. This does not apply to body armor of any sorts, as it 'passively' protects the body."
+								"Parts used to protect the user. On a failed Constitution saving throw, the creature’s AC is reduced by an amount based on the part's contribution until the end of its next turn. This does not apply to body armor of any sorts, as it 'passively' protects the body."
 							]
 						},
 						{
@@ -178,7 +178,7 @@
 			"name": "Ready Counterspell",
 			"ruleType": "C",
 			"entries": [
-				"You can use the {@action Ready|XPHB} action to prepare a counterspell. You do not need to know or have the ability to cast {@spell Counterspell|XPHB} to use this feature. When a creature you can see begins casting a spell, you may trigger your readied action to interrupt it.",
+				"You can use the {@action Ready|XPHB} action to prepare a counterspell. You do not need to know or have the ability to cast {@spell Counterspell|XPHB} to use this feature, but you need to have levels in a class that have the Spellcasting feature. When a creature you can see begins casting a spell, you may trigger your readied action to interrupt it.",
 				"This effect functions as the {@spell Counterspell|XPHB} spell, and you must fulfill all the normal costs of casting {@spell Counterspell|XPHB}, including expending a spell slot and performing any required components. If you are capable of casting {@spell Counterspell|XPHB} with your reaction but choose to use Ready Counterspell instead, the target makes its saving throw with disadvantage."
 			]
 		},
@@ -244,7 +244,8 @@
 			"name": "Acadian Magic Rebalancing",
 			"ruleType": "C",
 			"entries": [
-				"This includes a new group of Arcane, Primal, Occult and Divine spells, instead of each class having their own spell list. It also revises basically every spell and add new one's. Ban, reformulate etc."
+				"This includes a new group of Arcane, Primal, Occult and Divine spells, instead of each class having their own spell list. It also revises basically every spell and add new one's.",
+				"It also presumes the use of {@variantrule Alternate Spell Casting|CompendiumofAcadia}."
 			]
 		},
 		{
@@ -252,9 +253,9 @@
 			"name": "Hyper-Class: Acadian",
 			"ruleType": "C",
 			"entries": [
-				"The Acadian Hyper-Class is a special subclass granted by the DM on top of a character's normal class. These Hyper-Classes are intentionally powerful and designed for campaigns that emphasize storytelling and epic gameplay over strict balance.",
+				"The Acadian Hyper-Class is a special subclass granted by the DM on top of a character's normal class. These Hyper-Classes are intentionally powerful and designed for campaigns in the complex manyverse of Acadia.",
 				"You also have access to {@variantrule Pathfinder Mana System|CompendiumofAcadia}.",
-				"As part of this Hyper-Class, players create custom abilities in collaboration with their DM, which follow a progression of power similar to a wizard subclass. These abilities are unlocked at levels 3, 6, 10, and 14. Additionally, this Hyper-Class grants access to unique planar abilities, including the capacity to use Pathfind.",
+				"As part of this Hyper-Class, players create custom abilities in collaboration with their DM, which follow a progression of power similar to a wizard subclass. These abilities are unlocked at levels 3, 6, 10, and 14. Additionally, this Hyper-Class grants access to unique planar abilities, including the capacity to use {@spell Pathfinding|CompendiumofAcadia}.",
 				{
 					"name": "Level 1: Pathfinder",
 					"type": "section",
@@ -265,10 +266,9 @@
 							"name": "Syphoning",
 							"type": "entries",
 							"entries": [
-								"During Syphoning, you attune to the flow of mana around you, entering a trance-like state.",
-								"In this state, you experience vivid hallucinations of objects, creatures, and places that may or may not exist.",
-								"These visions might be drawn from other worlds, alternate realities, or possibilities that defy conventional time and space.",
-								"This imaginative process strengthens your bond with planar energies, recharging your ability to use Pathfind."
+								"During Syphoning, you attune to the ambient flow of mana around you, entering a trance-like state. In this state, you experience vivid hallucinations of objects, creatures, and places that can be entirely imaginary or drawn from any time, place, or reality.",
+								"These visions might originate from your imagination, other worlds, alternate dimensions, or distant timelines.",
+								"This process strengthens your connection to planar energies, recharging your uses of your Pathfinder feature."
 							]
 						}
 					]
@@ -277,8 +277,58 @@
 					"name": "Level 3: Acadian Latent Power",
 					"type": "section",
 					"entries": [
-						"At 3rd level, you unlock your first Acadian Latent Power. These abilities are developed in collaboration with your DM and should follow the power level of a wizard subclass feature for the corresponding level.",
-						"You gain additional Acadian Latent Powers at 6th, 10th, and 14th levels. Each power should align with the narrative and thematic elements of your character."
+						"At 3rd level, you awaken your first Acadian Latent Power, a unique ability tailored to your character's narrative and thematic elements. These powers are developed collaboratively with your DM and should align with the power level of a wizard subclass feature of the same level.",
+						"You gain additional Acadian Latent Powers at 6th, 10th, and 14th levels. Each power must use Mana as a fuel source. If the ability is passive, it must also include an optional feature or enhancement that consumes Mana to activate or function at a greater scale."
+					]
+				},
+				{
+					"name": "Example of Acadian latent Powers:",
+					"type": "section",
+					"entries": [
+						{
+							"name": "Level 3: Forge Holy Weapon",
+							"type": "entries",
+							"entries": [
+								"You can summon a sacred weapon associated with your deity. By using a Magic action, you conjure a melee martial weapon into existence. The weapon's damage die becomes {@damage 1d10} and it deals radiant damage instead of its usual type.",
+								"If the weapon is versatile or two-handed, it deals {@damage 1d12} damage when wielded with two hands.",
+								"After hitting a creature with this weapon, you can expend 1 {@variantrule ⚪ White Mana|CompendiumofAcadia} to deal an additional {@damage 2d8} radiant damage."
+							]
+						},
+						{
+							"name": "Level 3: Reality Ripple",
+							"type": "entries",
+							"entries": [
+								"You can momentarily shift through space, allowing you to teleport up to 15 feet to an unoccupied space you can see. This requires a bonus action and can be used a number of times equal to your proficiency bonus.",
+								"All expended uses are restored when you finish a Long Rest.",
+								"If you have no remaining uses, you can spend 1 {@variantrule 🔵 Blue Mana|CompendiumofAcadia} to regain a number of uses equal to half your proficiency bonus."
+							]
+						},
+						{
+							"name": "Level 3: Bad Omen",
+							"type": "entries",
+							"entries": [
+								"You gain the Lucky feat, allowing you to reroll attack rolls, saving throws, or ability checks under certain conditions.",
+								"At the start of your turn, you can spend 1 {@variantrule ⚫ Black Mana|CompendiumofAcadia} to extend your luck to others for 1 minute.",
+								"During this time, you can use your Lucky rerolls on attack rolls, saving throws, or ability checks made by any creature you can see within 30 feet."
+							]
+						},
+						{
+							"name": "Level 3: Dark Blood",
+							"type": "entries",
+							"entries": [
+								"When you roll initiative, you gain 5 temporary hit points as your vitality surges.",
+								"By expending 1 Red Mana, you can enhance this effect, gaining 15 temporary hit points instead.",
+								"Additionally, you can use a Magic action to spend 1 {@variantrule 🔴 Red Mana|CompendiumofAcadia} and gain 10 temporary hit points at any time during combat."
+							]
+						},
+						{
+							"name": "Level 3: Fury of the Forest Protector",
+							"type": "entries",
+							"entries": [
+								"You can channel the raw strength of nature to empower your melee strikes. As a bonus action, you can change the mastery of your melee weapon to 'Push' for 1 minute. If you do not normally have access to weapon masteries, this feature grants you temporary access to the 'Push' mastery for the weapon you are wielding during its duration.",
+								"Additionally, you can spend 1 {@variantrule 🟢 Green Mana|CompendiumofAcadia} when you activate this ability to deal extra damage if a creature is pushed into a wall or similar structure. For every 5 feet the creature is unable to move due to the obstruction, it takes 1d6 bludgeoning damage. At the DM's discretion, the wall or structure may also take the same amount of damage."
+							]
+						}
 					]
 				}
 			]
@@ -480,12 +530,11 @@
 			"name": "Alternative Magic Item Use",
 			"ruleType": "C",
 			"entries": [
-				"Instead of attunement slots, every character can have up to 6 non-consumable magic items activated for use at any time. These activated items represent the character's ability to harness their magical properties effectively.",
+				"Instead of attunement slots, every character can have up to 6 non-consumable magic items activated for use at any time.",
 				"To change which items are activated, you must spend an action to rearrange the magic items you are wearing or carrying. Only activated items can be used or provide their benefits.",
-				"If a class feature or ability grants additional attunement slots, it instead increases your number of activated items. For example, an Artificer feature that grants an additional attunement slot (4 instead of 3) allows you to activate up to 7 magic items instead of 6."
+				"If a class feature or ability grants additional attunement slots, it instead increases your number of items that can be active. For example, an Artificer feature that grants an additional attunement slot (4 instead of 3) allows you to activate up to 7 magic items instead of 6."
 			]
-		}
-		,
+		},
 		{
 			"source": "CompendiumofAcadia",
 			"name": "Rush of Power",
@@ -508,7 +557,7 @@
 			"name": "Pathfinder Mana System",
 			"ruleType": "C",
 			"entries": [
-				"The Pathfinder Mana System governs the use and recovery of mana in the multiverse. Creatures capable of accessing mana can store an amount of mana equal to their level. Each round, they can spend an amount of mana equal to their proficiency modifier. Mana recovery is as follows:",
+				"The Pathfinder Mana System governs the use and recovery of mana in the multiverse. Creatures capable of accessing mana can store an amount of mana equal to their level. Each round, they can spend an amount of mana equal to their proficiency modifier.",
 				{
 					"type": "section",
 					"name": "Mana Types",
@@ -897,8 +946,8 @@
 			"ruleType": "C",
 			"entries": [
 				"Luck Rolls are rolls made when an event's outcome is determined primarily by luck or chance, rather than skill or direct action.",
-				"These rolls can include modifiers but are not considered d20 Tests, even when using a d20 as the rolling die.",
-				"An example of a Luck Roll is determining whether a Wand of Magic Missiles breaks after expending all charges. Or the roll made for choosing with Ray the beholder will shoot"
+				"These rolls can include modifiers but are not considered d20 Tests.",
+				"An example of a Luck Roll is determining whether a Wand of Magic Missiles breaks after expending all charges. Or the roll made for choosing witch Ray the beholder will shoot"
 			]
 		},
 		{
@@ -1097,7 +1146,7 @@
 					"rows": [
 						[
 							"1",
-							"The target doesn't take an action, and it uses all its movement to move. Roll {@dice 1d4} for the direction: {@b 1}, north; {@b 2}, east; {@b 3}, south; or {@b 4}, west."
+							"The target doesn't take an action, and it uses all its movement to move. Roll {@dice 1d4} for the direction: {@b 1}, ↑ north; {@b 2}, → east; {@b 3}, ↓ south; or {@b 4}, ← west."
 						],
 						[
 							"2-6",
