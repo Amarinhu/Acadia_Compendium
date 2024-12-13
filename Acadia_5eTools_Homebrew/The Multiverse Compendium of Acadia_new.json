@@ -1,0 +1,5819 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "CompendiumofAcadia",
+				"abbreviation": "MCA",
+				"full": "The Multiverse Compendium of Acadia",
+				"version": "1",
+				"authors": [
+					"Gabriel Amaral Passos"
+				],
+				"convertedBy": [
+					"Gabriel Amaral Passos"
+				],
+				"color": "4682b4"
+			}
+		],
+		"dateAdded": 1732722304,
+		"dateLastModified": 1732722304
+	},
+	"spell": [
+		{
+			"name": "Resistance",
+			"source": "CompendiumofAcadia",
+			"level": 0,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You touch a willing creature and choose a damage type: Acid, Bludgeoning, Cold, Fire, Lightning, Necrotic, Piercing, Poison, Radiant, Slashing, or Thunder. When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by {@dice 2d4}. A creature can benefit from this spell only once per turn."
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Bard",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "College of Lore",
+							"shortName": "Lore",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Nature Domain",
+							"shortName": "Nature",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Strength Domain (PSA)",
+							"shortName": "Strength (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Nature Domain",
+							"shortName": "Nature",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Strength Domain (PSA)",
+							"shortName": "Strength (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Circle of the Land",
+							"shortName": "Land",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Elf (Kaladesh; Vahadar)",
+					"source": "PSK",
+					"baseName": "Elf (Kaladesh)",
+					"baseSource": "PSK"
+				},
+				{
+					"name": "Merfolk (Ixalan; Green)",
+					"source": "PSX",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Zendikar; Emeria Creed)",
+					"source": "PSZ",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				}
+			],
+			"optionalfeatures": [
+				{
+					"name": "Blessed Warrior",
+					"source": "TCE",
+					"featureType": [
+						"FS:P"
+					]
+				},
+				{
+					"name": "Druidic Warrior",
+					"source": "TCE",
+					"featureType": [
+						"FS:R"
+					]
+				},
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB",
+					"featureType": [
+						"PB"
+					]
+				},
+				{
+					"name": "Pact of the Tome",
+					"source": "XPHB",
+					"featureType": [
+						"EI"
+					]
+				}
+			],
+			"feats": [
+				{
+					"name": "Artificer Initiate",
+					"source": "TCE"
+				},
+				{
+					"name": "Blessed Warrior",
+					"source": "XPHB"
+				},
+				{
+					"name": "Druidic Warrior",
+					"source": "XPHB"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "XPHB"
+				},
+				{
+					"name": "Divinely Favored",
+					"source": "DSotDQ"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				},
+				{
+					"name": "Wood Elf Magic",
+					"source": "XGE"
+				}
+			]
+		},
+		{
+			"name": "Pathfinding",
+			"source": "CompendiumofAcadia",
+			"level": 7,
+			"school": "C",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute",
+					"condition": "if you are level 5 or lower"
+				},
+				{
+					"number": 1,
+					"unit": "minute",
+					"condition": "if you are level 11 or lower"
+				},
+				{
+					"number": 1,
+					"unit": "action",
+					"condition": "if you are level 17 or higher"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You are transported to another world (from any plane of existence).",
+				"To cast this spell, you must be aware of the world's existence, even if you don't know its name. Your destination in the other world must be a location you have seen before. This could be through direct experience (as a Pathfinder, potentially using Syphoning) or through memories transferred to you via spells such as {@spell Dream|XPHB} or similar effects.",
+				"If you have only an accurate description of the location, you can attempt to teleport there. However, there is a 25% chance (rolling a d4, with a result of 1 indicating failure) of a mishap. If a mishap occurs, the spell fails, the spell slot is consumed, and you take 3d10 force damage."
+			]
+		},
+		{
+			"name": "Blade Ward",
+			"source": "CompendiumofAcadia",
+			"level": 0,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You invoke a shimmering shield of magical energy, deflecting incoming blows and granting you enhanced protection.",
+				{
+					"name": "Effect",
+					"type": "entries",
+					"entries": [
+						"You gain a +2 bonus to AC for the duration."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Bard",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "College of Lore",
+							"shortName": "Lore",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Arcana Domain",
+							"shortName": "Arcana",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcana Domain",
+							"shortName": "Arcana",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Genasi (Earth)",
+					"source": "MPMM",
+					"baseName": "Genasi",
+					"baseSource": "MPMM"
+				},
+				{
+					"name": "Kobold",
+					"source": "MPMM"
+				},
+				{
+					"name": "Half-Elf (Variant; Moon Elf or Sun Elf Descent)",
+					"source": "SCAG",
+					"baseName": "Half-Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Merfolk (Ixalan; Blue)",
+					"source": "PSX",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Zendikar; Cosi Creed)",
+					"source": "PSZ",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Zendikar; Ula Creed)",
+					"source": "PSZ",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				}
+			],
+			"optionalfeatures": [
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB"
+				},
+				{
+					"name": "Pact of the Tome",
+					"source": "XPHB"
+				},
+				{
+					"name": "⚪ White Mana",
+					"source": "CompendiumofAcadia"
+				}
+			],
+			"feats": [
+				{
+					"name": "Aberrant Dragonmark",
+					"source": "ERLW"
+				},
+				{
+					"name": "Initiate of High Sorcery",
+					"source": "DSotDQ"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "XPHB"
+				}
+			]
+		},
+		{
+			"name": "Encode Thoughts",
+			"source": "CompendiumofAcadia",
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"entries": [
+				"Putting a finger to your head, you pull a thought (memory, an idea, or a message) from your mind and transform it into a tangible string of glowing energy called a thought strand, which persists for the duration or until you cast this spell again. The thought strand appears in an unoccupied space within 5 feet of you as a Tiny, weightless, semisolid object that can be held and carried like a ribbon. It is otherwise stationary.",
+				"If you cast this spell while {@status concentration||concentrating} on a spell or an ability that allows you to read or manipulate the thoughts of others (such as {@spell detect thoughts} or {@spell modify memory}), you can transform the thoughts or memories you read, rather than your own, into a thought strand.",
+				"When pulling a thought, you can choose to suppress, remove, or duplicate the original memory. A suppressed memory can later be restored using {@spell Greater Restoration|XPHB}. A removed memory is permanently eliminated, but the creature makes a Wisdom saving throw. On a success, the memory is only suppressed; on a failure, it is removed. The caster cannot determine whether the memory was suppressed or removed.",
+				"Casting this spell while holding a thought strand allows you to instantly receive whatever memory, idea, or message the thought strand contains. (Casting {@spell detect thoughts} on the strand has the same effect.)"
+			],
+			"hasFluffImages": true,
+			"optionalfeatures": [
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB",
+					"featureType": [
+						"PB"
+					]
+				},
+				{
+					"name": "Pact of the Tome",
+					"source": "XPHB",
+					"featureType": [
+						"EI"
+					]
+				}
+			],
+			"backgrounds": [
+				{
+					"name": "Dimir Operative",
+					"source": "GGR"
+				}
+			]
+		},
+		{
+			"name": "Carven Rifle",
+			"source": "CompendiumofAcadia",
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true,
+				"m": {
+					"text": "a twig and 1 cartridge, which the spell consumes",
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"When you cast this spell, a smoothly-carved wooden rifle appears in your hand. This conjured firearm has a range of 100/400 feet (long range imposes disadvantage as normal). Make a ranged spell attack against a target within range; firing the shot disintegrates the weapon. On a hit, the target takes {@damage 7d8} piercing damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@dice 1d8} for each slot level above 4th."
+					]
+				}
+			],
+			"damageInflict": [
+				"piercing"
+			],
+			"spellAttack": [
+				"R"
+			]
+		},
+		{
+			"name": "Sequoia Six-Shooter",
+			"source": "CompendiumofAcadia",
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true,
+				"m": {
+					"text": "a twig and 6 cartridges, which the spell consumes",
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"When you cast this spell, a gnarled wooden revolver appears in your hand. This conjured firearm has the same basic statistics as a mundane revolver, with a range of 40/120 feet (long range imposes disadvantage as normal). Make a ranged spell attack against a target within range. On a hit, the target takes {@damage 3d10} piercing damage. As long as you maintain concentration on this spell, you may use your action on subsequent turns to continue firing the gun; as soon as the weapon has been discharged six times, it immediately disintegrates."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a 4th- or 5th-level spell slot, the damage increases to {@dice 4d10}. When you cast it using a 6th- or 7th-level spell slot, the damage increases to {@dice 5d10}. When you cast it using a spell slot of 8th- or higher, the damage increases to {@dice 6d10}."
+					]
+				}
+			],
+			"damageInflict": [
+				"piercing"
+			],
+			"spellAttack": [
+				"R"
+			]
+		},
+		{
+			"name": "Blade of Disaster",
+			"source": "CompendiumofAcadia",
+			"level": 9,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create a blade-shaped planar rift about 3 feet long in an unoccupied space you can see within range. The blade lasts for the duration. When you cast this spell, you can make up to two melee spell attacks with the blade, each one against a creature, loose object, or structure within 5 feet of the blade. On a hit, the target takes {@damage 5d12} force damage. This attack scores a critical hit if the number on the {@dice d20} is 18 or higher. On a critical hit, the blade deals an extra {@damage 8d12} force damage (for a total of {@damage 12d12} force damage).",
+				"As a bonus action on your turn, you can move the blade up to 30 feet to an unoccupied space you can see and then make up to two melee spell attacks with it again.",
+				"The blade can harmlessly pass through any barrier, including a {@spell wall of force}."
+			],
+			"damageInflict": [
+				"force"
+			],
+			"spellAttack": [
+				"M"
+			],
+			"miscTags": [
+				"SGT",
+				"UBA"
+			],
+			"areaTags": [
+				"MT"
+			],
+			"classes": {
+				"fromClassListVariant": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB",
+						"definedInSource": "TCE"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB",
+						"definedInSource": "TCE"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB",
+						"definedInSource": "TCE"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB",
+						"definedInSource": "TCE"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB",
+						"definedInSource": "TCE"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB",
+						"definedInSource": "TCE"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcana Domain",
+							"shortName": "Arcana",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Arcana Domain",
+							"shortName": "Arcana",
+							"source": "SCAG"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Octarine Spray",
+			"source": "CompendiumofAcadia",
+			"level": 7,
+			"school": "V",
+			"subschools": [
+				"contaminated"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "cone",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a delerium fragment worth 100 gp, which the spell consumes",
+					"cost": 10000,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"When you cast this spell, you gain one {@adventure level of contamination|DoDk|12}. Octarine rays of light flash from your hand. Each ray is a different colour and has a different power and purpose, see the table below. Each creature in a 60-foot cone must succeed on a Constitution saving throw. For each target, roll a {@dice d8} to determine which colour ray affects it.",
+				{
+					"type": "table",
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"colLabels": [
+						"d8",
+						"Octarine Spray Effect"
+					],
+					"rows": [
+						[
+							"1",
+							"The target takes {@damage 20d6} psychic damage on a failed save, or half as much damage on a success."
+						],
+						[
+							"2",
+							"The target takes {@damage 20d6} necrotic damage on a failed save, or half as much damage on a success."
+						],
+						[
+							"3",
+							"The target takes {@damage 20d6} force damage on a failed save, or half as much damage on a success."
+						],
+						[
+							"4",
+							"The target takes {@damage 20d6} radiant damage on a failed save, or half as much damage on a success."
+						],
+						[
+							"5",
+							"The target takes {@damage 20d6} thunder damage on a failed save, or half as much damage on a success."
+						],
+						[
+							"6",
+							"At the start of each of its turns, the affected target uses all its movement to move directly towards the closest creature it can see. Then, the affected target uses its action to make a melee attack against a randomly determined creature within its reach. If there is no creature within its reach, the affected target does nothing this turn. At the end of each of its turns, the affected target can make a Wisdom saving throw. If it succeeds, this effect ends for that target."
+						],
+						[
+							"7",
+							"At the start of each of its turns, the affected target gains one {@adventure level of contamination|DoDk|12}. At the end of each of its turns, an affected target can make a Constitution saving throw. If it succeeds, this effect ends for that target, but any {@adventure contamination levels|DoDk|12} gained remain."
+						],
+						[
+							"8",
+							"{@b Special.} The target is struck by an additional ray. Roll again twice. Ignore this result on subsequent rolls"
+						]
+					]
+				}
+			],
+			"damageInflict": [
+				"force",
+				"necrotic",
+				"psychic",
+				"radiant",
+				"thunder"
+			],
+			"savingThrow": [
+				"constitution",
+				"wisdom"
+			],
+			"miscTags": [
+				"RO"
+			],
+			"classes": {
+				"fromClassListVariant": [
+					{
+						"name": "Bard",
+						"source": "PHB",
+						"definedInSource": "DoDk"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB",
+						"definedInSource": "DoDk"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB",
+						"definedInSource": "DoDk"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB",
+						"definedInSource": "DoDk"
+					},
+					{
+						"name": "Bard",
+						"source": "XPHB",
+						"definedInSource": "DoDk"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB",
+						"definedInSource": "DoDk"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB",
+						"definedInSource": "DoDk"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB",
+						"definedInSource": "DoDk"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcana Domain",
+							"shortName": "Arcana",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Arcana Domain",
+							"shortName": "Arcana",
+							"source": "SCAG"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Consume Mind",
+			"source": "CompendiumofAcadia",
+			"level": 4,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a 1-ounce fresh or magically preserved portion of another creature's brain"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You consume the brain of another creature's corpse, gaining its memories and knowledge. The corpse must have a brain and can't be undead. The spell fails if the corpse has been dead (and not preserved) for more than three days.",
+				"Until the spell ends, you can attempt to recall up to five important facts known to the creature—such as family history, recent events, building layouts, passwords, details of the creature's death, and similar information. To recall a piece of information, you must make an ability check using your spellcasting modifier. The DC is equal to the corpse's Intelligence score.",
+				"Once the caster rolls to determine whether they recall a fact, they cannot attempt to recall it again."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB",
+						"definedInSource": "GHLoE"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB",
+						"definedInSource": "GHLoE"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB",
+						"definedInSource": "GHLoE"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB",
+						"definedInSource": "GHLoE"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB",
+						"definedInSource": "GHLoE"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB",
+						"definedInSource": "GHLoE"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"The number of times you can recall information with this spell increases by 2 for each spell slot level used above 5th."
+					]
+				}
+			]
+		},
+		{
+			"name": "Magic Mirror",
+			"source": "CompendiumofAcadia",
+			"level": 6,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when you are targeted by a spell"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a polished silver marble"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A momentary bubble of iridescent energy shimmers in the air between you and the caster of the triggering spell. The spell is redirected to a creature of your choice that you can see within 60 feet. If the spell is 5th level or lower, you are no longer a target of the spell and the chosen creature is instead. If the spell is 6th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a successful check, you are no longer a target of the spell and the chosen creature is instead. On a failed check, you remain the target of the triggering spell."
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB",
+						"definedInSource": "GHLoE"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB",
+						"definedInSource": "GHLoE"
+					}
+				]
+			}
+		},
+		{
+			"name": "Wristpocket",
+			"source": "CompendiumofAcadia",
+			"page": 190,
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You flick your wrist, causing one object in your hand to vanish. The object, which only you can be holding and can weigh no more than 5 pounds, is transported to an extradimensional space, where it remains for the duration.",
+				"Until the spell ends, you can use your action to summon the object to your free hand, and you can use your action to return the object to the extradimensional space. An object still in the pocket plane when the spell ends appears in your space, at your feet."
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Chronurgy Magic",
+							"shortName": "Chronurgy",
+							"source": "EGW"
+						}
+					},
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Graviturgy Magic",
+							"shortName": "Graviturgy",
+							"source": "EGW"
+						}
+					},
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Chronurgy Magic",
+							"shortName": "Chronurgy",
+							"source": "EGW"
+						}
+					},
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Graviturgy Magic",
+							"shortName": "Graviturgy",
+							"source": "EGW"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Banishment",
+			"source": "CompendiumofAcadia",
+			"level": 4,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a pentacle"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You start the process of banishing one creature that you can see within range. The target must make a Charisma saving throw at the start of each of its turns, continuing until it accumulates two successes or two failures. A creature not native to the plane of existence you are currently on makes these saving throws with disadvantage.",
+				"If the target fails two saving throws before succeeding twice, it is transported to a harmless demiplane for the duration. While there, the target is {@condition Incapacitated|XPHB}. When the spell ends, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied.",
+				"If the target succeeds twice before failing twice, the spell ends with no effect.",
+				"If the target is an Aberration, Celestial, Elemental, Fey, or Fiend and the spell lasts for 1 minute, the target does not return. Instead, it is transported to a random location on a plane (DM's choice) associated with its creature type."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"You can target one additional creature for each spell slot level above 4."
+					]
+				}
+			],
+			"conditionInflict": [
+				"incapacitated"
+			],
+			"savingThrow": [
+				"charisma"
+			],
+			"miscTags": [
+				"SCT",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "XPHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Community Domain",
+							"shortName": "Community",
+							"source": "HWCS"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Oath of Vengeance",
+							"shortName": "Vengeance",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Oath of the Crown",
+							"shortName": "Crown",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Oath of the Watchers",
+							"shortName": "Watchers",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Ranger",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Horizon Walker",
+							"shortName": "Horizon Walker",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Ranger",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Monster Slayer",
+							"shortName": "Monster Slayer",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Community Domain",
+							"shortName": "Community",
+							"source": "HWCS"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Oath of the Crown",
+							"shortName": "Crown",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Oath of the Watchers",
+							"shortName": "Watchers",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Oath of Vengeance",
+							"shortName": "Vengeance",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Ranger",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Horizon Walker",
+							"shortName": "Horizon Walker",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Ranger",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Monster Slayer",
+							"shortName": "Monster Slayer",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Enthrall",
+			"source": "CompendiumofAcadia",
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You weave a distracting string of words, causing creatures of your choice that you can see within range to make a Wisdom saving throw. Any creature you or your companions are fighting automatically succeeds on this save. On a failed save, a target has a -10 penalty to Wisdom ({@skill Perception|XPHB}) checks and Passive {@skill Perception|XPHB} until the spell ends."
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Tiefling (Variant; Devil's Tongue)",
+					"source": "SCAG",
+					"baseName": "Tiefling",
+					"baseSource": "PHB"
+				}
+			],
+			"backgrounds": [
+				{
+					"name": "Orzhov Representative",
+					"source": "GGR"
+				},
+				{
+					"name": "Rakdos Cultist",
+					"source": "GGR"
+				}
+			],
+			"feats": [
+				{
+					"name": "Adept of the Black Robes",
+					"source": "DSotDQ"
+				}
+			]
+		},
+		{
+			"name": "Find Traps",
+			"source": "CompendiumofAcadia",
+			"page": 273,
+			"level": 2,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "sphere",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You learn the location of any trap within range that is within Line of Sight. A trap, for the Purpose of this spell, includes anything that would inflict a sudden or unexpected Effect you consider harmful or undesirable, which was specifically intended as such by its creator. Thus, the spell would sense an area affected by the {@spell Alarm|XPHB} spell, a {@spell Glyph of Warding|XPHB}, or a mechanical Pit Trap, but it would not reveal a natural weakness in the floor, an unstable ceiling, or a hidden sinkhole."
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Bard",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "College of Lore",
+							"shortName": "Lore",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Half-Elf (Variant; Mark of Detection)",
+					"source": "ERLW",
+					"baseName": "Half-Elf",
+					"baseSource": "PHB"
+				}
+			],
+			"feats": [
+				{
+					"name": "Adept of the White Robes",
+					"source": "DSotDQ"
+				}
+			]
+		},
+		{
+			"name": "Enlarge/Reduce",
+			"source": "CompendiumofAcadia",
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a pinch of powdered iron"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"For the duration, the spell enlarges or reduces a creature or an object you can see within range (see the chosen effect below). A targeted object must be neither worn nor carried. If the target is an unwilling creature, it can make a Constitution saving throw. On a successful save, the spell has no effect.",
+				"Everything that a targeted creature is wearing and carrying changes size with it. Any item it drops returns to normal size at once. A thrown weapon or piece of ammunition returns to normal size immediately after it hits or misses a target.",
+				{
+					"type": "entries",
+					"name": "Enlarge",
+					"entries": [
+						"The target's size increases by one category—from Medium to Large, for example. The target also has {@variantrule Advantage|XPHB} on Strength checks and Strength saving throws. The target's attacks with its enlarged weapons or Unarmed Strikes deal an additional die of damage on a hit."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reduce",
+					"entries": [
+						"The target's size decreases by one category—from Medium to Small, for example. The target also has {@variantrule Disadvantage|XPHB} on Strength checks and Strength saving throws. The target's attacks with its reduced weapons or Unarmed Strikes deal one die category less ({@dice 1d12} lowering to {@dice 1d10}, {@dice 2d6} lowering to {@dice 2d4}, and so on. The category cannot get to smaller than d4s) damage on a hit. This reduction cannot lower the damage below 1."
+					]
+				}
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"ADV",
+				"OBJ",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Bard",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "College of Lore",
+							"shortName": "Lore",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Duergar",
+					"source": "MPMM"
+				},
+				{
+					"name": "Fairy",
+					"source": "MPMM"
+				},
+				{
+					"name": "Dwarf (Duergar)",
+					"source": "MTF",
+					"baseName": "Dwarf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Fairy",
+					"source": "WBtW"
+				}
+			],
+			"backgrounds": [
+				{
+					"name": "Quandrix Student",
+					"source": "SCC"
+				},
+				{
+					"name": "Simic Scientist",
+					"source": "GGR"
+				}
+			],
+			"feats": [
+				{
+					"name": "Adept of the Red Robes",
+					"source": "DSotDQ"
+				}
+			]
+		},
+		{
+			"name": "Heat Metal",
+			"source": "CompendiumofAcadia",
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a piece of iron and a flame"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Choose a manufactured metal object, such as a metal weapon or a suit of Heavy or Medium metal armor, that you can see within range. You cause the object to glow red-hot. Any creature in physical contact with the object takes {@damage 2d8} Fire damage when you cast the spell. Until the spell ends, you can take a {@variantrule Bonus Action|XPHB} on each of your later turns to deal this damage again if the object is within range.",
+				"If a creature is holding or wearing the object and takes the damage from it, the creature must succeed on a Constitution saving throw or drop the object if it can. If it doesn't drop the object, it has {@variantrule Disadvantage|XPHB} on attack rolls and ability checks until the start of your next turn.",
+				"If the creature ends its turn more than 60 feet away from you, it makes a Constitution saving throw, ending the spell in a success."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"The damage increases by {@scaledamage 2d8|2-9|1d8} for each spell slot level above 2."
+					]
+				}
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"OBJ",
+				"SGT",
+				"UBA"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Bard",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "College of Lore",
+							"shortName": "Lore",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Forge Domain",
+							"shortName": "Forge",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Forge Domain",
+							"shortName": "Forge",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"backgrounds": [
+				{
+					"name": "Izzet Engineer",
+					"source": "GGR"
+				}
+			],
+			"feats": [
+				{
+					"name": "Adept of the Red Robes",
+					"source": "DSotDQ"
+				}
+			]
+		},
+		{
+			"name": "Phantasmal Force",
+			"source": "CompendiumofAcadia",
+			"level": 2,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a bit of fleece"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You attempt to craft an illusion in the mind of a creature you can see within range. The target makes an Intelligence saving throw. On a failed save, you create a phantasmal object, creature, or other phenomenon that is no larger than a 10-foot Cube and that is perceivable only to the target for the duration. The phantasm includes sound, temperature, and other stimuli.",
+				"The target can take a {@action Study|XPHB} action to examine the phantasm with an Intelligence ({@skill Investigation|XPHB}) check against your spell save DC. If the check succeeds, the target realizes that the phantasm is an illusion, and the spell ends.",
+				"While affected by the spell, the target treats the phantasm as if it were real and rationalizes any illogical outcomes from interacting with it. For example, if the target steps through a phantasmal bridge and survives the fall, it believes the bridge exists and something else caused it to fall.",
+				"An affected target can even take damage from the illusion if the phantasm represents a dangerous creature or hazard. On each of your turns, such a phantasm can deal {@damage 2d8} Psychic damage to the target if it is in the phantasm's area or within 5 feet of the phantasm. The target perceives the damage as a type appropriate to the illusion."
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"intelligence"
+			],
+			"abilityCheck": [
+				"intelligence"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Bard",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "College of Lore",
+							"shortName": "Lore",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "The Genie",
+							"shortName": "Genie",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "The Undead",
+							"shortName": "Undead",
+							"source": "VRGR"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Archfey Patron",
+							"shortName": "Archfey",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Great Old One Patron",
+							"shortName": "Great Old One",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "The Archfey",
+							"shortName": "Archfey",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "The Great Old One",
+							"shortName": "Great Old One",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "The Genie",
+							"shortName": "Genie",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "The Undead",
+							"shortName": "Undead",
+							"source": "VRGR"
+						}
+					}
+				]
+			},
+			"feats": [
+				{
+					"name": "Adept of the Red Robes",
+					"source": "DSotDQ"
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"The damage increases by {@dice 1d8} for each spell slot level above 2."
+					]
+				}
+			]
+		},
+		{
+			"name": "Zone of Truth",
+			"source": "CompendiumofAcadia",
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"entries": [
+				"You create a magical zone that guards against deception in a 15-foot-radius Sphere centered on a point within range. Until the spell ends, a creature that enters the spell's area for the first time on a turn or starts its turn there makes a Charisma saving throw. On a failed save, a creature can't speak a deliberate lie while in the radius. You know whether a creature succeeds or fails on this save.",
+				"An affected creature is aware of the spell and can avoid answering questions to which it would normally respond with a lie. Such a creature can be evasive yet must be truthful.",
+				"The spell effect ends on a creature that leaves the magical zone."
+			],
+			"savingThrow": [
+				"charisma"
+			],
+			"areaTags": [
+				"S"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "XPHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Bard",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "College of Lore",
+							"shortName": "Lore",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Order Domain",
+							"shortName": "Order",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Oath of the Crown",
+							"shortName": "Crown",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Oath of Devotion",
+							"shortName": "Devotion",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Ranger",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Monster Slayer",
+							"shortName": "Monster Slayer",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Order Domain",
+							"shortName": "Order",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Oath of Devotion",
+							"shortName": "Devotion",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Oath of the Crown",
+							"shortName": "Crown",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Ranger",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Monster Slayer",
+							"shortName": "Monster Slayer",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Human (Mark of Sentinel)",
+					"source": "ERLW",
+					"baseName": "Human",
+					"baseSource": "PHB"
+				}
+			],
+			"backgrounds": [
+				{
+					"name": "Orzhov Representative",
+					"source": "GGR"
+				}
+			],
+			"feats": [
+				{
+					"name": "Adept of the Black Robes",
+					"source": "DSotDQ"
+				}
+			]
+		},
+		{
+			"name": "Counterspell",
+			"source": "CompendiumofAcadia",
+			"level": 3,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when you see a creature within 60 feet of yourself casting a spell with Verbal, Somatic, or Material components"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You attempt to interrupt a creature in the process of casting a spell. The creature makes a Constitution saving throw. On a failed save, the spell dissipates with no effect, and the action, {@variantrule Bonus Action|XPHB}, or {@variantrule Reaction|XPHB} used to cast it is wasted. If that spell was cast with a spell slot, the slot isn't expended.",
+				"If the spell being countered is 3rd level or lower, the creature have disadvantage on the Consitution saving thow."
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Bard",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "College of Lore",
+							"shortName": "Lore",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Oath of Redemption",
+							"shortName": "Redemption",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Oath of the Watchers",
+							"shortName": "Watchers",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Abjurer",
+							"shortName": "Abjurer",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Oath of Redemption",
+							"shortName": "Redemption",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Oath of the Watchers",
+							"shortName": "Watchers",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Human (Mark of Sentinel)",
+					"source": "ERLW",
+					"baseName": "Human",
+					"baseSource": "PHB"
+				}
+			],
+			"backgrounds": [
+				{
+					"name": "Azorius Functionary",
+					"source": "GGR"
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If the spell being countered is equal to or less than the level of the spell slot you use, the creature have disadvantage on the Consitution saving thow."
+					]
+				}
+			]
+		},
+		{
+			"name": "Feign Death",
+			"source": "CompendiumofAcadia",
+			"level": 3,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a pinch of graveyard dirt"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You touch a willing creature and put it into a cataleptic state that is indistinguishable from death.",
+				"For the duration, the target appears dead to outward inspection and to spells used to determine the target's status. The target has the {@condition Blinded|XPHB} and {@condition Incapacitated|XPHB} conditions, and its {@variantrule Speed|XPHB} is 0.",
+				"The target also has {@variantrule Resistance|XPHB} to all damage except Psychic damage, and it has {@variantrule Immunity|XPHB} to the {@condition Poisoned|XPHB} condition.",
+				"This spell effect cannot be detected or perceived by divination magic, including spells such as {@spell Detect Magic|XPHB}."
+			],
+			"damageResist": [
+				"acid",
+				"bludgeoning",
+				"cold",
+				"fire",
+				"force",
+				"lightning",
+				"necrotic",
+				"piercing",
+				"poison",
+				"radiant",
+				"slashing",
+				"thunder"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Bard",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "College of Lore",
+							"shortName": "Lore",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "The Undying",
+							"shortName": "Undying",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "The Undying",
+							"shortName": "Undying",
+							"source": "SCAG"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Hypnotic Pattern",
+			"source": "CompendiumofAcadia",
+			"level": 3,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a pinch of confetti"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create a twisting pattern of colors in a 30-foot Cube within range. The pattern appears for a moment and vanishes. Each creature in the area who can see the pattern must succeed on a Wisdom saving throw or have the {@condition Charmed|XPHB} condition for the duration. While {@condition Charmed|XPHB}, the creature has the {@condition Incapacitated|XPHB} condition and a {@variantrule Speed|XPHB} of 0.",
+				"At the end of each of its turns, an affected target can make a Wisdom saving throw. If it succeeds, this effect ends for that target. The spell ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor."
+			],
+			"conditionInflict": [
+				"incapacitated"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"areaTags": [
+				"C"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Artificer",
+							"source": "TCE"
+						},
+						"subclass": {
+							"name": "Armorer",
+							"shortName": "Armorer",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Bard",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "College of Lore",
+							"shortName": "Lore",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Moon Domain",
+							"shortName": "Moon",
+							"source": "TDCSR"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Trickery Domain",
+							"shortName": "Trickery",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Oath of Redemption",
+							"shortName": "Redemption",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Moon Domain",
+							"shortName": "Moon",
+							"source": "TDCSR"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Oath of Redemption",
+							"shortName": "Redemption",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Protection from Energy",
+			"source": "CompendiumofAcadia",
+			"level": 3,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"For the duration, the willing creature you touch has {@variantrule Resistance|XPHB} to one damage type of your choice: Acid, Cold, Fire, Lightning, or Thunder. It also have advantage on Saving Throws of effects that applies this damage type."
+			],
+			"damageResist": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"thunder"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Bard",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "College of Lore",
+							"shortName": "Lore",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Strength Domain (PSA)",
+							"shortName": "Strength (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Forge Domain",
+							"shortName": "Forge",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Oath of Glory",
+							"shortName": "Glory",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Oath of the Ancients",
+							"shortName": "Ancients",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Oath of Vengeance",
+							"shortName": "Vengeance",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Clockwork Sorcery",
+							"shortName": "Clockwork",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Strength Domain (PSA)",
+							"shortName": "Strength (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Forge Domain",
+							"shortName": "Forge",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Circle of the Land",
+							"shortName": "Land",
+							"source": "PHB",
+							"subSubclass": "Desert"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Oath of the Ancients",
+							"shortName": "Ancients",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Oath of Vengeance",
+							"shortName": "Vengeance",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Oath of Glory",
+							"shortName": "Glory",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Clockwork Soul",
+							"shortName": "Clockwork Soul",
+							"source": "TCE"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Human (Mark of Sentinel)",
+					"source": "ERLW",
+					"baseName": "Human",
+					"baseSource": "PHB"
+				}
+			]
+		},
+		{
+			"name": "Remove Curse",
+			"source": "CompendiumofAcadia",
+			"level": 3,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"At your touch, you try breaking the curses affecting one creature or object. If the object is a cursed magic item, its curse remains, but the spell breaks its owner's {@variantrule Attunement|XPHB} to the object, allowing it to be removed or discarded. ",
+				"For each ongoing curse on the target, make an ability check using your spellcasting ability. The DCs are defined like the following:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Spell-created curse",
+							"entries": [
+								"The DC is 10 + the spell's level. You automatically succeed if the DC is 13 or lower."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Magic item curse",
+							"entries": [
+								"The DC is based on the item's rarity:",
+								{
+									"type": "list",
+									"items": [
+										"Common or Uncommon: The curse is automatically broken.",
+										"Rare: DC 16",
+										"Very Rare: DC 18",
+										"Legendary: DC 19"
+									]
+								}
+							]
+						},
+						{
+							"type": "item",
+							"name": "Creature-created curse",
+							"entries": [
+								"The DC equals to 10 + half the creature's {@variantrule Challenge Rating|XPHB}, up to a maximum of 19. You automatically succeed if the CR of the creature is 6 or lower."
+							]
+						}
+					]
+				}
+			],
+			"miscTags": [
+				"OBJ"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "XPHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Bard",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "College of Lore",
+							"shortName": "Lore",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"You automatically break a curse on the target if the DC is equal to or less than 10 + the level of the spell slot you use."
+					]
+				}
+			]
+		},
+		{
+			"name": "Greater Restoration",
+			"source": "CompendiumofAcadia",
+			"level": 5,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "diamond dust worth 100+ GP, which the spell consumes",
+					"cost": 10000,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You touch a creature and magically remove one of the following effects from it:",
+				{
+					"type": "list",
+					"items": [
+						"1 {@condition Exhaustion|XPHB} level",
+						"The {@condition Charmed|XPHB} or {@condition Petrified|XPHB} condition",
+						"You cast {@spell Remove Curse|CompendiumofAcadia} at 5th level.",
+						"Any reduction to one of the target's ability scores",
+						"Any reduction to the target's {@variantrule Hit Points|XPHB|Hit Point} maximum"
+					]
+				}
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "XPHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Peace Domain",
+							"shortName": "Peace",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Clockwork Soul",
+							"shortName": "Clockwork Soul",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Runechild",
+							"shortName": "Runechild",
+							"source": "TDCSR"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "The Celestial",
+							"shortName": "Celestial",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Peace Domain",
+							"shortName": "Peace",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Life Domain",
+							"shortName": "Life",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Runechild",
+							"shortName": "Runechild",
+							"source": "TDCSR"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Clockwork Sorcery",
+							"shortName": "Clockwork",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Celestial Patron",
+							"shortName": "Celestial",
+							"source": "XPHB"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Halfling (Mark of Healing)",
+					"source": "ERLW",
+					"baseName": "Halfling",
+					"baseSource": "PHB"
+				}
+			],
+			"backgrounds": [
+				{
+					"name": "Witherbloom Student",
+					"source": "SCC"
+				}
+			]
+		},
+		{
+			"name": "Speak with Plants",
+			"source": "CompendiumofAcadia",
+			"level": 3,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"entries": [
+				"You imbue plants in an immobile 30-foot Emanation with limited sentience and animation, giving them the ability to communicate with you and follow your simple commands. You can ask up to five questions for the plants about events in the spell's area within the past day, gaining information about creatures that have passed, weather, and other circumstances.",
+				"You can also turn {@variantrule Difficult Terrain|XPHB} caused by plant growth (such as thickets and undergrowth) into ordinary terrain that lasts for the duration. Or you can turn ordinary terrain where plants are present into {@variantrule Difficult Terrain|XPHB} that lasts for the duration.",
+				"The spell doesn't enable plants to uproot themselves and move about, but they can move their branches, tendrils, and stalks for you.",
+				"If a Plant creature is in the area, you can communicate with it as if you shared a common language."
+			],
+			"affectsCreatureType": [
+				"plant"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Bard",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "College of Lore",
+							"shortName": "Lore",
+							"source": "XPHB"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Half-Orc (Variant; Mark of Finding)",
+					"source": "ERLW",
+					"baseName": "Half-Orc",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Human (Variant; Mark of Finding)",
+					"source": "ERLW",
+					"baseName": "Human",
+					"baseSource": "PHB"
+				}
+			],
+			"backgrounds": [
+				{
+					"name": "Selesnya Initiate",
+					"source": "GGR"
+				}
+			]
+		},
+		{
+			"name": "Spirit Guardians",
+			"source": "CompendiumofAcadia",
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "emanation",
+				"distance": {
+					"type": "feet",
+					"amount": 15
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a prayer scroll"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Protective spirits flit around you in a 15-foot Emanation for the duration. If you are good or neutral, their spectral form appears angelic or fey (your choice). If you are evil, they appear fiendish.",
+				"When you cast this spell, you can designate creatures to be unaffected by it. Any other creature's {@variantrule Speed|XPHB} is halved in the Emanation, and whenever the Emanation enters a creature's space and whenever a creature enters the Emanation or ends its turn there, the creature must make a Wisdom saving throw. On a failed save, the creature takes {@damage 3d8} Radiant damage (if you are good or neutral) or {@damage 3d8} Necrotic damage (if you are evil). On a successful save, the creature takes half as much damage. A creature makes this save only once per turn. The creature can make this save up to twice per round: once during your turn and once during its own turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"The damage increases by {@scaledamage 3d8|3-9|1d8} for each spell slot level above 3."
+					]
+				}
+			],
+			"damageInflict": [
+				"necrotic",
+				"radiant"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"areaTags": [
+				"S"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Bard",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "College of Lore",
+							"shortName": "Lore",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Community Domain",
+							"shortName": "Community",
+							"source": "HWCS"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "War Domain",
+							"shortName": "War",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Oath of the Crown",
+							"shortName": "Crown",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "War Domain",
+							"shortName": "War",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Community Domain",
+							"shortName": "Community",
+							"source": "HWCS"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Oath of the Crown",
+							"shortName": "Crown",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"backgrounds": [
+				{
+					"name": "Lorehold Student",
+					"source": "SCC"
+				},
+				{
+					"name": "Orzhov Representative",
+					"source": "GGR"
+				}
+			]
+		},
+		{
+			"name": "Conjure Woodland Beings",
+			"source": "CompendiumofAcadia",
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "emanation",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You conjure nature spirits that flit around you in a 10-foot Emanation for the duration. Whenever the Emanation enters the space of a creature you can see and whenever a creature you can see enters the Emanation or ends its turn there, you can force that creature to make a Wisdom saving throw. The creature takes {@damage 5d8} Force damage on a failed save or half as much damage on a successful one. A creature makes this save only once per turn. The creature can make this save up to twice per round: once during your turn and once during its own turn.",
+				"In addition, you can take the {@action Disengage|XPHB} action as a {@variantrule Bonus Action|XPHB} for the spell's duration."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"The damage increases by {@scaledamage 5d8|4-9|1d8} for each spell slot level above 4."
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"SGT",
+				"UBA"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "XPHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Yolande's Regal Presence",
+			"source": "CompendiumofAcadia",
+			"level": 5,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a miniature tiara"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You surround yourself with unearthly majesty in a 10-foot Emanation. Whenever the Emanation enters the space of a creature you can see and whenever a creature you can see enters the Emanation or ends its turn there, you can force that creature to make a Wisdom saving throw. On a failed save, the target takes {@damage 4d6} Psychic damage and has the {@condition Prone|XPHB} condition, and you can push it up to 10 feet away. On a successful save, the target takes half as much damage only. A creature makes this save only once per turn. The creature can make this save up to twice per round: once during your turn and once during its own turn."
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"FMV",
+				"SGT"
+			],
+			"areaTags": [
+				"S"
+			],
+			"hasFluffImages": true,
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Oath of Glory",
+							"shortName": "Glory",
+							"source": "XPHB"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Conjure Minor Elementals",
+			"source": "CompendiumofAcadia",
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "emanation",
+				"distance": {
+					"type": "feet",
+					"amount": 15
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You conjure spirits from the Elemental Planes that flit around you in a 15-foot Emanation for the duration. Until the spell ends, any attack you make deals an extra {@damage 2d8} damage when you hit a creature in the Emanation. This damage is Acid, Cold, Fire, or Lightning (your choice when you make the attack).",
+				"In addition, the ground in the Emanation is {@variantrule Difficult Terrain|XPHB} for your enemies."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"The damage increases by {@scaledamage 2d8|4-9|1d8} for each spell slot level above 4."
+					]
+				}
+			],
+			"damageInflict": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning"
+			],
+			"miscTags": [
+				"AAD",
+				"DFT"
+			],
+			"areaTags": [
+				"S"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "XPHB"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Half-Elf (Variant; Mark of Storm)",
+					"source": "ERLW",
+					"baseName": "Half-Elf",
+					"baseSource": "PHB"
+				}
+			],
+			"backgrounds": [
+				{
+					"name": "Izzet Engineer",
+					"source": "GGR"
+				},
+				{
+					"name": "Selesnya Initiate",
+					"source": "GGR"
+				}
+			]
+		},
+		{
+			"name": "Lesser Wish",
+			"source": "CompendiumofAcadia",
+			"level": 9,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You duplicate any other spell of level 8 or lower. If you use it this way, you don't need to meet any requirements to cast that spell, including costly components. The spell simply takes effect."
+			],
+			"damageResist": [
+				"acid",
+				"bludgeoning",
+				"cold",
+				"fire",
+				"force",
+				"lightning",
+				"necrotic",
+				"piercing",
+				"poison",
+				"psychic",
+				"radiant",
+				"slashing",
+				"thunder"
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"miscTags": [
+				"ADV",
+				"HL",
+				"SGT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcana Domain",
+							"shortName": "Arcana",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "The Genie",
+							"shortName": "Genie",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Arcana Domain",
+							"shortName": "Arcana",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "The Genie",
+							"shortName": "Genie",
+							"source": "TCE"
+						}
+					}
+				]
+			}
+		}
+	],
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"item": [
+		{
+			"name": "Item Teste Mágico",
+			"source": "CompendiumofAcadia",
+			"page": "-",
+			"rarity": "uncommon",
+			"reqAttune": "by a monk",
+			"weight": 20,
+			"value": 15000,
+			"reqAttuneTags": [
+				{
+					"class": "monk"
+				}
+			],
+			"wondrous": true,
+			"entries": [
+				"This finely detailed belt is made of dragonhide. While wearing it, you gain a +1 bonus to the saving throw DCs of your ki features. In addition, you can use an action to regain ki points equal to a roll of your Martial Arts die. You can't use this action again until the next dawn."
+			]
+		},
+		{
+			"name": "Item Teste Mundano",
+			"source": "CompendiumofAcadia",
+			"page": "-",
+			"freeRules2024": true,
+			"type": "G",
+			"rarity": "none",
+			"weight": 1,
+			"value": 5000,
+			"entries": [
+				"When you take the {@action Attack|XPHB} action, you can replace one of your attacks with throwing a flask of Alchemist's Fire. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and {@variantrule Proficiency|XPHB|Proficiency Bonus}) or take {@damage 1d4} Fire damage and start burning."
+			]
+		}
+	],
+	"variantrule": [
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Called Shots",
+			"ruleType": "C",
+			"entries": [
+				"Once per round, when you declare an {@action Attack|XPHB}, you can choose to make a Called Shot to impose specific effects on the target. The effect only applies if the targeted part qualifies under the following guidelines, subject to the DM's discretion.",
+				"If the effect requires a saving throw, the DC is determined by the attribute used for the attack roll.",
+				"If your Called Shot exceeds the target's AC by 5 or more, you may apply one of the following effects:",
+				{
+					"type": "entries",
+					"name": "Optional Rule. Martials Only!",
+					"entries": [
+						"By default, Called Shots are intended to be used only by players (or NPCs with notable martial prowess) whose majority of levels are in Martial Classes (classes that gain Weapon Mastery)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Targeting Body Parts.",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Movement Parts.",
+							"entries": [
+								"Parts responsible for movement. Until the end of the creatures next turn, the creature’s speed associated with the part hitten is reduced by 10 feet."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Weapon Parts",
+							"entries": [
+								"Parts used as weapons. The creature have {@variantrule Disadvantage|XPHB} on the next attack roll it makes before the end of its next turn."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Armor Parts",
+							"entries": [
+								"Parts used to protect the user. On a failed Constitution saving throw, the creature’s AC is reduced by an amount based on the part's contribution until the end of its next turn. This does not apply to body armor of any sorts, as it 'passively' protects the body."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Weak Point Parts",
+							"entries": [
+								"Parts that are some type of vulnerability. Your attack deals an additional 1d10 damage of the same type."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Special Ability Parts",
+							"entries": [
+								"Parts responsible for a Special Ability. On a failed Constitution saving throw, the creature is unable to use that ability until the end of its next turn. The DM determines whether the Special Ability is fully or partially disabled."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Utility Parts",
+							"entries": [
+								"Parts used for utility or miscellaneous tasks. On a failed Constitution saving throw the part becomes impaired until the end of the creature's next turn. It impedes the target part to be used to activate magic items, performing somatic components (if hand), verbal components (if a mouth or jaw), use held items as components of spells, and impede speech (if a mouth or jaw).",
+								"If appropriate, the DM might apply this effect as a bonus to other effect. Targeting a dragon's jaw to impede its breath weapon (under Special Ability Parts) might apply this effect and impede its speech as well."
+							]
+						}
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Examples of Targeted Body Parts",
+					"colLabels": [
+						"Part Type",
+						"Examples"
+					],
+					"colStyles": [
+						"col-4",
+						"col-8"
+					],
+					"rows": [
+						[
+							"Movement Parts",
+							"Wings (affects flying speed), Legs (affects walking speed)."
+						],
+						[
+							"Weapon Parts",
+							"Arm holding a sword, Arms, Claws, Mouth (for bite attacks)."
+						],
+						[
+							"Armor Parts",
+							"Arm holding a shield."
+						],
+						[
+							"Utility Parts",
+							"Hands, Jaw, Throat, Tentacle."
+						],
+						[
+							"Weak Point Parts",
+							"Existing injury, Soft spot in armor or carapace."
+						],
+						[
+							"Special Ability Parts",
+							"Jaw (disable Fire Breath for a Red Dragon), Eye stalk (disable Eye Ray for a Beholder), Throat (disable Wail for a Banshee), Face (disable Petrifying Gaze for a Medusa)."
+						]
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Targeting Equipment",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Worn, Carried and Held Items",
+							"entries": [
+								"You can target items being held, carried or worn by a creature. The object AC is the higher value between the item's AC and the creature's AC. Its HP is the higher value beetween half the creature's maximum HP or the items HP (see {@variantrule Breaking Objects|XPHB} for AC and HP of items). On a hit, you only deal damage to the item. If the item need to make a save, it doesn't automatically fail and use the creature's saving throw bonuses instead.",
+								"Magic items can only be damaged by items that have equal or stronger magic than itself. You can use the rarity as a guideline to determine the relative strength of a magic item.",
+								"Alternativaly, you can consider rarity to have a equivalency with spell levels. Like Common (1st level), Uncommon (3rd Level), Rare (6th Level), Very Rare (8th Level), and Legendary (9th Level)"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Ready Counterspell",
+			"ruleType": "C",
+			"entries": [
+				"You can use the {@action Ready|XPHB} action to prepare a counterspell. You do not need to know or have the ability to cast {@spell Counterspell|XPHB} to use this feature, but you need to have levels in a class that have the Spellcasting feature. When a creature you can see begins casting a spell, you may trigger your readied action to interrupt it.",
+				"This effect functions as the {@spell Counterspell|XPHB} spell, and you must fulfill all the normal costs of casting {@spell Counterspell|XPHB}, including expending a spell slot and performing any required components. If you are capable of casting {@spell Counterspell|XPHB} with your reaction but choose to use Ready Counterspell instead, the target makes its saving throw with disadvantage."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Non-Lethal Damage",
+			"ruleType": "C",
+			"entries": [
+				"When making an attack roll or dealing damage with an effect that requires a saving throw (such as a spell), you can choose to make it non-lethal. In this case, if the creature would die as a result of the damage, it instead falls unconscious and follows the rules for death saving throws ({@variantrule Death Saving Throw|XPHB}) rather than dying outright.",
+				{
+					"type": "entries",
+					"name": "Optional Rule: It's Hard to Spare Lives",
+					"entries": [
+						"When attempting a non-lethal attack or spell using this rule, your attack roll is made with disadvantage, and if the effect involves a saving throw, the target has advantage on its saving throw. This reflects the difficulty of subduing a target without dealing fatal damage and may make capturing enemies more challenging."
+					]
+				}
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Destroying Magical Barriers, and Similars",
+			"ruleType": "C",
+			"entries": [
+				"Magical barriers, force creatures, and similar effects, such as Leomund's Tiny Hut, Tiny Servant, Arcane Gate, Wall of Force, Mordenkainen's Faithful Hound, and Arcane Eye, can be destroyed using magical weapons.",
+				"<b>HP and AC:</b> These effects have hit points equal to 30 times the spell level of their creation and an AC of 20. They are immune to Poison and Psychic damage, and fails all saving throws.",
+				"<b>Destruction:</b> Only magic weapons can damage them, with the required rarity depending on the spell level: Common (1st-level), Uncommon (3rd-level), Rare (6th-level), Very Rare (8th-level), and Legendary (9th-level).",
+				"<b>DM Discretion:</b> The DM may rule that some effects are more resistant or immune to specific magical effects or items."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Coup de Grace",
+			"ruleType": "C",
+			"entries": [
+				"You can use your action to attempt to execute a {@condition Incapacitated|XPHB} or {@condition Paralyzed|XPHB} creature. Make an attack roll that automatically hits. Roll 1d4 to determine the outcome:",
+				{
+					"type": "list",
+					"items": [
+						"On a roll of 1–3, the creature dies instantly.",
+						"On a roll of 4, the creature takes the normal damage from the attack instead of dying."
+					]
+				},
+				"If the target is a player character or an important NPC, it only instantly dies on a roll of 1. Otherwise, it takes the normal damage from the attack.",
+				{
+					"type": "entries",
+					"name": "Optional Rule: Cinematic Only!",
+					"entries": [
+						"The Coup de Grace can only be used in scenes outside of combat."
+					]
+				}
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Aimed Strike",
+			"ruleType": "C",
+			"entries": [
+				"As an Action, you focus your next attack, taking time to aim. Your next attack roll until the end of your next turn have Advantage. After using Aimed Strike, your speed becomes 0 until the end of your next turn or until you make the attack."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Death's Door",
+			"ruleType": "C",
+			"entries": [
+				"When reduced to 0 hit points, a character can choose to enter 'Death's Door' instead of falling unconscious, remaining conscious but at risk of death.",
+				"While at Death's Door, taking damage causes one failed death saving throw, or two on a critical hit. A creature with three failed death saving throws dies.",
+				"Stabilizing a character at Death's Door only grants two successful death saving throws instead of actually stabilizing. Three successes restore the character to 1 HP and end Death's Door.",
+				"At the end of each turn, a character in Death's Door gains one level of exhaustion. They may choose to fall unconscious at this moment, ending Death's Door and following the usual rules for being at 0 hit points."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Acadian Magic Rebalancing",
+			"ruleType": "C",
+			"entries": [
+				"This is a group of changes, rebalancing and bans on spells for Acadia",
+				"This presumes the use of {@variantrule Alternate Spell Casting|CompendiumofAcadia}.",
+				"If a spell with the same name exists in more than one book, the PHB 2024 takes priority, if they are in different books the DM decides wich takes priority.",
+				"Spells  from Books Accepted: Player Hand Book 2024, Acquisitions Incorporated, Astral Adventurer's Guide, Fizban's Treasury of Dragons, Guildmasters' Guide to Ravnica, Icewind Dale: Rime of the Frostmaiden, Sigil and the Outlands, Strixhaven: A Curriculum of Chaos, Tasha's Couldron of Everything, The Book of Many Things, Xanathar's Guide to Everything, Dungeons of Drakkenheim, Tal’Dorei Campaign Setting Reborn, Humblewood Campaign Setting, Grim Hollow: Lairs of Etharis, Explorer’s Guide to Wildemount, Lost Laboratory of Kwalish, The Gunpowder Codex e Firearms of the Realms.",
+				"NPC controlled by you having a magic item count against the number of magic items you can have active.",
+				{
+					"type": "section",
+					"name": "XPHB (Player's Handbook)",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"Spell",
+								"Change Type",
+								"Description"
+							],
+							"rows": [
+								[
+									"Banishment ({@spell Banishment|XPHB} → {@spell Banishment|CompendiumofAcadia})",
+									"Nerfed",
+									"Takes two turns to take effect; non-native creatures now have disadvantage."
+								],
+								[
+									"Blade Ward ({@spell Blade Ward|XPHB} → {@spell Blade Ward|CompendiumofAcadia})",
+									"Reworked",
+									"Grants +2 AC instead of +1d4 AC against attacks."
+								],
+								[
+									"Conjure Minor Elementals ({@spell Conjure Minor Elementals|XPHB} → {@spell Conjure Minor Elementals|CompendiumofAcadia})",
+									"Nerfed",
+									"Nerfed the scaling to 1d8 instead of 2d8."
+								],
+								[
+									"Counterspell ({@spell Counterspell|XPHB} → {@spell Counterspell|CompendiumofAcadia})",
+									"Buffed",
+									"Now has upcasting and is better at handling spells of the same level."
+								],
+								[
+									"Enthrall ({@spell Enthrall|XPHB} → {@spell Enthrall|CompendiumofAcadia})",
+									"Buffed",
+									"It's now a 1st-level spell."
+								],
+								[
+									"Feign Death ({@spell Feign Death|XPHB} → {@spell Feign Death|CompendiumofAcadia})",
+									"Buffed",
+									"Made it a little better against detection."
+								],
+								[
+									"Find Traps ({@spell Find Traps|XPHB} → {@spell Find Traps|CompendiumofAcadia})",
+									"Buffed",
+									"It's now useful."
+								],
+								[
+									"Greater Restoration ({@spell Greater Restoration|XPHB} → {@spell Greater Restoration|CompendiumofAcadia})",
+									"Nerfed",
+									"Made it harder to get rid of curses."
+								],
+								[
+									"Heat Metal ({@spell Heat Metal|XPHB} → {@spell Heat Metal|CompendiumofAcadia})",
+									"Nerfed",
+									"Added a new situation where the spell can end."
+								],
+								[
+									"Hypnotic Pattern ({@spell Hypnotic Pattern|XPHB} → {@spell Hypnotic Pattern|CompendiumofAcadia})",
+									"Nerfed",
+									"At the end of each turn, the creature remakes the check."
+								],
+								[
+									"Phantasmal Force ({@spell Phantasmal Force|XPHB} → {@spell Phantasmal Force|CompendiumofAcadia})",
+									"Buffed",
+									"Can now be upcasted for more damage."
+								],
+								[
+									"Protection from Energy ({@spell Protection from Energy|XPHB} → {@spell Protection from Energy|CompendiumofAcadia})",
+									"Buffed",
+									"Advantage against effects that deal that damage."
+								],
+								[
+									"Remove Curse ({@spell Remove Curse|XPHB} → {@spell Remove Curse|CompendiumofAcadia})",
+									"Reworked",
+									"Made it harder to get rid of curses."
+								],
+								[
+									"Resistance ({@spell Resistance|XPHB} → {@spell Resistance|CompendiumofAcadia})",
+									"Buffed",
+									"Casting time improved from Action to Bonus action."
+								],
+								[
+									"Speak with Plants ({@spell Speak with Plants|XPHB} → {@spell Speak with Plants|CompendiumofAcadia})",
+									"Nerfed",
+									"Limited the amount of questions you can ask."
+								],
+								[
+									"Spirit Guardians ({@spell Spirit Guardians|XPHB} → {@spell Spirit Guardians|CompendiumofAcadia})",
+									"Nerfed",
+									"Limited the saves to twice per round."
+								],
+								[
+									"Zone of Truth ({@spell Zone of Truth|XPHB} → {@spell Zone of Truth|CompendiumofAcadia})",
+									"Nerfed",
+									"Added a new situation where the spell can end."
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "GHLoE (Grim Hollow: Lairs of Etharis)",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"Spell",
+								"Change Type",
+								"Description"
+							],
+							"rows": [
+								[
+									"Consume Mind ({@spell Consume Mind|GHLoE} → {@spell Consume Mind|CompendiumofAcadia})",
+									"Nerfed",
+									"Made it more akin to other spells that recall information."
+								],
+								[
+									"Magic Mirror ({@spell Magic Mirror|GHLoE} → {@spell Magic Mirror|CompendiumofAcadia})",
+									"Nerfed",
+									"Made it a 6th-level spell."
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "TCE (Tasha's Cauldron of Everything)",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"Spell",
+								"Change Type",
+								"Description"
+							],
+							"rows": [
+								[
+									"Blade of Disaster ({@spell Blade of Disaster|TCE} → {@spell Blade of Disaster|CompendiumofAcadia})",
+									"Buffed",
+									"Damage of each hit increased by 1d12."
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "EGW (Explorer’s Guide to Wildemount)",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"Spell",
+								"Change Type",
+								"Description"
+							],
+							"rows": [
+								[
+									"Wristpocket ({@spell Wristpocket|EGW} → {@spell Wristpocket|CompendiumofAcadia})",
+									"Buffed",
+									"No concentration, 8-hour duration."
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "DoDk (Dungeons of Drakkenheim)",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"Spell",
+								"Change Type",
+								"Description"
+							],
+							"rows": [
+								[
+									"Octarine Spray ({@spell Octarine Spray|DoDk} → {@spell Octarine Spray|CompendiumofAcadia})",
+									"Nerfed",
+									"Special cannot stack an infinite amount of times anymore."
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "GGR (Guildmasters' Guide to Ravnica)",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"Spell",
+								"Change Type",
+								"Description"
+							],
+							"rows": [
+								[
+									"Encode Thoughts ({@spell Encode Thoughts|GGR} → {@spell Encode Thoughts|CompendiumofAcadia})",
+									"Reworked",
+									"Clarified how the memory is pulled."
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "GPCodex (The Gunpowder Codex)",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"Spell",
+								"Change Type",
+								"Description"
+							],
+							"rows": [
+								[
+									"Carven Rifle ({@spell Carven Rifle|GPCodex} → {@spell Carven Rifle|CompendiumofAcadia})",
+									"Nerfed",
+									"Damage decreased."
+								],
+								[
+									"Sequoia Six-Shooter ({@spell Sequoia Six-Shooter|GPCodex} → {@spell Sequoia Six-Shooter|CompendiumofAcadia})",
+									"Nerfed",
+									"Damage decreased."
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Banned Spells",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"Spell",
+								"Reason"
+							],
+							"rows": [
+								[
+									"Clone ({@spell Clone|XPHB}), Simulacrum ({@spell Simulacrum|XPHB})",
+									"Banned: Their effects will be accommodated by items."
+								],
+								[
+									"Enemies Abound ({@spell Enemies Abound|XGE})",
+									"Banned: Spell is kind of a slog."
+								],
+								[
+									"Gust Barrier ({@spell Gust Barrier|HWCS})",
+									"Banned: Too strong for a cantrip."
+								],
+								[
+									"Invoke the Amaranthine ({@spell Invoke the Amaranthine|HWCS})",
+									"Banned: Undermines Divination Wizard."
+								],
+								[
+									"Revivify ({@spell Revivify|XPHB}), Raise Dead ({@spell Raise Dead|XPHB}), Reincarnate ({@spell Reincarnate|XPHB}), Resurrection ({@spell Resurrection|XPHB}), True Resurrection ({@spell True Resurrection|XPHB})",
+									"Banned: Resurrection is hard in Acadia; their effects will be accommodated by items."
+								],
+								[
+									"Suffocate ({@spell Suffocate|GHLoE})",
+									"Banned: Too exploitable."
+								],
+								[
+									"Wish ({@spell Wish|XPHB})",
+									"Banned: Added Lesser Wish ({@spell Lesser Wish|CompendiumofAcadia}); the Wish effect will be limited to items."
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Additional Notes",
+					"entries": [
+						"Mechanics Added or Changed:",
+						{
+							"type": "table",
+							"colLabels": [
+								"Symbol",
+								"Meaning"
+							],
+							"rows": [
+								[
+									"I",
+									"Inefficiency compensation. This cost must be paid to offset the spell's inefficiency. Alternatively, you can upcast the spell by 1 level to bypass this cost."
+								],
+								[
+									"R",
+									"The spell works only if cast within the plane it was created. If used elsewhere, this restriction does not apply, and the additional cost is waived."
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Hyper-Class: Acadian",
+			"ruleType": "C",
+			"entries": [
+				"The Acadian Hyper-Class is a special subclass granted by the DM on top of a character's normal class. These Hyper-Classes are intentionally powerful and designed for campaigns in the complex manyverse of Acadia.",
+				"You also have access to {@variantrule Pathfinder Mana System|CompendiumofAcadia}.",
+				"As part of this Hyper-Class, players create custom abilities in collaboration with their DM, which follow a progression of power similar to a wizard subclass. These abilities are unlocked at levels 3, 6, 10, and 14. Additionally, this Hyper-Class grants access to unique planar abilities, including the capacity to use {@spell Pathfinding|CompendiumofAcadia}.",
+				{
+					"name": "Level 1: Pathfinder",
+					"type": "section",
+					"entries": [
+						"Starting at 1st level, you gain the ability to cast the spell {@spell Pathfinding|CompendiumofAcadia} without a spell slot, and you always have it prepared. You can do so a number of times equal to your proficiency bonus.",
+						"These uses are replenished after completing a Long Rest, during which you must spend at least 1 hour in a process called Syphoning.",
+						{
+							"name": "Syphoning",
+							"type": "entries",
+							"entries": [
+								"During Syphoning, you attune to the ambient flow of mana around you, entering a trance-like state. In this state, you experience vivid hallucinations of objects, creatures, and places that can be entirely imaginary or drawn from any time, place, or reality.",
+								"These visions might originate from your imagination, other worlds, alternate dimensions, or distant timelines.",
+								"This process strengthens your connection to planar energies, recharging your uses of your Pathfinder feature."
+							]
+						}
+					]
+				},
+				{
+					"name": "Level 3: Acadian Latent Power",
+					"type": "section",
+					"entries": [
+						"At 3rd level, you awaken your first Acadian Latent Power, a unique ability tailored to your character's narrative and thematic elements. These powers are developed collaboratively with your DM and should align with the power level of a wizard subclass feature of the same level.",
+						"You gain additional Acadian Latent Powers at 6th, 10th, and 14th levels. Each power must use Mana as a fuel source. If the ability is passive, it must also include an optional feature or enhancement that consumes Mana to activate or function at a greater scale."
+					]
+				},
+				{
+					"name": "Example of Acadian latent Powers:",
+					"type": "section",
+					"entries": [
+						{
+							"name": "Level 3: Forge Holy Weapon",
+							"type": "entries",
+							"entries": [
+								"You can summon a sacred weapon associated with your deity. By using a Magic action, you conjure a melee martial weapon into existence. The weapon's damage die becomes {@damage 1d10} and it deals radiant damage instead of its usual type.",
+								"If the weapon is versatile or two-handed, it deals {@damage 1d12} damage when wielded with two hands.",
+								"After hitting a creature with this weapon, you can expend 1 {@variantrule ⚪ White Mana|CompendiumofAcadia} to deal an additional {@damage 2d8} radiant damage."
+							]
+						},
+						{
+							"name": "Level 3: Reality Ripple",
+							"type": "entries",
+							"entries": [
+								"You can momentarily shift through space, allowing you to teleport up to 15 feet to an unoccupied space you can see. This requires a bonus action and can be used a number of times equal to your proficiency bonus.",
+								"All expended uses are restored when you finish a Long Rest.",
+								"If you have no remaining uses, you can spend 1 {@variantrule 🔵 Blue Mana|CompendiumofAcadia} to regain a number of uses equal to half your proficiency bonus."
+							]
+						},
+						{
+							"name": "Level 3: Bad Omen",
+							"type": "entries",
+							"entries": [
+								"You gain the Lucky feat, allowing you to reroll attack rolls, saving throws, or ability checks under certain conditions.",
+								"At the start of your turn, you can spend 1 {@variantrule ⚫ Black Mana|CompendiumofAcadia} to extend your luck to others for 1 minute.",
+								"During this time, you can use your Lucky rerolls on attack rolls, saving throws, or ability checks made by any creature you can see within 30 feet."
+							]
+						},
+						{
+							"name": "Level 3: Dark Blood",
+							"type": "entries",
+							"entries": [
+								"When you roll initiative, you gain 5 temporary hit points as your vitality surges.",
+								"By expending 1 Red Mana, you can enhance this effect, gaining 15 temporary hit points instead.",
+								"Additionally, you can use a Magic action to spend 1 {@variantrule 🔴 Red Mana|CompendiumofAcadia} and gain 10 temporary hit points at any time during combat."
+							]
+						},
+						{
+							"name": "Level 3: Fury of the Forest Protector",
+							"type": "entries",
+							"entries": [
+								"You can channel the raw strength of nature to empower your melee strikes. As a bonus action, you can change the mastery of your melee weapon to 'Push' for 1 minute. If you do not normally have access to weapon masteries, this feature grants you temporary access to the 'Push' mastery for the weapon you are wielding during its duration.",
+								"Additionally, you can spend 1 {@variantrule 🟢 Green Mana|CompendiumofAcadia} when you activate this ability to deal extra damage if a creature is pushed into a wall or similar structure. For every 5 feet the creature is unable to move due to the obstruction, it takes 1d6 bludgeoning damage. At the DM's discretion, the wall or structure may also take the same amount of damage."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Optional: Unshaped Class",
+			"ruleType": "C",
+			"entries": [
+				"You start at level 0 as an Unshaped character, a flexible state before choosing a class. Use the following guidelines to create your Unshaped character:",
+				{
+					"type": "entries",
+					"name": "Unshaped Core Traits",
+					"entries": [
+						"Primary Ability: None",
+						"Hit Points: 6 + your Constitution modifier",
+						"Weapon Proficiencies: Simple weapons",
+						"Proficiency Bonus: +2",
+						"Starting Attributes: 14, 14, 12, 12, 10, 8",
+						"Starting Equipment: One or two simple weapons of your choice, an Explorer's Pack, common clothes, one common or uncommon magic item, and 5 GP."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creating Your Character",
+					"entries": [
+						"1. Choose a Race: Select a race as per standard character creation rules.",
+						"2. Choose a Background: Pick a background for your character to determine skills, tools, and features."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Unshaped Luck",
+					"entries": [
+						"You have a unique ability that reflects the fluid nature of an Unshaped character. When you roll a d20 for a D20 Test, you can grant yourself Advantage on the roll. Alternatively, when a creature rolls a d20 for an attack roll against you, you can impose Disadvantage on that roll.",
+						"You can use this feature twice. You regain all expended uses when you finish a Short or Long Rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Gaining a Class Level",
+					"entries": [
+						"When an Unshaped character advances to 1st level, they must choose a class. This transition represents their training and specialization into a specific role within the adventuring group. Follow these steps:",
+						"1. You can choose to replace your 'Unshaped Luck' feature for an Ability Score Improvement feat or another feat of your choice for which you qualify.",
+						"2. Gain all 1st-level features of the chosen class, except starting equipment. Adjust proficiencies, saving throws, and other abilities as per the class rules.",
+						"3. Replace your current hit points with the hit points granted at 1st level by the chosen class."
+					]
+				}
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Misc. Reactions",
+			"ruleType": "C",
+			"entries": [
+				"This section introduces a set of extra reactions a creature can take. These reactions can be used at the start or end of an action on another creature's turn. They include:",
+				{
+					"type": "list",
+					"items": [
+						"<b>Close Eyes:</b> Use a reaction to close your eyes until the end of your next turn. This is meant for avoiding effects like a Medusa's Petrifying Gaze.",
+						"<b>Focus Attention:</b> Use a reaction to ignore a number of creatures of your choice until the end of your next turn. You are considered blinded to them but ignore them for effects that take advantage of your distraction with more than one creature, like Sneak Attack or Flanking.",
+						"<b>Say Key Word:</b> Use a reaction to say a key word that activates a specific effect. For example, this could trigger a {@spell Contingency} spell or a magic item that requires a verbal activation."
+					]
+				}
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Wheel of Destiny",
+			"ruleType": "C",
+			"entries": [
+				"Some heroes rise and fall, but the Wheel of Destiny keeps spinning, weaving tales yet untold. Fear not! There is always a hero for the stories to find their voice!",
+				"The Wheel of Destiny is a mystical game of fate, played by beings of immense power to guide stories and influence the tides of destiny. In essence, it is a deck of cards, The Deck of Destiny, that channels the will of fate for those it deems worthy.",
+				"At the start of each session, players draw a card from the Deck of Destiny. At the end of the session, all cards are returned to the deck, and it is shuffled for the next cycle.",
+				{
+					"type": "entries",
+					"name": "Deck of Destiny Composition",
+					"entries": [
+						"To use this mechanic, you’ll need a deck of playing cards. Assemble the deck as follows:",
+						"- 7 cards from each suit (Hearts, Diamonds, Clubs, Spades): 8, 9, 10, J (Jack), Q (Queen), K (King), and Aces.",
+						"- Add 2 Jokers.",
+						"This creates a custom 30-card deck for the Wheel of Destiny. Shuffle the deck after arranging it."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Card Values",
+					"colLabels": [
+						"Card",
+						"Value"
+					],
+					"rows": [
+						[
+							"8, 9, 10",
+							"Face value (8, 9, 10)"
+						],
+						[
+							"J (Jack)",
+							"11"
+						],
+						[
+							"Q (Queen)",
+							"12"
+						],
+						[
+							"K (King)",
+							"13"
+						],
+						[
+							"Aces (Ace)",
+							"20 (Special mechanics apply)"
+						],
+						[
+							"Jokers",
+							"0"
+						]
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Activation Rules",
+					"entries": [
+						"Destiny Cards can be activated at any time. The player, not the character, activates the card. This means cards can still be used even if the character is unconscious or dead. If the GM allow, it can even be used in scenes where the player character is not present.",
+						"Instead of using the suit's effect, players may choose an effect from the 'Essential Use' list.",
+						"After activation, the card is placed in the discard pile. Once all cards have been used, a {@variantrule Wheel Of Destiny Spin|CompendiumofAcadia} occurs, and the deck is restored."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Effects",
+					"colLabels": [
+						"Mana Type",
+						"Effect"
+					],
+					"rows": [
+						[
+							"♥ Hearts",
+							"Heal twice the card’s value; or<br>Make a weapon attack (Aces grant an additional action instead of an attack); or<br>Gain temporary {@variantrule 🔴 Red Mana|CompendiumofAcadia} equal to half your level, expiring after a Long Rest."
+						],
+						[
+							"♦ Diamonds",
+							"Add the card’s value as a bonus to any d20 Test; or<br>Recover a spell slot up to 4th level (Aces recover a spell slot of any level); or<br> Gain temporary {@variantrule ⚪ White Mana|CompendiumofAcadia} equal to half your level, expiring after a Long Rest."
+						],
+						[
+							"♣ Clubs",
+							"Give disadvantage to a d20 Test made by a creature you can see (Aces make the creature roll an additional d20 and take the lowest result); or<br>After a creature takes damage, add damage equal to the card's value of the same type; or<br>Gain temporary {@variantrule ⚫ Black Mana|CompendiumofAcadia} equal to half your level, expiring after a Long Rest."
+						],
+						[
+							"♠ Spades",
+							"Increase your AC by the card's value until the end of this turn; or<br>Gain temporary {@variantrule 🟢 Green Mana|CompendiumofAcadia} equal to half your level, expiring after a Long Rest."
+						],
+						[
+							"🃏 Jokers",
+							"After knowing the result of a d20 Test, make it fail; or<br>Choose a specific result for a Luck Roll; or<br>Gain 1 temporary {@variantrule 🟣 Purple Mana|CompendiumofAcadia}, lasting until the end of this turn."
+						],
+						[
+							"⚙️ Essential Use",
+							"Replace a d20 Test made by you with the card’s value (declare before rolling); or<br>Gain a {@variantrule Heroic Inspiration|XPHB}; or<br>Gain temporary {@variantrule 🔵 Blue Mana|CompendiumofAcadia} equal to half your level, expiring after a Long Rest."
+						]
+					]
+				}
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Wheel Of Destiny Spin",
+			"ruleType": "C",
+			"entries": [
+				"O JOGO! 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️"
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "🟣 Purple Mana",
+			"ruleType": "C",
+			"entries": [
+				"O JOGO! 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️"
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Additional Conditions",
+			"ruleType": "C",
+			"entries": [
+				"This introduces new conditions:",
+				{
+					"type": "list",
+					"items": [
+						"{@condition Ablaze|CompendiumofAcadia}",
+						"{@condition Steeled|CompendiumofAcadia}",
+						"{@condition Confused|CompendiumofAcadia}",
+						"{@condition Covered|CompendiumofAcadia}"
+					]
+				}
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Alternative Magic Item Use",
+			"ruleType": "C",
+			"entries": [
+				"Instead of attunement slots, every character can have up to 6 non-consumable magic items activated for use at any time.",
+				"To change which items are activated, you must spend an action to rearrange the magic items you are wearing or carrying. Only activated items can be used or provide their benefits.",
+				"If a class feature or ability grants additional attunement slots, it instead increases your number of items that can be active. For example, an Artificer feature that grants an additional attunement slot (4 instead of 3) allows you to activate up to 7 magic items instead of 6."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Rush of Power",
+			"ruleType": "C",
+			"entries": [
+				"You can push yourself beyond your natural limits through a surge of adrenaline or arcane power, but this comes at a significant cost to your body and mind.",
+				{
+					"type": "list",
+					"items": [
+						"<b>Adrenaline Rush</b>. When you fail an ability check, attack roll, or saving throw, you can reroll the attempt. You can use this feature a number of times equal to your proficiency bonus per Long Rest.",
+						"<b>Arcane Rush</b>. As a spellcaster, you can regain a spell slot, with the spell slot level limited by your proficiency bonus. You can use this feature once per Long Rest."
+					]
+				},
+				"At the end of 1 minute, lethargy sets in. You gain levels of Exhaustion equal to the level of the spell slot regained through Arcane Rush, plus the total number of times you have used Adrenaline Rush.",
+				"You cannot use either feature if you have any level of Exhaustion. Additionally, the total Exhaustion levels you can accumulate from these features cannot exceed your proficiency bonus. If you reach this limit, you can no longer use these features until you finish a Long Rest."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Pathfinder Mana System",
+			"ruleType": "C",
+			"entries": [
+				"The Pathfinder Mana System governs the use and recovery of mana in the multiverse. Creatures capable of accessing mana can store an amount of mana equal to their level. Each round, they can spend an amount of mana equal to their proficiency modifier.",
+				{
+					"type": "section",
+					"name": "Mana Types",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "{@variantrule 🟢 Green Mana|CompendiumofAcadia}",
+							"entries": [
+								"Green Mana is tied to elements, nature, growth, and the cycles of creation. It embodies vitality and the primal connection to the world.",
+								"Green Mana views reality as a product of the primordial forces that govern existence, each acting according to its inherent nature. These forces encompass balance, growth, and the unyielding will of nature.",
+								{
+									"type": "list",
+									"name": "Core Themes",
+									"items": [
+										"Nature and intuition",
+										"Spirits, animals, and trees",
+										"Alchemy and natural processes",
+										"Manipulation of fire, water, air, earth, electricity, sound, and metals"
+									]
+								},
+								"Green Mana's manifestations are primarily elemental, invoking the divine forces of nature. These manifestations reflect a belief in a reality shaped by the interplay of greater natural forces.",
+								{
+									"type": "list",
+									"name": "Associated Features",
+									"items": [
+										"Spells from the Primordial spell list 🌿",
+										"Evocation school spells ✨",
+										{
+											"type": "list",
+											"name": "Elemental Damage Associations",
+											"items": [
+												"Fire: Fire damage 🔥",
+												"Air: Electric damage ⚡",
+												"Earth: Acid damage 🧪",
+												"Water: Cold damage ❄️"
+											]
+										},
+										"Interactions with spirits and nature-based entities",
+										"Healing and medicinal applications",
+										"Use of poisons and acids"
+									]
+								},
+								"Green Mana oppresses {@variantrule ⚫ Black Mana|CompendiumofAcadia}, representing its ability to foster growth and vitality against entropy and decay. It is, however, oppressed by {@variantrule ⚪ White Mana|CompendiumofAcadia}, as order and rationality can constrain its primal and untamed nature."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "{@variantrule 🔵 Blue Mana|CompendiumofAcadia}",
+							"entries": [
+								"Blue Mana represents self-reference, essential forms, paradoxes, and the manipulation of magical instructions. It is deeply tied to the recognition of patterns and a Gnostic understanding of reality.",
+								"Blue Mana views reality through a syncretic lens, perceiving all things as fundamentally the same in essence. Differences are seen as interpretations or distortions of a common form, emphasizing unity and interconnectedness.",
+								{
+									"type": "list",
+									"name": "Core Themes",
+									"items": [
+										"Self-reference and essential forms",
+										"Recognition of patterns and paradoxes",
+										"Countermagic and spell manipulation",
+										"Gnosticism and syncretism",
+										"Arcane perception of reality's underlying structures",
+										"Unbiased magical instructions as the foundation of all spells"
+									]
+								},
+								"The primary manifestation of Blue Mana is through essential patterns. These patterns reveal the underlying structures of all things, acting as a self-referential force that unveils the arcane truths of existence.",
+								"Blue Mana is also fundamentally tied to the creation and manipulation of magical instructions. Every spell uses Blue Mana as the instructional core that defines its function, making it the purest form of unbiased magic. This neutral essence can be shaped or biased by other mana types, channeling their specific properties.",
+								{
+									"type": "list",
+									"name": "Associated Features",
+									"items": [
+										"Countermagic spells ✨",
+										"Force damage",
+										"Spells that alter or disrupt patterns",
+										"Abilities that manipulate time, flow, or causality",
+										"Understanding and revealing hidden truths",
+										"Perception and reconfiguration of magical forms",
+										"Force damage as a manifestation of pure magical energy"
+									]
+								},
+								"Blue Mana is neutral and does not participate in the oppression cycle. It often serves as a stabilizer or mediator, ensuring balance among the other mana types."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "{@variantrule ⚫ Black Mana|CompendiumofAcadia}",
+							"entries": [
+								"Black Mana is associated with entropy, death, time, and the inexorable decay of all things. It embodies the inevitability of the void and the silent, inert end of existence.",
+								"Black Mana views reality as a process destined for constant entropy and eventual cessation. It thrives on the cycles of life and death, wielding power over decay, anti-life, causality, unrealized potential, and the manipulation of chaos and gravity.",
+								{
+									"type": "list",
+									"name": "Core Themes",
+									"items": [
+										"Forces of time, space, and entropy",
+										"Decay, necromancy, and anti-life",
+										"Causality and unrealized potential",
+										"Darkness, inertia, and immobility",
+										"Cycles of life and death",
+										"Graviturgy (manipulation of gravity)",
+										"Chaos as a fundamental force"
+									]
+								},
+								"The primary manifestation of Black Mana is through the forces of movement. These are profane powers that manipulate the fundamental forces governing time, space, gravity, and decay. This perspective sees reality as an inevitable march toward entropy and the void.",
+								"While Black Mana is often associated with evil, its nature is more apathetic than malevolent. Its historical association with taboo practices—such as manipulating life and death—has led to its stigmatization and misuse for dark purposes. This misunderstanding has fueled its reputation for villainy, but Black Mana is, at its core, a neutral force of inevitability.",
+								{
+									"type": "list",
+									"name": "Associated Features",
+									"items": [
+										"Spells from the Necromancy school ✨",
+										"Chronomancy and time manipulation",
+										"Graviturgy and gravity-based effects",
+										"Effects that drain or transfer life energy",
+										"Spells tied to darkness and immobilization",
+										"Manipulation of decay, destruction, and chaos"
+									]
+								},
+								"Black Mana is oppressive toward {@variantrule 🔴 Red Mana|CompendiumofAcadia}, consuming its passion and vitality with inevitable decay. It is, however, oppressed by {@variantrule 🟢 Green Mana|CompendiumofAcadia}, which counters its entropy with growth and renewal."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "{@variantrule ⚪ White Mana|CompendiumofAcadia}",
+							"entries": [
+								"White Mana is rooted in order, rationality, and mental discipline. It governs laws, knowledge, oaths, and the power of the mind to shape reality through structure and rules.",
+								"White Mana views reality as a construct of the mind, where the act of observing, naming, and defining creates a framework for existence. It thrives on the enforcement of structure through contracts, laws, and mental discipline.",
+								{
+									"type": "list",
+									"name": "Core Themes",
+									"items": [
+										"Order, rationality, and mental discipline",
+										"Contracts, laws, and oaths (including devil’s contracts)",
+										"Spells and powers tied to genies and wishes",
+										"Reality as a mental construct shaped by observation and rules",
+										"Transcendence through discipline and structure"
+									]
+								},
+								"The primary manifestation of White Mana is through psychic forces and conceptual powers that impose order on the chaotic. These include the power to create and enforce agreements, from divine pacts to devil's contracts, as well as granting powers through oaths and the granting or fulfillment of wishes, such as those from genies.",
+								{
+									"type": "list",
+									"name": "Associated Features",
+									"items": [
+										"Spells from the Divine spell list 🙏",
+										"Enchantment spells ✨",
+										"Abilities tied to contracts, laws, and oaths",
+										"Spells that enforce agreements or compel actions",
+										"Powers that stem from oaths, such as genie-granted wishes",
+										"Contracts with supernatural entities, including devils"
+									]
+								},
+								"White Mana oppresses {@variantrule 🟢 Green Mana|CompendiumofAcadia} by overriding natural chaos and primal growth with mental constructs and rationality. It is, however, oppressed by {@variantrule 🔴 Red Mana|CompendiumofAcadia}, which counters its rigidity and structure with raw emotion and passion."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "{@variantrule 🔴 Red Mana|CompendiumofAcadia}",
+							"entries": [
+								"Red Mana reflects passion, emotion, and willpower. It fuels the raw, unfiltered power of creativity, destruction, and the manifestation of one's inner strength.",
+								"Red Mana views reality as a canvas for emotion and will, where desires and passions are the forces that shape the world. It thrives on chaos, change, and the direct realization of personal goals.",
+								{
+									"type": "list",
+									"name": "Core Themes",
+									"items": [
+										"Emotion, passion, and raw willpower",
+										"Musculature and regeneration",
+										"Biological and blood manipulation",
+										"Manifestation of emotions in physical form (e.g., demons)",
+										"Chaos, unrestrained creativity, and transmutation",
+										"Grounding in physical reality and its malleability"
+									]
+								},
+								"The primary manifestation of Red Mana is through Martial Arts ⚔️, a discipline that channels the user's willpower into superhuman feats. These arts combine refined technique with an individual's raw determination to turn their objectives into reality. Though not inherently magical, Martial Arts harness the power within the practitioner, making the impossible achievable through sheer will and mastery.",
+								"Creatures made of manifested emotions, such as demons, are often shaped and molded by Red Mana. These beings are the physical embodiment of raw emotional energy, given form and intent through this primal force.",
+								{
+									"type": "list",
+									"name": "Associated Features",
+									"items": [
+										"Destructive spells fueled by passion",
+										"Fire magic and pyromancy 🔥",
+										"Blood magic and biological manipulation",
+										"Abilities tied to raw emotion and personal willpower",
+										"Martial techniques that achieve superhuman feats",
+										"Transmutation spells that reshape physical reality"
+									]
+								},
+								"Red Mana oppresses {@variantrule ⚪ White Mana|CompendiumofAcadia}, breaking through its rigid structures with raw passion and chaos. However, it is oppressed by {@variantrule ⚫ Black Mana|CompendiumofAcadia}, which consumes its vitality and passion with entropy and inevitability."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Regras de Opressão",
+							"entries": [
+								"<div style='text-align: center;'><img src='https://i.ibb.co/ZNkFXng/Acadia-Reborn-1-1.png' width='350' height='350'></div>"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "🟢 Green Mana",
+			"ruleType": "C",
+			"entries": [
+				"Green Mana is tied to elements, nature, growth, and the cycles of creation. It embodies vitality and the primal connection to the world.",
+				"Green Mana views reality as a product of the primordial forces that govern existence, each acting according to its inherent nature. These forces encompass balance, growth, and the unyielding will of nature.",
+				{
+					"type": "list",
+					"name": "Core Themes",
+					"items": [
+						"Nature and intuition",
+						"Spirits, animals, and trees",
+						"Alchemy and natural processes",
+						"Manipulation of fire, water, air, earth, electricity, sound, and metals"
+					]
+				},
+				"Green Mana's manifestations are primarily elemental, invoking the divine forces of nature. These manifestations reflect a belief in a reality shaped by the interplay of greater natural forces.",
+				{
+					"type": "list",
+					"name": "Associated Features",
+					"items": [
+						"Spells from the Primordial spell list 🌿",
+						"Evocation school spells ✨",
+						{
+							"type": "list",
+							"name": "Elemental Damage Associations",
+							"items": [
+								"Fire: Fire damage 🔥",
+								"Air: Electric damage ⚡",
+								"Earth: Acid damage 🧪",
+								"Water: Cold damage ❄️"
+							]
+						},
+						"Interactions with spirits and nature-based entities",
+						"Healing and medicinal applications",
+						"Use of poisons and acids"
+					]
+				},
+				"Green Mana oppresses {@variantrule ⚫ Black Mana|CompendiumofAcadia}, representing its ability to foster growth and vitality against entropy and decay. It is, however, oppressed by {@variantrule ⚪ White Mana|CompendiumofAcadia}, as order and rationality can constrain its primal and untamed nature."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "🔵 Blue Mana",
+			"ruleType": "C",
+			"entries": [
+				"Blue Mana represents self-reference, essential forms, paradoxes, and the manipulation of magical instructions. It is deeply tied to the recognition of patterns and a Gnostic understanding of reality.",
+				"Blue Mana views reality through a syncretic lens, perceiving all things as fundamentally the same in essence. Differences are seen as interpretations or distortions of a common form, emphasizing unity and interconnectedness.",
+				{
+					"type": "list",
+					"name": "Core Themes",
+					"items": [
+						"Self-reference and essential forms",
+						"Recognition of patterns and paradoxes",
+						"Countermagic and spell manipulation",
+						"Gnosticism and syncretism",
+						"Arcane perception of reality's underlying structures",
+						"Unbiased magical instructions as the foundation of all spells"
+					]
+				},
+				"The primary manifestation of Blue Mana is through essential patterns. These patterns reveal the underlying structures of all things, acting as a self-referential force that unveils the arcane truths of existence.",
+				"Blue Mana is also fundamentally tied to the creation and manipulation of magical instructions. Every spell uses Blue Mana as the instructional core that defines its function, making it the purest form of unbiased magic. This neutral essence can be shaped or biased by other mana types, channeling their specific properties.",
+				{
+					"type": "list",
+					"name": "Associated Features",
+					"items": [
+						"Countermagic spells ✨",
+						"Force damage",
+						"Spells that alter or disrupt patterns",
+						"Abilities that manipulate time, flow, or causality",
+						"Understanding and revealing hidden truths",
+						"Perception and reconfiguration of magical forms",
+						"Force damage as a manifestation of pure magical energy"
+					]
+				},
+				"Blue Mana is neutral and does not participate in the oppression cycle. It often serves as a stabilizer or mediator, ensuring balance among the other mana types."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "⚫ Black Mana",
+			"ruleType": "C",
+			"entries": [
+				"Black Mana is associated with entropy, death, time, and the inexorable decay of all things. It embodies the inevitability of the void and the silent, inert end of existence.",
+				"Black Mana views reality as a process destined for constant entropy and eventual cessation. It thrives on the cycles of life and death, wielding power over decay, anti-life, causality, unrealized potential, and the manipulation of chaos and gravity.",
+				{
+					"type": "list",
+					"name": "Core Themes",
+					"items": [
+						"Forces of time, space, and entropy",
+						"Decay, necromancy, and anti-life",
+						"Causality and unrealized potential",
+						"Darkness, inertia, and immobility",
+						"Cycles of life and death",
+						"Graviturgy (manipulation of gravity)",
+						"Chaos as a fundamental force"
+					]
+				},
+				"The primary manifestation of Black Mana is through the forces of movement. These are profane powers that manipulate the fundamental forces governing time, space, gravity, and decay. This perspective sees reality as an inevitable march toward entropy and the void.",
+				"While Black Mana is often associated with evil, its nature is more apathetic than malevolent. Its historical association with taboo practices—such as manipulating life and death—has led to its stigmatization and misuse for dark purposes. This misunderstanding has fueled its reputation for villainy, but Black Mana is, at its core, a neutral force of inevitability.",
+				{
+					"type": "list",
+					"name": "Associated Features",
+					"items": [
+						"Spells from the Necromancy school ✨",
+						"Chronomancy and time manipulation",
+						"Graviturgy and gravity-based effects",
+						"Effects that drain or transfer life energy",
+						"Spells tied to darkness and immobilization",
+						"Manipulation of decay, destruction, and chaos"
+					]
+				},
+				"Black Mana is oppressive toward {@variantrule 🔴 Red Mana|CompendiumofAcadia}, consuming its passion and vitality with inevitable decay. It is, however, oppressed by {@variantrule 🟢 Green Mana|CompendiumofAcadia}, which counters its entropy with growth and renewal."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "⚪ White Mana",
+			"ruleType": "C",
+			"entries": [
+				"White Mana is rooted in order, rationality, and mental discipline. It governs laws, knowledge, oaths, and the power of the mind to shape reality through structure and rules.",
+				"White Mana views reality as a construct of the mind, where the act of observing, naming, and defining creates a framework for existence. It thrives on the enforcement of structure through contracts, laws, and mental discipline.",
+				{
+					"type": "list",
+					"name": "Core Themes",
+					"items": [
+						"Order, rationality, and mental discipline",
+						"Contracts, laws, and oaths (including devil’s contracts)",
+						"Spells and powers tied to genies and wishes",
+						"Reality as a mental construct shaped by observation and rules",
+						"Transcendence through discipline and structure"
+					]
+				},
+				"The primary manifestation of White Mana is through psychic forces and conceptual powers that impose order on the chaotic. These include the power to create and enforce agreements, from divine pacts to devil's contracts, as well as granting powers through oaths and the granting or fulfillment of wishes, such as those from genies.",
+				{
+					"type": "list",
+					"name": "Associated Features",
+					"items": [
+						"Spells from the Divine spell list 🙏",
+						"Enchantment spells ✨",
+						"Abilities tied to contracts, laws, and oaths",
+						"Spells that enforce agreements or compel actions",
+						"Powers that stem from oaths, such as genie-granted wishes",
+						"Contracts with supernatural entities, including devils"
+					]
+				},
+				"White Mana oppresses {@variantrule 🟢 Green Mana|CompendiumofAcadia} by overriding natural chaos and primal growth with mental constructs and rationality. It is, however, oppressed by {@variantrule 🔴 Red Mana|CompendiumofAcadia}, which counters its rigidity and structure with raw emotion and passion."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "🔴 Red Mana",
+			"ruleType": "C",
+			"entries": [
+				"Red Mana reflects passion, emotion, and willpower. It fuels the raw, unfiltered power of creativity, destruction, and the manifestation of one's inner strength.",
+				"Red Mana views reality as a canvas for emotion and will, where desires and passions are the forces that shape the world. It thrives on chaos, change, and the direct realization of personal goals.",
+				{
+					"type": "list",
+					"name": "Core Themes",
+					"items": [
+						"Emotion, passion, and raw willpower",
+						"Musculature and regeneration",
+						"Biological and blood manipulation",
+						"Manifestation of emotions in physical form (e.g., demons)",
+						"Chaos, unrestrained creativity, and transmutation",
+						"Grounding in physical reality and its malleability"
+					]
+				},
+				"The primary manifestation of Red Mana is through Martial Arts ⚔️, a discipline that channels the user's willpower into superhuman feats. These arts combine refined technique with an individual's raw determination to turn their objectives into reality. Though not inherently magical, Martial Arts harness the power within the practitioner, making the impossible achievable through sheer will and mastery.",
+				"Creatures made of manifested emotions, such as demons, are often shaped and molded by Red Mana. These beings are the physical embodiment of raw emotional energy, given form and intent through this primal force.",
+				{
+					"type": "list",
+					"name": "Associated Features",
+					"items": [
+						"Destructive spells fueled by passion",
+						"Fire magic and pyromancy 🔥",
+						"Blood magic and biological manipulation",
+						"Abilities tied to raw emotion and personal willpower",
+						"Martial techniques that achieve superhuman feats",
+						"Transmutation spells that reshape physical reality"
+					]
+				},
+				"Red Mana oppresses {@variantrule ⚪ White Mana|CompendiumofAcadia}, breaking through its rigid structures with raw passion and chaos. However, it is oppressed by {@variantrule ⚫ Black Mana|CompendiumofAcadia}, which consumes its vitality and passion with entropy and inevitability."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Luck Rolls",
+			"ruleType": "C",
+			"entries": [
+				"Luck Rolls are rolls made when an event's outcome is determined primarily by luck or chance, rather than skill or direct action.",
+				"These rolls can include modifiers but are not considered d20 Tests.",
+				"An example of a Luck Roll is determining whether a Wand of Magic Missiles breaks after expending all charges. Or the roll made for choosing witch Ray the beholder will shoot"
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Reflex, Fortitude, and Will",
+			"ruleType": "C",
+			"entries": [
+				"Saving throws are replaced with 'Reflex, Fortitude and Will'. They are determined by the highest value of two ability scores, reflecting different aspects of a character's resilience:",
+				{
+					"type": "list",
+					"items": [
+						"<b>Reflex:</b> The highest between Dexterity and Intelligence.",
+						"<b>Fortitude:</b> The highest between Constitution and Strength.",
+						"<b>Will:</b> The highest between Wisdom and Charisma."
+					]
+				},
+				"When a class provides proficiency in two saving throws from different categories, the player chooses only one. For example, a Sorcerer (proficient in Constitution saves and Charisma saves) instead must choose proficiency in either Fortitude or Will."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Enhanced Foods",
+			"ruleType": "C",
+			"entries": [
+				"Specially prepared foods provide adventurers with unique benefits during their journeys.",
+				"A creature can only have one food effect active at a time. If a creature consumes another food that grants a food effect, it must choose whether to keep the current effect or replace it with the new one.",
+				"There are two types of foods:",
+				{
+					"type": "list",
+					"items": [
+						"<b>Snacks:</b> Can be consumed with a bonus action and provide short-term benefits.",
+						"<b>Meals:</b> Require at least 10 minutes to consume but offer more lasting and impactful effects."
+					]
+				},
+				"Here are some example foods and their effects:",
+				{
+					"type": "table",
+					"caption": "Enhanced Foods",
+					"colLabels": [
+						"Food Name",
+						"Type",
+						"Effect"
+					],
+					"rows": [
+						[
+							"Spiced Jerky",
+							"Snack",
+							"Gain temporary hit points equal to your proficiency bonus."
+						],
+						[
+							"Energy Bar",
+							"Snack",
+							"You have advantage on the next saving throw you make until the end of your next turn."
+						],
+						[
+							"Trail Mix",
+							"Snack",
+							"You gain a +1d4 bonus to your next attack roll made within 1 minute."
+						],
+						[
+							"Chocolate Cookie",
+							"Snack",
+							"You gain 10 feet of additional movement until the end of your next turn."
+						],
+						[
+							"Hearty Stew",
+							"Meal",
+							"When spending Hit Dice during a rest, add +1d8 to the total recovered."
+						],
+						[
+							"Grilled Skewers",
+							"Meal",
+							"Gain a 1d6 to add to an ability check using Strength, Dexterity, or Constitution. This pool refreshes after a long rest."
+						],
+						[
+							"Scholar’s Broth",
+							"Meal",
+							"Gain a 1d6 to add to an ability check using Intelligence, Wisdom, or Charisma. This pool refreshes after a long rest."
+						],
+						[
+							"Savory Herb Roast",
+							"Meal",
+							"For the next hour, you gain advantage on Constitution saving throws to resist exhaustion or environmental effects (such as extreme heat or cold)."
+						]
+					]
+				}
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Universal Spell Scrolls",
+			"ruleType": "C",
+			"entries": [
+				"When Scribing Spell Scrolls, a spellcaster can choose to make it a Universal Spell Scroll. This type of scroll can be used by any creature that can understand any language, even if the spell is not on their spell list.",
+				"If the creature does not have a spell list, or if the spell on the scroll is of a higher level than they can normally cast, they must make the ability check for casting it as described in the Spell Scroll rules. If the creature is not a spellcaster, they may choose Intelligence, Wisdom, or Charisma for the check.",
+				"A creature can spend 1 hour familiarizing itself with a spell scroll and its casting process. If it does so, it adds its proficiency bonus to the ability check made to cast the spell. This familiarity lasts until the creature takes a Long Rest."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Rest Quality",
+			"ruleType": "C",
+			"entries": [
+				"This rule assumes the use of Slow Natural Healing from {@variantrule Healing|DMG}.",
+				"The quality of the location where characters sleep impacts the effectiveness of their {@variantrule Short Rest|XPHB} or {@variantrule Long Rest|XPHB}, as described below:",
+				{
+					"type": "table",
+					"caption": "Rest Quality Effects",
+					"colLabels": [
+						"Quality",
+						"Effect",
+						"Description"
+					],
+					"colStyles": [
+						"col-2",
+						"col-4",
+						"col-6"
+					],
+					"rows": [
+						[
+							"Squalid",
+							"All Hit Dice are treated as rolling a 1.",
+							"A dirty, unsanitary place, worse than camping with a bedroll. May involve extreme cold or heat, with food being of extremely poor quality or unavailable."
+						],
+						[
+							"Poor",
+							"Recover half the hit points normally restored by spending Hit Dice.",
+							"Sleeping on the ground with minimal cover or bedding. Access to low-quality or insufficient food."
+						],
+						[
+							"Modest",
+							"Recover hit points from Hit Dice as normal.",
+							"A well-prepared campsite with adequate bedding, warm clothing or blankets, and access to standard rations or normal food."
+						],
+						[
+							"Comfortable",
+							"Roll additional Hit Dice equal to your proficiency bonus.",
+							"Staying in a comfortable inn or a similar environment, with good food and a warm, safe place to sleep."
+						],
+						[
+							"Aristocratic",
+							"Roll additional Hit Dice equal to twice your proficiency bonus.",
+							"Sleeping in a castle or similarly lavish environment, with the finest food, drinks, and accommodations."
+						]
+					]
+				}
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Alternate Spell Casting",
+			"ruleType": "C",
+			"entries": [
+				"All spells require both verbal and somatic components. Rules regarding material (M) components remains the same."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Grappling Spellcasters",
+			"ruleType": "C",
+			"entries": [
+				"If a creature is {@condition Grappled}, {@condition Prone}, or {@condition Restrained} and attempts to cast a spell that requires somatic components, it must succeed on a DC 15 Concentration check. On a failure, the spell does not take effect, and the spell slot is not expended."
+			]
+		}
+	],
+	"condition": [
+		{
+			"name": "Ablaze",
+			"source": "CompendiumofAcadia",
+			"entries": [
+				"The creature is engulfed in flames and takes 5 fire damage at the start of each of its turns. The creature can use its action to muffle and extinguish the flames, ending the condition."
+			]
+		},
+		{
+			"name": "Steeled",
+			"source": "CompendiumofAcadia",
+			"entries": [
+				"The creature is wearing metal armor or clothing. Attacks that deal electric damage have advantage against a Steeled creature, and the creature makes saving throws against effects that deal electric damage with disadvantage."
+			]
+		},
+		{
+			"name": "Confused",
+			"source": "CompendiumofAcadia",
+			"entries": [
+				"The target can't take Bonus Actions or Reactions and must roll {@dice 1d10} at the start of each of its turns to determine its behavior for that turn, consulting the table below.",
+				{
+					"type": "table",
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"colLabels": [
+						"1d10",
+						"Behavior for the Turn"
+					],
+					"rows": [
+						[
+							"1",
+							"The target doesn't take an action, and it uses all its movement to move. Roll {@dice 1d4} for the direction: {@b 1}, ↑ north; {@b 2}, → east; {@b 3}, ↓ south; or {@b 4}, ← west."
+						],
+						[
+							"2-6",
+							"The target doesn't move or take actions."
+						],
+						[
+							"7-8",
+							"The target doesn't move, and it takes the {@action Attack} action to make one melee attack against a random creature within reach. If none are within reach, the target takes no action."
+						],
+						[
+							"9-10",
+							"The target chooses its behavior."
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Covered",
+			"source": "CompendiumofAcadia",
+			"entries": [
+				"The creature is covered in a substance, typically liquid. When Covered, specify the substance (e.g., Covered (Oil), Covered (Water)). The DM determines additional properties for specific substances. Examples:",
+				{
+					"type": "list",
+					"items": [
+						"Oil: If the creature takes Fire damage, it takes an additional 5 fire damage.",
+						"Water: If the creature takes Electric damage, it takes an additional 5 electric damage."
+					]
+				}
+			]
+		}
+	]
+}
