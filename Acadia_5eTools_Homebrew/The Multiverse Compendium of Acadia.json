@@ -169887,13 +169887,46 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
+			"name": "Fight For the Fallen",
+			"ruleType": "C",
+			"entries": [
+				"When a character dies in battle, if they have enough memories with their allies who are still fighting (at the DM's discretion), they may inspire their allies to continue battling in their name. The fallen character remains in the initiative order, and takes a Fallen Action at the start of their turn until the battle ends. If the character cannot invoke an appropriate memory, they lose their Fallen Action for that turn without any effect.",
+				{
+					"type": "list",
+					"items": [
+						"<b>Remember Me:</b> The fallen ally's memory inspires. The Fallen character narrates a meaningful past scene with one ally who is still fighting, granting that ally a Bardic Inspiration die. The die size depends on the Fallen character's level: 1d6 (below level 5), 1d8 (level 5-9), 1d10 (level 10-14), or 1d12 (level 15+).",
+						"<b>Keep My Memory:</b> The memory of fighting side by side grants resilience. The Fallen character narrates a scene of camaraderie, healing an ally for 1d10 + the Fallen character's level in hit points.",
+						"<b>Full Speed Ahead:</b> The memory of their ally's unyielding determination pushes them forward. The Fallen character narrates a moment of drive and determination, allowing one ally to immediately move up to their speed without provoking opportunity attacks.",
+						"<b>Suffering:</b> The fallen ally's pain and sacrifice ignite a fiery resolve. The Fallen character narrates a moment of shared struggle, granting an ally resistance to all damage until the start of their next turn.",
+						"<b>Not Sorry For Loving:</b> The bond of love romantic, or fraternal fuels one final push. The Fallen character narrates a deeply emotional memory of love and care, granting an ally an extra Action on their next turn. This action ends the Fight For the Fallen state for the character as the spirit departs with a final shared moment of triumph.",
+						"<b>Last Laugh:</b> The memory of camaraderie inspires all allies to their fullest. The Fallen character narrates a moment of humor or victory they all had together, granting all allies in battle the effects of 'Remember Me,' 'Keep My Memory,' 'Full Speed Ahead,' or 'Suffering.' This action ends the Fight For the Fallen state for the character as the spirit departs with a final shared triumph."
+					]
+				},
+				"A character can only enter the Fight For the Fallen state once."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Precarious Recovery",
+			"ruleType": "C",
+			"entries": [
+				"Stabilizing a character grants them two successful death saving throws instead of fully stabilizing them. Healing a character for at least 10 hit points also grants two successful death saving throws instead of restoring hit points or stabilizing the character. A character with three successful death saving throws is considered {@variantrule Stable}.",
+				"Creatures typically do not attack unconscious creatures that are at 0 hit points.",
+				"A stable creature that gains hit points receives them at the start of their next turn."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
 			"name": "Death's Door",
 			"ruleType": "C",
 			"entries": [
-				"When reduced to 0 hit points, a character can choose to enter 'Death's Door' instead of falling unconscious, remaining conscious but at risk of death.",
-				"While at Death's Door, taking damage causes one failed death saving throw, or two on a critical hit. A creature with three failed death saving throws dies.",
-				"Stabilizing a character at Death's Door only grants two successful death saving throws instead of actually stabilizing. Three successes restore the character to 1 HP and end Death's Door.",
-				"At the end of each turn, a character in Death's Door gains one level of exhaustion. They may choose to fall unconscious at this moment, ending Death's Door and following the usual rules for being at 0 hit points."
+				"This rule assumes the use of {@variantrule Precarious Recovery|CompendiumofAcadia}.",
+				"When reduced to 0 hit points, a character can choose to enter 'Death's Door' instead of falling unconscious. While at Death's Door, the character remains conscious but is at significant risk of death.",
+				"While at Death's Door the creature is unstable (and make {@variantrule Death Saving Throws} as normal), taking damage results in one failed death saving throw, or two on a critical hit. A creature with three failed death saving throws dies.",
+				"A creature at Death's Door is in extreme distress and exhibits signs of partial insanity, such as speaking gibberish, nonsensical phrases, and experiencing minor hallucinations.",
+				"Death's Door ends if the creature regains at least 1 hit point.",
+				"At the end of each turn, a character in Death's Door gains one level of exhaustion. At this moment, they can choose to fall unconscious, ending Death's Door and following the standard rules for being at 0 hit points.",
+				"Once a creature enters Death's Door, it cannot do so again until it completes a Short or Long rest."
 			]
 		},
 		{
