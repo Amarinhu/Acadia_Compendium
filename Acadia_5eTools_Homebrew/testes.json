@@ -1,0 +1,52 @@
+{
+	"name": "Reincarnate",
+	"source": "CompendiumofAcadia",
+	"page": 311,
+	"freeRules2024": true,
+	"level": 7,
+	"school": "N",
+	"time": [
+		{
+			"number": 1,
+			"unit": "hour"
+		}
+	],
+	"range": {
+		"type": "point",
+		"distance": {
+			"type": "touch"
+		}
+	},
+	"components": {
+		"v": true,
+		"s": true,
+		"m": {
+			"text": "A humanoid-sized hay doll infused with rare oils worth 1,000+ GP, which the spell consumes.",
+			"cost": 100000,
+			"consume": true
+		}
+	},
+	"duration": [
+		{
+			"type": "instant"
+		}
+	],
+	"entries": [
+		"You touch a dead creature or a piece of one at least as large as a finger. If the creature has been dead no longer than 10 days, the spell transforms the humanoid-sized hay doll used as a component for this spell into a new body of the species the creator of the doll attempted to replicate, and calls the soul to inhabit that body. The target takes a 3 levels of {@condition Exhaustion}."
+	],
+	"affectsCreatureType": [
+		"humanoid"
+	],
+	"miscTags": [
+		"HL",
+		"RO"
+	],
+	"classes": {
+		"fromClassList": [
+			{
+				"name": "Druid",
+				"source": "XPHB"
+			}
+		]
+	}
+}
