@@ -31903,7 +31903,7 @@
 			],
 			"entries": [
 				"You attempt to interrupt a creature in the process of casting a spell. The creature makes a Constitution saving throw. On a failed save, the spell dissipates with no effect, and the action, {@variantrule Bonus Action|XPHB}, or {@variantrule Reaction|XPHB} used to cast it is wasted. If that spell was cast with a spell slot, the slot isn't expended.",
-				"If the spell being countered is 3rd level or lower, the creature have disadvantage on the Consitution saving thow."
+				"If the spell being countered is 3rd level or lower, the creature have disadvantage on the Constitution saving thow."
 			],
 			"savingThrow": [
 				"constitution"
@@ -32058,7 +32058,7 @@
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"If the spell being countered is equal to or less than the level of the spell slot you use, the creature have disadvantage on the Consitution saving thow."
+						"If the spell being countered is equal to or less than the level of the spell slot you use, the creature have disadvantage on the Constitution saving thow."
 					]
 				}
 			],
@@ -169936,9 +169936,8 @@
 			"entries": [
 				"This is a group of changes, rebalancing and bans on spells for Acadia",
 				"This presumes the use of {@variantrule Alternate Spell Casting|CompendiumofAcadia}.",
-				"If a spell with the same name exists in more than one book, the PHB 2024 takes priority, if they are in different books the DM decides wich takes priority.",
+				"If a spell with the same name exists in the PHB 2024 and another book, the 2014 PHB takes priority, otherwise the DM decides",
 				"Spells  from Books Accepted: Player Hand Book 2024, Acquisitions Incorporated, Astral Adventurer's Guide, Fizban's Treasury of Dragons, Guildmasters' Guide to Ravnica, Icewind Dale: Rime of the Frostmaiden, Strixhaven: A Curriculum of Chaos, Tasha's Couldron of Everything, The Book of Many Things, Xanathar's Guide to Everything, Dungeons of Drakkenheim, Tal'Dorei Campaign Setting Reborn, Humblewood Campaign Setting, Grim Hollow: Lairs of Etharis, Explorer's Guide to Wildemount, Lost Laboratory of Kwalish, The Gunpowder Codex e Firearms of the Realms.",
-				"NPC controlled by you having a magic item count against the number of magic items you can have active.",
 				{
 					"type": "section",
 					"name": "XPHB (Player's Handbook)",
@@ -170034,7 +170033,7 @@
 								[
 									"Resistance ({@spell Resistance|XPHB} → {@spell Resistance|CompendiumofAcadia})",
 									"Buffed",
-									"Casting time improved from Action to Bonus action."
+									"Damage reduction buffed to 2d4."
 								],
 								[
 									"Speak with Plants ({@spell Speak with Plants|XPHB} → {@spell Speak with Plants|CompendiumofAcadia})",
@@ -170180,7 +170179,7 @@
 								[
 									"Carven Rifle ({@spell Carven Rifle|GPCodex} → {@spell Carven Rifle|CompendiumofAcadia})",
 									"Nerfed",
-									"Damage decreased."
+									"Damage scaling decreased."
 								],
 								[
 									"Sequoia Six-Shooter ({@spell Sequoia Six-Shooter|GPCodex} → {@spell Sequoia Six-Shooter|CompendiumofAcadia})",
@@ -170995,23 +170994,6 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "Reflex, Fortitude, and Will",
-			"ruleType": "C",
-			"entries": [
-				"Saving throws are replaced with 'Reflex, Fortitude and Will'. They are determined by the highest value of two ability scores, reflecting different aspects of a character's resilience:",
-				{
-					"type": "list",
-					"items": [
-						"<b>Reflex:</b> The highest between Dexterity and Intelligence.",
-						"<b>Fortitude:</b> The highest between Constitution and Strength.",
-						"<b>Will:</b> The highest between Wisdom and Charisma."
-					]
-				},
-				"When a class provides proficiency in two saving throws from different categories, the player chooses only one. For example, a Sorcerer (proficient in Constitution saves and Charisma saves) instead must choose proficiency in either Fortitude or Will."
-			]
-		},
-		{
-			"source": "CompendiumofAcadia",
 			"name": "Enhanced Foods",
 			"ruleType": "C",
 			"entries": [
@@ -171152,7 +171134,9 @@
 			"name": "Grappling Spellcasters",
 			"ruleType": "C",
 			"entries": [
-				"If a creature is {@condition Grappled}, {@condition Prone}, or {@condition Restrained} and attempts to cast a spell that requires somatic components, it must succeed on a DC 15 Concentration check. On a failure, the spell does not take effect, and the spell slot is not expended."
+				"If a creature is {@condition Grappled}, {@condition Prone}, or {@condition Restrained} and attempts to cast a spell that requires somatic components, it must succeed on a DC 15 Concentration check.",
+				"If the condition is inflicted by another creature actively grappling the caster, the Concentration check DC is determined by 8 + Strength modifier + Proficiency Bonus of the Grappler.",
+				"On a failure, the spell does not take effect, but the spell slot is not expended."
 			]
 		}
 	],
