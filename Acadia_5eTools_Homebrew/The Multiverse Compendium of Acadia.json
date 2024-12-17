@@ -50468,432 +50468,6 @@
 			]
 		},
 		{
-			"name": "Elevated Sight",
-			"source": "CompendiumofAcadia",
-			"page": 49,
-			"level": 1,
-			"school": "D",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "self"
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 1
-					},
-					"concentration": true
-				}
-			],
-			"entries": [
-				"You cast your eyes skyward, granting you sight from a higher vantage point. You project your vision to see through an invisible sensor which appears in a spot up to 120 feet above you. You can see through the sensor as if you were flying, granting a full 360 degree view from its location.",
-				"The sensor moves with you, retaining its height in relation to you. You can use a bonus action to adjust the sensor's height, but only to a maximum of 120 feet above you.",
-				"While looking through this sensor you are {@condition blinded|PHB|blind}, though you can switch between seeing through the sensor or through your own eyes at any time during your turn."
-			],
-			"conditionInflict": [
-				"blinded"
-			],
-			"miscTags": [
-				"SGT",
-				"UBA"
-			],
-			"hasFluffImages": true,
-			"__prop": "spell",
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Cleric",
-						"source": "PHB"
-					},
-					{
-						"name": "Druid",
-						"source": "PHB"
-					},
-					{
-						"name": "Ranger",
-						"source": "PHB"
-					},
-					{
-						"name": "Warlock",
-						"source": "PHB"
-					},
-					{
-						"name": "Wizard",
-						"source": "PHB"
-					},
-					{
-						"name": "Cleric",
-						"source": "XPHB"
-					},
-					{
-						"name": "Druid",
-						"source": "XPHB"
-					},
-					{
-						"name": "Ranger",
-						"source": "XPHB"
-					},
-					{
-						"name": "Warlock",
-						"source": "XPHB"
-					},
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Bard",
-							"source": "XPHB"
-						},
-						"subclass": {
-							"name": "College of Lore",
-							"shortName": "Lore",
-							"source": "XPHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Fighter",
-							"source": "XPHB"
-						},
-						"subclass": {
-							"name": "Eldritch Knight",
-							"shortName": "Eldritch Knight",
-							"source": "XPHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Rogue",
-							"source": "XPHB"
-						},
-						"subclass": {
-							"name": "Arcane Trickster",
-							"shortName": "Arcane Trickster",
-							"source": "XPHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Sorcerer",
-							"source": "XPHB"
-						},
-						"subclass": {
-							"name": "Divine Soul",
-							"shortName": "Divine Soul",
-							"source": "XGE"
-						}
-					},
-					{
-						"class": {
-							"name": "Fighter",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Eldritch Knight",
-							"shortName": "Eldritch Knight",
-							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Rogue",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Arcane Trickster",
-							"shortName": "Arcane Trickster",
-							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Sorcerer",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Divine Soul",
-							"shortName": "Divine Soul",
-							"source": "XGE"
-						}
-					}
-				]
-			},
-			"feats": [
-				{
-					"name": "Divinely Favored",
-					"source": "DSotDQ"
-				},
-				{
-					"name": "Fey Touched",
-					"source": "TCE"
-				},
-				{
-					"name": "Fey-Touched",
-					"source": "XPHB"
-				},
-				{
-					"name": "Magic Initiate",
-					"source": "XPHB"
-				},
-				{
-					"name": "Magic Initiate",
-					"source": "PHB"
-				},
-				{
-					"name": "Strixhaven Initiate",
-					"source": "SCC"
-				}
-			],
-			"_isMutEntity": true,
-			"_tmpSourcesInit": true,
-			"_tmpClasses": {},
-			"_tmpRaces": [],
-			"_tmpBackgrounds": [],
-			"_tmpFeats": [],
-			"_tmpOptionalfeatures": [],
-			"_tmpGroups": [],
-			"_normalisedTime": 1,
-			"_normalisedRange": 0,
-			"_fSources": "HWCS",
-			"_fMisc": [
-				"Has Images",
-				"Concentration",
-				"Verbal",
-				"Somatic",
-				"SGT",
-				"UBA"
-			],
-			"_isConc": true,
-			"_fClasses": [
-				{
-					"item": "Cleric",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Druid",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Ranger",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Warlock",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Wizard",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Cleric",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Druid",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Ranger",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Warlock",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Wizard",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				}
-			],
-			"_fSubclasses": [
-				{
-					"item": "Bard: Lore",
-					"group": false,
-					"nest": "Bard",
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Fighter: Eldritch Knight",
-					"group": false,
-					"nest": "Fighter",
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Rogue: Arcane Trickster",
-					"group": false,
-					"nest": "Rogue",
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Sorcerer: Divine Soul",
-					"group": false,
-					"nest": "Sorcerer",
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Fighter: Eldritch Knight",
-					"group": false,
-					"nest": "Fighter",
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Rogue: Arcane Trickster",
-					"group": false,
-					"nest": "Rogue",
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Sorcerer: Divine Soul",
-					"group": false,
-					"nest": "Sorcerer",
-					"rendered": null,
-					"searchText": null
-				}
-			],
-			"_fVariantClasses": [],
-			"_fClassesAndVariantClasses": [
-				{
-					"item": "Cleric",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Druid",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Ranger",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Warlock",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Wizard",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Cleric",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Druid",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Ranger",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Warlock",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Wizard",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				}
-			],
-			"_fRaces": [],
-			"_fBackgrounds": [],
-			"_fFeats": [
-				"Divinely Favored",
-				"Fey Touched",
-				"Fey-Touched",
-				"Magic Initiate",
-				"Magic Initiate",
-				"Strixhaven Initiate"
-			],
-			"_fOptionalfeatures": [],
-			"_fGroups": [],
-			"_fTimeType": [
-				"action"
-			],
-			"_fDurationType": "1 Minute",
-			"_fRangeType": "Self",
-			"_fAreaTags": [],
-			"_fAffectsCreatureType": [
-				"aberration",
-				"beast",
-				"celestial",
-				"construct",
-				"dragon",
-				"elemental",
-				"fey",
-				"fiend",
-				"giant",
-				"humanoid",
-				"monstrosity",
-				"ooze",
-				"plant",
-				"undead"
-			]
-		},
-		{
 			"name": "Encode Thoughts",
 			"source": "CompendiumofAcadia",
 			"level": 0,
@@ -170382,6 +169956,10 @@
 								[
 									"Wish ({@spell Wish|XPHB})",
 									"Banned: Added Lesser Wish ({@spell Lesser Wish|CompendiumofAcadia}); the Wish effect will be limited to items."
+								],
+								[
+									"Elevated Sight ({@spell Elevated Sight|HWCS})",
+									"Banned: Is just a better version of Arcane Eye"
 								]
 							]
 						}
@@ -170677,27 +170255,69 @@
 					"rows": [
 						[
 							"♥ Hearts",
-							"Heal twice the card’s value; or<br>Make a weapon attack (Aces grant an additional action instead of an attack); or<br>Gain temporary {@variantrule 🔴 Red Mana|CompendiumofAcadia} equal to half your level, expiring after a Long Rest."
+							{
+								"type": "list",
+								"items": [
+									"Heal twice the card’s value; or",
+									"Make a weapon attack (Aces grant an additional action instead of an attack); or",
+									"Gain temporary {@variantrule 🔴 Red Mana|CompendiumofAcadia} equal to half your level, expiring after a Long Rest."
+								]
+							}
 						],
 						[
 							"♦ Diamonds",
-							"Add the card’s value as a bonus to any d20 Test; or<br>Recover a spell slot up to 4th level (Aces recover a spell slot of any level); or<br> Gain temporary {@variantrule ⚪ White Mana|CompendiumofAcadia} equal to half your level, expiring after a Long Rest."
+							{
+								"type": "list",
+								"items": [
+									"Add the card’s value as a bonus to any d20 Test; or",
+									"Recover a spell slot up to 4th level (Aces recover a spell slot of any level); or",
+									"Gain temporary {@variantrule ⚪ White Mana|CompendiumofAcadia} equal to half your level, expiring after a Long Rest."
+								]
+							}
 						],
 						[
 							"♣ Clubs",
-							"Give disadvantage to a d20 Test made by a creature you can see (Aces make the creature roll an additional d20 and take the lowest result); or<br>After a creature takes damage, add damage equal to the card's value of the same type; or<br>Gain temporary {@variantrule ⚫ Black Mana|CompendiumofAcadia} equal to half your level, expiring after a Long Rest."
+							{
+								"type": "list",
+								"items": [
+									"Give disadvantage to a d20 Test made by a creature you can see (Aces make the creature roll an additional d20 and take the lowest result); or",
+									"After a creature takes damage, add damage equal to the card's value of the same type; or",
+									"Gain temporary {@variantrule ⚫ Black Mana|CompendiumofAcadia} equal to half your level, expiring after a Long Rest."
+								]
+							}
 						],
 						[
 							"♠ Spades",
-							"Increase your AC by the card's value until the end of this turn; or<br>Gain temporary {@variantrule 🟢 Green Mana|CompendiumofAcadia} equal to half your level, expiring after a Long Rest."
+							{
+								"type": "list",
+								"items": [
+									"Increase your AC by half the card's value (rounded down) until the end of this turn; or",
+									"Gain resistance to a damage type until the end of this turn (Aces grant resistance to all damage types); or",
+									"Gain temporary {@variantrule 🟢 Green Mana|CompendiumofAcadia} equal to half your level, expiring after a Long Rest."
+								]
+							}
 						],
 						[
 							"🃏 Jokers",
-							"After knowing the result of a d20 Test, make it fail; or<br>Choose a specific result for a Luck Roll; or<br>Gain 1 temporary {@variantrule 🟣 Purple Mana|CompendiumofAcadia}, lasting until the end of this turn."
+							{
+								"type": "list",
+								"items": [
+									"After knowing the result of a d20 Test, make it fail; or",
+									"Choose a specific result for a Luck Roll; or",
+									"Gain 1 temporary {@variantrule 🟣 Purple Mana|CompendiumofAcadia}, lasting until the end of this turn."
+								]
+							}
 						],
 						[
 							"⚙️ Essential Use",
-							"Replace a d20 Test made by you with the card’s value (declare before rolling); or<br>Gain a {@variantrule Heroic Inspiration|XPHB}; or<br>Gain temporary {@variantrule 🔵 Blue Mana|CompendiumofAcadia} equal to half your level, expiring after a Long Rest."
+							{
+								"type": "list",
+								"items": [
+									"Replace a d20 Test made by you with the card’s value (declare before rolling); or",
+									"Gain a {@variantrule Heroic Inspiration|XPHB}; or",
+									"Gain temporary {@variantrule 🔵 Blue Mana|CompendiumofAcadia} equal to half your level, expiring after a Long Rest."
+								]
+							}
 						]
 					]
 				}
@@ -171087,32 +170707,82 @@
 			"ruleType": "C",
 			"entries": [
 				"White Mana is rooted in order, rationality, and mental discipline. It governs laws, knowledge, oaths, and the power of the mind to shape reality through structure and rules.",
-				"White Mana views reality as a construct of the mind, where the act of observing, naming, and defining creates a framework for existence. It thrives on the enforcement of structure through contracts, laws, and mental discipline.",
+				"White Mana can be extracted from objects, places, and concepts that symbolize structure, authority, and intellect, including:",
 				{
 					"type": "list",
-					"name": "Core Themes",
 					"items": [
-						"Order, rationality, and mental discipline",
-						"Contracts, laws, and oaths (including devil’s contracts)",
-						"Spells and powers tied to genies and wishes",
-						"Reality as a mental construct shaped by observation and rules",
-						"Transcendence through discipline and structure"
+						"Academic Books and Scrolls",
+						"Oaths, Contracts, and Symbols of Authority (e.g., seals, badges, ceremonial objects)",
+						"Poems, Sacred Texts, and Religious Manuscripts",
+						"Writing Materials (paper, quills, ink)",
+						"Libraries, Archives, and Halls of Learning"
 					]
 				},
-				"The primary manifestation of White Mana is through psychic forces and conceptual powers that impose order on the chaotic. These include the power to create and enforce agreements, from divine pacts to devil's contracts, as well as granting powers through oaths and the granting or fulfillment of wishes, such as those from genies.",
 				{
-					"type": "list",
-					"name": "Associated Features",
-					"items": [
-						"Spells from the Divine spell list 🙏",
-						"Enchantment spells ✨",
-						"Abilities tied to contracts, laws, and oaths",
-						"Spells that enforce agreements or compel actions",
-						"Powers that stem from oaths, such as genie-granted wishes",
-						"Contracts with supernatural entities, including devils"
+					"type": "table",
+					"caption": "White Mana Effects",
+					"colLabels": [
+						"Cost",
+						"Effect"
+					],
+					"rows": [
+						[
+							"<span style='text-align: center; display: block;'>⚪</span>",
+							{
+								"type": "list",
+								"items": [
+									"Receive {@variantrule Advantage|XPHB} to a d20 Test that uses Wisdom, Intelligence, or Charisma.",
+									"Cast {@spell Vicious Mockery|CompendiumOfAcadia}, {@spell Word of Radiance|CompendiumOfAcadia}, {@spell True Strike|CompendiumOfAcadia}, {@spell Light|CompendiumOfAcadia}, {@spell Mind Sliver|CompendiumOfAcadia}, or {@spell Message|CompendiumOfAcadia}."
+								]
+							}
+						],
+						[
+							"<span style='text-align: center; display: block;'>⚪⚪</span>",
+							{
+								"type": "list",
+								"items": [
+									"Cast {@spell Bless|CompendiumOfAcadia}, {@spell Charm Person|CompendiumOfAcadia}, {@spell Cure Wounds|CompendiumOfAcadia}, {@spell Comprehend Languages|CompendiumOfAcadia}, {@spell Detect Magic|CompendiumOfAcadia}, or {@spell Identify|CompendiumOfAcadia}."
+								]
+							}
+						],
+						[
+							"<span style='text-align: center; display: block;'>⚪⚪⚪</span>",
+							{
+								"type": "list",
+								"items": [
+									"Cast {@spell Borrowed Knowledge|CompendiumOfAcadia}, {@spell Calm Emotions|CompendiumOfAcadia}, {@spell Detect Thoughts|CompendiumOfAcadia}, {@spell Find Traps|CompendiumOfAcadia}, {@spell Invisibility|CompendiumOfAcadia}, or {@spell Zone of Truth|CompendiumOfAcadia}."
+								]
+							}
+						],
+						[
+							"<span style='text-align: center; display: block;'>⚪⚪⚪⚪</span>",
+							{
+								"type": "list",
+								"items": [
+									"Cast {@spell Clairvoyance|CompendiumOfAcadia}, {@spell Combat Focus|CompendiumOfAcadia}, {@spell Daylight|CompendiumOfAcadia}, {@spell Intellect Fortress|CompendiumOfAcadia}, {@spell Tongues|CompendiumOfAcadia}, or {@spell Fear|CompendiumOfAcadia}."
+								]
+							}
+						],
+						[
+							"<span style='text-align: center; display: block;'>⚪⚪⚪⚪⚪</span>",
+							{
+								"type": "list",
+								"items": [
+									"Cast {@spell Arcane Eye|CompendiumOfAcadia}, {@spell Aura of Purity|CompendiumOfAcadia}, {@spell Charm Monster|CompendiumOfAcadia}, {@spell Divination|CompendiumOfAcadia}, {@spell Hallucinatory Terrain|CompendiumOfAcadia}, or {@spell Phantasmal Killer|CompendiumOfAcadia}."
+								]
+							}
+						],
+						[
+							"<span style='text-align: center; display: block;'>⚪⚪⚪⚪⚪⚪</span>",
+							{
+								"type": "list",
+								"items": [
+									"Cast {@spell Awaken|CompendiumOfAcadia}, {@spell Commune|CompendiumOfAcadia}, {@spell Creation|CompendiumOfAcadia}, {@spell Dominate Person|CompendiumOfAcadia}, {@spell Modify Memory|CompendiumOfAcadia}, or {@spell Scrying|CompendiumOfAcadia}."
+								]
+							}
+						]
 					]
-				},
-				"White Mana oppresses {@variantrule 🟢 Green Mana|CompendiumofAcadia} by overriding natural chaos and primal growth with mental constructs and rationality. It is, however, oppressed by {@variantrule 🔴 Red Mana|CompendiumofAcadia}, which counters its rigidity and structure with raw emotion and passion."
+				}
 			]
 		},
 		{
