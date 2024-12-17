@@ -54439,6 +54439,165 @@
 			]
 		},
 		{
+			"name": "Planar Translation",
+			"source": "CompendiumofAcadia",
+			"level": 7,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a small object from the plane or world you want to translate to"
+			},
+			"duration": [
+				{
+					"type": "permanent",
+					"ends": [
+						"dispel"
+					]
+				}
+			],
+			"entries": [
+				"This spell attunes a willing creature to the plane or world it currently occupies, transforming and adapting it to its essence. The target begins to siphon the plane's energies, memories, and influences, becoming more like a native of that place. While under the effects of this spell, it gains one or more of the following benefits (you choose):  ",
+				{
+					"type": "list",
+					"items": [
+						"Babel Tower. Languages you speak are seamlessly translated into their closest equivalents on this plane. This includes historical, cultural, or stylistic nuances such as local dialects and mannerisms. If the plane lacks any languages, you lose knowledge of languages you know. If the plane's communication relies on telepathy, you gain the ability to telepathically speak with creatures as appropriate. For example, if you speak {@language Elvish}, it will adapt to the plane's variant of {@language Elvish}.",
+						"Omni Species. If your race is not native to the plane, you are transformed into the closest native equivalent, as determined by the DM. Your racial traits and abilities adjust to reflect your new form. You are considered a native of this plane for all purposes. This transformation imposes one level of {@condition exhaustion} as your body adjusts to its new form.",
+						"Transfigured Equipment. Your clothing, armor, and equipment transform to match the plane's native style, materials, and craftsmanship while retaining their functionality. For example, a steel longsword may appear as volcanic obsidian if that material is commonly used for swords on this plane. Money in your possession also transforms into the local currency, including symbols, weight, and composition.",
+						"Knowledge Siphon. Your knowledge reshapes to align with the plane's history, culture, and customs. All your skill proficiencies adapt to reflect local knowledge, such as adjusting lockpicking techniques for the plane's locks or aligning arcane, martial, or religious knowledge with local traditions. You must succeed on a DC 15 Intelligence saving throw. On a failure, your memories of your home plane are suppressed until the spell ends, you take {@damage 6d6} psychic damage, and you begin to doubt whether you were ever truly from another plane.",
+						"Symbol of All. Your magic and symbols seamlessly adapt to the traditions of the plane you are on. Spells, divine symbols, and magical effects shift in appearance and form to align with local customs and cultural practices. For example, a {@spell Fireball|CompendiumofAcadia} might require different hand gestures or manifest as blue flames if that reflects the plane's norms. Similarly, a god's holy symbol or heraldry transforms to represent the plane's equivalent deity or conceptual counterpart. Caution: This adaptation may temporarily alter your connection to your original faith. Prayers and divine power might be redirected to the translated deity or entity, which some gods may perceive as a betrayal unless properly justified."
+					]
+				},
+				"The spell ends immediately if the target leaves the plane or world."
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Bard",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "College of Lore",
+							"shortName": "Lore",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Gnome (Mark of Scribing)",
+					"source": "ERLW",
+					"baseName": "Gnome",
+					"baseSource": "PHB"
+				}
+			]
+		},
+		{
 			"name": "Fabricate",
 			"source": "CompendiumofAcadia",
 			"page": 271,
@@ -139879,7 +140038,7 @@
 				}
 			],
 			"entries": [
-				"You imbue plants in an immobile 30-foot Emanation with limited sentience and animation, giving them the ability to communicate with you and follow your simple commands. You can ask up to five questions for the plants about events in the spell's area within the past day, gaining information about creatures that have passed, weather, and other circumstances.",
+				"You imbue plants in an immobile 30-foot Emanation with limited sentience and animation, giving them the ability to communicate with you and follow your simple commands. You can question plants about events in the spell's area within the past day, gaining information about creatures that have passed, weather, and other circumstances.",
 				"You can also turn {@variantrule Difficult Terrain|XPHB} caused by plant growth (such as thickets and undergrowth) into ordinary terrain that lasts for the duration. Or you can turn ordinary terrain where plants are present into {@variantrule Difficult Terrain|XPHB} that lasts for the duration.",
 				"The spell doesn't enable plants to uproot themselves and move about, but they can move their branches, tendrils, and stalks for you.",
 				"If a Plant creature is in the area, you can communicate with it as if you shared a common language."
@@ -170036,11 +170195,6 @@
 									"Damage reduction buffed to 2d4."
 								],
 								[
-									"Speak with Plants ({@spell Speak with Plants|XPHB} → {@spell Speak with Plants|CompendiumofAcadia})",
-									"Nerfed",
-									"Limited the amount of questions you can ask."
-								],
-								[
 									"Spirit Guardians ({@spell Spirit Guardians|XPHB} → {@spell Spirit Guardians|CompendiumofAcadia})",
 									"Nerfed",
 									"Limited the saves to twice per round."
@@ -170259,6 +170413,14 @@
 								[
 									"{@spell Sanctuary Orb|CompendiumofAcadia}",
 									"Captures a willing or unconscious creature in a safe extradimensional space, with the option to extract its true name."
+								],
+								[
+									"{@spell Lesser Wish|CompendiumofAcadia}",
+									"Basic Effect of Wish Spell"
+								],
+								[
+									"{@spell Planar Translation|CompendiumofAcadia}",
+									"Translate aspects of the creature to become more native to the plane or world it's in"
 								]
 							]
 						}
@@ -170313,6 +170475,13 @@
 								"This process strengthens your connection to planar energies, recharging your uses of your Pathfinder feature."
 							]
 						}
+					]
+				},
+				{
+					"name": "Level 2: Planar Translation",
+					"type": "section",
+					"entries": [
+						"Starting at 2nd level, you gain the ability to cast the spell {@spell Planar Translation|CompendiumofAcadia} without a spell slot, and you always have it prepared. To use this feature, you must expend one use of your Pathfinder feature."
 					]
 				},
 				{
