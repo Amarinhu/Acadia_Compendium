@@ -51242,376 +51242,6 @@
 		{
 			"name": "Enlarge/Reduce",
 			"source": "CompendiumofAcadia",
-			"page": 268,
-			"freeRules2024": true,
-			"level": 2,
-			"school": "T",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 30
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "a pinch of powdered iron"
-			},
-			"duration": [
-				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 1
-					},
-					"concentration": true
-				}
-			],
-			"entries": [
-				"For the duration, the spell enlarges or reduces a creature or an object you can see within range (see the chosen effect below). A targeted object must be neither worn nor carried. If the target is an unwilling creature, it can make a Constitution saving throw. On a successful save, the spell has no effect.",
-				"Everything that a targeted creature is wearing and carrying changes size with it. Any item it drops returns to normal size at once. A thrown weapon or piece of ammunition returns to normal size immediately after it hits or misses a target.",
-				{
-					"type": "entries",
-					"name": "Enlarge",
-					"entries": [
-						"The target's size increases by one category—from Medium to Large, for example. The target also has {@variantrule Advantage|XPHB} on Strength checks and Strength saving throws. The target's attacks with its enlarged weapons or Unarmed Strikes deal an extra {@damage 1d4} damage on a hit."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Reduce",
-					"entries": [
-						"The target's size decreases by one category—from Medium to Small, for example. The target also has {@variantrule Disadvantage|XPHB} on Strength checks and Strength saving throws. The target's attacks with its reduced weapons or Unarmed Strikes deal {@damage 1d4} less damage on a hit (this can't reduce the damage below 1)."
-					]
-				}
-			],
-			"savingThrow": [
-				"constitution"
-			],
-			"miscTags": [
-				"ADV",
-				"OBJ",
-				"SGT"
-			],
-			"areaTags": [
-				"ST"
-			],
-			"__prop": "spell",
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Bard",
-						"source": "XPHB"
-					},
-					{
-						"name": "Druid",
-						"source": "XPHB"
-					},
-					{
-						"name": "Sorcerer",
-						"source": "XPHB"
-					},
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					},
-					{
-						"name": "Artificer",
-						"source": "TCE"
-					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Bard",
-							"source": "XPHB"
-						},
-						"subclass": {
-							"name": "College of Lore",
-							"shortName": "Lore",
-							"source": "XPHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Fighter",
-							"source": "XPHB"
-						},
-						"subclass": {
-							"name": "Eldritch Knight",
-							"shortName": "Eldritch Knight",
-							"source": "XPHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Rogue",
-							"source": "XPHB"
-						},
-						"subclass": {
-							"name": "Arcane Trickster",
-							"shortName": "Arcane Trickster",
-							"source": "XPHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Fighter",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Eldritch Knight",
-							"shortName": "Eldritch Knight",
-							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Rogue",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Arcane Trickster",
-							"shortName": "Arcane Trickster",
-							"source": "PHB"
-						}
-					}
-				]
-			},
-			"races": [
-				{
-					"name": "Duergar",
-					"source": "MPMM"
-				},
-				{
-					"name": "Fairy",
-					"source": "MPMM"
-				},
-				{
-					"name": "Dwarf (Duergar)",
-					"source": "MTF",
-					"baseName": "Dwarf",
-					"baseSource": "PHB"
-				},
-				{
-					"name": "Fairy",
-					"source": "WBtW"
-				}
-			],
-			"backgrounds": [
-				{
-					"name": "Quandrix Student",
-					"source": "SCC"
-				},
-				{
-					"name": "Simic Scientist",
-					"source": "GGR"
-				}
-			],
-			"feats": [
-				{
-					"name": "Adept of the Red Robes",
-					"source": "DSotDQ"
-				}
-			],
-			"_isMutEntity": true,
-			"_tmpSourcesInit": true,
-			"_tmpClasses": {},
-			"_tmpRaces": [],
-			"_tmpBackgrounds": [],
-			"_tmpFeats": [],
-			"_tmpOptionalfeatures": [],
-			"_tmpGroups": [],
-			"_normalisedTime": 1,
-			"_normalisedRange": 360,
-			"_fSources": "XPHB",
-			"_fMisc": [
-				"Free Rules (2024)",
-				"Concentration",
-				"Verbal",
-				"Somatic",
-				"Material",
-				"ADV",
-				"OBJ",
-				"SGT"
-			],
-			"_isConc": true,
-			"_fClasses": [
-				{
-					"item": "Bard",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Druid",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Sorcerer",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Wizard",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Artificer",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				}
-			],
-			"_fSubclasses": [
-				{
-					"item": "Bard: Lore",
-					"group": false,
-					"nest": "Bard",
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Fighter: Eldritch Knight",
-					"group": false,
-					"nest": "Fighter",
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Rogue: Arcane Trickster",
-					"group": false,
-					"nest": "Rogue",
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Fighter: Eldritch Knight",
-					"group": false,
-					"nest": "Fighter",
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Rogue: Arcane Trickster",
-					"group": false,
-					"nest": "Rogue",
-					"rendered": null,
-					"searchText": null
-				}
-			],
-			"_fVariantClasses": [],
-			"_fClassesAndVariantClasses": [
-				{
-					"item": "Bard",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Druid",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Sorcerer",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Wizard",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Artificer",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				}
-			],
-			"_fRaces": [
-				{
-					"item": "Duergar",
-					"group": 0,
-					"nest": "(No Subspecies)",
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Dwarf (Duergar)",
-					"group": 0,
-					"nest": "Dwarf",
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Fairy",
-					"group": 0,
-					"nest": "(No Subspecies)",
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Fairy",
-					"group": 0,
-					"nest": "(No Subspecies)",
-					"rendered": null,
-					"searchText": null
-				}
-			],
-			"_fBackgrounds": [
-				"Quandrix Student",
-				"Simic Scientist"
-			],
-			"_fFeats": [
-				"Adept of the Red Robes"
-			],
-			"_fOptionalfeatures": [],
-			"_fGroups": [],
-			"_fTimeType": [
-				"action"
-			],
-			"_fDurationType": "1 Minute",
-			"_fRangeType": "Point",
-			"_fAreaTags": [
-				"ST"
-			],
-			"_fAffectsCreatureType": [
-				"aberration",
-				"beast",
-				"celestial",
-				"construct",
-				"dragon",
-				"elemental",
-				"fey",
-				"fiend",
-				"giant",
-				"humanoid",
-				"monstrosity",
-				"ooze",
-				"plant",
-				"undead"
-			]
-		},
-		{
-			"name": "Enlarge/Reduce",
-			"source": "CompendiumofAcadia",
 			"level": 4,
 			"school": "T",
 			"time": [
@@ -170330,31 +169960,7 @@
 			"entries": [
 				"👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️👁️👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️👁️ 👁️👁️ 👁️",
 				"<br>",
-				"Nem para frente, nem para trás, apenas ao redor e ao redor.",
-				"Uma vez posta em movimento, ela se afina.",
-				"Cada volta estica o fio,",
-				"Mais fino, mais afiado, mais forte.",
-				"<br>",
-				"O pincel do destino mergulha em tinta gasta,",
-				"Tinta pesada, espessa, endurecida.",
-				"As possibilidades secam e se estreitam.",
-				"O que antes fluía livre, agora penetra fundo,",
-				"Cada camada mais escura, mais densa, mais implacável.",
-				"<br>",
-				"As escolhas se comprimem. O poder se condensa.",
-				"Os fracos se espalham; os fortes se afinam.",
-				"<br>",
-				"Gire novamente.",
-				"Desgire.",
-				"Pode a Roda aliviar seu peso?",
-				"Pode ela se soltar, voltar a fluir?",
-				"<br>",
-				"Você não pode quebrá-la. Você não pode detê-la.",
-				"Ela gira.",
-				"E gira você.",
-				"<br>",
-				"O fim é onde termina",
-				"Movimento absoluto."
+				"<div>A Roda do Destino Gira.<br>Nem para frente, nem para trás—apenas <i>envolta de si</i>.<br><br>Uma vez posta em movimento, ela se afina.<br>Cada volta estica o fio,<br>Mais fino, mais afiado, mais forte.<br><br>O pincel do destino mergulha em tinta gasta,<br>Tinta pesada, espessa, endurecida.<br>As possibilidades secam e se estreitam.<br>O que antes fluía livre, agora penetra fundo,<br>Cada camada mais escura, mais densa, e mais implacável.<br><br>As escolhas se comprimem. O poder se condensa.<br>Os fracos se espalham; os fortes se afinam.<br><br>Gire novamente.<br>Desgire.<br>Pode a Roda aliviar seu peso?<br>Pode ela se soltar, voltar a engrossar?<br><br>Você não pode quebrá-la. Você não pode detê-la.<br>Ela gira.<br>E <i>gira você</i>.<br><br>O fim é onde termina<br>Movimento absoluto.</div>"
 			]
 		},
 		{
@@ -170362,7 +169968,7 @@
 			"name": "🟣 Purple Mana",
 			"ruleType": "C",
 			"entries": [
-				"O JOGO! 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️ 👁️"
+				"<img src='https://i.redd.it/pu9nncx22pv41.jpg' style='border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); max-width: 100%; height: auto; display: block; margin: 20px auto;' />"
 			]
 		},
 		{
@@ -170616,41 +170222,82 @@
 			"name": "🟢 Green Mana",
 			"ruleType": "C",
 			"entries": [
-				"Green Mana is tied to elements, nature, growth, and the cycles of creation. It embodies vitality and the primal connection to the world.",
-				"Green Mana views reality as a product of the primordial forces that govern existence, each acting according to its inherent nature. These forces encompass balance, growth, and the unyielding will of nature.",
+				"Green Mana embodies the primal forces that govern existence, thriving in the balance, growth, and unyielding will of nature. It sees reality as a product of these fundamental forces, which shape the world effortlessly and inherently, simply by their nature.",
+				"Green Mana can be drawn from various objects and locations that resonate with vitality, elemental force, and the spirit of life, such as:",
 				{
 					"type": "list",
-					"name": "Core Themes",
 					"items": [
-						"Nature and intuition",
-						"Spirits, animals, and trees",
-						"Alchemy and natural processes",
-						"Manipulation of fire, water, air, earth, electricity, sound, and metals"
+						"Living Plants, Seeds, and Fruits brimming with vitality",
+						"Animal Totems, Amber and Spirit Relics",
+						"Natural Phenomena infused with elemental energy (e.g., lightning storms, or volcanic activity)",
+						"Man-made structures teeming with energy, like Power Plants, Wind Farms, and Hydroelectric Dams",
+						"Haunted Houses and locations charged with spiritual or elemental energy"
 					]
 				},
-				"Green Mana's manifestations are primarily elemental, invoking the divine forces of nature. These manifestations reflect a belief in a reality shaped by the interplay of greater natural forces.",
 				{
-					"type": "list",
-					"name": "Associated Features",
-					"items": [
-						"Spells from the Primordial spell list 🌿",
-						"Evocation school spells ✨",
-						{
-							"type": "list",
-							"name": "Elemental Damage Associations",
-							"items": [
-								"Fire: Fire damage 🔥",
-								"Air: Electric damage ⚡",
-								"Earth: Acid damage 🧪",
-								"Water: Cold damage ❄️"
-							]
-						},
-						"Interactions with spirits and nature-based entities",
-						"Healing and medicinal applications",
-						"Use of poisons and acids"
+					"type": "table",
+					"caption": "Green Mana Effects",
+					"colLabels": [
+						"Cost",
+						"Effect"
+					],
+					"rows": [
+						[
+							"<span style='text-align: center; display: block;'>🟢</span>",
+							{
+								"type": "list",
+								"items": [
+									"Cast {@spell Elementalism|CompendiumOfAcadia}, {@spell Magic Stone|CompendiumOfAcadia}, {@spell Resistance|CompendiumOfAcadia}, {@spell Gust|CompendiumOfAcadia}, {@spell Shocking Grasp|CompendiumOfAcadia}, or {@spell Thunderclap|CompendiumOfAcadia}."
+								]
+							}
+						],
+						[
+							"<span style='text-align: center; display: block;'>🟢🟢</span>",
+							{
+								"type": "list",
+								"items": [
+									"Cast {@spell Chromatic Orb|CompendiumOfAcadia}, {@spell Create or Destroy Water|CompendiumOfAcadia}, {@spell Earth Tremor|CompendiumOfAcadia}, {@spell Ensnaring Strike|CompendiumOfAcadia}, {@spell Faerie Fire|CompendiumOfAcadia}, or {@spell Hellish Rebuke|CompendiumOfAcadia}."
+								]
+							}
+						],
+						[
+							"<span style='text-align: center; display: block;'>🟢🟢🟢</span>",
+							{
+								"type": "list",
+								"items": [
+									"Cast {@spell Barkskin|CompendiumOfAcadia}, {@spell Dragon's Breath|CompendiumOfAcadia}, {@spell Flame Blade|CompendiumOfAcadia}, {@spell Gust of Wind|CompendiumOfAcadia}, {@spell Heat Metal|CompendiumOfAcadia}, or {@spell Maximilian's Earthen Grasp|CompendiumOfAcadia}."
+								]
+							}
+						],
+						[
+							"<span style='text-align: center; display: block;'>🟢🟢🟢🟢</span>",
+							{
+								"type": "list",
+								"items": [
+									"Cast {@spell Ashardalon's Stride|CompendiumOfAcadia}, {@spell Lightning Bolt|CompendiumOfAcadia}, {@spell Spirit Shroud |CompendiumOfAcadia} (cold damage only), {@spell Wind Wall|CompendiumOfAcadia}, {@spell Elemental Weapon|CompendiumOfAcadia}, or {@spell Erupting Earth|CompendiumOfAcadia}."
+								]
+							}
+						],
+						[
+							"<span style='text-align: center; display: block;'>🟢🟢🟢🟢🟢</span>",
+							{
+								"type": "list",
+								"items": [
+									"Cast {@spell Conjure Woodland Beings|CompendiumOfAcadia}, {@spell Fire Shield|CompendiumOfAcadia}, {@spell Grasping Vine |CompendiumOfAcadia}, {@spell Ice Storm|CompendiumOfAcadia}, {@spell Shape Plants|CompendiumOfAcadia}, or {@spell Stoneskin|CompendiumOfAcadia}."
+								]
+							}
+						],
+						[
+							"<span style='text-align: center; display: block;'>🟢🟢🟢🟢🟢🟢</span>",
+							{
+								"type": "list",
+								"items": [
+									"Cast {@spell Commune with Nature|CompendiumOfAcadia}, {@spell Cone of Cold|CompendiumOfAcadia}, {@spell Conjure Elemental|CompendiumOfAcadia}, {@spell Immolation|CompendiumOfAcadia}, {@spell Wall of Stone|CompendiumOfAcadia}, or {@spell Wrath of Nature|CompendiumOfAcadia}."
+								]
+							}
+						]
 					]
-				},
-				"Green Mana oppresses {@variantrule ⚫ Black Mana|CompendiumofAcadia}, representing its ability to foster growth and vitality against entropy and decay. It is, however, oppressed by {@variantrule ⚪ White Mana|CompendiumofAcadia}, as order and rationality can constrain its primal and untamed nature."
+				}
 			]
 		},
 		{
@@ -170732,8 +170379,8 @@
 			"name": "⚪ White Mana",
 			"ruleType": "C",
 			"entries": [
-				"White Mana is rooted in order, rationality, and mental discipline. It governs laws, knowledge, oaths, and the power of the mind to shape reality through structure and rules.",
-				"White Mana can be extracted from objects, places, and concepts that symbolize structure, authority, and intellect, including:",
+				"White Mana embodies order, rationality, and the supremacy of the mind. It is the power of laws, knowledge, and oaths, drawing from the belief that reality is shaped by the constructs of thought. For White Mana, the physical world is not the foundation of existence but the reflection of mental and conceptual frameworks.",
+				"White Mana can be drawn from various objects and locations imbued with intellectual and symbolic significance, such as:",
 				{
 					"type": "list",
 					"items": [
@@ -170757,7 +170404,6 @@
 							{
 								"type": "list",
 								"items": [
-									"Receive {@variantrule Advantage|XPHB} to a d20 Test that uses Wisdom, Intelligence, or Charisma.",
 									"Cast {@spell Vicious Mockery|CompendiumOfAcadia}, {@spell Word of Radiance|CompendiumOfAcadia}, {@spell True Strike|CompendiumOfAcadia}, {@spell Light|CompendiumOfAcadia}, {@spell Mind Sliver|CompendiumOfAcadia}, or {@spell Message|CompendiumOfAcadia}."
 								]
 							}
@@ -170816,35 +170462,84 @@
 			"name": "🔴 Red Mana",
 			"ruleType": "C",
 			"entries": [
-				"Red Mana reflects passion, emotion, and willpower. It fuels the raw, unfiltered power of creativity, destruction, and the manifestation of one's inner strength.",
-				"Red Mana views reality as a canvas for emotion and will, where desires and passions are the forces that shape the world. It thrives on chaos, change, and the direct realization of personal goals.",
+				"Red Mana embodies the raw, untamed power of passion, emotion, and willpower. It thrives in the flames of determination and the relentless strength found in every living being. For Red Mana, reality is not a fixed construct but a dynamic canvas shaped by the intensity of desires and the sheer force of emotions brought to life.",
+				"Red Mana can be harnessed from objects, practices, and locations that resonate with resolve, emotional intensity, and physical expression, including:",
 				{
 					"type": "list",
-					"name": "Core Themes",
 					"items": [
-						"Emotion, passion, and raw willpower",
-						"Musculature and regeneration",
-						"Biological and blood manipulation",
-						"Manifestation of emotions in physical form (e.g., demons)",
-						"Chaos, unrestrained creativity, and transmutation",
-						"Grounding in physical reality and its malleability"
+						"Training Grounds and Arenas",
+						"Weapons and Combat Tools",
+						"Symbols of Passion and Emotion",
+						"Manifestations of Emotion (e.g., demons)",
+						"Dance Halls and Musical Places"
 					]
 				},
-				"The primary manifestation of Red Mana is through Martial Arts ⚔️, a discipline that channels the user's willpower into superhuman feats. These arts combine refined technique with an individual's raw determination to turn their objectives into reality. Though not inherently magical, Martial Arts harness the power within the practitioner, making the impossible achievable through sheer will and mastery.",
-				"Creatures made of manifested emotions, such as demons, are often shaped and molded by Red Mana. These beings are the physical embodiment of raw emotional energy, given form and intent through this primal force.",
 				{
-					"type": "list",
-					"name": "Associated Features",
-					"items": [
-						"Destructive spells fueled by passion",
-						"Fire magic and pyromancy 🔥",
-						"Blood magic and biological manipulation",
-						"Abilities tied to raw emotion and personal willpower",
-						"Martial techniques that achieve superhuman feats",
-						"Transmutation spells that reshape physical reality"
+					"type": "table",
+					"caption": "Green Mana Effects",
+					"colLabels": [
+						"Cost",
+						"Effect"
+					],
+					"rows": [
+						[
+							"<span style='text-align: center; display: block;'>🔴</span>",
+							{
+								"type": "list",
+								"items": [
+									"Get {@variantrule Advantage|XPHB} at your next attack roll",
+									"You can spend a bonus action to walk to up your speed",
+									"Cast {@spell Blade Ward|CompendiumOfAcadia}, {@spell Booming Blade|CompendiumOfAcadia}, {@spell Green-Flame Blade|CompendiumOfAcadia}, or {@spell Guidance|CompendiumOfAcadia}."
+								]
+							}
+						],
+						[
+							"<span style='text-align: center; display: block;'>🔴🔴</span>",
+							{
+								"type": "list",
+								"items": [
+									"Cast {@spell Bless|CompendiumOfAcadia}, {@spell Compelled Duel|CompendiumOfAcadia}, {@spell Divine Smite|CompendiumOfAcadia}, {@spell Heroism|CompendiumOfAcadia}, {@spell Jump|CompendiumOfAcadia}, or {@spell Longstrider|CompendiumOfAcadia}."
+								]
+							}
+						],
+						[
+							"<span style='text-align: center; display: block;'>🔴🔴🔴</span>",
+							{
+								"type": "list",
+								"items": [
+									"Cast {@spell Arcane Vigor|CompendiumOfAcadia}, {@spell Darkvision|CompendiumOfAcadia}, {@spell Enhance Ability|CompendiumOfAcadia}, {@spell Kinetic Jaunt|CompendiumOfAcadia}, {@spell Protection from Poison|CompendiumOfAcadia}, or {@spell Shining Smite|CompendiumOfAcadia}."
+								]
+							}
+						],
+						[
+							"<span style='text-align: center; display: block;'>🔴🔴🔴🔴</span>",
+							{
+								"type": "list",
+								"items": [
+									"Cast {@spell Motivational Speech|CompendiumOfAcadia}, {@spell Haste|CompendiumOfAcadia}, {@spell Fly |CompendiumOfAcadia}, {@spell Crusader's Mantle|CompendiumOfAcadia}, {@spell Blinding Smite|CompendiumOfAcadia}, or {@spell Water Breathing|CompendiumOfAcadia}."
+								]
+							}
+						],
+						[
+							"<span style='text-align: center; display: block;'>🔴🔴🔴🔴🔴</span>",
+							{
+								"type": "list",
+								"items": [
+									"Cast {@spell Carven Rifle|CompendiumOfAcadia}, {@spell Dimensional Anchor|CompendiumOfAcadia}, {@spell Enlarge/Reduce|CompendiumOfAcadia}, {@spell Freedom of Movement|CompendiumOfAcadia}, {@spell Polymorph|CompendiumOfAcadia}, or {@spell Summon Greater Demon|CompendiumOfAcadia}."
+								]
+							}
+						],
+						[
+							"<span style='text-align: center; display: block;'>🔴🔴🔴🔴🔴🔴</span>",
+							{
+								"type": "list",
+								"items": [
+									"Cast {@spell Swift Quiver|CompendiumOfAcadia}, {@spell Steel Wind Strike|CompendiumOfAcadia}, {@spell Skill Empowerment|CompendiumOfAcadia}, {@spell Planar Binding|CompendiumOfAcadia}, {@spell Infernal Calling|CompendiumOfAcadia}, {@spell Freedom of the Winds|CompendiumOfAcadia}, or {@spell Flame Strike|CompendiumOfAcadia}."
+								]
+							}
+						]
 					]
-				},
-				"Red Mana oppresses {@variantrule ⚪ White Mana|CompendiumofAcadia}, breaking through its rigid structures with raw passion and chaos. However, it is oppressed by {@variantrule ⚫ Black Mana|CompendiumofAcadia}, which consumes its vitality and passion with entropy and inevitability."
+				}
 			]
 		},
 		{
