@@ -170624,10 +170624,10 @@
 							{
 								"type": "list",
 								"items": [
-									"You cast {@spell Compelled Duel|CompendiumOfAcadia} without components.",
-									"You take a Bonus action, immediately after hitting a target with a Melee weapon or an Unarmed Strike, it deals 2d8 additional damage of the same type.",
-									"You cast {@spell Heroism|CompendiumOfAcadia} without components.",
-									"When taking damage from a attack that deals Bludgeoning, Piercing, or Slashing damage, you can use your Reaction to you reduce the damage by 2d8.",
+								  "You cast {@spell Compelled Duel|CompendiumOfAcadia} without components.",
+								  "You take a Bonus action, immediately after hitting a target with a Melee weapon or an Unarmed Strike, it deals 2d8 additional damage of the same type.",
+								  "You cast {@spell Heroism|CompendiumOfAcadia} without components.",
+								  "When taking damage from a attack that deals Bludgeoning, Piercing, or Slashing damage, you can use your Reaction to you reduce the damage by 2d8.",
 									"You cast {@spell Jump|CompendiumOfAcadia} without components."
 								]
 							}
@@ -170637,11 +170637,11 @@
 							{
 								"type": "list",
 								"items": [
-									"You cast {@spell Arcane Vigor|CompendiumOfAcadia} without components.",
-									"You cast {@spell Enhance Ability|CompendiumOfAcadia} without components.",
-									"You cast {@spell Kinetic Jaunt|CompendiumOfAcadia} without components.",
-									"After you make a weapon attack against a target, you can take an additional attack against a target up to 5 feet of it if inside your range",
-									"If a creature trigger a opportinity attack against you, you can make this attack with a bonus of 2d8 on the attack and damage."
+								  "You cast {@spell Arcane Vigor|CompendiumOfAcadia} without components.",
+								  "You cast {@spell Enhance Ability|CompendiumOfAcadia} without components.",
+								  "You cast {@spell Kinetic Jaunt|CompendiumOfAcadia} without components.",
+								  "After you make a weapon attack against a target, you can take an additional attack against a target up to 5 feet of it if inside your range",
+								  "If a creature trigger a opportinity attack against you, you can make this attack with a bonus of 2d8 on the attack and damage."
 								]
 							}
 						],
@@ -170650,11 +170650,11 @@
 							{
 								"type": "list",
 								"items": [
-									"You cast {@spell Haste|CompendiumOfAcadia} without components.",
-									"You cast {@spell Motivational Speech|CompendiumOfAcadia} without components.",
-									"At yhe start of your turn, for the next hour, your movement speed increases by 20 feet.",
-									"As a Action, you make a unarmed strike against the target within 10 feet, on a hit it deals 7d10 bludgeoning damage.",
-									"After failing a Strength, Constitution or Dexterity save, you can roll 2d8 and add to the check, potentially turning it into a success."
+								  "You cast {@spell Haste|CompendiumOfAcadia} without components.",
+								  "You cast {@spell Motivational Speech|CompendiumOfAcadia} without components.",
+								  "At yhe start of your turn, for the next hour, your movement speed increases by 20 feet.",
+								  "As a Action, you make a unarmed strike against the target within 10 feet, on a hit it deals 7d10 bludgeoning damage.",
+								  "After failing a Strength, Constitution or Dexterity save, you can roll 2d8 and add to the check, potentially turning it into a success."
 								]
 							}
 						],
@@ -170663,11 +170663,11 @@
 							{
 								"type": "list",
 								"items": [
-									"You cast {@spell Freedom of Movement|CompendiumOfAcadia} without components.",
-									"You cast {@spell Enlarge/Reduce|CompendiumOfAcadia} without components.",
-									"As an Action, you gain Advantage in Strength, Dexterity and Constitution saving throws and ability checks for the next hour.",
-									"You cast {@spell Haste|CompendiumOfAcadia}, but you do not need to concetrate on the spell.",
-									"You cast {@spell Stoneskin|CompendiumOfAcadia} without components."
+								  "You cast {@spell Freedom of Movement|CompendiumOfAcadia} without components.",
+								  "You cast {@spell Enlarge/Reduce|CompendiumOfAcadia} without components.",
+								  "As an Action, you gain Advantage in Strength, Dexterity and Constitution saving throws and ability checks for the next hour.",
+								  "You cast {@spell Haste|CompendiumOfAcadia}, but you do not need to concetrate on the spell.",
+								  "You cast {@spell Stoneskin|CompendiumOfAcadia} without components."
 								]
 							}
 						],
@@ -170676,9 +170676,11 @@
 							{
 								"type": "list",
 								"items": [
-									"As a reaction for being affected by a curse, exhaustion levels, Charmed or petrified condition, reduction to ability scores or reduction of maximum hitpoints, you cast {@spell Greater Restoration|CompendiumOfAcadia} on Self without components.",
-									"You get an additional Action this turn, except a magic action. Immediatelly before taking it, you take 4d12 necrotic damage that cannot be reduced or negated in any way.",
-									"Cast {@spell Swift Quiver|CompendiumOfAcadia}, {@spell Steel Wind Strike|CompendiumOfAcadia}, {@spell Planar Binding|CompendiumOfAcadia}, {@spell Infernal Calling|CompendiumOfAcadia}, {@spell Freedom of the Winds|CompendiumOfAcadia}, or {@spell Flame Strike|CompendiumOfAcadia}."
+					  "You cast {@spell Circle of Power|CompendiumOfAcadia} without components.",
+					  "You cast {@spell Banishing Smite|CompendiumOfAcadia} without components.",
+								  "As a reaction for being affected by a curse, exhaustion levels, Charmed or petrified condition, reduction to ability scores or reduction of maximum hitpoints, you cast {@spell Greater Restoration|CompendiumOfAcadia} on Self without components.",
+								  "You get an additional Action this turn, except a magic action. Immediatelly before taking it, you take 4d12 necrotic damage that cannot be reduced or negated in any way.",
+								  "Undertaker. As a Action, you make 6 unnarmed strikes against targets withing 10 feet, each of then deals 2d8 bludgeoning damage on a hit."
 								]
 							}
 						]
