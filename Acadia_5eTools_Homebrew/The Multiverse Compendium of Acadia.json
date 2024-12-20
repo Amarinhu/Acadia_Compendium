@@ -170247,7 +170247,7 @@
 							{
 								"type": "list",
 								"items": [
-									"Cast {@spell Elementalism|CompendiumOfAcadia}, {@spell Magic Stone|CompendiumOfAcadia}, {@spell Resistance|CompendiumOfAcadia}, {@spell Gust|CompendiumOfAcadia}, {@spell Shocking Grasp|CompendiumOfAcadia}, or {@spell Thunderclap|CompendiumOfAcadia}."
+									"<b>Spellcasting:</b> Cast {@spell Fire Bolt|CompendiumOfAcadia}, {@spell Shocking Grasp|CompendiumOfAcadia}, {@spell Acid Splash|CompendiumOfAcadia}, {@spell Ray of Frost|CompendiumOfAcadia}, or {@spell Elementalism|CompendiumOfAcadia}."
 								]
 							}
 						],
@@ -170256,7 +170256,7 @@
 							{
 								"type": "list",
 								"items": [
-									"Cast {@spell Chromatic Orb|CompendiumOfAcadia}, {@spell Create or Destroy Water|CompendiumOfAcadia}, {@spell Earth Tremor|CompendiumOfAcadia}, {@spell Ensnaring Strike|CompendiumOfAcadia}, {@spell Faerie Fire|CompendiumOfAcadia}, or {@spell Hellish Rebuke|CompendiumOfAcadia}."
+									"<b>Spellcasting:</b> Cast {@spell Burning Hands|CompendiumOfAcadia}, {@spell Witch Bolt|CompendiumOfAcadia}, {@spell Tasha's Caustic Brew|CompendiumOfAcadia}, {@spell Frost Fingers|CompendiumOfAcadia}, or {@spell Absorb Elements|CompendiumOfAcadia}."
 								]
 							}
 						],
@@ -170265,7 +170265,7 @@
 							{
 								"type": "list",
 								"items": [
-									"Cast {@spell Barkskin|CompendiumOfAcadia}, {@spell Dragon's Breath|CompendiumOfAcadia}, {@spell Flame Blade|CompendiumOfAcadia}, {@spell Gust of Wind|CompendiumOfAcadia}, {@spell Heat Metal|CompendiumOfAcadia}, or {@spell Maximilian's Earthen Grasp|CompendiumOfAcadia}."
+									"<b>Spellcasting:</b> Cast {@spell Scorching Ray|CompendiumOfAcadia}, {@spell Warding Wind|CompendiumOfAcadia}, {@spell Melf's Acid Arrow|CompendiumOfAcadia}, {@spell Rime's Binding Ice|CompendiumOfAcadia}, or {@spell Barkskin|CompendiumOfAcadia}."
 								]
 							}
 						],
@@ -170274,7 +170274,7 @@
 							{
 								"type": "list",
 								"items": [
-									"Cast {@spell Ashardalon's Stride|CompendiumOfAcadia}, {@spell Lightning Bolt|CompendiumOfAcadia}, {@spell Spirit Shroud |CompendiumOfAcadia} (cold damage only), {@spell Wind Wall|CompendiumOfAcadia}, {@spell Elemental Weapon|CompendiumOfAcadia}, or {@spell Erupting Earth|CompendiumOfAcadia}."
+									"<b>Spellcasting:</b> Cast {@spell Fireball|CompendiumOfAcadia}, {@spell Lightning Bolt|CompendiumOfAcadia}, {@spell Erupting Earth|CompendiumOfAcadia}, {@spell Spirit Shroud|CompendiumOfAcadia} (cold damage option), or {@spell Elemental Weapon|CompendiumOfAcadia}."
 								]
 							}
 						],
@@ -170283,7 +170283,7 @@
 							{
 								"type": "list",
 								"items": [
-									"Cast {@spell Conjure Woodland Beings|CompendiumOfAcadia}, {@spell Fire Shield|CompendiumOfAcadia}, {@spell Grasping Vine |CompendiumOfAcadia}, {@spell Ice Storm|CompendiumOfAcadia}, {@spell Shape Plants|CompendiumOfAcadia}, or {@spell Stoneskin|CompendiumOfAcadia}."
+									"<b>Spellcasting:</b> Cast {@spell Conjure Minor Elementals|CompendiumOfAcadia}, {@spell Freedom of Movement|CompendiumOfAcadia}, {@spell Vitriolic Sphere|CompendiumOfAcadia}, {@spell Fire Shield|CompendiumOfAcadia}, or {@spell Summon Elemental|CompendiumOfAcadia}."
 								]
 							}
 						],
@@ -170292,7 +170292,7 @@
 							{
 								"type": "list",
 								"items": [
-									"Cast {@spell Commune with Nature|CompendiumOfAcadia}, {@spell Cone of Cold|CompendiumOfAcadia}, {@spell Conjure Elemental|CompendiumOfAcadia}, {@spell Immolation|CompendiumOfAcadia}, {@spell Wall of Stone|CompendiumOfAcadia}, or {@spell Wrath of Nature|CompendiumOfAcadia}."
+									"<b>Spellcasting:</b> Cast {@spell Conjure Elemental|CompendiumOfAcadia}, {@spell Destructive Wave|CompendiumOfAcadia},  {@spell Wall of Stone|CompendiumOfAcadia},  {@spell Cone of Cold|CompendiumOfAcadia}, or {@spell Wrath of Nature|CompendiumOfAcadia}."
 								]
 							}
 						]
@@ -170305,36 +170305,90 @@
 			"name": "🔵 Blue Mana",
 			"ruleType": "C",
 			"entries": [
-				"Blue Mana represents self-reference, essential forms, paradoxes, and the manipulation of magical instructions. It is deeply tied to the recognition of patterns and a Gnostic understanding of reality.",
-				"Blue Mana views reality through a syncretic lens, perceiving all things as fundamentally the same in essence. Differences are seen as interpretations or distortions of a common form, emphasizing unity and interconnectedness.",
+				"Blue Mana represents self-reference, essential forms, and the interplay of paradoxes, embodying the ability to manipulate the foundational instructions of reality. It perceives differences as mere distortions or interpretations of a shared essence. For Blue Mana, existence is a web of interconnected truths, where every fragment reflects the whole.",
+				"Blue Mana can be drawn from virtually anything, as it exists in its raw and unaltered form throughout the multiverse. It is the neutral and foundational state of mana, the pure thread from which all other manifestations are woven.",
 				{
 					"type": "list",
-					"name": "Core Themes",
 					"items": [
-						"Self-reference and essential forms",
-						"Recognition of patterns and paradoxes",
-						"Countermagic and spell manipulation",
-						"Gnosticism and syncretism",
-						"Arcane perception of reality's underlying structures",
-						"Unbiased magical instructions as the foundation of all spells"
+						"Found wherever mana exists, as it is the primal essence underlying all forms of mana."
 					]
 				},
-				"The primary manifestation of Blue Mana is through essential patterns. These patterns reveal the underlying structures of all things, acting as a self-referential force that unveils the arcane truths of existence.",
-				"Blue Mana is also fundamentally tied to the creation and manipulation of magical instructions. Every spell uses Blue Mana as the instructional core that defines its function, making it the purest form of unbiased magic. This neutral essence can be shaped or biased by other mana types, channeling their specific properties.",
 				{
-					"type": "list",
-					"name": "Associated Features",
-					"items": [
-						"Countermagic spells ✨",
-						"Force damage",
-						"Spells that alter or disrupt patterns",
-						"Abilities that manipulate time, flow, or causality",
-						"Understanding and revealing hidden truths",
-						"Perception and reconfiguration of magical forms",
-						"Force damage as a manifestation of pure magical energy"
+					"type": "table",
+					"caption": "Blue Mana Effects",
+					"colLabels": [
+						"Cost",
+						"Effect"
+					],
+					"rows": [
+						[
+							"<span style='text-align: center; display: block;'>🔵</span>",
+							{
+								"type": "list",
+								"items": [
+									"<b>Arcane Affinity:</b> Gain {@variantrule Advantage|XPHB} on an {@skill Arcana} check.",
+									"<b>Fast Attunement:</b> As a bonus action, you can attune or unattune to any number of magic items you have equipped. This does not allow you to exceed your normal attunement limit.",
+									"<b>Spellcasting:</b> You can cast {@spell Prestidigitation|CompendiumOfAcadia}, {@spell Mending|CompendiumOfAcadia}, or {@spell Mage Hand|CompendiumOfAcadia}."
+								]
+							}
+						],
+						[
+							"<span style='text-align: center; display: block;'>🔵🔵</span>",
+							{
+								"type": "list",
+								"items": [
+									"<b>Arcane Hands:</b> When casting a spell that requires somatic components, you can create arcane hands to perform them for you. This allows you to cast spells with somatic components even while holding weapons or a shield in one or both hands.",
+									"<b>Essential Reduction:</b> When dealing damage with a spell, you can change the damage type of the spell into Force damage.",
+									"<b>Spellcasting:</b> You can cast {@spell Find Familiar|CompendiumOfAcadia}, {@spell Mage Armor|CompendiumOfAcadia}, or {@spell Magic Missile|CompendiumOfAcadia}."
+								]
+							}
+						],
+						[
+							"<span style='text-align: center; display: block;'>🔵🔵🔵</span>",
+							{
+								"type": "list",
+								"items": [
+									"<b>Arcane Slash.</b> As an Action, make a melee spell attack against a target within 10 feet. In a hit, it deals {@damage 3d10} Force damage.",
+									"<b>Essential Protection.</b> After getting hit by Force damage, reduce the Force damage by 4d4.",
+									"<b>Spellcasting:</b> Cast {@spell Misty Step|CompendiumOfAcadia}, {@spell Nystul's Magic Aura|CompendiumOfAcadia}, or {@spell Wristpocket|CompendiumOfAcadia}."
+								]
+							}
+						],
+						[
+							"<span style='text-align: center; display: block;'>🔵🔵🔵🔵</span>",
+							{
+								"type": "list",
+								"items": [
+									"<b>Arcane Mount.</b> You cast {@spell Phantom Steed|CompendiumOfAcadia} as a Action without verbal or somatic components.",
+									"<b>Spell Resistance. </b> After failing a saving throw against a spell, you can roll a d20 to substitute your roll, you have to take the last result.",
+									"<b>Spellcasting:</b> Cast {@spell Blink|CompendiumOfAcadia}, {@spell Counterspell|CompendiumOfAcadia}, or {@spell Dispel Magic|CompendiumOfAcadia}."
+								]
+							}
+						],
+						[
+							"<span style='text-align: center; display: block;'>🔵🔵🔵🔵🔵</span>",
+							{
+								"type": "list",
+								"items": [
+									"<b>Great Arcane Mount.</b> You cast {@spell Find Greater Steed|CompendiumOfAcadia} as a Action without verbal or somatic components.",
+									"<b>Arcane Jump.</b> As a Action, you teleport yourself up 100 feet to a place you can see.",
+									"<b>Spellcasting:</b> Cast {@spell Banishment|CompendiumOfAcadia}, {@spell Mordenkainen's Faithful Hound|CompendiumOfAcadia}, or {@spell Elemental Bane|CompendiumOfAcadia}"
+								]
+							}
+						],
+						[
+							"<span style='text-align: center; display: block;'>🔵🔵🔵🔵🔵🔵</span>",
+							{
+								"type": "list",
+								"items": [
+									"<b>Arcane Creation.</b> You cast {@spell Creation|CompendiumOfAcadia} as a Action without verbal or somatic components.",
+									"<b>Essential Form Unleash</b> As an Action, you unleash a powerful force within a 30-foot cube centered at a point up to 90 feet away. Each creature in the area must make a Dexterity saving throw. On a failed save, a creature takes 8d8 force damage and is {@condition Stunned} until the end of its next turn. On a successful save, the creature takes half damage and is not {@condition Stunned}.",
+									"<b>Spellcasting:</b> Cast {@spell Skill Empowerment|CompendiumOfAcadia}, {@spell Bigby's Hand|CompendiumOfAcadia}, or {@spell Steel Wind Strike|CompendiumOfAcadia}."
+								]
+							}
+						]
 					]
-				},
-				"Blue Mana is neutral and does not participate in the oppression cycle. It often serves as a stabilizer or mediator, ensuring balance among the other mana types."
+				}
 			]
 		},
 		{
@@ -170342,36 +170396,100 @@
 			"name": "⚫ Black Mana",
 			"ruleType": "C",
 			"entries": [
-				"Black Mana is associated with entropy, death, time, and the inexorable decay of all things. It embodies the inevitability of the void and the silent, inert end of existence.",
-				"Black Mana views reality as a process destined for constant entropy and eventual cessation. It thrives on the cycles of life and death, wielding power over decay, anti-life, causality, unrealized potential, and the manipulation of chaos and gravity.",
+				"Black Mana embodies entropy, decay, and the inexorable pull of time and death. For Black Mana, reality is a constant flow of entropy, where chaos just increases inevitably. It represents the silent, inevitable end that awaits all things, drawing power from cycles of life and death, and the forces that bind existence to eventual entropy.",
+				"Black Mana can be drawn from various objects and locations that resonate with decay, darkness, and the inevitability of entropy, such as:",
 				{
 					"type": "list",
-					"name": "Core Themes",
 					"items": [
-						"Forces of time, space, and entropy",
-						"Decay, necromancy, and anti-life",
-						"Causality and unrealized potential",
-						"Darkness, inertia, and immobility",
-						"Cycles of life and death",
-						"Graviturgy (manipulation of gravity)",
-						"Chaos as a fundamental force"
+						"Ancient Cemeteries and Graveyards",
+						"Cursed Artifacts and Relics of Forgotten Ages",
+						"Places of Natural Decay, such as Swamps and Dead Forests",
+						"Astral Phenomena that embody chaos, such as Black Holes or Dying Stars",
+						"Man-made structures abandoned and overtaken by ruin, like Ghost Towns or Crumbling Temples"
 					]
 				},
-				"The primary manifestation of Black Mana is through the forces of movement. These are profane powers that manipulate the fundamental forces governing time, space, gravity, and decay. This perspective sees reality as an inevitable march toward entropy and the void.",
-				"While Black Mana is often associated with evil, its nature is more apathetic than malevolent. Its historical association with taboo practices—such as manipulating life and death—has led to its stigmatization and misuse for dark purposes. This misunderstanding has fueled its reputation for villainy, but Black Mana is, at its core, a neutral force of inevitability.",
 				{
-					"type": "list",
-					"name": "Associated Features",
-					"items": [
-						"Spells from the Necromancy school ✨",
-						"Chronomancy and time manipulation",
-						"Graviturgy and gravity-based effects",
-						"Effects that drain or transfer life energy",
-						"Spells tied to darkness and immobilization",
-						"Manipulation of decay, destruction, and chaos"
+					"type": "table",
+					"caption": "Black Mana Effects",
+					"colLabels": [
+						"Cost",
+						"Effect"
+					],
+					"rows": [
+						[
+							"<span style='text-align: center; display: block;'>⚫</span>",
+							{
+								"type": "list",
+								"items": [
+									"<b>Negative Flow:</b> When dealing Necrotic damage, deal an additional 1d8 Necrotic Damage.",
+									"<b>Corpse Decay:</b> As a bonus action, you can touch a body and make it crumble to dust.",
+									"<b>Negate Healing:</b> When dealing Necrotic damage, you can make a creature unable to recover hitpoints until the end on it's next turn.",
+									"<b>Spellcasting:</b> You can cast {@spell Toll the Dead |CompendiumOfAcadia}, or {@spell Spare the Dying|CompendiumOfAcadia}."
+								]
+							}
+						],
+						[
+							"<span style='text-align: center; display: block;'>⚫⚫</span>",
+							{
+								"type": "list",
+								"items": [
+									"<b>Entropy Healing:</b> After getting healed, you can spend 2 hitdice and heal the amount rolled additionally.",
+									"<b>Undead Nature.</b> After taking poison damage, you can reduce the poison damage by half.",
+									"<b>Gravitational Pull:</b> As an Action, force a creature within 30 feet to make a Strength saving throw or be pulled 20 feet toward you.",
+									"<b>Spellcasting:</b> You can cast {@spell Ray of Sickness|CompendiumOfAcadia}, or {@spell False Life|CompendiumOfAcadia}."
+								]
+							}
+						],
+						[
+							"<span style='text-align: center; display: block;'>⚫⚫⚫</span>",
+							{
+								"type": "list",
+								"items": [
+									"<b>Life Drain:</b> As an Action, make a melee spell attack against a creature within 10 feet. On a hit, deal {@damage 3d6} necrotic damage and heal for half the damage dealt.",
+									"<b>Warping Space.</b> As an Action, you cast {@spell Vortex Warp|CompendiumOfAcadia} without Verbal or Somatic components.",
+									"<b>Burden:</b> As an Action, create a 30-foot-radius sphere of intensified gravity within 60 feet. Creatures in the area must make a Strength saving throw or have their movement reduced to 0 until the end of their next turn.",
+									"<b>Spellcasting:</b> Cast {@spell Immovable Object|CompendiumOfAcadia}, or {@spell Ray of Enfeeblement|CompendiumOfAcadia}."
+								]
+							}
+						],
+						[
+							"<span style='text-align: center; display: block;'>⚫⚫⚫⚫</span>",
+							{
+								"type": "list",
+								"items": [
+									"<b>Necrotic Purge:</b> As an Action, choose a creature within range, it makes a Constitution Saving Throw, taking 4d10 necrotic damage on a success, and half as much in a failure. Undead creatures take max damage from this.",
+									"<b>Gravity Pulse:</b> You cast {@spell Pulse Wave|CompendiumOfAcadia} without Verbal or Somatic components.",
+									"<b>Fake Death:</b> After taking damage, you can cast {@spell Feign Death|CompendiumOfAcadia} without Verbal, Somatic or Material components.",
+									"<b>Spellcasting:</b> Cast {@spell Life Transference|CompendiumOfAcadia}, or {@spell Summon Undead|CompendiumOfAcadia}."
+								]
+							}
+						],
+						[
+							"<span style='text-align: center; display: block;'>⚫⚫⚫⚫⚫</span>",
+							{
+								"type": "list",
+								"items": [
+									"<b>Gravitational Manifestation:</b> You cast {@spell Gravity Sinkhole|CompendiumOfAcadia} without Verbal, Somatic or Material components.",
+									"<b>Empower Undeath.</b> When you create an undead, you have 40 points to distribute between then, their current and maximum hitpoints increases by that.",
+									"<b>Necrotic Puppeteer:</b> You cast {@spell Animate Dead|CompendiumOfAcadia} at 4th level with casting time of an Action and without Verbal, Somatic or Material Componenets.",
+									"<b>Spellcasting:</b> Cast {@spell Blight|CompendiumOfAcadia}, or {@spell Consume Mind|CompendiumOfAcadia}."
+								]
+							}
+						],
+						[
+							"<span style='text-align: center; display: block;'>⚫⚫⚫⚫⚫⚫</span>",
+							{
+								"type": "list",
+								"items": [
+									"<b>Negative Energy Blade</b> You cast {@spell Shadow Blade|CompendiumOfAcadia} at 5th level without componenets.",
+									"<b>Undead Form.</b> As an Action, you get 30 temporary hitpoints, for the next 10 minutes your creature type chanegs to Undead, you are immune to Poison damage, immune to Exhaustion and Poisoned conditions. Eveytime you deal damage, it's increased by 5 necrotic damage. Advantage on Constitution saves, and everytime you are reduced to 0 HP, you make a DC 5 + damage taken Constitution Saving Throw, being reduced to 1 instead of 0 if you pass, this does not apply if the damage that reduced you to 0 was radiant or from a critical. After this effect ends you take 3 levels of exhaustion.",
+									"<b>Great Kiss of Death.</b> As an Action, choose a creature within 5 feet. It makes a Constitution Saving Throw, in a failure it takes {@damage 10d10} Necrotic damage. A creature that died by this crumbles until nothing is left.",
+									"<b>Spellcasting:</b> Cast {@spell Negative Energy Flood|CompendiumOfAcadia}, or {@spell Contagion|CompendiumOfAcadia}."
+								]
+							}
+						]
 					]
-				},
-				"Black Mana is oppressive toward {@variantrule 🔴 Red Mana|CompendiumofAcadia}, consuming its passion and vitality with inevitable decay. It is, however, oppressed by {@variantrule 🟢 Green Mana|CompendiumofAcadia}, which counters its entropy with growth and renewal."
+				}
 			]
 		},
 		{
@@ -170404,7 +170522,8 @@
 							{
 								"type": "list",
 								"items": [
-									"Cast {@spell Vicious Mockery|CompendiumOfAcadia}, {@spell Word of Radiance|CompendiumOfAcadia}, {@spell True Strike|CompendiumOfAcadia}, {@spell Light|CompendiumOfAcadia}, {@spell Mind Sliver|CompendiumOfAcadia}, or {@spell Message|CompendiumOfAcadia}."
+									"<b>Replicate Information.</b> As an Action, You can replicate written text at 1 minute per page or images at 60 times the normal speed, provided you have the necessary tools and materials. You must concentrate as if on a spell and can maintain this for up to 1 hour. You may replicate text accurately or in your own style. This also applies to copying spells into your spellbook, taking 1 minute per spell level.",
+									"<b>Spellcasting:</b> Cast {@spell Vicious Mockery|CompendiumOfAcadia}, {@spell True Strike|CompendiumOfAcadia}, {@spell Light|CompendiumOfAcadia}, or {@spell Message|CompendiumOfAcadia}."
 								]
 							}
 						],
@@ -170413,7 +170532,8 @@
 							{
 								"type": "list",
 								"items": [
-									"Cast {@spell Bless|CompendiumOfAcadia}, {@spell Charm Person|CompendiumOfAcadia}, {@spell Cure Wounds|CompendiumOfAcadia}, {@spell Comprehend Languages|CompendiumOfAcadia}, {@spell Detect Magic|CompendiumOfAcadia}, or {@spell Identify|CompendiumOfAcadia}."
+									"<b>Sharp Mind.</b> As an Action, you gain perfect recall and clarity for 8 hours, allowing you to remember anything you’ve seen or heard during this time. You also have advantage on Arcana, History, Nature, and Religion checks.",
+									"<b>Spellcasting:</b> Cast {@spell Charm Person|CompendiumOfAcadia}, {@spell Comprehend Languages|CompendiumOfAcadia}, {@spell Detect Magic|CompendiumOfAcadia}, or {@spell Identify|CompendiumOfAcadia}."
 								]
 							}
 						],
@@ -170422,7 +170542,8 @@
 							{
 								"type": "list",
 								"items": [
-									"Cast {@spell Borrowed Knowledge|CompendiumOfAcadia}, {@spell Calm Emotions|CompendiumOfAcadia}, {@spell Detect Thoughts|CompendiumOfAcadia}, {@spell Find Traps|CompendiumOfAcadia}, {@spell Invisibility|CompendiumOfAcadia}, or {@spell Zone of Truth|CompendiumOfAcadia}."
+									"<b>Truth Bastion</b> As an action, you create a 15-foot radius Emanation that functions as the {@spell Zone of Truth|CompendiumOfAcadia} spell, that lasts for 1 hour.",
+									"<b>Spellcasting:</b> Cast {@spell Borrowed Knowledge|CompendiumOfAcadia}, {@spell Calm Emotions|CompendiumOfAcadia}, {@spell Detect Thoughts|CompendiumOfAcadia}, or {@spell Invisibility|CompendiumOfAcadia}."
 								]
 							}
 						],
@@ -170431,7 +170552,8 @@
 							{
 								"type": "list",
 								"items": [
-									"Cast {@spell Clairvoyance|CompendiumOfAcadia}, {@spell Combat Focus|CompendiumOfAcadia}, {@spell Daylight|CompendiumOfAcadia}, {@spell Intellect Fortress|CompendiumOfAcadia}, {@spell Tongues|CompendiumOfAcadia}, or {@spell Fear|CompendiumOfAcadia}."
+									"<b>Vibrating Vision.</b> As an Action, for the next 8 hours, you have {@sense Tremorsense|XPHB} with a range of 60 feet.",
+									"<b>Spellcasting:</b> Cast {@spell Clairvoyance|CompendiumOfAcadia}, {@spell Intellect Fortress|CompendiumOfAcadia}, {@spell Tongues|CompendiumOfAcadia}, or {@spell Fear|CompendiumOfAcadia}."
 								]
 							}
 						],
@@ -170440,7 +170562,8 @@
 							{
 								"type": "list",
 								"items": [
-									"Cast {@spell Arcane Eye|CompendiumOfAcadia}, {@spell Aura of Purity|CompendiumOfAcadia}, {@spell Charm Monster|CompendiumOfAcadia}, {@spell Divination|CompendiumOfAcadia}, {@spell Hallucinatory Terrain|CompendiumOfAcadia}, or {@spell Phantasmal Killer|CompendiumOfAcadia}."
+									"<b>Powerful Message.</b> As an Action, you send a telepathic message to a target within 60 feet, choosing one of the following: <br> <i>• Memory.</i> Show a willing target a memory of yours (up to 10 minutes long), remembered perfectly for 1 hour. <br> <i>• Message:</i> Deliver a message of up to 100 words, remembered perfectly for 1 hour. <br> <i>• Terror Image:</i> The target makes a Wisdom saving throw, taking {@damage 6d10} Psychic damage on a failure, or half as much on a success.",
+									"<b>Spellcasting:</b> Cast {@spell Arcane Eye|CompendiumOfAcadia}, {@spell Charm Monster|CompendiumOfAcadia}, {@spell Divination|CompendiumOfAcadia}, or {@spell Hallucinatory Terrain|CompendiumOfAcadia}."
 								]
 							}
 						],
@@ -170449,7 +170572,8 @@
 							{
 								"type": "list",
 								"items": [
-									"Cast {@spell Awaken|CompendiumOfAcadia}, {@spell Commune|CompendiumOfAcadia}, {@spell Creation|CompendiumOfAcadia}, {@spell Dominate Person|CompendiumOfAcadia}, {@spell Modify Memory|CompendiumOfAcadia}, or {@spell Scrying|CompendiumOfAcadia}."
+									"<b>Awaken Mind.</b> As an Action, you target a object or a willing creature no larger than Large. If its Intelligence is below 10, it becomes 10, and it learns a language you know if it doesn’t speak any. An object gains stats as an {@creature Animated Object|XPHB} with 10 Intelligence (choose Intelligence, Wisdom, or Charisma as its modifier if you lack a spellcasting ability) or another stat block like {@creature Awakened Shrub|XMM} or {@creature Awakened Tree|XMM}, as the DM decides. This lasts until dispelled. The target is Charmed for 30 days or until harmed by you or your allies, after which it chooses its attitude toward you.",
+									"<b>Spellcasting:</b> Cast {@spell Commune|CompendiumOfAcadia}, {@spell Dominate Person|CompendiumOfAcadia}, {@spell Modify Memory|CompendiumOfAcadia}, or {@spell Scrying|CompendiumOfAcadia}."
 								]
 							}
 						]
@@ -170476,7 +170600,7 @@
 				},
 				{
 					"type": "table",
-					"caption": "Green Mana Effects",
+					"caption": "Red Mana Effects",
 					"colLabels": [
 						"Cost",
 						"Effect"
@@ -170487,9 +170611,11 @@
 							{
 								"type": "list",
 								"items": [
-									"Get {@variantrule Advantage|XPHB} at your next attack roll",
-									"You can spend a bonus action to walk to up your speed",
-									"Cast {@spell Blade Ward|CompendiumOfAcadia}, {@spell Booming Blade|CompendiumOfAcadia}, {@spell Green-Flame Blade|CompendiumOfAcadia}, or {@spell Guidance|CompendiumOfAcadia}."
+									"You get 1d8 bonus to your initiative.",
+									"You cast {@spell Blade Ward|CompendiumOfAcadia} without components.",
+									"You gain 20 feet of movement until the end of this turn.",
+									"You gain advantage on a {@skill Intimidation}, {@skill Performance}, or {@skill Persuasion} check.",
+									"You gain Advantage on {@skill History}, {@skill Investigation}, or {@skill Insight} check."
 								]
 							}
 						],
@@ -170498,7 +170624,11 @@
 							{
 								"type": "list",
 								"items": [
-									"Cast {@spell Bless|CompendiumOfAcadia}, {@spell Compelled Duel|CompendiumOfAcadia}, {@spell Divine Smite|CompendiumOfAcadia}, {@spell Heroism|CompendiumOfAcadia}, {@spell Jump|CompendiumOfAcadia}, or {@spell Longstrider|CompendiumOfAcadia}."
+									"You cast {@spell Compelled Duel|CompendiumOfAcadia} without components.",
+									"You take a Bonus action, immediately after hitting a target with a Melee weapon or an Unarmed Strike, it deals 2d8 additional damage of the same type.",
+									"You cast {@spell Heroism|CompendiumOfAcadia} without components.",
+									"When taking damage from a attack that deals Bludgeoning, Piercing, or Slashing damage, you can use your Reaction to you reduce the damage by 2d8.",
+									"You cast {@spell Jump|CompendiumOfAcadia} without components."
 								]
 							}
 						],
@@ -170507,7 +170637,11 @@
 							{
 								"type": "list",
 								"items": [
-									"Cast {@spell Arcane Vigor|CompendiumOfAcadia}, {@spell Darkvision|CompendiumOfAcadia}, {@spell Enhance Ability|CompendiumOfAcadia}, {@spell Kinetic Jaunt|CompendiumOfAcadia}, {@spell Protection from Poison|CompendiumOfAcadia}, or {@spell Shining Smite|CompendiumOfAcadia}."
+									"You cast {@spell Arcane Vigor|CompendiumOfAcadia} without components.",
+									"You cast {@spell Enhance Ability|CompendiumOfAcadia} without components.",
+									"You cast {@spell Kinetic Jaunt|CompendiumOfAcadia} without components.",
+									"After you make a weapon attack against a target, you can take an additional attack against a target up to 5 feet of it if inside your range",
+									"If a creature trigger a opportinity attack against you, you can make this attack with a bonus of 2d8 on the attack and damage."
 								]
 							}
 						],
@@ -170516,7 +170650,11 @@
 							{
 								"type": "list",
 								"items": [
-									"Cast {@spell Motivational Speech|CompendiumOfAcadia}, {@spell Haste|CompendiumOfAcadia}, {@spell Fly |CompendiumOfAcadia}, {@spell Crusader's Mantle|CompendiumOfAcadia}, {@spell Blinding Smite|CompendiumOfAcadia}, or {@spell Water Breathing|CompendiumOfAcadia}."
+									"You cast {@spell Haste|CompendiumOfAcadia} without components.",
+									"You cast {@spell Motivational Speech|CompendiumOfAcadia} without components.",
+									"At yhe start of your turn, for the next hour, your movement speed increases by 20 feet.",
+									"As a Action, you make a unarmed strike against the target within 10 feet, on a hit it deals 7d10 bludgeoning damage.",
+									"After failing a Strength, Constitution or Dexterity save, you can roll 2d8 and add to the check, potentially turning it into a success."
 								]
 							}
 						],
@@ -170525,7 +170663,11 @@
 							{
 								"type": "list",
 								"items": [
-									"Cast {@spell Carven Rifle|CompendiumOfAcadia}, {@spell Dimensional Anchor|CompendiumOfAcadia}, {@spell Enlarge/Reduce|CompendiumOfAcadia}, {@spell Freedom of Movement|CompendiumOfAcadia}, {@spell Polymorph|CompendiumOfAcadia}, or {@spell Summon Greater Demon|CompendiumOfAcadia}."
+									"You cast {@spell Freedom of Movement|CompendiumOfAcadia} without components.",
+									"You cast {@spell Enlarge/Reduce|CompendiumOfAcadia} without components.",
+									"As an Action, you gain Advantage in Strength, Dexterity and Constitution saving throws and ability checks for the next hour.",
+									"You cast {@spell Haste|CompendiumOfAcadia}, but you do not need to concetrate on the spell.",
+									"You cast {@spell Stoneskin|CompendiumOfAcadia} without components."
 								]
 							}
 						],
@@ -170534,7 +170676,9 @@
 							{
 								"type": "list",
 								"items": [
-									"Cast {@spell Swift Quiver|CompendiumOfAcadia}, {@spell Steel Wind Strike|CompendiumOfAcadia}, {@spell Skill Empowerment|CompendiumOfAcadia}, {@spell Planar Binding|CompendiumOfAcadia}, {@spell Infernal Calling|CompendiumOfAcadia}, {@spell Freedom of the Winds|CompendiumOfAcadia}, or {@spell Flame Strike|CompendiumOfAcadia}."
+									"As a reaction for being affected by a curse, exhaustion levels, Charmed or petrified condition, reduction to ability scores or reduction of maximum hitpoints, you cast {@spell Greater Restoration|CompendiumOfAcadia} on Self without components.",
+									"You get an additional Action this turn, except a magic action. Immediatelly before taking it, you take 4d12 necrotic damage that cannot be reduced or negated in any way.",
+									"Cast {@spell Swift Quiver|CompendiumOfAcadia}, {@spell Steel Wind Strike|CompendiumOfAcadia}, {@spell Planar Binding|CompendiumOfAcadia}, {@spell Infernal Calling|CompendiumOfAcadia}, {@spell Freedom of the Winds|CompendiumOfAcadia}, or {@spell Flame Strike|CompendiumOfAcadia}."
 								]
 							}
 						]
