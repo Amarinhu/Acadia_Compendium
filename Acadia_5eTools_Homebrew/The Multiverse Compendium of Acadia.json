@@ -18,6 +18,87 @@
 		"dateAdded": 1732722304,
 		"dateLastModified": 1732722304
 	},
+	"feat": [
+		{
+			"name": "Spell Specialist: Counterspell",
+			"source": "CompendiumofAcadia",
+			"category": "G",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Have {@spell Counterspell|CompendiumofAcadia} prepared",
+						"entrySummary": "Special"
+					}
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Natural Counterspell",
+					"entries": [
+						"When casting {@spell Counterspell|CompendiumofAcadia} using a 3rd-level slot, you don't expend the spell slot. This feature can't be used again until after a {@variantrule Long Rest|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Empowered Counterspell",
+					"entries": [
+						"Creatures have {@variantrule Disadvantage|XPHB} on Constitution Saving Throws against your {@spell Counterspell|CompendiumofAcadia} spells."
+					]
+				}
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Mage Catcher",
+			"source": "CompendiumofAcadia",
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"ability": [
+						{
+							"str": 13
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"str": 1
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Great Stability",
+					"entries": [
+						"You gain {@variantrule Advantage|XPHB} on Saving Throws against effects that would forcibly move you."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Deny Casting",
+					"entries": [
+						"When a creature you're grappling attempts to cast a spell with Verbal, Somatic, or Material Components, they must make a Concentration Check (DC 8 + your Strength modifier + Proficiency Bonus). On failure, the spell fails and the spell slot isn't expended."
+					]
+				}
+			]
+		}
+	],
 	"class": [
 		{
 			"name": "Hyper-Class: Acadian",
@@ -110563,7 +110644,7 @@
 			],
 			"entries": [
 				"A shimmering sphere encloses a Large or smaller creature or object within range. An unwilling creature must succeed on a Dexterity saving throw or be enclosed for the duration.",
-				"Nothing—not physical objects, energy, or other spell effects—can pass through the barrier, in or out, though a creature in the sphere can breathe there. The sphere is immune to all damage, and a creature or object inside can't be damaged by attacks or effects originating from outside, nor can a creature inside the sphere damage anything outside it.",
+				"Nothing—not physical objects, energy, or other spell effects—can pass through the barrier, in or out, though a creature in the sphere can breathe there. The sphere has 100 hit points, is immune to Psychic and Poison damage, has an AC of 20, and is vulnerable to Force damage. A creature or object inside can't be damaged by attacks or effects originating from outside, nor can a creature inside the sphere damage anything outside it.",
 				"The sphere is weightless and just large enough to contain the creature or object inside. An enclosed creature can take an action to push against the sphere's walls and thus roll the sphere at up to half the creature's {@variantrule Speed|XPHB}. Similarly, the globe can be picked up and moved by other creatures.",
 				"A {@spell Disintegrate|CompendiumofAcadia} spell targeting the globe destroys it without harming anything inside."
 			],
@@ -114298,7 +114379,8 @@
 				"You attempt to transform a creature that you can see within range into a Beast. The target must succeed on a Wisdom saving throw or shape-shift into Beast form for the duration. That form can be any {@filter Beast|bestiary|type=beast|miscellaneous=!swarm} you choose that has a {@variantrule Challenge Rating|XPHB} equal to or less than the target's (or the target's level if it doesn't have a {@variantrule Challenge Rating|XPHB}). The target's game statistics are replaced by the stat block of the chosen Beast, but the target retains its alignment, personality, creature type, {@variantrule Hit Points|XPHB}, and {@variantrule Hit Point Dice|XPHB}.",
 				"The target gains a number of {@variantrule Temporary Hit Points|XPHB} equal to the {@variantrule Hit Points|XPHB} of the Beast form. The spell ends early on the target if it has no {@variantrule Temporary Hit Points|XPHB} left.",
 				"The target is limited in the actions it can perform by the anatomy of its new form, and it can't speak or cast spells.",
-				"The target's gear melds into the new form. The creature can't use or otherwise benefit from any of that equipment."
+				"The target's gear melds into the new form. The creature can't use or otherwise benefit from any of that equipment.",
+				"A creature transformed by this spell can spend an Action to remake the Wisdom saving throw. On a success, the spell ends on that creature."
 			],
 			"savingThrow": [
 				"wisdom"
@@ -114309,7 +114391,6 @@
 			"areaTags": [
 				"ST"
 			],
-			"__prop": "spell",
 			"classes": {
 				"fromClassList": [
 					{
@@ -114413,156 +114494,6 @@
 					"name": "Simic Scientist",
 					"source": "GGR"
 				}
-			],
-			"_isMutEntity": true,
-			"_tmpSourcesInit": true,
-			"_tmpClasses": {},
-			"_tmpRaces": [],
-			"_tmpBackgrounds": [],
-			"_tmpFeats": [],
-			"_tmpOptionalfeatures": [],
-			"_tmpGroups": [],
-			"_normalisedTime": 1,
-			"_normalisedRange": 720,
-			"_fSources": "XPHB",
-			"_fMisc": [
-				"Free Rules (2024)",
-				"Concentration",
-				"Verbal",
-				"Somatic",
-				"Material",
-				"SGT"
-			],
-			"_isConc": true,
-			"_fClasses": [
-				{
-					"item": "Bard",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Druid",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Sorcerer",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Wizard",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				}
-			],
-			"_fSubclasses": [
-				{
-					"item": "Cleric: Trickery",
-					"group": false,
-					"nest": "Cleric",
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Fighter: Eldritch Knight",
-					"group": false,
-					"nest": "Fighter",
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Rogue: Arcane Trickster",
-					"group": false,
-					"nest": "Rogue",
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Druid: Land, Tropical Land",
-					"group": false,
-					"nest": "Druid",
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Fighter: Eldritch Knight",
-					"group": false,
-					"nest": "Fighter",
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Rogue: Arcane Trickster",
-					"group": false,
-					"nest": "Rogue",
-					"rendered": null,
-					"searchText": null
-				}
-			],
-			"_fVariantClasses": [],
-			"_fClassesAndVariantClasses": [
-				{
-					"item": "Bard",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Druid",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Sorcerer",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Wizard",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				}
-			],
-			"_fRaces": [],
-			"_fBackgrounds": [
-				"Simic Scientist"
-			],
-			"_fFeats": [],
-			"_fOptionalfeatures": [
-				"Sculptor of Flesh"
-			],
-			"_fGroups": [],
-			"_fTimeType": [
-				"action"
-			],
-			"_fDurationType": "1 Hour",
-			"_fRangeType": "Point",
-			"_fAreaTags": [
-				"ST"
-			],
-			"_fAffectsCreatureType": [
-				"aberration",
-				"beast",
-				"celestial",
-				"construct",
-				"dragon",
-				"elemental",
-				"fey",
-				"fiend",
-				"giant",
-				"humanoid",
-				"monstrosity",
-				"ooze",
-				"plant",
-				"undead"
 			]
 		},
 		{
@@ -161188,7 +161119,6 @@
 			"name": "Wall of Force",
 			"source": "CompendiumofAcadia",
 			"page": 338,
-			"freeRules2024": true,
 			"level": 5,
 			"school": "V",
 			"time": [
@@ -161221,12 +161151,11 @@
 			],
 			"entries": [
 				"An {@condition Invisible|XPHB} wall of force springs into existence at a point you choose within range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or resting on a solid surface. You can form it into a hemispherical dome or a globe with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. In any form, the wall is 1/4 inch thick and lasts for the duration. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (you choose which side).",
-				"Nothing can physically pass through the wall. It is immune to all damage and can't be dispelled by {@spell Dispel Magic|CompendiumofAcadia}. A {@spell Disintegrate|CompendiumofAcadia} spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane and blocks ethereal travel through the wall."
+				"Nothing can physically pass through the wall. Each panel of the wall has 100 hit points, is immune to Psychic and Poison damage, has an AC of 20, and is vulnerable to Force damage. It can't be dispelled by {@spell Dispel Magic|CompendiumofAcadia}. A {@spell Disintegrate|CompendiumofAcadia} spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane and blocks ethereal travel through the wall."
 			],
 			"areaTags": [
 				"W"
 			],
-			"__prop": "spell",
 			"classes": {
 				"fromClassList": [
 					{
@@ -161302,116 +161231,7 @@
 						}
 					}
 				]
-			},
-			"_isMutEntity": true,
-			"_tmpSourcesInit": true,
-			"_tmpClasses": {},
-			"_tmpRaces": [],
-			"_tmpBackgrounds": [],
-			"_tmpFeats": [],
-			"_tmpOptionalfeatures": [],
-			"_tmpGroups": [],
-			"_normalisedTime": 1,
-			"_normalisedRange": 1440,
-			"_fSources": "XPHB",
-			"_fMisc": [
-				"Free Rules (2024)",
-				"Concentration",
-				"Verbal",
-				"Somatic",
-				"Material"
-			],
-			"_isConc": true,
-			"_fClasses": [
-				{
-					"item": "Wizard",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				}
-			],
-			"_fSubclasses": [
-				{
-					"item": "Artificer: Armorer",
-					"group": false,
-					"nest": "Artificer",
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Artificer: Artillerist",
-					"group": false,
-					"nest": "Artificer",
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Paladin: Redemption",
-					"group": false,
-					"nest": "Paladin",
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Sorcerer: Clockwork Soul",
-					"group": false,
-					"nest": "Sorcerer",
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Paladin: Redemption",
-					"group": false,
-					"nest": "Paladin",
-					"rendered": null,
-					"searchText": null
-				},
-				{
-					"item": "Sorcerer: Clockwork",
-					"group": false,
-					"nest": "Sorcerer",
-					"rendered": null,
-					"searchText": null
-				}
-			],
-			"_fVariantClasses": [],
-			"_fClassesAndVariantClasses": [
-				{
-					"item": "Wizard",
-					"group": 0,
-					"rendered": null,
-					"searchText": null
-				}
-			],
-			"_fRaces": [],
-			"_fBackgrounds": [],
-			"_fFeats": [],
-			"_fOptionalfeatures": [],
-			"_fGroups": [],
-			"_fTimeType": [
-				"action"
-			],
-			"_fDurationType": "10 Minutes",
-			"_fRangeType": "Point",
-			"_fAreaTags": [
-				"W"
-			],
-			"_fAffectsCreatureType": [
-				"aberration",
-				"beast",
-				"celestial",
-				"construct",
-				"dragon",
-				"elemental",
-				"fey",
-				"fiend",
-				"giant",
-				"humanoid",
-				"monstrosity",
-				"ooze",
-				"plant",
-				"undead"
-			]
+			}
 		},
 		{
 			"name": "Wall of Ice",
@@ -169126,42 +168946,187 @@
 	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
 	"item": [
 		{
-			"name": "Item Teste Mágico",
+			"name": "Shard of Revivification",
 			"source": "CompendiumofAcadia",
-			"page": "-",
-			"rarity": "uncommon",
-			"reqAttune": "by a monk",
-			"weight": 20,
-			"value": 15000,
-			"reqAttuneTags": [
-				{
-					"class": "monk"
-				}
-			],
 			"wondrous": true,
+			"rarity": "uncommon",
+			"weight": 0.5,
 			"entries": [
-				"This finely detailed belt is made of dragonhide. While wearing it, you gain a +1 bonus to the saving throw DCs of your ki features. In addition, you can use an action to regain ki points equal to a roll of your Martial Arts die. You can't use this action again until the next dawn."
+				"This small shard hums with faint magical energy. You can use a Magic Action to touch a creature that has died within the last minute and expend the shard's magic to revive the creature with 1 Hit Point. This effect can't revive a creature that has died of old age, nor does it restore any missing body parts.",
+				"Once used, the shard loses its magic and becomes an ordinary crystal worth 50 gp."
 			]
 		},
 		{
-			"name": "Item Teste Mundano",
+			"name": "Aberrant Statue of Wishes",
 			"source": "CompendiumofAcadia",
-			"page": "-",
-			"freeRules2024": true,
-			"type": "G",
-			"rarity": "none",
-			"weight": 1,
-			"value": 5000,
+			"wondrous": true,
+			"rarity": "legendary",
 			"entries": [
-				"When you take the {@action Attack|XPHB} action, you can replace one of your attacks with throwing a flask of Alchemist's Fire. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and {@variantrule Proficiency|XPHB|Proficiency Bonus}) or take {@damage 1d4} Fire damage and start burning."
+				"This grotesque statue emanates an eerie aura, its surface adorned with the shifting visages of aberrant creatures. As a Magic Action, you can call upon the statue to grant a Wish, selecting one of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"<b>Object Creation.</b> You create one object of up to 25,000 GP in value that isn't a magic item. The object can be no more than 300 feet in any dimension, and it appears in an unoccupied space that you can see on the ground.",
+						"<b>Instant Health.</b> You allow yourself and up to twenty creatures that you can see to regain all Hit Points, and you end all effects on them listed in the Greater Restoration spell at 9th level.",
+						"<b>Resistance.</b> You grant up to ten creatures that you can see Resistance to one damage type that you choose. This Resistance is permanent.",
+						"<b>Spell Immunity.</b> You grant up to ten creatures you can see immunity to a single spell or other magical effect for 24 hours.",
+						"<b>Reshape Reality.</b> You may wish for something not included in any of the other effects. To do so, state your wish to the DM as precisely as possible. The DM has great latitude in ruling what occurs in such an instance; the greater the wish, the greater the likelihood that something goes wrong. The greater the impact of the wish, the greater the chance of unforeseen consequences such as partial effects, complications, or unintended repercussions."
+					]
+				},
+				"When the wish is granted, the visages of aberrant creatures briefly materialize and impose a cost. You take {@damage 9d6} Psychic damage as the eldritch energies sear your mind.",
+				"After making a Wish, there is a 33 percent chance that you are unable to make a Wish ever again if you suffer this stress.",
+				"The statue can only be used once. After granting a Wish, it collapses into a pool of black tar, leaving behind no trace of its former power."
 			]
+		},
+		{
+			"name": "Ring of the Wishing Star",
+			"source": "CompendiumofAcadia",
+			"type": "RG|XDMG",
+			"rarity": "legendary",
+			"entries": [
+				"While wearing this ring, you can use a Magic Action to call for a Wishing Star from beyond the cosmos. The star appears 1 hour after your call if it is within the time frame of 1 hour after sunset and before midnight. If it is not, the star will appear 1 hour after sunset on the following day.",
+				"When the Wishing Star arrives, it crosses the sky, and you have 1 hour to make a Wish, selecting one of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"<b>Object Creation.</b> You create one object of up to 25,000 GP in value that isn't a magic item. The object can be no more than 300 feet in any dimension, and it appears in an unoccupied space that you can see on the ground.",
+						"<b>Instant Health.</b> You allow yourself and up to twenty creatures that you can see to regain all Hit Points, and you end all effects on them listed in the Greater Restoration spell at 9th level.",
+						"<b>Resistance.</b> You grant up to ten creatures that you can see Resistance to one damage type that you choose. This Resistance is permanent.",
+						"<b>Spell Immunity.</b> You grant up to ten creatures you can see immunity to a single spell or other magical effect for 24 hours.",
+						"<b>Reshape Reality.</b> You may wish for something not included in any of the other effects. To do so, state your wish to the DM as precisely as possible. The DM has great latitude in ruling what occurs in such an instance; the greater the wish, the greater the likelihood that something goes wrong. The greater the impact of the wish, the greater the chance of unforeseen consequences such as partial effects, complications, or unintended repercussions."
+					]
+				},
+				"After making a Wish, there is a 33 percent chance that you are unable to make a Wish ever again if you suffer this stress.",
+				"The ring becomes nonmagical after you make 3 Wishes."
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Shard of Resurrection",
+			"source": "CompendiumofAcadia",
+			"wondrous": true,
+			"rarity": "very rare",
+			"weight": 0.5,
+			"entries": [
+				"This radiant shard pulses with powerful restorative magic. You can use a Magic Action to touch a creature that has been dead for no more than a century, provided it didn't die of old age and wasn't Undead when it died. The creature returns to life with all its Hit Points. This effect also neutralizes any poisons that affected the creature at the time of death, closes all mortal wounds, and restores any missing body parts. Coming back to life in this way imposes 3 levels of exhaustion on the creature.",
+				"Once used, the shard loses its magic and becomes an ordinary crystal worth 1000 gp."
+			]
+		},
+		{
+			"name": "Rod of Revivification",
+			"source": "CompendiumofAcadia",
+			"type": "RD|XDMG",
+			"rarity": "rare",
+			"reqAttune": "by a cleric, druid, or paladin",
+			"reqAttuneTags": [
+				{
+					"class": "cleric"
+				},
+				{
+					"class": "druid"
+				},
+				{
+					"class": "paladin"
+				}
+			],
+			"weight": 2,
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 6,
+			"entries": [
+				"The rod has 6 charges. While you hold it, you can cast the {@spell Cure Wounds|XPHB} spell at 2nd level (expending 1 charge).",
+				"Alternatively, you can use a Magic Action to expend 3 charges to touch a creature that has died within the last minute. That creature revives with 1 Hit Point. This effect can't revive a creature that has died of old age, nor does it restore any missing body parts.",
+				"The rod regains 1 expended charge daily at dawn. If you expend the last charge, roll {@dice 1d20}. On a 1, the rod disappears in a harmless burst of radiance."
+			],
+			"attachedSpells": [
+				"cure wounds|xphb"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Rod of Resurrection",
+			"source": "CompendiumofAcadia",
+			"type": "RD|XDMG",
+			"rarity": "legendary",
+			"reqAttune": "by a cleric, druid, or paladin",
+			"reqAttuneTags": [
+				{
+					"class": "cleric"
+				},
+				{
+					"class": "druid"
+				},
+				{
+					"class": "paladin"
+				}
+			],
+			"weight": 2,
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 5,
+			"entries": [
+				"The rod has 5 charges. While you hold it, you can cast the {@spell Heal|XPHB} spell from it (expending 1 charge).",
+				"Alternatively, you can use a Magic Action to expend 5 charges to touch a creature and revive it, provided it has been dead for no more than a century, didn’t die of old age, and wasn’t Undead when it died. The creature returns to life with all its Hit Points. This effect also neutralizes any poisons that affected the creature at the time of death, closes all mortal wounds, and restores any missing body parts. Coming back from the dead in this way imposes 3 levels of exhaustion on the creature.",
+				"The rod regains 1 expended charge daily at dawn. If you expend the last charge, roll {@dice 1d20}. On a 1, the rod disappears in a harmless burst of radiance."
+			],
+			"attachedSpells": [
+				"heal|xphb"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Manual of Simulacrum",
+			"source": "CompendiumofAcadia",
+			"rarity": "very rare",
+			"wondrous": true,
+			"weight": 5,
+			"entries": [
+				"This tome contains the knowledge and rituals required to create a simulacrum of a creature. To decipher and use the manual, you must be a spellcaster with at least two 5th-level unexpended spell slots. A creature that attempts to read the manual without meeting this requirement takes {@damage 6d6} psychic damage and is unable to comprehend its contents.",
+				"Using the manual, you can create a simulacrum through an elaborate ritual lasting 12 hours. To begin the ritual, you must have powdered ruby worth at least 2000+ GP, which is consumed during the process, as well as a pile of ice or snow of the same size as the creature you wish to replicate.",
+				"The ritual must be performed in proximity to the creature being replicated, which must remain within 10 feet of you for the entire ritual. At the culmination of the ritual, you touch both the creature and the prepared pile of ice or snow. The ice or snow transforms into the simulacrum, a construct with the following properties:",
+				{
+					"type": "list",
+					"items": [
+						"The simulacrum uses the game statistics of the original creature at the time of the ritual, except it is a Construct.",
+						"Its Hit Point maximum is half that of the original creature.",
+						"It cannot cast spells or use items that create other simulacrums.",
+						"It is Friendly to you and creatures you designate, obeying your commands and acting on your turn in combat.",
+						"It cannot gain levels or benefit from Short or Long Rests."
+					]
+				},
+				"If the simulacrum takes damage, the only way to restore its Hit Points is to repair it during a Long Rest, requiring components worth 100+ GP per Hit Point restored. The simulacrum must remain within 5 feet of you during the repair.",
+				"The simulacrum persists until it drops to 0 Hit Points, at which point it reverts to snow and melts away. Creating a new simulacrum instantly destroys any previous simulacrum made by the same caster.",
+				"Once a manual is used to create a simulacrum, it is consumed in a burst of arcane energy."
+			],
+			"items": [],
+			"itemsHidden": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Manual of Cloning",
+			"source": "CompendiumofAcadia",
+			"rarity": "very rare",
+			"wondrous": true,
+			"weight": 5,
+			"entries": [
+				"This tome contains the knowledge and rituals required to create a clone of a living creature. To decipher and use the manual, you must be a spellcaster with at least two 5th-level unexpended spell slots. A creature that attempts to read the manual without meeting this requirement takes {@damage 6d6} psychic damage and is unable to comprehend its contents.",
+				"Using the manual, you can create a clone of a creature through a two-stage process. First, you must prepare a suitable vessel over the course of 1 week. The vessel must be worth at least 2000+ GP for a Medium or smaller creature, 8000+ GP for a Large creature, or 18000+ GP for a Huge creature.",
+				"In addition to the vessel, the ritual requires diamonds worth 3000+ GP and at least 1 cubic inch of blood, bone, flesh, or a similar sample from the creature to be cloned. The diamonds are consumed in the process, and the vessel becomes the clone's resting place.",
+				"Once the vessel is prepared, the clone begins to grow inside it over the next 120 days. During this time, the vessel must remain undisturbed. The original creature's soul can only inhabit the clone after it has fully grown. If the original creature dies and its soul is free and willing, it transfers to the fully grown clone, which awakens with the same memories, personality, and abilities as the original, but none of its equipment. The creature's original remains, if any, become inert and cannot be revived as the soul has relocated.",
+				"By using an hourglass filled with diamond dust, costing 500+ GP per year, you can create a younger version of the creature during the cloning process.",
+				"While in the vessel, the clone does not age and remains perfectly preserved.",
+				"Once a manual is used to create a clone, it is consumed in a burst of arcane energy."
+			],
+			"items": [],
+			"itemsHidden": true,
+			"hasFluffImages": true
 		}
 	],
 	"variantrule": [
 		{
 			"source": "CompendiumofAcadia",
 			"name": "Called Shots",
-			"ruleType": "C",
+			"ruleType": "O",
 			"entries": [
 				"Once per round, when you declare an {@action Attack|XPHB}, you can choose to make a Called Shot to impose specific effects on the target. The effect only applies if the targeted part qualifies under the following guidelines, subject to the DM's discretion.",
 				"If the effect requires a saving throw, the DC is determined by the attribute used for the attack roll.",
@@ -169279,15 +169244,6 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "Ready Counterspell",
-			"ruleType": "C",
-			"entries": [
-				"You can use the {@action Ready|XPHB} action to prepare a counterspell. You do not need to know or have the ability to cast {@spell Counterspell|XPHB} to use this feature, but you need to have levels in a class that have the Spellcasting feature. When a creature you can see begins casting a spell, you may trigger your readied action to interrupt it.",
-				"This effect functions as the {@spell Counterspell|XPHB} spell, and you must fulfill all the normal costs of casting {@spell Counterspell|XPHB}, including expending a spell slot and performing any required components. If you are capable of casting {@spell Counterspell|XPHB} with your reaction but choose to use Ready Counterspell instead, the target makes its saving throw with disadvantage."
-			]
-		},
-		{
-			"source": "CompendiumofAcadia",
 			"name": "Non-Lethal Damage",
 			"ruleType": "C",
 			"entries": [
@@ -169304,10 +169260,10 @@
 		{
 			"source": "CompendiumofAcadia",
 			"name": "Destroying Magical Barriers, and Similars",
-			"ruleType": "C",
+			"ruleType": "O",
 			"entries": [
 				"Magical barriers, force creatures, and similar effects, such as Leomund's Tiny Hut, Tiny Servant, Arcane Gate, Wall of Force, Mordenkainen's Faithful Hound, and Arcane Eye, can be destroyed using magical weapons.",
-				"<b>HP and AC:</b> These effects have hit points equal to 30 times the spell level of their creation and an AC of 20. They are immune to Poison and Psychic damage, and fails all saving throws.",
+				"<b>HP and AC:</b> These effects have hit points equal to 20 times the spell level of their creation and an AC of 20. They are immune to Poison and Psychic damage, and fails all saving throws.",
 				"<b>Destruction:</b> Only magic weapons can damage them, with the required rarity depending on the spell level: Common (1st-level), Uncommon (3rd-level), Rare (6th-level), Very Rare (8th-level), and Legendary (9th-level).",
 				"<b>DM Discretion:</b> The DM may rule that some effects are more resistant or immune to specific magical effects or items."
 			]
@@ -169317,7 +169273,7 @@
 			"name": "Coup de Grace",
 			"ruleType": "C",
 			"entries": [
-				"You can use your action to attempt to execute a {@condition Incapacitated|XPHB} or {@condition Paralyzed|XPHB} creature. Make an attack roll that automatically hits. Roll 1d4 to determine the outcome:",
+				"You can use your action to attempt to execute a {@condition Unconscious|XPHB} or {@condition Paralyzed|XPHB} creature. Make an attack roll that automatically hits. Roll 1d4 to determine the outcome:",
 				{
 					"type": "list",
 					"items": [
@@ -169325,7 +169281,7 @@
 						"On a roll of 4, the creature takes the normal damage from the attack instead of dying."
 					]
 				},
-				"If the target is a player character or an important NPC, it only instantly dies on a roll of 1. Otherwise, it takes the normal damage from the attack.",
+				"If the target is a player character or an important NPC, it only instantly dies on a roll of a 4. Otherwise, it takes the normal damage from the attack.",
 				{
 					"type": "entries",
 					"name": "Optional Rule: Cinematic Only!",
@@ -169333,14 +169289,6 @@
 						"The Coup de Grace can only be used in scenes outside of combat."
 					]
 				}
-			]
-		},
-		{
-			"source": "CompendiumofAcadia",
-			"name": "Aimed Strike",
-			"ruleType": "C",
-			"entries": [
-				"As an Action, you focus your next attack, taking time to aim. Your next attack roll until the end of your next turn have Advantage. After using Aimed Strike, your speed becomes 0 until the end of your next turn or until you make the attack."
 			]
 		},
 		{
@@ -169368,9 +169316,10 @@
 			"name": "Precarious Recovery",
 			"ruleType": "C",
 			"entries": [
-				"Stabilizing a character grants them two successful death saving throws instead of fully stabilizing them. Healing a character for at least 10 hit points also grants two successful death saving throws instead of restoring hit points or stabilizing the character. A character with three successful death saving throws is considered {@variantrule Stable}.",
+				"Stabilizing a Unstable character grants them two successful death saving throws instead of fully stabilizing them. Healing a character for at least 5 hit points also grants two successful Death Saving Throws instead of restoring hit points or stabilizing the character. A character with three successful death saving throws is considered {@variantrule Stable}.",
+				"On a Natural 20, it gets three successful Death Saving Throws and get Stable, and gains 1 hitpoint",
 				"Creatures typically do not attack unconscious creatures that are at 0 hit points.",
-				"A stable creature that gains hit points receives them at the start of their next turn."
+				"A {@variantrule Stable} creature that gains hit points receives them at the start of their next turn."
 			]
 		},
 		{
@@ -169378,11 +169327,12 @@
 			"name": "Death's Door",
 			"ruleType": "C",
 			"entries": [
-				"This rule assumes the use of {@variantrule Precarious Recovery|CompendiumofAcadia}.",
-				"When reduced to 0 hit points, a character can choose to enter 'Death's Door' instead of falling unconscious. While at Death's Door, the character remains conscious but is at significant risk of death.",
-				"While at Death's Door the creature is unstable (and make {@variantrule Death Saving Throw|XPHB} as normal), taking damage results in one failed death saving throw, or two on a critical hit. A creature with three failed death saving throws dies.",
+				"This rule assumes the use of Precarious Recovery ({@variantrule Precarious Recovery|CompendiumofAcadia}).",
+				"When reduced to 0 hit points, a character can choose to enter Death's Door instead of falling unconscious. While at Death's Door, the character remains conscious but is at significant risk of death.",
 				"A creature at Death's Door is in extreme distress and exhibits signs of partial insanity, such as speaking gibberish, nonsensical phrases, and experiencing minor hallucinations.",
-				"Death's Door ends if the creature regains at least 1 hit point.",
+				"The order of the events in the start of it's turn is -> Creature gains hitpoints pending from Precarious Recovery, if they gain hitpoints, Death's Door Ends, if there isn't any -> Creature chooses if it wants to fall unconcious and end Death's Door -> if it chooses, it falls unconscious and follow the rules for a creature that is dying",
+				"While at Death's Door the creature is unstable, taking damage results in one failed death saving throw, or two on a critical hit. A creature with three failed death saving throws dies.",
+				"A creature in Death's Door that get 3 successful Death Saving Throws is Stable, and gain 1 hitpoint.",
 				"At the end of each turn, a character in Death's Door gains one level of exhaustion. At this moment, they can choose to fall unconscious, ending Death's Door and following the standard rules for being at 0 hit points.",
 				"Once a creature enters Death's Door, it cannot do so again until it completes a Short or Long rest."
 			]
@@ -169392,10 +169342,12 @@
 			"name": "Acadian Magic Rebalancing",
 			"ruleType": "C",
 			"entries": [
-				"This is a group of changes, rebalancing and bans on spells for Acadia",
-				"This presumes the use of {@variantrule Alternate Spell Casting|CompendiumofAcadia}.",
-				"If a spell with the same name exists in the PHB 2024 and another book, the 2014 PHB takes priority, otherwise the DM decides",
-				"Spells  from Books Accepted: Player Hand Book 2024, Acquisitions Incorporated, Astral Adventurer's Guide, Fizban's Treasury of Dragons, Guildmasters' Guide to Ravnica, Icewind Dale: Rime of the Frostmaiden, Strixhaven: A Curriculum of Chaos, Tasha's Couldron of Everything, The Book of Many Things, Xanathar's Guide to Everything, Dungeons of Drakkenheim, Tal'Dorei Campaign Setting Reborn, Humblewood Campaign Setting, Grim Hollow: Lairs of Etharis, Explorer's Guide to Wildemount, Lost Laboratory of Kwalish, The Gunpowder Codex e Firearms of the Realms.",
+				"This section outlines changes, rebalancing, additions, and bans on spells for Acadia. These adjustments assume the use of the {@variantrule Alternate Spell Casting|CompendiumofAcadia}.",
+				"If a spell with the same name exists in the 2024 Player's Handbook (PHB) and another source, the 2024 PHB takes precedence. In other cases, the Dungeon Master (DM) determines which version to use.",
+				"Spells from the following books are accepted: Player's Handbook 2024, Acquisitions Incorporated, Astral Adventurer's Guide, Fizban's Treasury of Dragons, Guildmasters' Guide to Ravnica, Icewind Dale: Rime of the Frostmaiden, Strixhaven: A Curriculum of Chaos, Tasha's Cauldron of Everything, The Book of Many Things, Xanathar's Guide to Everything, Dungeons of Drakkenheim, Tal'Dorei Campaign Setting Reborn, Humblewood Campaign Setting, Grim Hollow: Lairs of Etharis, Explorer's Guide to Wildemount, Lost Laboratory of Kwalish, The Gunpowder Codex, and Firearms of the Realms.",
+				"Buffs focus on improving underperforming spells to make them more impactful. Reworks aim to streamline spell functionality (e.g., changing {@spell Blade Ward|CompendiumofAcadia} to grant +2 AC instead of imposing a -1d4 penalty on attack rolls against the target).",
+				"Nerfs target spells with unusual scaling, 'save-or-suck' mechanics, or those that enable revivals, counter curses, or exploits that disrupt balance. Some spells are adjusted to avoid overshadowing existing options or to maintain high fantasy settings without introducing overly complex implications.",
+				"Bans primarily apply to excessively powerful spells that conflict with the intended tone or gameplay balance of the world. Added spells include those related to Pathfinders, Acadia Homebrew or substitutes for existing spells.",
 				{
 					"type": "section",
 					"name": "XPHB (Player's Handbook)",
@@ -169464,6 +169416,16 @@
 									"At the end of each turn, the creature remakes the check."
 								],
 								[
+									"Otiluke's Resilient Sphere ({@spell Otiluke's Resilient Sphere|XPHB} → {@spell Otiluke's Resilient Sphere|CompendiumofAcadia})",
+									"Nerfed",
+									"Now the sphere have hitpoints."
+								],
+								[
+									"Polymorph ({@spell Polymorph|XPHB} → {@spell Polymorph|CompendiumofAcadia})",
+									"Nerfed",
+									"Added a new way the spell can end."
+								],
+								[
 									"Phantasmal Force ({@spell Phantasmal Force|XPHB} → {@spell Phantasmal Force|CompendiumofAcadia})",
 									"Buffed",
 									"Can now be upcasted for more damage."
@@ -169497,6 +169459,11 @@
 									"Spirit Guardians ({@spell Spirit Guardians|XPHB} → {@spell Spirit Guardians|CompendiumofAcadia})",
 									"Nerfed",
 									"Limited the saves to twice per round."
+								],
+								[
+									"Wall of Force ({@spell Wall of Force|XPHB} → {@spell Wall of Force|CompendiumofAcadia})",
+									"Nerfed",
+									"Now panels have hitpoints."
 								],
 								[
 									"Zone of Truth ({@spell Zone of Truth|XPHB} → {@spell Zone of Truth|CompendiumofAcadia})",
@@ -169656,7 +169623,7 @@
 							"rows": [
 								[
 									"Clone ({@spell Clone|XPHB}), Simulacrum ({@spell Simulacrum|XPHB})",
-									"Banned: Their effects will be accommodated by items."
+									"Banned: Their effects will be accommodated by items. [{@item Manual of Cloning|CompendiumofAcadia} / {@item Manual of Simulacrum|CompendiumofAcadia}]"
 								],
 								[
 									"Enemies Abound ({@spell Enemies Abound|XGE})",
@@ -169672,7 +169639,7 @@
 								],
 								[
 									"Revivify ({@spell Revivify|XPHB}), Resurrection ({@spell Resurrection|XPHB})",
-									"Banned: Resurrection is hard in Acadia; their effects will be accommodated by items."
+									"Banned: Resurrection is hard in Acadia; their effects will be accommodated by items. [{@item Rod of Revivification|CompendiumofAcadia} / {@item Shard of Resurrection|CompendiumofAcadia} / {@item Shard of Revivification|CompendiumofAcadia} / {@item Rod of Resurrection|CompendiumofAcadia}]"
 								],
 								[
 									"Suffocate ({@spell Suffocate|GHLoE})",
@@ -169680,7 +169647,7 @@
 								],
 								[
 									"Wish ({@spell Wish|XPHB})",
-									"Banned: Added Lesser Wish ({@spell Lesser Wish|CompendiumofAcadia}); the Wish effect will be limited to items."
+									"Banned: Added Lesser Wish ({@spell Lesser Wish|CompendiumofAcadia}); the Wish effect will be limited to items. [{@item Ring of The Wishing Star|CompendiumofAcadia} / {@item Aberrant Statue of Wishes|CompendiumofAcadia}]"
 								],
 								[
 									"Elevated Sight ({@spell Elevated Sight|HWCS})",
@@ -169766,8 +169733,8 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "Optional: Unshaped Class",
-			"ruleType": "C",
+			"name": "Unshaped Class",
+			"ruleType": "O",
 			"entries": [
 				"You start at level 0 as an Unshaped character, a flexible state before choosing a class. Use the following guidelines to create your Unshaped character:",
 				{
@@ -169806,22 +169773,6 @@
 						"1. You can choose to replace your 'Unshaped Luck' feature for an Ability Score Improvement feat or another feat of your choice for which you qualify.",
 						"2. Gain all 1st-level features of the chosen class, except starting equipment. Adjust proficiencies, saving throws, and other abilities as per the class rules.",
 						"3. Replace your current hit points with the hit points granted at 1st level by the chosen class."
-					]
-				}
-			]
-		},
-		{
-			"source": "CompendiumofAcadia",
-			"name": "Misc. Reactions",
-			"ruleType": "C",
-			"entries": [
-				"This section introduces a set of extra reactions a creature can take. These reactions can be used at the start or end of an action on another creature's turn. They include:",
-				{
-					"type": "list",
-					"items": [
-						"<b>Close Eyes:</b> Use a reaction to close your eyes until the end of your next turn. This is meant for avoiding effects like a Medusa's Petrifying Gaze.",
-						"<b>Focus Attention:</b> Use a reaction to ignore a number of creatures of your choice until the end of your next turn. You are considered blinded to them but ignore them for effects that take advantage of your distraction with more than one creature, like Sneak Attack or Flanking.",
-						"<b>Say Key Word:</b> Use a reaction to say a key word that activates a specific effect. For example, this could trigger a {@spell Contingency} spell or a magic item that requires a verbal activation."
 					]
 				}
 			]
@@ -169988,7 +169939,7 @@
 			"name": "Deadly Falls",
 			"ruleType": "C",
 			"entries": [
-				"Falling damage get to a maximum of 175 (50d6) instead of 70 (20d6)."
+				"The maximum falling damage is increased to 50d6."
 			]
 		},
 		{
@@ -170003,19 +169954,25 @@
 						"{@condition Ablaze|CompendiumofAcadia}",
 						"{@condition Steeled|CompendiumofAcadia}",
 						"{@condition Confused|CompendiumofAcadia}",
-						"{@condition Covered|CompendiumofAcadia}"
+						"{@condition Oiled|CompendiumofAcadia}",
+						"{@condition Drenched|CompendiumofAcadia}"
 					]
 				}
 			]
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "Alternative Magic Item Use",
+			"name": "Additional Feats",
 			"ruleType": "C",
 			"entries": [
-				"Instead of attunement slots, every character can have up to 6 non-consumable magic items activated for use at any time.",
-				"To change which items are activated, you must spend an action to rearrange the magic items you are wearing or carrying. Only activated items can be used or provide their benefits.",
-				"If a class feature or ability grants additional attunement slots, it instead increases your number of items that can be active. For example, an Artificer feature that grants an additional attunement slot (4 instead of 3) allows you to activate up to 7 magic items instead of 6."
+				"This introduces new feats:",
+				{
+					"type": "list",
+					"items": [
+						"{@feat Spell Specialist: Counterspell|CompendiumofAcadia}",
+						"{@feat Mage Catcher|CompendiumofAcadia}"
+					]
+				}
 			]
 		},
 		{
@@ -170662,7 +170619,7 @@
 			"name": "Alternate Spell Casting",
 			"ruleType": "C",
 			"entries": [
-				"All spells require both verbal and somatic components. Rules regarding material (M) components remains the same."
+				"All spells require both Verbal and Somatic components. However, Bonus Action spells require only one of these components, chosen by the caster. Material components (M) follow standard rules."
 			]
 		},
 		{
@@ -170671,7 +170628,6 @@
 			"ruleType": "C",
 			"entries": [
 				"If a creature is {@condition Grappled}, {@condition Prone}, or {@condition Restrained} and attempts to cast a spell that requires somatic components, it must succeed on a DC 10 Concentration check.",
-				"If the condition is inflicted by another creature actively grappling the caster, the Concentration check DC is determined by 8 + Strength modifier + Proficiency Bonus of the Grappler.",
 				"On a failure, the spell does not take effect, but the spell slot is not expended."
 			]
 		}
@@ -170681,62 +170637,150 @@
 			"name": "Ablaze",
 			"source": "CompendiumofAcadia",
 			"entries": [
-				"The creature is engulfed in flames and takes 5 fire damage at the start of each of its turns. The creature can use its action to muffle and extinguish the flames, ending the condition."
+				"While you have the Ablaze condition, you experience the following effects.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Ongoing Fire Damage",
+							"entries": [
+								"You are engulfed in flames and take 5 Fire damage at the start of each of your turns. You can use your Action to muffle and extinguish the flames, ending the condition."
+							]
+						}
+					]
+				}
 			]
 		},
 		{
 			"name": "Steeled",
 			"source": "CompendiumofAcadia",
 			"entries": [
-				"The creature is wearing metal armor or clothing. Attacks that deal electric damage have advantage against a Steeled creature, and the creature makes saving throws against effects that deal electric damage with disadvantage."
+				"While you have the Steeled condition, you experience the following effects.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Electric Attractiveness",
+							"entries": [
+								"Attacks that deal Electric damage have {@variantrule Advantage|XPHB} against you."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Saving Throws Affected",
+							"entries": [
+								"You make saving throws against effects that deal Electric damage with {@variantrule Disadvantage|XPHB}."
+							]
+						}
+					]
+				}
 			]
 		},
 		{
 			"name": "Confused",
 			"source": "CompendiumofAcadia",
 			"entries": [
-				"The target can't take Bonus Actions or Reactions and must roll {@dice 1d10} at the start of each of its turns to determine its behavior for that turn, consulting the table below.",
+				"While you have the Confused condition, you experience the following effects.",
 				{
-					"type": "table",
-					"colStyles": [
-						"col-2 text-center",
-						"col-10"
-					],
-					"colLabels": [
-						"1d10",
-						"Behavior for the Turn"
-					],
-					"rows": [
-						[
-							"1",
-							"The target doesn't take an action, and it uses all its movement to move. Roll {@dice 1d4} for the direction: {@b 1}, ↑ north; {@b 2}, → east; {@b 3}, ↓ south; or {@b 4}, ← west."
-						],
-						[
-							"2-6",
-							"The target doesn't move or take actions."
-						],
-						[
-							"7-8",
-							"The target doesn't move, and it takes the {@action Attack} action to make one melee attack against a random creature within reach. If none are within reach, the target takes no action."
-						],
-						[
-							"9-10",
-							"The target chooses its behavior."
-						]
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Behavior Restrictions",
+							"entries": [
+								"You can't take Bonus Actions or Reactions and must roll {@dice 1d10} at the start of each of your turns to determine your behavior for that turn, consulting the table below."
+							]
+						},
+						{
+							"type": "table",
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"colLabels": [
+								"1d10",
+								"Behavior for the Turn"
+							],
+							"rows": [
+								[
+									"1",
+									"You don't take an action, and you use all your movement to move. Roll {@dice 1d4} for the direction: {@b 1}, ↑ north; {@b 2}, → east; {@b 3}, ↓ south; or {@b 4}, ← west."
+								],
+								[
+									"2-6",
+									"You don't move or take actions."
+								],
+								[
+									"7-8",
+									"You don't move, and you take the {@action Attack} action to make one melee attack against a random creature within reach. If none are within reach, you take no action."
+								],
+								[
+									"9-10",
+									"You choose your behavior."
+								]
+							]
+						}
 					]
 				}
 			]
 		},
 		{
-			"name": "Covered",
+			"name": "Oiled",
 			"source": "CompendiumofAcadia",
 			"entries": [
-				"The creature is covered in a substance, typically liquid. When Covered, specify the substance (e.g., Covered (Oil), Covered (Water)). The DM determines additional properties for specific substances. Examples:",
+				"While you have the Oiled condition, you experience the following effects.",
 				{
-					"type": "list",
-					"items": [
-						"Oil: If the creature takes Fire damage, it takes an additional 5 fire damage.",
-						"Water: If the creature takes Electric damage, it takes an additional 5 electric damage."
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Grapples Affected",
+							"entries": [
+								"You have {@variantrule Advantage|XPHB} in Dexterity {@variantrule Saving Throw|XPHB|saving throws} against being Grappled and {@variantrule Advantage|XPHB} on Dexterity ({@skill Acrobatics}) checks to escape grapples (See {@action Escape a Grapple})."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Inflammable",
+							"entries": [
+								"If you take Fire damage, you take an additional 5 Fire damage."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Drenched",
+			"source": "CompendiumofAcadia",
+			"entries": [
+				"While you have the Drenched condition, you experience the following effects.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Fire Resistance",
+							"entries": [
+								"You have resistance to Fire damage."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Electroconductive",
+							"entries": [
+								"If you take Electric damage, you take an additional 5 Electric damage."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Interaction with Ablaze",
+							"entries": [
+								"If you would gain the {@condition Ablaze|CompendiumofAcadia} condition, you instead lose the Drenched condition and do not gain Ablaze."
+							]
+						}
 					]
 				}
 			]
