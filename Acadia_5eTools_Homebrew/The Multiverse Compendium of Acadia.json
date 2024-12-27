@@ -20,25 +20,14 @@
 	},
 	"feat": [
 		{
-			"name": "Spell Specialist: Counterspell",
+			"name": "World Traveler",
 			"source": "CompendiumofAcadia",
-			"category": "G",
+			"category": "EB",
 			"prerequisite": [
 				{
 					"otherSummary": {
-						"entry": "Have {@spell Counterspell|CompendiumofAcadia} prepared",
+						"entry": "Be a {@variantrule Pathfinder|CompendiumofAcadia}",
 						"entrySummary": "Special"
-					}
-				}
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"int",
-							"wis",
-							"cha"
-						]
 					}
 				}
 			],
@@ -46,16 +35,110 @@
 				"You gain the following benefits.",
 				{
 					"type": "entries",
-					"name": "Natural Counterspell",
+					"name": "Pathfinding",
 					"entries": [
-						"When casting {@spell Counterspell|CompendiumofAcadia} using a 3rd-level slot, you don't expend the spell slot. This feature can't be used again until after a {@variantrule Long Rest|XPHB}."
+						"You gain the ability to cast the spell {@spell Pathfinding|CompendiumofAcadia} without a spell slot, and you always have it prepared. You can do so a number of times equal to your proficiency bonus. These uses are replenished after completing a Long Rest, during which you must spend at least 1 hour in a process called Syphoning."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Empowered Counterspell",
+					"name": "Syphoning",
 					"entries": [
-						"Creatures have {@variantrule Disadvantage|XPHB} on Constitution Saving Throws against your {@spell Counterspell|CompendiumofAcadia} spells."
+						"You can enter Syphoning, you attune to the ambient flow of mana around you, entering a trance-like state. In this state, you experience vivid hallucinations of objects, creatures, and places that can be entirely imaginary or drawn from any time, place, or reality.",
+						"These visions might originate from your imagination, other worlds, alternate dimensions, or distant timelines."
+					]
+				}
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Cosmopolitan",
+			"source": "CompendiumofAcadia",
+			"category": "EB",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Be a {@variantrule Pathfinder|CompendiumofAcadia} and Have {@feat World Traveler|CompendiumofAcadia} feat",
+						"entrySummary": "Special"
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Planar Translation",
+					"entries": [
+						"You gain the ability to cast the spell {@spell Planar Translation|CompendiumofAcadia} without a spell slot, and you always have it prepared. To use this feature, you must expend one use of your Pathfinding feature from the {@feat World Traveler|CompendiumofAcadia} feat."
+					]
+				}
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Acadian Latent Power",
+			"source": "CompendiumofAcadia",
+			"category": "EB",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Be an {@variantrule Acadian|CompendiumofAcadia}",
+						"entrySummary": "Special"
+					}
+				}
+			],
+			"entries": [
+				"You awaken an Acadian Latent Power, a unique ability tailored to your character's narrative and thematic elements. These powers are developed collaboratively with your DM and should align with the power level of a Wizard subclass feature of the same level.",
+				"Each power must use Mana as a fuel source. If the ability is passive, it must also include an optional feature or enhancement that consumes Mana to activate or function at a greater scale.",
+				"You can gain this feat up to four times, but each acquisition has a level requirement: level 3 for the first, level 6 for the second, level 10 for the third, and level 14 for the fourth.",
+				{
+					"name": "Example Acadian Latent Powers",
+					"type": "entries",
+					"entries": [
+						{
+							"name": "Forge Holy Weapon",
+							"type": "entries",
+							"entries": [
+								"You can summon a sacred weapon associated with your deity. By using a Magic action, you conjure a melee martial weapon into existence. The weapon's damage die becomes {@damage 1d10} and it deals Radiant damage instead of its usual type.",
+								"If the weapon is versatile or two-handed, it deals {@damage 1d12} damage when wielded with two hands.",
+								"After hitting a creature with this weapon, you can expend 2 {@variantrule ⚪ White Mana|CompendiumofAcadia} to deal an additional {@damage 2d8} Radiant damage."
+							]
+						},
+						{
+							"name": "Reality Ripple",
+							"type": "entries",
+							"entries": [
+								"You can momentarily shift through space, allowing you to teleport up to 15 feet to an unoccupied space you can see. This requires a bonus action and can be used a number of times equal to your proficiency bonus.",
+								"All expended uses are restored when you finish a Long Rest.",
+								"If you have no remaining uses, you can spend 1 {@variantrule 🔵 Blue Mana|CompendiumofAcadia} to regain a number of uses equal to half your proficiency bonus."
+							]
+						},
+						{
+							"name": "Bad Omen",
+							"type": "entries",
+							"entries": [
+								"You gain the {@feat Lucky|XPHB} feat.",
+								"At the start of your turn, you can spend 2 {@variantrule ⚫ Black Mana|CompendiumofAcadia} to extend your luck to others for 1 minute.",
+								"During this time, you can use your Lucky rerolls on {@variantrule D20 Test|XPHB|d20 Tests} made by any creature you can see within 30 feet."
+							]
+						},
+						{
+							"name": "Dark Blood",
+							"type": "entries",
+							"entries": [
+								"When you roll initiative, you gain 5 temporary hit points as your vitality surges.",
+								"By expending 1 {@variantrule 🔴 Red Mana|CompendiumofAcadia}, you can enhance this effect, gaining 15 temporary hit points instead.",
+								"Additionally, you can use a Magic action to spend 2 {@variantrule 🔴 Red Mana|CompendiumofAcadia} and gain 15 temporary hit points at any time during combat."
+							]
+						},
+						{
+							"name": "Fury of the Forest Protector",
+							"type": "entries",
+							"entries": [
+								"You can channel the raw strength of nature to empower your melee strikes. As a bonus action, you can change the mastery of your melee weapon to 'Push' for 1 minute. If you do not normally have access to weapon masteries, this feature grants you temporary access to the 'Push' mastery for the weapon you are wielding when activating this feature.",
+								"Additionally, you can spend 1 {@variantrule 🟢 Green Mana|CompendiumofAcadia} when you activate this ability to deal extra damage if a creature is pushed into a wall or similar structure. For every 5 feet the creature is unable to move due to the obstruction, it takes {@damage 1d6} bludgeoning damage. At the DM's discretion, the wall or structure may also take the same amount of damage."
+							]
+						}
 					]
 				}
 			],
@@ -96,143 +179,6 @@
 						"When a creature you're grappling attempts to cast a spell with Verbal, Somatic, or Material Components, they must make a Concentration Check (DC 8 + your Strength modifier + Proficiency Bonus). On failure, the spell fails and the spell slot isn't expended."
 					]
 				}
-			]
-		}
-	],
-	"class": [
-		{
-			"name": "Hyper-Class: Acadian",
-			"source": "CompendiumofAcadia",
-			"classFeatures": [
-				"Pathfinder|Hyper-Class: Acadian|CompendiumofAcadia|1|CompendiumofAcadia",
-				"Planar Translation|Hyper-Class: Acadian|CompendiumofAcadia|2|CompendiumofAcadia",
-				"Acadian Latent Power|Hyper-Class: Acadian|CompendiumofAcadia|3|CompendiumofAcadia",
-				"Acadian Latent Power (2)|Hyper-Class: Acadian|CompendiumofAcadia|6|CompendiumofAcadia",
-				"Acadian Latent Power (3)|Hyper-Class: Acadian|CompendiumofAcadia|10|CompendiumofAcadia",
-				"Acadian Latent Power (4)|Hyper-Class: Acadian|CompendiumofAcadia|14|CompendiumofAcadia"
-			]
-		}
-	],
-	"classFeature": [
-		{
-			"name": "Pathfinder",
-			"source": "CompendiumofAcadia",
-			"className": "Hyper-Class: Acadian",
-			"classSource": "CompendiumofAcadia",
-			"level": 1,
-			"entries": [
-				"Starting at 1st level, you gain the ability to cast the spell {@spell Pathfinding|CompendiumofAcadia} without a spell slot, and you always have it prepared. You can do so a number of times equal to your proficiency bonus.",
-				"These uses are replenished after completing a Long Rest, during which you must spend at least 1 hour in a process called Syphoning.",
-				{
-					"name": "Syphoning",
-					"type": "entries",
-					"entries": [
-						"During Syphoning, you attune to the ambient flow of mana around you, entering a trance-like state. In this state, you experience vivid hallucinations of objects, creatures, and places that can be entirely imaginary or drawn from any time, place, or reality.",
-						"These visions might originate from your imagination, other worlds, alternate dimensions, or distant timelines.",
-						"This process strengthens your connection to planar energies, recharging your uses of your Pathfinder feature."
-					]
-				}
-			]
-		},
-		{
-			"name": "Planar Translation",
-			"source": "CompendiumofAcadia",
-			"className": "Hyper-Class: Acadian",
-			"classSource": "CompendiumofAcadia",
-			"level": 2,
-			"entries": [
-				"Starting at 2nd level, you gain the ability to cast the spell {@spell Planar Translation|CompendiumofAcadia} without a spell slot, and you always have it prepared. To use this feature, you must expend one use of your Pathfinder feature."
-			]
-		},
-		{
-			"name": "Acadian Latent Power",
-			"source": "CompendiumofAcadia",
-			"className": "Hyper-Class: Acadian",
-			"classSource": "CompendiumofAcadia",
-			"level": 3,
-			"entries": [
-				"At 3rd level, you awaken your first Acadian Latent Power, a unique ability tailored to your character's narrative and thematic elements. These powers are developed collaboratively with your DM and should align with the power level of a wizard subclass feature of the same level.",
-				"You gain additional Acadian Latent Powers at 6th, 10th, and 14th levels. Each power must use Mana as a fuel source. If the ability is passive, it must also include an optional feature or enhancement that consumes Mana to activate or function at a greater scale.",
-				{
-					"name": "Example Acadian Latent Powers",
-					"type": "entries",
-					"entries": [
-						{
-							"name": "Forge Holy Weapon",
-							"type": "entries",
-							"entries": [
-								"You can summon a sacred weapon associated with your deity. By using a Magic action, you conjure a melee martial weapon into existence. The weapon's damage die becomes {@damage 1d10} and it deals radiant damage instead of its usual type.",
-								"If the weapon is versatile or two-handed, it deals {@damage 1d12} damage when wielded with two hands.",
-								"After hitting a creature with this weapon, you can expend 1 {@variantrule ⚪ White Mana|CompendiumofAcadia} to deal an additional {@damage 2d8} radiant damage."
-							]
-						},
-						{
-							"name": "Reality Ripple",
-							"type": "entries",
-							"entries": [
-								"You can momentarily shift through space, allowing you to teleport up to 15 feet to an unoccupied space you can see. This requires a bonus action and can be used a number of times equal to your proficiency bonus.",
-								"All expended uses are restored when you finish a Long Rest.",
-								"If you have no remaining uses, you can spend 1 {@variantrule 🔵 Blue Mana|CompendiumofAcadia} to regain a number of uses equal to half your proficiency bonus."
-							]
-						},
-						{
-							"name": "Bad Omen",
-							"type": "entries",
-							"entries": [
-								"You gain the Lucky feat, allowing you to reroll attack rolls, saving throws, or ability checks under certain conditions.",
-								"At the start of your turn, you can spend 1 {@variantrule ⚫ Black Mana|CompendiumofAcadia} to extend your luck to others for 1 minute.",
-								"During this time, you can use your Lucky rerolls on attack rolls, saving throws, or ability checks made by any creature you can see within 30 feet."
-							]
-						},
-						{
-							"name": "Dark Blood",
-							"type": "entries",
-							"entries": [
-								"When you roll initiative, you gain 5 temporary hit points as your vitality surges.",
-								"By expending 1 Red Mana, you can enhance this effect, gaining 15 temporary hit points instead.",
-								"Additionally, you can use a Magic action to spend 1 {@variantrule 🔴 Red Mana|CompendiumofAcadia} and gain 10 temporary hit points at any time during combat."
-							]
-						},
-						{
-							"name": "Fury of the Forest Protector",
-							"type": "entries",
-							"entries": [
-								"You can channel the raw strength of nature to empower your melee strikes. As a bonus action, you can change the mastery of your melee weapon to 'Push' for 1 minute. If you do not normally have access to weapon masteries, this feature grants you temporary access to the 'Push' mastery for the weapon you are wielding during its duration.",
-								"Additionally, you can spend 1 {@variantrule 🟢 Green Mana|CompendiumofAcadia} when you activate this ability to deal extra damage if a creature is pushed into a wall or similar structure. For every 5 feet the creature is unable to move due to the obstruction, it takes 1d6 bludgeoning damage. At the DM's discretion, the wall or structure may also take the same amount of damage."
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Acadian Latent Power (2)",
-			"source": "CompendiumofAcadia",
-			"className": "Hyper-Class: Acadian",
-			"classSource": "CompendiumofAcadia",
-			"level": 6,
-			"entries": [
-				"At 6th level, you awaken your second Acadian Latent Power, a unique ability tailored to your character's narrative and thematic elements. These powers are developed collaboratively with your DM and should align with the power level of a wizard subclass feature of the same level."
-			]
-		},
-		{
-			"name": "Acadian Latent Power (3)",
-			"source": "CompendiumofAcadia",
-			"className": "Hyper-Class: Acadian",
-			"classSource": "CompendiumofAcadia",
-			"level": 10,
-			"entries": [
-				"At 10th level, you awaken your third Acadian Latent Power, a unique ability tailored to your character's narrative and thematic elements. These powers are developed collaboratively with your DM and should align with the power level of a wizard subclass feature of the same level."
-			]
-		},
-		{
-			"name": "Acadian Latent Power (4)",
-			"source": "CompendiumofAcadia",
-			"className": "Hyper-Class: Acadian",
-			"classSource": "CompendiumofAcadia",
-			"level": 14,
-			"entries": [
-				"At 14th level, you awaken your fourth Acadian Latent Power, a unique ability tailored to your character's narrative and thematic elements. These powers are developed collaboratively with your DM and should align with the power level of a wizard subclass feature of the same level."
 			]
 		}
 	],
@@ -53894,14 +53840,14 @@
 				{
 					"type": "list",
 					"items": [
-						"<b>Babel Tower.</b> Languages you speak are seamlessly translated into their closest equivalents on this plane. This includes historical, cultural, or stylistic nuances such as local dialects and mannerisms. If the plane lacks any languages, you lose knowledge of languages you know. If the plane's communication relies on telepathy, you gain the ability to telepathically speak with creatures as appropriate. For example, if you speak {@language Elvish}, it will adapt to the plane's variant of {@language Elvish}.",
+						"<b>Babel Tower.</b> Languages you speak are seamlessly translated into their closest equivalents on this plane. This includes historical, cultural, or stylistic nuances such as local dialects and mannerisms. For example, if you speak {@language Elvish}, it will adapt to the plane's variant of {@language Elvish}. If the plane lacks any languages, you lose knowledge of languages you know. If the plane's communication relies on telepathy, you gain the ability to telepathically speak with creatures as appropriate.",
 						"<b>Omni Species.</b> If your race is not native to the plane, you are transformed into the closest native equivalent, as determined by the DM. Your racial traits and abilities adjust to reflect your new form. You are considered a native of this plane for all purposes. This transformation imposes one level of {@condition exhaustion} as your body adjusts to its new form.",
 						"<b>Transfigured Equipment.</b> Your clothing, armor, and equipment transform to match the plane's native style, materials, and craftsmanship while retaining their functionality. For example, a steel longsword may appear as volcanic obsidian if that material is commonly used for swords on this plane. Money in your possession also transforms into the local currency, including symbols, weight, and composition.",
 						"<b>Knowledge Siphon.</b> Your knowledge reshapes to align with the plane's history, culture, and customs. All your skill proficiencies adapt to reflect local knowledge, such as adjusting lockpicking techniques for the plane's locks or aligning arcane, martial, or religious knowledge with local traditions. You must succeed on a DC 15 Intelligence saving throw. On a failure, your memories of your home plane are suppressed until the spell ends, you take {@damage 6d6} psychic damage, and you begin to doubt whether you were ever truly from another plane.",
 						"<b>Symbol of All.</b> Your magic and symbols seamlessly adapt to the traditions of the plane you are on. Spells, divine symbols, and magical effects shift in appearance and form to align with local customs and cultural practices. For example, a {@spell Fireball|CompendiumofAcadia} might require different hand gestures or manifest as blue flames if that reflects the plane's norms. Similarly, a god's holy symbol or heraldry transforms to represent the plane's equivalent deity or conceptual counterpart. Caution: This adaptation may temporarily alter your connection to your original faith. Prayers and divine power might be redirected to the translated deity or entity, which some gods may perceive as a betrayal unless properly justified."
 					]
 				},
-				"The spell ends immediately if the target leaves the plane or world."
+				"The spell ends immediately if the target leaves the plane or world to which they were translated."
 			],
 			"areaTags": [
 				"ST"
@@ -111625,16 +111571,8 @@
 			"entries": [
 				"You are transported to another world (from any plane of existence).",
 				"To cast this spell, you must be aware of the world's existence, even if you don't know its name. Your destination in the other world must be a location you have seen before. This could be through direct experience (as a Pathfinder, potentially using Syphoning) or through memories transferred to you via spells such as {@spell Dream|CompendiumofAcadia} or similar effects.",
-				"If you have only an accurate description of the location, you can attempt to teleport there. However, there is a 25% chance (rolling a d4, with a result of 1 indicating failure) of a mishap. If a mishap occurs, the spell fails, the spell slot is consumed, and you take {@damage 3d10} Force damage."
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Hyper-Class: Acadian",
-						"source": "CompendiumofAcadia"
-					}
-				]
-			}
+				"If you have only an accurate description of the location, you can attempt to teleport there. However, there is a 50% chance (rolling a d4, with a result of 1 or 2 indicating failure) of a mishap. If a mishap occurs, the spell fails, the spell slot is consumed, and you take {@damage 3d10} Force damage."
+			]
 		},
 		{
 			"name": "Phantasmal Force",
@@ -169252,7 +169190,7 @@
 					"type": "entries",
 					"name": "Optional Rule: It's Hard to Spare Lives",
 					"entries": [
-						"When attempting a non-lethal attack or spell using this rule, your attack roll is made with disadvantage, and if the effect involves a saving throw, the target has advantage on its saving throw. This reflects the difficulty of subduing a target without dealing fatal damage and may make capturing enemies more challenging."
+						"When attempting a non-lethal attack or effect that requires a saving throw using this rule, your attack roll is made with disadvantage, and if the effect involves a saving throw, the target has advantage on its saving throw. This reflects the difficulty of subduing a target without dealing fatal damage and may make capturing enemies more challenging."
 					]
 				}
 			]
@@ -169297,6 +169235,7 @@
 			"ruleType": "C",
 			"entries": [
 				"When a character dies in battle, if they have enough memories with their allies who are still fighting (at the DM's discretion), they may inspire their allies to continue battling in their name. The fallen character remains in the initiative order, and takes a Fallen Action at the start of their turn until the battle ends. If the character cannot invoke an appropriate memory, they lose their Fallen Action for that turn without any effect.",
+				"This are the Fallen Actions:",
 				{
 					"type": "list",
 					"items": [
@@ -169316,10 +169255,15 @@
 			"name": "Precarious Recovery",
 			"ruleType": "C",
 			"entries": [
-				"Stabilizing a Unstable character grants them two successful death saving throws instead of fully stabilizing them. Healing a character for at least 5 hit points also grants two successful Death Saving Throws instead of restoring hit points or stabilizing the character. A character with three successful death saving throws is considered {@variantrule Stable}.",
-				"On a Natural 20, it gets three successful Death Saving Throws and get Stable, and gains 1 hitpoint",
-				"Creatures typically do not attack unconscious creatures that are at 0 hit points.",
-				"A {@variantrule Stable} creature that gains hit points receives them at the start of their next turn."
+				"A creature with 0 hit points has the following rules:",
+				{
+					"type": "list",
+					"items": [
+						"It can only regain hit points if it is {@variantrule Stable|XPHB}.",
+						"If it would regain 5 or more hit points, it becomes {@variantrule Stable|XPHB} instead of healing. Healing for less than 5 hit points has no effect.",
+						"Rolling a natural 20 on a {@variantrule Death Saving Throw|XScreen|death saving throw} causes it to become {@variantrule Stable|XPHB} and restore 1 hit point afterwards."
+					]
+				}
 			]
 		},
 		{
@@ -169327,14 +169271,20 @@
 			"name": "Death's Door",
 			"ruleType": "C",
 			"entries": [
-				"This rule assumes the use of Precarious Recovery ({@variantrule Precarious Recovery|CompendiumofAcadia}).",
-				"When reduced to 0 hit points, a character can choose to enter Death's Door instead of falling unconscious. While at Death's Door, the character remains conscious but is at significant risk of death.",
-				"A creature at Death's Door is in extreme distress and exhibits signs of partial insanity, such as speaking gibberish, nonsensical phrases, and experiencing minor hallucinations.",
-				"The order of the events in the start of it's turn is -> Creature gains hitpoints pending from Precarious Recovery, if they gain hitpoints, Death's Door Ends, if there isn't any -> Creature chooses if it wants to fall unconcious and end Death's Door -> if it chooses, it falls unconscious and follow the rules for a creature that is dying",
-				"While at Death's Door the creature is unstable, taking damage results in one failed death saving throw, or two on a critical hit. A creature with three failed death saving throws dies.",
-				"A creature in Death's Door that get 3 successful Death Saving Throws is Stable, and gain 1 hitpoint.",
-				"At the end of each turn, a character in Death's Door gains one level of exhaustion. At this moment, they can choose to fall unconscious, ending Death's Door and following the standard rules for being at 0 hit points.",
-				"Once a creature enters Death's Door, it cannot do so again until it completes a Short or Long rest."
+				"This rule assumes the use of Precarious Recovery (See {@variantrule Precarious Recovery|CompendiumofAcadia}).",
+				"When reduced to 0 hit points, a character can choose to enter Death's Door instead of falling {@condition Unconscious|XPHB}. While at Death's Door, the character remains conscious but is at significant risk of death.",
+				"The creature is in extreme distress, exhibiting signs of partial insanity such as speaking gibberish, uttering nonsensical phrases, or experiencing minor hallucinations.",
+				"While at Death's Door, the following rules apply:",
+				{
+					"type": "list",
+					"items": [
+						"At the start of its turn, the creature chooses whether to fall {@condition Unconscious|XPHB}, ending Death's Door and following the standard rules for a creature at 0 hit points.",
+						"The creature is treated as having 0 hit points (see {@variantrule Death Saving Throws|XScreen}).",
+						"At the end of each turn, the creature gains one level of exhaustion.",
+						"Death's Door ends immediately if the creature regains any hit points."
+					]
+				},
+				"A creature can only enter Death's Door once per {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
 			]
 		},
 		{
@@ -169724,11 +169674,23 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "Hyper-Class: Acadian",
-			"ruleType": "C",
+			"name": "Acadian",
+			"ruleType": "O",
 			"entries": [
-				"The Acadian Hyper-Class is a special subclass granted by the DM on top of a character's normal class. These Hyper-Classes are intentionally powerful and designed for campaigns in the complex manyverse of Acadia.",
-				"Take a look at {@class Hyper-Class: Acadian|CompendiumofAcadia}."
+				"As an Acadian, you are a student of the most prestigious and powerful school in the entire manyverse. Here, you gain access to items of unparalleled power that cannot be found anywhere else.",
+				"As an Acadian, you are a force that shapes the manyverse itself. Your presence cannot be easily swayed, as your ability to alter the course of history across the planes is nothing short of world-changing. Through your actions, new pantheons may emerge, planes and worlds may be permanently connected, gods may be forged, and entire species might be created. Of course, such feats require mastery and time, attainable only by those who have tapped into the essence of how the multiverse operates.",
+				"As an Acadian, you gain access to the Acadian Epic Boons, designed to be learned at The Second Acadia School of Magic.",
+				"You may also acquire specific feats, such as {@feat Acadian Latent Power|CompendiumofAcadia}.",
+				"If you are a Pathfinder—one of the top students—you gain access to additional feats like {@feat World Traveler|CompendiumofAcadia} and {@feat Cosmopolitan|CompendiumofAcadia}."
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Pathfinder",
+			"ruleType": "O",
+			"entries": [
+				"As a Pathfinder, you were born with an innate and powerful ability to tap into the essence of the manyverse, perceive other worlds, and travel through them.",
+				"While your abilities are extraordinary, they require time and mastery to fully develop. As a Pathfinder, you gain the Epic Boon {@feat World Traveler|CompendiumofAcadia} and access to the {@variantrule Pathfinder Mana System|CompendiumofAcadia}."
 			]
 		},
 		{
@@ -169736,7 +169698,7 @@
 			"name": "Unshaped Class",
 			"ruleType": "O",
 			"entries": [
-				"You start at level 0 as an Unshaped character, a flexible state before choosing a class. Use the following guidelines to create your Unshaped character:",
+				"You begin at level 1 as an Unshaped character with the Unshaped Class, a flexible starting state that allows you to transition into a specific class later. Use the following guidelines to create your Unshaped character:",
 				{
 					"type": "entries",
 					"name": "Unshaped Core Traits",
@@ -169746,7 +169708,7 @@
 						"Weapon Proficiencies: Simple weapons",
 						"Proficiency Bonus: +2",
 						"Starting Attributes: 14, 14, 12, 12, 10, 8",
-						"Starting Equipment: One or two simple weapons of your choice, an Explorer's Pack, common clothes, one common or uncommon magic item, and 5 GP."
+						"Starting Equipment: One or two simple weapons of your choice, an Explorer's Pack, common clothes, one common or uncommon magic item, and 10 GP."
 					]
 				},
 				{
@@ -169761,17 +169723,17 @@
 					"type": "entries",
 					"name": "Unshaped Luck",
 					"entries": [
-						"You have a unique ability that reflects the fluid nature of an Unshaped character. When you roll a d20 for a D20 Test, you can grant yourself Advantage on the roll. Alternatively, when a creature rolls a d20 for an attack roll against you, you can impose Disadvantage on that roll.",
-						"You can use this feature twice. You regain all expended uses when you finish a Short or Long Rest."
+						"As an Unshaped character, you possess a unique ability reflecting your fluid and adaptable nature. When you make a {@variantrule D20 Test|XPHB}, you can grant yourself {@variantrule Advantage|XPHB} on the roll. Alternatively, when a creature makes an attack roll against you, you can impose {@variantrule Disadvantage|XPHB} on that roll.",
+						"You can use this feature twice, and you regain all expended uses when you finish a Short or Long Rest."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Gaining a Class Level",
 					"entries": [
-						"When an Unshaped character advances to 1st level, they must choose a class. This transition represents their training and specialization into a specific role within the adventuring group. Follow these steps:",
-						"1. You can choose to replace your 'Unshaped Luck' feature for an Ability Score Improvement feat or another feat of your choice for which you qualify.",
-						"2. Gain all 1st-level features of the chosen class, except starting equipment. Adjust proficiencies, saving throws, and other abilities as per the class rules.",
+						"When an Unshaped character levels up, they replace their 1st level with the 1st level of another class, signifying their transition into a specialized role. Follow these steps:",
+						"1. Replace your 'Unshaped Luck' feature with either an Ability Score Improvement or another feat of your choice for which you qualify.",
+						"2. Gain all 1st-level features of the chosen class, except for starting equipment. Adjust your proficiencies, saving throws, and other abilities as per the class rules.",
 						"3. Replace your current hit points with the hit points granted at 1st level by the chosen class."
 					]
 				}
@@ -169969,7 +169931,6 @@
 				{
 					"type": "list",
 					"items": [
-						"{@feat Spell Specialist: Counterspell|CompendiumofAcadia}",
 						"{@feat Mage Catcher|CompendiumofAcadia}"
 					]
 				}
@@ -169980,24 +169941,27 @@
 			"name": "Rush of Power",
 			"ruleType": "C",
 			"entries": [
-				"You can push yourself beyond your natural limits through a surge of adrenaline or arcane power, but this comes at a significant cost to your body and mind.",
+				"You can push yourself beyond your natural limits through a surge of adrenaline or arcane power, but doing so exacts a significant toll on your body and mind.",
 				{
 					"type": "list",
 					"items": [
-						"<b>Adrenaline Rush</b>. When you fail an ability check, attack roll, or saving throw, you can reroll the attempt. You can use this feature a number of times equal to your proficiency bonus per Long Rest.",
-						"<b>Arcane Rush</b>. As a spellcaster, you can regain a spell slot, with the spell slot level limited by your proficiency bonus. You can use this feature once per Long Rest."
+						"<b>Adrenaline Rush</b>: When you fail an {@variantrule D20 Test|XPHB}, you can reroll the attempt.",
+						"<b>Arcane Rush</b>: As a spellcaster, you can use a Magic Action to regain a spell slot. The level of the regained spell slot cannot exceed your proficiency bonus."
 					]
 				},
-				"At the end of 1 minute, lethargy sets in. You gain levels of Exhaustion equal to the level of the spell slot regained through Arcane Rush, plus the total number of times you have used Adrenaline Rush.",
-				"You cannot use either feature if you have any level of Exhaustion. Additionally, the total Exhaustion levels you can accumulate from these features cannot exceed your proficiency bonus. If you reach this limit, you can no longer use these features until you finish a Long Rest."
+				"At the end of 1 minute, you suffer lethargy. You gain a number of levels of Exhaustion equal to the total levels of spell slots regained through Arcane Rush, plus the total number of times you have used Adrenaline Rush during that period.",
+				"You cannot use this feature if you have any levels of Exhaustion. Furthermore, the total levels of Exhaustion you can accumulate from this feature cannot exceed your proficiency bonus. Once you reach this limit, you cannot use this feature again until you complete a Long Rest."
 			]
 		},
 		{
 			"source": "CompendiumofAcadia",
 			"name": "Pathfinder Mana System",
-			"ruleType": "C",
+			"ruleType": "O",
 			"entries": [
-				"The Pathfinder Mana System governs the use and recovery of mana in the multiverse. Creatures capable of accessing mana can store an amount of mana equal to their level. Each round, they can spend an amount of mana equal to their proficiency modifier.",
+				"A creature with access to the Pathfinder Mana System must choose two mana types to have an affinity with. This choice reflects their themes and identity. For example, a Paladin obsessed with law and driven by passion to overcome obstacles might have an affinity for {@variantrule ⚪ White Mana|CompendiumofAcadia} and {@variantrule 🔴 Red Mana|CompendiumofAcadia}.",
+				"Once chosen, mana affinities cannot be changed except at the DM's discretion. Such changes typically represent a fundamental shift in the creature's essence. For instance, an Oathbreaker might shift one of their affinities to {@variantrule ⚫ Black Mana|CompendiumofAcadia}, reflecting their altered nature and themes.",
+				"You gain mana during a {@variantrule Long Rest|XPHB} if you are in a location or near materials associated with your mana affinities. You determine the distribution of mana between your chosen affinities. If you cannot draw from your affinity types, or if you choose, you may instead gain {@variantrule 🔵 Blue Mana|CompendiumofAcadia}. Mana is used to activate abilities described in the respective mana rules.",
+				"The Pathfinder Mana System governs the use and recovery of mana within the manyverse. Creatures capable of accessing mana can store an amount equal to their level. Each turn, you can spend mana up to your proficiency bonus.",
 				{
 					"type": "section",
 					"name": "Mana Types",
@@ -170006,47 +169970,55 @@
 							"type": "entries",
 							"name": "🟢 Green Mana",
 							"entries": [
-								"Look at: {@variantrule 🟢 Green Mana|CompendiumofAcadia}.",
-								"Green Mana oppresses {@variantrule ⚫ Black Mana|CompendiumofAcadia}, representing its ability to foster growth and vitality against entropy and decay. It is, however, oppressed by {@variantrule ⚪ White Mana|CompendiumofAcadia}, as order and rationality can constrain its primal and untamed nature."
+								"See: {@variantrule 🟢 Green Mana|CompendiumofAcadia}.",
+								"Green Mana oppresses {@variantrule ⚫ Black Mana|CompendiumofAcadia}, symbolizing growth and vitality overcoming entropy and decay. However, it is oppressed by {@variantrule ⚪ White Mana|CompendiumofAcadia}, representing order and rationality constraining primal forces."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "🔵 Blue Mana",
 							"entries": [
-								"Look at: {@variantrule 🔵 Blue Mana|CompendiumofAcadia}.",
-								"Blue Mana is neutral and does not participate in the oppression cycle. It often serves as a stabilizer or mediator, ensuring balance among the other mana types."
+								"See: {@variantrule 🔵 Blue Mana|CompendiumofAcadia}.",
+								"Blue Mana is neutral and does not participate in the cycle of oppression. It often acts as a stabilizing or mediating force among the other mana types."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "⚫ Black Mana",
 							"entries": [
-								"Look at: {@variantrule ⚫ Black Mana|CompendiumofAcadia}.",
-								"Black Mana is oppressive toward {@variantrule 🔴 Red Mana|CompendiumofAcadia}, consuming its passion and vitality with inevitable decay. It is, however, oppressed by {@variantrule 🟢 Green Mana|CompendiumofAcadia}, which counters its entropy with growth and renewal."
+								"See: {@variantrule ⚫ Black Mana|CompendiumofAcadia}.",
+								"Black Mana oppresses {@variantrule 🔴 Red Mana|CompendiumofAcadia}, consuming its passion and vitality with entropy and inevitability. It is, however, oppressed by {@variantrule 🟢 Green Mana|CompendiumofAcadia}, which counters decay with growth and renewal."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "⚪ White Mana",
 							"entries": [
-								"Look at: {@variantrule ⚪ White Mana|CompendiumofAcadia}.",
-								"White Mana oppresses {@variantrule 🟢 Green Mana|CompendiumofAcadia} by overriding natural chaos and primal growth with mental constructs and rationality. It is, however, oppressed by {@variantrule 🔴 Red Mana|CompendiumofAcadia}, which counters its rigidity and structure with raw emotion and passion."
+								"See: {@variantrule ⚪ White Mana|CompendiumofAcadia}.",
+								"White Mana oppresses {@variantrule 🟢 Green Mana|CompendiumofAcadia} by overriding natural chaos and growth with mental constructs and rationality. However, it is oppressed by {@variantrule 🔴 Red Mana|CompendiumofAcadia}, which counters rigidity with raw passion and emotion."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "🔴 Red Mana",
 							"entries": [
-								"Look at: {@variantrule 🔴 Red Mana|CompendiumofAcadia}.",
-								"Red Mana oppresses {@variantrule ⚪ White Mana|CompendiumofAcadia}, breaking through its rigid structures with raw passion and chaos. However, it is oppressed by {@variantrule ⚫ Black Mana|CompendiumofAcadia}, which consumes its vitality and passion with entropy and inevitability."
+								"See: {@variantrule 🔴 Red Mana|CompendiumofAcadia}.",
+								"Red Mana oppresses {@variantrule ⚪ White Mana|CompendiumofAcadia}, breaking through structure and order with chaos and passion. However, it is oppressed by {@variantrule ⚫ Black Mana|CompendiumofAcadia}, which consumes its vitality with entropy."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Regras de Opressão",
+							"name": "Rules of Oppression",
 							"entries": [
-								"<div style='text-align: center;'><img src='https://i.ibb.co/ZNkFXng/Acadia-Reborn-1-1.png' width='350' height='350'></div>"
+								"<div style='text-align: center;'><img src='https://i.ibb.co/ZNkFXng/Acadia-Reborn-1-1.png' width='350' height='350'></div>",
+								{"type" : "list",
+								"items" : [
+									"<b>Oppress Elementals.</b> After dealing damage to a Elemental, you can spend a Bonus action and 1 Mana immediately to deal 2d8 Radiant damage that ignores immunity and resistance.",
+									"<b>Oppress Undeads.</b> After dealing damage to a Undead, you can spend a Bonus action and 1 Mana immediately to deal 2d8 Elemental Damage of your choice damage that ignores immunity and resistance.",
+									"<b>Oppress Humanoid.</b> After dealing damage to a Humanoid, you can spend a Bonus action and 1 Mana immediately to deal 2d8 Necrotic damage that ignores immunity and resistance.",
+									"<b>Oppress Celestials.</b> After dealing damage to a Celetial, you can spend a Bonus action and 1 Mana immediately to deal 2d8 Physical Damage of your choice damage that ignores immunity and resistance.",
+									"<b>Oppress Constructs.</b> After dealing damage to a Construct, you can spend a Bonus action and 1 Mana immediately to deal 2d8 Force damage that ignores immunity and resistance."
+								]}
 							]
 						}
 					]
@@ -170340,7 +170312,7 @@
 					"items": [
 						"Academic Books and Scrolls",
 						"Oaths, Contracts, and Symbols of Authority (e.g., seals, badges, ceremonial objects)",
-						"Poems, Sacred Texts, and Religious Manuscripts",
+						"Sacred Texts, and Religious Manuscripts",
 						"Writing Materials (paper, quills, ink)",
 						"Libraries, Archives, and Halls of Learning"
 					]
@@ -170358,7 +170330,7 @@
 							{
 								"type": "list",
 								"items": [
-									"<b>Replicate Information.</b> As an Action, You can replicate written text at 1 minute per page or images at 60 times the normal speed, provided you have the necessary tools and materials. You must concentrate as if on a spell and can maintain this for up to 1 hour. You may replicate text accurately or in your own style. This also applies to copying spells into your spellbook, taking 1 minute per spell level.",
+									"<b>Replicate Information.</b> As an Magic Action, You can replicate written text at 1 minute per page or images at 60 times the normal speed, provided you have the necessary tools and materials. You must concentrate as if on a spell and can maintain this for up to 1 hour. You may replicate text accurately or in your own style. This also applies to copying spells into your spellbook, taking 1 minute per spell level.",
 									"<b>Spellcasting:</b> Cast {@spell Vicious Mockery|CompendiumOfAcadia}, {@spell True Strike|CompendiumOfAcadia}, {@spell Light|CompendiumOfAcadia}, or {@spell Message|CompendiumOfAcadia}."
 								]
 							}
@@ -170368,7 +170340,7 @@
 							{
 								"type": "list",
 								"items": [
-									"<b>Sharp Mind.</b> As an Action, you gain perfect recall and clarity for 8 hours, allowing you to remember anything you’ve seen or heard during this time. You also have advantage on Arcana, History, Nature, and Religion checks.",
+									"<b>Sharp Mind.</b> As an Magic Action, you gain perfect recall and clarity for 8 hours, allowing you to remember anything you’ve seen or heard during this time. You also have advantage on Arcana, History, Nature, and Religion checks.",
 									"<b>Spellcasting:</b> Cast {@spell Charm Person|CompendiumOfAcadia}, {@spell Comprehend Languages|CompendiumOfAcadia}, {@spell Detect Magic|CompendiumOfAcadia}, or {@spell Identify|CompendiumOfAcadia}."
 								]
 							}
@@ -170540,14 +170512,15 @@
 			"ruleType": "C",
 			"entries": [
 				"Specially prepared foods provide adventurers with unique benefits during their journeys.",
-				"A character with the {@feat Chef|XPHB} feat can make a Meal from the table using 'Replenishing Meal' instead of it's default Meal, and can make a Treat from the table using 'Bolstering Treats' intead of it's default Treat.",
-				"A creature can only have one food effect active at a time. If a creature consumes another food that grants a food effect, it must choose whether to keep the current effect or replace it with the new one.",
+				"A character with the {@feat Chef|XPHB} feat can create a Meal using 'Replenishing Meal' instead of its default Meal, or a Treat using 'Bolstering Treat' instead of its default Treat.",
+				"A creature can have only one food effect active at a time. If a creature consumes another food that grants a food effect, it must choose to keep the current effect or replace it with the new one.",
+				"Food effects expire after a {@variantrule Long Rest|XPHB}.",
 				"There are two types of foods:",
 				{
 					"type": "list",
 					"items": [
-						"<b>Snacks:</b> Can be consumed with a bonus action and provide short-term benefits.",
-						"<b>Meals:</b> Require at least 10 minutes to consume but offer more lasting and impactful effects."
+						"<b>Snacks:</b> Consumed with a bonus action, providing short-term benefits.",
+						"<b>Meals:</b> Require at least 10 minutes to consume, offering more lasting and impactful effects."
 					]
 				},
 				"Here are some example foods and their effects:",
@@ -170568,37 +170541,37 @@
 						[
 							"Protein Bites",
 							"Snack",
-							"You have advantage on the next saving throw you make until the end of your next turn."
+							"Gain advantage on the next saving throw you make until the end of your next turn."
 						],
 						[
 							"Dried Fruit Mix",
 							"Snack",
-							"You gain a +1d4 bonus to your next attack roll you make until the end of your next turn."
+							"Gain a +1d4 bonus to your next attack roll until the end of your next turn."
 						],
 						[
 							"Mint-Chocolate Square",
 							"Snack",
-							"You gain 10 feet of additional movement until the end of your next turn."
+							"Gain 10 feet of additional movement until the end of your next turn."
 						],
 						[
 							"Hunter's Stew",
 							"Meal",
-							"Until you take a Long Rest, when spending Hit Dice during a Short Rest, add +1d8 to the total hitpoints recovered."
+							"Add +1d8 to the total hit points recovered when spending Hit Dice during a Short Rest."
 						],
 						[
 							"Seared Meat & Veggie Skewers",
 							"Meal",
-							"Gain a 1d6 to add to an ability check, saving throw or attack that uses Strength, Dexterity, or Constitution. After using it, this effect expires."
+							"Gain +1d6 to add to a Strength, Dexterity, or Constitution {@variantrule D20 Test|XPHB}. Effect expires after use."
 						],
 						[
 							"Thinker’s Chowder",
 							"Meal",
-							"Gain a 1d6 to add to an ability check, saving throw or attack that uses Intelligence, Wisdom, or Charisma. After using it, this effect expires."
+							"Gain +1d6 to add to a Intelligence, Wisdom, or Charisma {@variantrule D20 Test|XPHB}. Effect expires after use."
 						],
 						[
 							"Herbed Roast Veggies & Meat",
 							"Meal",
-							"For the next 8 hours, you gain advantage on Constitution saving throws to resist exhaustion or environmental effects (such as extreme heat or cold)."
+							"Gain {@variantrule Advantage|XPHB} on Constitution Saving Throws against Exhaustion or environmental effects (e.g., extreme heat or cold)."
 						]
 					]
 				}
@@ -170609,9 +170582,9 @@
 			"name": "Universal Spell Scrolls",
 			"ruleType": "C",
 			"entries": [
-				"When Scribing Spell Scrolls, a spellcaster can choose to make it a Universal Spell Scroll. This type of scroll can be used by any creature that can understand any language, even if the spell is not on their spell list.",
-				"If the creature does not have a spell list, or if the spell on the scroll is of a higher level than they can normally cast, they must make the ability check for casting it as described in the Spell Scroll rules. If the creature is not a spellcaster, they may choose Intelligence, Wisdom, or Charisma for the check.",
-				"A creature can spend 1 hour familiarizing itself with a spell scroll and its casting process. If it does so, it adds its proficiency bonus to the ability check made to cast the spell. This familiarity lasts until the creature takes a Long Rest."
+				"When scribing Spell Scrolls, a spellcaster can choose to make it a Universal Spell Scroll. This type of scroll can be used by any creature that understands any language, even if the spell is not on their spell list.",
+				"If the creature does not have a spell list, or if the spell on the scroll is of a higher level than they can normally cast, they must make an ability check to cast the spell, as described in the Spell Scroll rules. If the creature is not a spellcaster, it can choose Intelligence, Wisdom, or Charisma for the check.",
+				"A creature can spend 1 hour studying a Universal Spell Scroll and familiarizing itself with its casting process. After doing so, it adds its proficiency bonus to the ability check to determine whether you cast the spell. This familiarity lasts until the creature takes a Long Rest."
 			]
 		},
 		{
@@ -170624,7 +170597,7 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "Grappling Spellcasters",
+			"name": "Casting Constraints",
 			"ruleType": "C",
 			"entries": [
 				"If a creature is {@condition Grappled}, {@condition Prone}, or {@condition Restrained} and attempts to cast a spell that requires somatic components, it must succeed on a DC 10 Concentration check.",
