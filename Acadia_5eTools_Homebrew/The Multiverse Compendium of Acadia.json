@@ -168884,9 +168884,32 @@
 	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
 	"item": [
 		{
+			"name": "+1 Arcane Grimoire",
+			"source": "CompendiumofAcadia",
+			"rarity": "uncommon",
+			"reqAttune": "by a wizard",
+			"reqAttuneTags": [
+				{
+					"class": "wizard"
+				}
+			],
+			"wondrous": true,
+			"weight": 3,
+			"bonusSpellAttack": "+1",
+			"bonusSpellSaveDc": "+1",
+			"focus": [
+				"Wizard"
+			],
+			"entries": [
+				"While you are holding this leather-bound book, you can use it as a spellcasting focus for your wizard spells, and you gain a +1 bonus to the saving throw DCs of your wizard spells.",
+				"You can use this book as a spellbook. In addition, when you use your Arcane Recovery feature, you can increase the number of spell slot levels you regain by 1."
+			]
+		},
+		{
 			"name": "Shard of Revivification",
 			"source": "CompendiumofAcadia",
 			"wondrous": true,
+			"value": 30000,
 			"rarity": "uncommon",
 			"weight": 0.5,
 			"entries": [
@@ -169060,6 +169083,536 @@
 			"hasFluffImages": true
 		}
 	],
+	"table": [
+		{
+			"caption": "Shop List: Grocery",
+			"colLabels": [
+				"Placeholder",
+				"Placeholder",
+				"Placeholder"
+			],
+			"colStyles": [
+				"col-4 text-center",
+				"col-4 text-center",
+				"col-4 text-right"
+			],
+			"rows": [
+				[
+					"{@item Plate Armor|XPHB}",
+					"Placeholder",
+					"Placeholder"
+				],
+				[
+					"Placeholder",
+					"Placeholder",
+					"Placeholder"
+				],
+				[
+					"Placeholder",
+					"Placeholder",
+					"Placeholder"
+				]
+			],
+			"name": "Shop List: Grocery",
+			"source": "CompendiumofAcadia",
+			"type": "table"
+		},
+		{
+			"caption": "Shop List: Cloth Shop",
+			"colLabels": [
+				"Placeholder",
+				"Placeholder",
+				"Placeholder"
+			],
+			"colStyles": [
+				"col-4 text-center",
+				"col-4 text-center",
+				"col-4 text-right"
+			],
+			"rows": [
+				[
+					"{@item Plate Armor|XPHB}",
+					"Placeholder",
+					"Placeholder"
+				],
+				[
+					"Placeholder",
+					"Placeholder",
+					"Placeholder"
+				],
+				[
+					"Placeholder",
+					"Placeholder",
+					"Placeholder"
+				]
+			],
+			"name": "Shop List: Cloth Shop",
+			"source": "CompendiumofAcadia",
+			"type": "table"
+		},
+		{
+			"caption": "Shop List: Forge",
+			"colLabels": [
+				"Placeholder",
+				"Placeholder",
+				"Placeholder"
+			],
+			"colStyles": [
+				"col-4 text-center",
+				"col-4 text-center",
+				"col-4 text-right"
+			],
+			"rows": [
+				[
+					"{@item Plate Armor|XPHB}",
+					"Placeholder",
+					"Placeholder"
+				],
+				[
+					"Placeholder",
+					"Placeholder",
+					"Placeholder"
+				],
+				[
+					"Placeholder",
+					"Placeholder",
+					"Placeholder"
+				]
+			],
+			"name": "Shop List: Forge",
+			"source": "CompendiumofAcadia",
+			"type": "table"
+		},
+		{
+			"caption": "Shop List: Alchemy Lab",
+			"colLabels": [
+				"Placeholder",
+				"Placeholder",
+				"Placeholder"
+			],
+			"colStyles": [
+				"col-4 text-center",
+				"col-4 text-center",
+				"col-4 text-right"
+			],
+			"rows": [
+				[
+					"{@item Plate Armor|XPHB}",
+					"Placeholder",
+					"Placeholder"
+				],
+				[
+					"Placeholder",
+					"Placeholder",
+					"Placeholder"
+				],
+				[
+					"Placeholder",
+					"Placeholder",
+					"Placeholder"
+				]
+			],
+			"name": "Shop List: Alchemy Lab",
+			"source": "CompendiumofAcadia",
+			"type": "table"
+		},
+		{
+			"caption": "Shop List: General Store",
+			"colLabels": [
+				"Placeholder",
+				"Placeholder",
+				"Placeholder"
+			],
+			"colStyles": [
+				"col-4 text-center",
+				"col-4 text-center",
+				"col-4 text-right"
+			],
+			"rows": [
+				[
+					"{@item Plate Armor|XPHB}",
+					"Placeholder",
+					"Placeholder"
+				],
+				[
+					"Placeholder",
+					"Placeholder",
+					"Placeholder"
+				],
+				[
+					"Placeholder",
+					"Placeholder",
+					"Placeholder"
+				]
+			],
+			"name": "Shop List: General Store",
+			"source": "CompendiumofAcadia",
+			"type": "table"
+		},
+		{
+			"caption": "Shop List: Arcane Shop",
+			"colLabels": [
+				"Placeholder",
+				"Placeholder",
+				"Placeholder"
+			],
+			"colStyles": [
+				"col-4 text-center",
+				"col-4 text-center",
+				"col-4 text-right"
+			],
+			"rows": [
+				[
+					"{@item Plate Armor|XPHB}",
+					"Placeholder",
+					"Placeholder"
+				],
+				[
+					"Placeholder",
+					"Placeholder",
+					"Placeholder"
+				],
+				[
+					"Placeholder",
+					"Placeholder",
+					"Placeholder"
+				]
+			],
+			"name": "Shop List: Arcane Shop",
+			"source": "CompendiumofAcadia",
+			"type": "table"
+		},
+		{
+			"caption": "Shop List: Jewelry Shop",
+			"colLabels": [
+				"Placeholder",
+				"Placeholder",
+				"Placeholder"
+			],
+			"colStyles": [
+				"col-4 text-center",
+				"col-4 text-center",
+				"col-4 text-right"
+			],
+			"rows": [
+				[
+					"{@item Plate Armor|XPHB}",
+					"Placeholder",
+					"Placeholder"
+				],
+				[
+					"Placeholder",
+					"Placeholder",
+					"Placeholder"
+				],
+				[
+					"Placeholder",
+					"Placeholder",
+					"Placeholder"
+				]
+			],
+			"name": "Shop List: Jewelry Shop",
+			"source": "CompendiumofAcadia",
+			"type": "table"
+		},
+		{
+			"caption": "Shop List: Inn",
+			"colLabels": [
+				"Placeholder",
+				"Placeholder",
+				"Placeholder"
+			],
+			"colStyles": [
+				"col-4 text-center",
+				"col-4 text-center",
+				"col-4 text-right"
+			],
+			"rows": [
+				[
+					"{@item Plate Armor|XPHB}",
+					"Placeholder",
+					"Placeholder"
+				],
+				[
+					"Placeholder",
+					"Placeholder",
+					"Placeholder"
+				],
+				[
+					"Placeholder",
+					"Placeholder",
+					"Placeholder"
+				]
+			],
+			"name": "Shop List: Inn",
+			"source": "CompendiumofAcadia",
+			"type": "table"
+		},
+		{
+			"caption": "Shop List: Herbal Shop",
+			"colLabels": [
+				"Placeholder",
+				"Placeholder",
+				"Placeholder"
+			],
+			"colStyles": [
+				"col-4 text-center",
+				"col-4 text-center",
+				"col-4 text-right"
+			],
+			"rows": [
+				[
+					"{@item Plate Armor|XPHB}",
+					"Placeholder",
+					"Placeholder"
+				],
+				[
+					"Placeholder",
+					"Placeholder",
+					"Placeholder"
+				],
+				[
+					"Placeholder",
+					"Placeholder",
+					"Placeholder"
+				]
+			],
+			"name": "Shop List: Herbal Shop",
+			"source": "CompendiumofAcadia",
+			"type": "table"
+		},
+		{
+			"caption": "Shop List: Exotic Emporium",
+			"colLabels": [
+				"Placeholder",
+				"Placeholder",
+				"Placeholder"
+			],
+			"colStyles": [
+				"col-4 text-center",
+				"col-4 text-center",
+				"col-4 text-right"
+			],
+			"rows": [
+				[
+					"{@item Plate Armor|XPHB}",
+					"Placeholder",
+					"Placeholder"
+				],
+				[
+					"Placeholder",
+					"Placeholder",
+					"Placeholder"
+				],
+				[
+					"Placeholder",
+					"Placeholder",
+					"Placeholder"
+				]
+			],
+			"name": "Shop List: Exotic Emporium",
+			"source": "CompendiumofAcadia",
+			"type": "table"
+		},
+		{
+			"caption": "Shop List: Stable",
+			"colLabels": [
+				"Placeholder",
+				"Placeholder",
+				"Placeholder"
+			],
+			"colStyles": [
+				"col-4 text-center",
+				"col-4 text-center",
+				"col-4 text-right"
+			],
+			"rows": [
+				[
+					"{@item Plate Armor|XPHB}",
+					"Placeholder",
+					"Placeholder"
+				],
+				[
+					"Placeholder",
+					"Placeholder",
+					"Placeholder"
+				],
+				[
+					"Placeholder",
+					"Placeholder",
+					"Placeholder"
+				]
+			],
+			"name": "Shop List: Stable",
+			"source": "CompendiumofAcadia",
+			"type": "table"
+		},
+		{
+			"caption": "Shop List: Library",
+			"colLabels": [
+				"Placeholder",
+				"Placeholder",
+				"Placeholder"
+			],
+			"colStyles": [
+				"col-4 text-center",
+				"col-4 text-center",
+				"col-4 text-right"
+			],
+			"rows": [
+				[
+					"{@item Plate Armor|XPHB}",
+					"Placeholder",
+					"Placeholder"
+				],
+				[
+					"Placeholder",
+					"Placeholder",
+					"Placeholder"
+				],
+				[
+					"Placeholder",
+					"Placeholder",
+					"Placeholder"
+				]
+			],
+			"name": "Shop List: Library",
+			"source": "CompendiumofAcadia",
+			"type": "table"
+		},
+		{
+			"caption": "Shop List: Workshop",
+			"colLabels": [
+				"Placeholder",
+				"Placeholder",
+				"Placeholder"
+			],
+			"colStyles": [
+				"col-4 text-center",
+				"col-4 text-center",
+				"col-4 text-right"
+			],
+			"rows": [
+				[
+					"{@item Plate Armor|XPHB}",
+					"Placeholder",
+					"Placeholder"
+				],
+				[
+					"Placeholder",
+					"Placeholder",
+					"Placeholder"
+				],
+				[
+					"Placeholder",
+					"Placeholder",
+					"Placeholder"
+				]
+			],
+			"name": "Shop List: Workshop",
+			"source": "CompendiumofAcadia",
+			"type": "table"
+		},
+		{
+			"caption": "Shop List: Bank",
+			"colLabels": [
+				"Placeholder",
+				"Placeholder",
+				"Placeholder"
+			],
+			"colStyles": [
+				"col-4 text-center",
+				"col-4 text-center",
+				"col-4 text-right"
+			],
+			"rows": [
+				[
+					"{@item Plate Armor|XPHB}",
+					"Placeholder",
+					"Placeholder"
+				],
+				[
+					"Placeholder",
+					"Placeholder",
+					"Placeholder"
+				],
+				[
+					"Placeholder",
+					"Placeholder",
+					"Placeholder"
+				]
+			],
+			"name": "Shop List: Bank",
+			"source": "CompendiumofAcadia",
+			"type": "table"
+		},
+		{
+			"caption": "Shop List: Guildhall",
+			"colLabels": [
+				"Placeholder",
+				"Placeholder",
+				"Placeholder"
+			],
+			"colStyles": [
+				"col-4 text-center",
+				"col-4 text-center",
+				"col-4 text-right"
+			],
+			"rows": [
+				[
+					"{@item Plate Armor|XPHB}",
+					"Placeholder",
+					"Placeholder"
+				],
+				[
+					"Placeholder",
+					"Placeholder",
+					"Placeholder"
+				],
+				[
+					"Placeholder",
+					"Placeholder",
+					"Placeholder"
+				]
+			],
+			"name": "Shop List: Guildhall",
+			"source": "CompendiumofAcadia",
+			"type": "table"
+		},
+		{
+			"caption": "Shop List: Courier Office",
+			"colLabels": [
+				"Placeholder",
+				"Placeholder",
+				"Placeholder"
+			],
+			"colStyles": [
+				"col-4 text-center",
+				"col-4 text-center",
+				"col-4 text-right"
+			],
+			"rows": [
+				[
+					"{@item Plate Armor|XPHB}",
+					"Placeholder",
+					"Placeholder"
+				],
+				[
+					"Placeholder",
+					"Placeholder",
+					"Placeholder"
+				],
+				[
+					"Placeholder",
+					"Placeholder",
+					"Placeholder"
+				]
+			],
+			"name": "Shop List: Courier Office",
+			"source": "CompendiumofAcadia",
+			"type": "table"
+		}
+	],
 	"variantrule": [
 		{
 			"source": "CompendiumofAcadia",
@@ -169193,6 +169746,28 @@
 						"When attempting a non-lethal attack or effect that requires a saving throw using this rule, your attack roll is made with disadvantage, and if the effect involves a saving throw, the target has advantage on its saving throw. This reflects the difficulty of subduing a target without dealing fatal damage and may make capturing enemies more challenging."
 					]
 				}
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Rarity Rules for Shops",
+			"ruleType": "O",
+			"entries": [
+				"<script>function testeFuncao() { console.log('Função Rodou!'); alert('Função Rodou!'); }</script>",
+				"<!--<button onclick=\"testeFuncao()\">TESTE</button> -->",
+				{
+					"type": "list",
+					"items": [
+						"<b>Common</b>: These shops typically stock simple mundane items and may carry Common magical items.",
+						"<b>Uncommon</b>: These shops feature high-quality mundane items and may include Uncommon magical items.",
+						"<b>Rare</b>: These shops provide exceptional mundane items and may stock impactful Rare magical items. In most places, this represents the highest-tier market accessible, with prices well beyond the means of commoners.",
+						"<b>Very Rare</b>: These shops offer the finest magical items, often of Very Rare quality, with occasional Legendary items.",
+						"<b>Legendary</b>: These shops are either multiplanar megastores with extensive inventories or exclusive boutiques specializing in legendary-quality goods."
+					]
+				},
+				"Shop types include {@table Shop List: Grocery|CompendiumofAcadia|Grocery}, {@table Shop List: Cloth Shop|CompendiumofAcadia|Cloth Shop}, {@table Shop List: Forge|CompendiumofAcadia|Forge}, {@table Shop List: Alchemy Lab|CompendiumofAcadia|Alchemy Lab}, {@table Shop List: General Store|CompendiumofAcadia|General Store}, {@table Shop List: Arcane Shop|CompendiumofAcadia|Arcane Shop}, {@table Shop List: Jewelry Shop|CompendiumofAcadia|Jewelry Shop}, {@table Shop List: Inn|CompendiumofAcadia|Inn}, {@table Shop List: Herbal Shop|CompendiumofAcadia|Herbal Shop}, {@table Shop List: Exotic Emporium|CompendiumofAcadia|Exotic Emporium}, {@table Shop List: Stable|CompendiumofAcadia|Stable}, {@table Shop List: Library|CompendiumofAcadia|Library}, {@table Shop List: Workshop|CompendiumofAcadia|Workshop}, {@table Shop List: Bank|CompendiumofAcadia|Bank}, {@table Shop List: Guildhall|CompendiumofAcadia|Guildhall}, and {@table Shop List: Courier Office|CompendiumofAcadia|Courier Office}.",
+				"Higher-quality shops typically do not stock lower-quality items. For example, Rare shops are unlikely to sell Common items. However, item tables for different rarities can be combined to represent shops that cater to a broader range of needs (e.g., merging Rare and Common shop tables).",
+				"Shops that sell items of set rarity often have the capacity to fabricate items of set rarity, and such items may be commissioned. Crafting times and costs follow the {@table Magic Item Crafting Time and Cost|XDMG} guidelines based on item rarity. Crafting speed may be increased by 1 to 5 times at the DM's discretion, depending on the resources and effort allocated. However, this may also increase costs by a similar multiplier if the shop prioritizes your project over others."
 			]
 		},
 		{
@@ -170011,14 +170586,16 @@
 							"name": "Rules of Oppression",
 							"entries": [
 								"<div style='text-align: center;'><img src='https://i.ibb.co/ZNkFXng/Acadia-Reborn-1-1.png' width='350' height='350'></div>",
-								{"type" : "list",
-								"items" : [
-									"<b>Oppress Elementals.</b> After dealing damage to a Elemental, you can spend a Bonus action and 1 Mana immediately to deal 2d8 Radiant damage that ignores immunity and resistance.",
-									"<b>Oppress Undeads.</b> After dealing damage to a Undead, you can spend a Bonus action and 1 Mana immediately to deal 2d8 Elemental Damage of your choice damage that ignores immunity and resistance.",
-									"<b>Oppress Humanoid.</b> After dealing damage to a Humanoid, you can spend a Bonus action and 1 Mana immediately to deal 2d8 Necrotic damage that ignores immunity and resistance.",
-									"<b>Oppress Celestials.</b> After dealing damage to a Celetial, you can spend a Bonus action and 1 Mana immediately to deal 2d8 Physical Damage of your choice damage that ignores immunity and resistance.",
-									"<b>Oppress Constructs.</b> After dealing damage to a Construct, you can spend a Bonus action and 1 Mana immediately to deal 2d8 Force damage that ignores immunity and resistance."
-								]}
+								{
+									"type": "list",
+									"items": [
+										"<b>Oppress Elementals.</b> After dealing damage to a Elemental, you can spend a Bonus action and 1 Mana immediately to deal 2d8 Radiant damage that ignores immunity and resistance.",
+										"<b>Oppress Undeads.</b> After dealing damage to a Undead, you can spend a Bonus action and 1 Mana immediately to deal 2d8 Elemental Damage of your choice damage that ignores immunity and resistance.",
+										"<b>Oppress Humanoid.</b> After dealing damage to a Humanoid, you can spend a Bonus action and 1 Mana immediately to deal 2d8 Necrotic damage that ignores immunity and resistance.",
+										"<b>Oppress Celestials.</b> After dealing damage to a Celetial, you can spend a Bonus action and 1 Mana immediately to deal 2d8 Physical Damage of your choice damage that ignores immunity and resistance.",
+										"<b>Oppress Constructs.</b> After dealing damage to a Construct, you can spend a Bonus action and 1 Mana immediately to deal 2d8 Force damage that ignores immunity and resistance."
+									]
+								}
 							]
 						}
 					]
