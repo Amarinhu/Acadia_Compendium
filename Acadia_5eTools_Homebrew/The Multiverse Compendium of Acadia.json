@@ -18,6 +18,7 @@
 		"dateAdded": 1732722304,
 		"dateLastModified": 1732722304
 	},
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
 	"feat": [
 		{
 			"name": "World Traveler",
@@ -168881,8 +168882,57 @@
 			}
 		}
 	],
-	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
 	"item": [
+		{
+			"name": "Crown of the Silverymoon",
+			"source": "CompendiumofAcadia",
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"This radiant circlet is adorned with a central gem shaped like an ever-watching silver eye, crafted from rare gemstones found in the Luruar region and infused with drops of celestial energy from Lurue, the Unicorn Queen. Each crown is handmade by wizards who revere Lurue, seeking to imbue their work with her divine grace and arcane blessings.",
+				"When an attuned creature wears this crown, the third eye opens, granting them the celestial insight and mystical clarity of Lurue's divine energy.",
+				"While wearing this circlet, you can use any of its properties:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Lurue's Guidance",
+							"entries": [
+								"You can cast the {@spell Guidance|CompendiumofAcadia} cantrip at will."
+							]
+						},
+						{
+							"type": "item",
+							"name": "See Invisibility",
+							"entries": [
+								"You can cast the {@spell See Invisibility|CompendiumofAcadia} spell once. The crown regains this ability daily at dawn."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Celestial Sight",
+							"entries": [
+								"You can see normally in {@variantrule Darkness|XPHB}—both magical and nonmagical—within 120 feet of yourself."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Luminous Strike",
+							"entries": [
+								"When you make an attack roll, you can use your Intelligence modifier instead of Strength or Dexterity for the attack and damage rolls. If the attack deals damage, you can choose for it to deal Radiant damage instead of its normal damage type."
+							]
+						}
+					],
+					"attachedSpells": [
+						"guidance",
+						"see invisibility"
+					]
+				}
+			]
+		},
 		{
 			"name": "+1 Arcane Grimoire",
 			"source": "CompendiumofAcadia",
@@ -169784,7 +169834,7 @@
 		{
 			"source": "CompendiumofAcadia",
 			"name": "Coup de Grace",
-			"ruleType": "C",
+			"ruleType": "O",
 			"entries": [
 				"You can use your action to attempt to execute a {@condition Unconscious|XPHB} or {@condition Paralyzed|XPHB} creature. Make an attack roll that automatically hits. Roll 1d4 to determine the outcome:",
 				{
@@ -170253,7 +170303,7 @@
 			"ruleType": "O",
 			"entries": [
 				"As an Acadian, you are a student of the most prestigious and powerful school in the entire manyverse. Here, you gain access to items of unparalleled power that cannot be found anywhere else.",
-				"As an Acadian, you are a force that shapes the manyverse itself. Your presence cannot be easily swayed, as your ability to alter the course of history across the planes is nothing short of world-changing. Through your actions, new pantheons may emerge, planes and worlds may be permanently connected, gods may be forged, and entire species might be created. Of course, such feats require mastery and time, attainable only by those who have tapped into the essence of how the multiverse operates.",
+				"As an Acadian, you are a force that shapes the manyverse itself. Your presence cannot be easily swayed, as your ability to alter the course of history across the planes is nothing short of world-changing. Through your actions, new pantheons may emerge, planes and worlds may be permanently connected, gods may be forged, and entire species might be created. Of course, such feats require mastery and time, attainable only by those who have tapped into the essence of how the manyverse operates.",
 				"As an Acadian, you gain access to the Acadian Epic Boons, designed to be learned at The Second Acadia School of Magic.",
 				"You may also acquire specific feats, such as {@feat Acadian Latent Power|CompendiumofAcadia}.",
 				"If you are a Pathfinder—one of the top students—you gain access to additional feats like {@feat World Traveler|CompendiumofAcadia} and {@feat Cosmopolitan|CompendiumofAcadia}."
@@ -170317,7 +170367,7 @@
 		{
 			"source": "CompendiumofAcadia",
 			"name": "Wheel of Destiny",
-			"ruleType": "C",
+			"ruleType": "O",
 			"entries": [
 				"Some heroes rise and fall, but the Wheel of Destiny keeps spinning, weaving tales yet untold. Fear not! There is always a hero for the stories to find their voice!",
 				"The Wheel of Destiny is a mystical game of fate, played by beings of immense power to guide stories and influence the tides of destiny. In essence, it is a deck of cards, The Deck of Destiny, that channels the will of fate for those it deems worthy.",
@@ -170328,8 +170378,8 @@
 					"entries": [
 						"To use this mechanic, you’ll need a deck of playing cards. Assemble the deck as follows:",
 						"- 7 cards from each suit (Hearts, Diamonds, Clubs, Spades): 8, 9, 10, J (Jack), Q (Queen), K (King), and Aces.",
-						"- Add 2 Jokers.",
-						"This creates a custom 30-card deck for the Wheel of Destiny. Shuffle the deck after arranging it."
+						"- Add 1 Joker.",
+						"This creates a custom 29-card deck for the Wheel of Destiny. Shuffle the deck after arranging it."
 					]
 				},
 				{
@@ -170390,7 +170440,7 @@
 								"items": [
 									"Heal twice the card’s value; or",
 									"Make a weapon attack (Aces grant an additional action instead of an attack); or",
-									"Gain temporary {@variantrule 🔴 Red Mana|CompendiumofAcadia} equal to half your level, expiring after a Long Rest."
+									"Gain temporary {@variantrule 🔴 Red Mana|CompendiumofAcadia} equal to half your level (round up), expiring after a Long Rest."
 								]
 							}
 						],
@@ -170401,7 +170451,7 @@
 								"items": [
 									"Add the card’s value as a bonus to any d20 Test; or",
 									"Recover a spell slot up to 4th level (Aces recover a spell slot of any level); or",
-									"Gain temporary {@variantrule ⚪ White Mana|CompendiumofAcadia} equal to half your level, expiring after a Long Rest."
+									"Gain temporary {@variantrule ⚪ White Mana|CompendiumofAcadia} equal to half your level (round up), expiring after a Long Rest."
 								]
 							}
 						],
@@ -170410,9 +170460,9 @@
 							{
 								"type": "list",
 								"items": [
-									"Give disadvantage to a d20 Test made by a creature you can see (Aces make the creature roll an additional d20 and take the lowest result); or",
 									"After a creature takes damage, add damage equal to the card's value of the same type; or",
-									"Gain temporary {@variantrule ⚫ Black Mana|CompendiumofAcadia} equal to half your level, expiring after a Long Rest."
+									"Give disadvantage to a d20 Test made by a creature you can see (Aces make the creature roll an additional d20 and take the lowest result); or",
+									"Gain temporary {@variantrule ⚫ Black Mana|CompendiumofAcadia} equal to half your level (round up), expiring after a Long Rest."
 								]
 							}
 						],
@@ -170423,7 +170473,7 @@
 								"items": [
 									"Increase your AC by half the card's value (rounded down) until the end of this turn; or",
 									"Gain resistance to a damage type until the end of this turn (Aces grant resistance to all damage types); or",
-									"Gain temporary {@variantrule 🟢 Green Mana|CompendiumofAcadia} equal to half your level, expiring after a Long Rest."
+									"Gain temporary {@variantrule 🟢 Green Mana|CompendiumofAcadia} equal to half your level (round up), expiring after a Long Rest."
 								]
 							}
 						],
@@ -170445,7 +170495,7 @@
 								"items": [
 									"Replace a d20 Test made by you with the card’s value (declare before rolling); or",
 									"Gain a {@variantrule Heroic Inspiration|XPHB}; or",
-									"Gain temporary {@variantrule 🔵 Blue Mana|CompendiumofAcadia} equal to half your level, expiring after a Long Rest."
+									"Gain temporary {@variantrule 🔵 Blue Mana|CompendiumofAcadia} equal to half your level (round up), expiring after a Long Rest."
 								]
 							}
 						]
@@ -170476,7 +170526,7 @@
 			"name": "Deadly Falls",
 			"ruleType": "C",
 			"entries": [
-				"The maximum falling damage is increased to 50d6."
+				"Tiny creatures use d4s for falling damage, Small and Medium creatures use d6s, Large creatures use d8s, Huge creatures use d10s, and Gargantuan creatures use d12s per 10 feet fallen. Falling damage is capped at 50 dice. For example, a Small or Medium creature falling 100 feet takes 10d6 (max 50d6), while a Gargantuan creature falling the same distance takes 10d12 (max 50d12)."
 			]
 		},
 		{
@@ -170509,23 +170559,6 @@
 						"{@feat Mage Catcher|CompendiumofAcadia}"
 					]
 				}
-			]
-		},
-		{
-			"source": "CompendiumofAcadia",
-			"name": "Rush of Power",
-			"ruleType": "C",
-			"entries": [
-				"You can push yourself beyond your natural limits through a surge of adrenaline or arcane power, but doing so exacts a significant toll on your body and mind.",
-				{
-					"type": "list",
-					"items": [
-						"<b>Adrenaline Rush</b>: When you fail an {@variantrule D20 Test|XPHB}, you can reroll the attempt.",
-						"<b>Arcane Rush</b>: As a spellcaster, you can use a Magic Action to regain a spell slot. The level of the regained spell slot cannot exceed your proficiency bonus."
-					]
-				},
-				"At the end of 1 minute, you suffer lethargy. You gain a number of levels of Exhaustion equal to the total levels of spell slots regained through Arcane Rush, plus the total number of times you have used Adrenaline Rush during that period.",
-				"You cannot use this feature if you have any levels of Exhaustion. Furthermore, the total levels of Exhaustion you can accumulate from this feature cannot exceed your proficiency bonus. Once you reach this limit, you cannot use this feature again until you complete a Long Rest."
 			]
 		},
 		{
@@ -171080,17 +171113,17 @@
 			"entries": [
 				"Luck Rolls are rolls made when an event's outcome is determined primarily by luck or chance, rather than skill or direct action.",
 				"These rolls can include modifiers but are not considered d20 Tests.",
-				"An example of a Luck Roll is determining whether a Wand of Magic Missiles breaks after expending all charges. Or the roll made for choosing witch Ray the beholder will shoot"
+				"An example of a Luck Roll is determining whether a Wand of Magic Missiles breaks after expending all charges. Or the roll made for choosing witch Ray the beholder will shoot."
 			]
 		},
 		{
 			"source": "CompendiumofAcadia",
 			"name": "Enhanced Foods",
-			"ruleType": "C",
+			"ruleType": "O",
 			"entries": [
 				"Specially prepared foods provide adventurers with unique benefits during their journeys.",
 				"A character with the {@feat Chef|XPHB} feat can create a Meal using 'Replenishing Meal' instead of its default Meal, or a Treat using 'Bolstering Treat' instead of its default Treat.",
-				"A creature can have only one food effect active at a time. If a creature consumes another food that grants a food effect, it must choose to keep the current effect or replace it with the new one.",
+				"A creature can benefit from up to two food effects at the same time. If it consumes a new food that grants a food effect while already at the limit, it must choose whether to keep one of the current effects or replace it with the new one.",
 				"Food effects expire after a {@variantrule Long Rest|XPHB}.",
 				"There are two types of foods:",
 				{
@@ -171157,7 +171190,7 @@
 		{
 			"source": "CompendiumofAcadia",
 			"name": "Universal Spell Scrolls",
-			"ruleType": "C",
+			"ruleType": "O",
 			"entries": [
 				"When scribing Spell Scrolls, a spellcaster can choose to make it a Universal Spell Scroll. This type of scroll can be used by any creature that understands any language, even if the spell is not on their spell list.",
 				"If the creature does not have a spell list, or if the spell on the scroll is of a higher level than they can normally cast, they must make an ability check to cast the spell, as described in the Spell Scroll rules. If the creature is not a spellcaster, it can choose Intelligence, Wisdom, or Charisma for the check.",
