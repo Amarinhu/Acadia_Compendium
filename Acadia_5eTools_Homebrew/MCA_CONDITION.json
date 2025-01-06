@@ -1,10 +1,10 @@
 {
 	"_meta": {
-		"edition" : "one",
+		"edition" : "one", 
 		"sources": [
 			{
-				"json": "CompendiumofAcadia",
-				"abbreviation": "MCA",
+				"json": "CompendiumofAcadia-condition",
+				"abbreviation": "MCA-condition",
 				"full": "The Multiverse Compendium of Acadia",
 				"version": "2",
 				"authors": [

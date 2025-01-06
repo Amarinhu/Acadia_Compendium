@@ -1,0 +1,274 @@
+{
+	"_meta": {
+		"edition" : "one", 
+		"sources": [
+			{
+				"json": "CompendiumofAcadia-item",
+				"abbreviation": "MCA-item",
+				"full": "The Multiverse Compendium of Acadia",
+				"version": "2",
+				"authors": [
+					"Gabriel Amaral Passos"
+				],
+				"convertedBy": [
+					"Gabriel Amaral Passos"
+				],
+				"color": "4682b4"
+			}
+		],
+		"dateAdded": 1732722304,
+		"dateLastModified": 1732722304
+	},
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"item": [
+		{
+			"name": "Crown of the Silverymoon",
+			"source": "CompendiumofAcadia",
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"This radiant circlet is adorned with a central gem shaped like an ever-watching silver eye, crafted from rare gemstones found in the Luruar region and infused with drops of celestial energy from Lurue, the Unicorn Queen. Each crown is handmade by wizards who revere Lurue, seeking to imbue their work with her divine grace and arcane blessings.",
+				"When an attuned creature wears this crown, the third eye opens, granting them the celestial insight and mystical clarity of Lurue's divine energy.",
+				"While wearing this circlet, you can use any of its properties:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Lurue's Guidance",
+							"entries": [
+								"You can cast the {@spell Guidance|CompendiumofAcadia} cantrip at will."
+							]
+						},
+						{
+							"type": "item",
+							"name": "See Invisibility",
+							"entries": [
+								"You can cast the {@spell See Invisibility|CompendiumofAcadia} spell once. The crown regains this ability daily at dawn."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Celestial Sight",
+							"entries": [
+								"You can see normally in {@variantrule Darkness|XPHB}—both magical and nonmagical—within 120 feet of yourself."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Luminous Strike",
+							"entries": [
+								"When you make an attack roll, you can use your Intelligence modifier instead of Strength or Dexterity for the attack and damage rolls. If the attack deals damage, you can choose for it to deal Radiant damage instead of its normal damage type."
+							]
+						}
+					],
+					"attachedSpells": [
+						"guidance",
+						"see invisibility"
+					]
+				}
+			]
+		},
+		{
+			"name": "+1 Arcane Grimoire",
+			"source": "CompendiumofAcadia",
+			"rarity": "uncommon",
+			"reqAttune": "by a wizard",
+			"reqAttuneTags": [
+				{
+					"class": "wizard"
+				}
+			],
+			"wondrous": true,
+			"weight": 3,
+			"bonusSpellAttack": "+1",
+			"bonusSpellSaveDc": "+1",
+			"focus": [
+				"Wizard"
+			],
+			"entries": [
+				"While you are holding this leather-bound book, you can use it as a spellcasting focus for your wizard spells, and you gain a +1 bonus to the saving throw DCs of your wizard spells.",
+				"You can use this book as a spellbook. In addition, when you use your Arcane Recovery feature, you can increase the number of spell slot levels you regain by 1."
+			]
+		},
+		{
+			"name": "Shard of Revivification",
+			"source": "CompendiumofAcadia",
+			"wondrous": true,
+			"value": 30000,
+			"rarity": "uncommon",
+			"weight": 0.5,
+			"entries": [
+				"This small shard hums with faint magical energy. You can use a Magic Action to touch a creature that has died within the last minute and expend the shard's magic to revive the creature with 1 Hit Point. This effect can't revive a creature that has died of old age, nor does it restore any missing body parts.",
+				"Once used, the shard loses its magic and becomes an ordinary crystal worth 50 gp."
+			]
+		},
+		{
+			"name": "Aberrant Statue of Wishes",
+			"source": "CompendiumofAcadia",
+			"wondrous": true,
+			"rarity": "legendary",
+			"entries": [
+				"This grotesque statue emanates an eerie aura, its surface adorned with the shifting visages of aberrant creatures. As a Magic Action, you can call upon the statue to grant a Wish, selecting one of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"<b>Object Creation.</b> You create one object of up to 25,000 GP in value that isn't a magic item. The object can be no more than 300 feet in any dimension, and it appears in an unoccupied space that you can see on the ground.",
+						"<b>Instant Health.</b> You allow yourself and up to twenty creatures that you can see to regain all Hit Points, and you end all effects on them listed in the Greater Restoration spell at 9th level.",
+						"<b>Resistance.</b> You grant up to ten creatures that you can see Resistance to one damage type that you choose. This Resistance is permanent.",
+						"<b>Spell Immunity.</b> You grant up to ten creatures you can see immunity to a single spell or other magical effect for 24 hours.",
+						"<b>Reshape Reality.</b> You may wish for something not included in any of the other effects. To do so, state your wish to the DM as precisely as possible. The DM has great latitude in ruling what occurs in such an instance; the greater the wish, the greater the likelihood that something goes wrong. The greater the impact of the wish, the greater the chance of unforeseen consequences such as partial effects, complications, or unintended repercussions."
+					]
+				},
+				"When the wish is granted, the visages of aberrant creatures briefly materialize and impose a cost. You take {@damage 9d6} Psychic damage as the eldritch energies sear your mind.",
+				"After making a Wish, there is a 33 percent chance that you are unable to make a Wish ever again if you suffer this stress.",
+				"The statue can only be used once. After granting a Wish, it collapses into a pool of black tar, leaving behind no trace of its former power."
+			]
+		},
+		{
+			"name": "Ring of the Wishing Star",
+			"source": "CompendiumofAcadia",
+			"type": "RG|XDMG",
+			"rarity": "legendary",
+			"entries": [
+				"While wearing this ring, you can use a Magic Action to call for a Wishing Star from beyond the cosmos. The star appears 1 hour after your call if it is within the time frame of 1 hour after sunset and before midnight. If it is not, the star will appear 1 hour after sunset on the following day.",
+				"When the Wishing Star arrives, it crosses the sky, and you have 1 hour to make a Wish, selecting one of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"<b>Object Creation.</b> You create one object of up to 25,000 GP in value that isn't a magic item. The object can be no more than 300 feet in any dimension, and it appears in an unoccupied space that you can see on the ground.",
+						"<b>Instant Health.</b> You allow yourself and up to twenty creatures that you can see to regain all Hit Points, and you end all effects on them listed in the Greater Restoration spell at 9th level.",
+						"<b>Resistance.</b> You grant up to ten creatures that you can see Resistance to one damage type that you choose. This Resistance is permanent.",
+						"<b>Spell Immunity.</b> You grant up to ten creatures you can see immunity to a single spell or other magical effect for 24 hours.",
+						"<b>Reshape Reality.</b> You may wish for something not included in any of the other effects. To do so, state your wish to the DM as precisely as possible. The DM has great latitude in ruling what occurs in such an instance; the greater the wish, the greater the likelihood that something goes wrong. The greater the impact of the wish, the greater the chance of unforeseen consequences such as partial effects, complications, or unintended repercussions."
+					]
+				},
+				"After making a Wish, there is a 33 percent chance that you are unable to make a Wish ever again if you suffer this stress.",
+				"The ring becomes nonmagical after you make 3 Wishes."
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Shard of Resurrection",
+			"source": "CompendiumofAcadia",
+			"wondrous": true,
+			"rarity": "very rare",
+			"weight": 0.5,
+			"entries": [
+				"This radiant shard pulses with powerful restorative magic. You can use a Magic Action to touch a creature that has been dead for no more than a century, provided it didn't die of old age and wasn't Undead when it died. The creature returns to life with all its Hit Points. This effect also neutralizes any poisons that affected the creature at the time of death, closes all mortal wounds, and restores any missing body parts. Coming back to life in this way imposes 3 levels of exhaustion on the creature.",
+				"Once used, the shard loses its magic and becomes an ordinary crystal worth 1000 gp."
+			]
+		},
+		{
+			"name": "Rod of Revivification",
+			"source": "CompendiumofAcadia",
+			"type": "RD|XDMG",
+			"rarity": "rare",
+			"reqAttune": "by a cleric, druid, or paladin",
+			"reqAttuneTags": [
+				{
+					"class": "cleric"
+				},
+				{
+					"class": "druid"
+				},
+				{
+					"class": "paladin"
+				}
+			],
+			"weight": 2,
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 6,
+			"entries": [
+				"The rod has 6 charges. While you hold it, you can cast the {@spell Cure Wounds|XPHB} spell at 2nd level (expending 1 charge).",
+				"Alternatively, you can use a Magic Action to expend 3 charges to touch a creature that has died within the last minute. That creature revives with 1 Hit Point. This effect can't revive a creature that has died of old age, nor does it restore any missing body parts.",
+				"The rod regains 1 expended charge daily at dawn. If you expend the last charge, roll {@dice 1d20}. On a 1, the rod disappears in a harmless burst of radiance."
+			],
+			"attachedSpells": [
+				"cure wounds|xphb"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Rod of Resurrection",
+			"source": "CompendiumofAcadia",
+			"type": "RD|XDMG",
+			"rarity": "legendary",
+			"reqAttune": "by a cleric, druid, or paladin",
+			"reqAttuneTags": [
+				{
+					"class": "cleric"
+				},
+				{
+					"class": "druid"
+				},
+				{
+					"class": "paladin"
+				}
+			],
+			"weight": 2,
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 5,
+			"entries": [
+				"The rod has 5 charges. While you hold it, you can cast the {@spell Heal|XPHB} spell from it (expending 1 charge).",
+				"Alternatively, you can use a Magic Action to expend 5 charges to touch a creature and revive it, provided it has been dead for no more than a century, didn’t die of old age, and wasn’t Undead when it died. The creature returns to life with all its Hit Points. This effect also neutralizes any poisons that affected the creature at the time of death, closes all mortal wounds, and restores any missing body parts. Coming back from the dead in this way imposes 3 levels of exhaustion on the creature.",
+				"The rod regains 1 expended charge daily at dawn. If you expend the last charge, roll {@dice 1d20}. On a 1, the rod disappears in a harmless burst of radiance."
+			],
+			"attachedSpells": [
+				"heal|xphb"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Manual of Simulacrum",
+			"source": "CompendiumofAcadia",
+			"rarity": "very rare",
+			"wondrous": true,
+			"weight": 5,
+			"entries": [
+				"This tome contains the knowledge and rituals required to create a simulacrum of a creature. To decipher and use the manual, you must be a spellcaster with at least two 5th-level unexpended spell slots. A creature that attempts to read the manual without meeting this requirement takes {@damage 6d6} psychic damage and is unable to comprehend its contents.",
+				"Using the manual, you can create a simulacrum through an elaborate ritual lasting 12 hours. To begin the ritual, you must have powdered ruby worth at least 2000+ GP, which is consumed during the process, as well as a pile of ice or snow of the same size as the creature you wish to replicate.",
+				"The ritual must be performed in proximity to the creature being replicated, which must remain within 10 feet of you for the entire ritual. At the culmination of the ritual, you touch both the creature and the prepared pile of ice or snow. The ice or snow transforms into the simulacrum, a construct with the following properties:",
+				{
+					"type": "list",
+					"items": [
+						"The simulacrum uses the game statistics of the original creature at the time of the ritual, except it is a Construct.",
+						"Its Hit Point maximum is half that of the original creature.",
+						"It cannot cast spells or use items that create other simulacrums.",
+						"It is Friendly to you and creatures you designate, obeying your commands and acting on your turn in combat.",
+						"It cannot gain levels or benefit from Short or Long Rests."
+					]
+				},
+				"If the simulacrum takes damage, the only way to restore its Hit Points is to repair it during a Long Rest, requiring components worth 100+ GP per Hit Point restored. The simulacrum must remain within 5 feet of you during the repair.",
+				"The simulacrum persists until it drops to 0 Hit Points, at which point it reverts to snow and melts away. Creating a new simulacrum instantly destroys any previous simulacrum made by the same caster.",
+				"Once a manual is used to create a simulacrum, it is consumed in a burst of arcane energy."
+			],
+			"items": [],
+			"itemsHidden": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Manual of Cloning",
+			"source": "CompendiumofAcadia",
+			"rarity": "very rare",
+			"wondrous": true,
+			"weight": 5,
+			"entries": [
+				"This tome contains the knowledge and rituals required to create a clone of a living creature. To decipher and use the manual, you must be a spellcaster with at least two 5th-level unexpended spell slots. A creature that attempts to read the manual without meeting this requirement takes {@damage 6d6} psychic damage and is unable to comprehend its contents.",
+				"Using the manual, you can create a clone of a creature through a two-stage process. First, you must prepare a suitable vessel over the course of 1 week. The vessel must be worth at least 2000+ GP for a Medium or smaller creature, 8000+ GP for a Large creature, or 18000+ GP for a Huge creature.",
+				"In addition to the vessel, the ritual requires diamonds worth 3000+ GP and at least 1 cubic inch of blood, bone, flesh, or a similar sample from the creature to be cloned. The diamonds are consumed in the process, and the vessel becomes the clone's resting place.",
+				"Once the vessel is prepared, the clone begins to grow inside it over the next 120 days. During this time, the vessel must remain undisturbed. The original creature's soul can only inhabit the clone after it has fully grown. If the original creature dies and its soul is free and willing, it transfers to the fully grown clone, which awakens with the same memories, personality, and abilities as the original, but none of its equipment. The creature's original remains, if any, become inert and cannot be revived as the soul has relocated.",
+				"By using an hourglass filled with diamond dust, costing 500+ GP per year, you can create a younger version of the creature during the cloning process.",
+				"While in the vessel, the clone does not age and remains perfectly preserved.",
+				"Once a manual is used to create a clone, it is consumed in a burst of arcane energy."
+			],
+			"items": [],
+			"itemsHidden": true,
+			"hasFluffImages": true
+		}
+	]
+}

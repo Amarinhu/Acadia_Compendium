@@ -1,0 +1,187 @@
+{
+    "_meta": {
+        "edition": "one", 
+        "sources": [
+            {
+                "json": "CompendiumofAcadia-feat",
+                "abbreviation": "MCA-feat",
+                "full": "The Multiverse Compendium of Acadia",
+                "version": "2",
+                "authors": [
+                    "Gabriel Amaral Passos"
+                ],
+                "convertedBy": [
+                    "Gabriel Amaral Passos"
+                ],
+                "color": "4682b4"
+            }
+        ],
+        "dateAdded": 1732722304,
+        "dateLastModified": 1732722304
+    },
+    "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+    "feat": [
+        {
+            "name": "World Traveler",
+            "source": "CompendiumofAcadia",
+            "category": "EB",
+            "prerequisite": [
+                {
+                    "otherSummary": {
+                        "entry": "Be a {@variantrule Pathfinder|CompendiumofAcadia}",
+                        "entrySummary": "Special"
+                    }
+                }
+            ],
+            "entries": [
+                "You gain the following benefits.",
+                {
+                    "type": "entries",
+                    "name": "Pathfinding",
+                    "entries": [
+                        "You gain the ability to cast the spell {@spell Pathfinding|CompendiumofAcadia} without a spell slot, and you always have it prepared. You can do so a number of times equal to your proficiency bonus. These uses are replenished after completing a Long Rest, during which you must spend at least 1 hour in a process called Syphoning."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Syphoning",
+                    "entries": [
+                        "You can enter Syphoning, you attune to the ambient flow of mana around you, entering a trance-like state. In this state, you experience vivid hallucinations of objects, creatures, and places that can be entirely imaginary or drawn from any time, place, or reality.",
+                        "These visions might originate from your imagination, other worlds, alternate dimensions, or distant timelines."
+                    ]
+                }
+            ],
+            "hasFluffImages": true
+        },
+        {
+            "name": "Cosmopolitan",
+            "source": "CompendiumofAcadia",
+            "category": "EB",
+            "prerequisite": [
+                {
+                    "otherSummary": {
+                        "entry": "Be a {@variantrule Pathfinder|CompendiumofAcadia} and Have {@feat World Traveler|CompendiumofAcadia} feat",
+                        "entrySummary": "Special"
+                    }
+                }
+            ],
+            "entries": [
+                "You gain the following benefits.",
+                {
+                    "type": "entries",
+                    "name": "Planar Translation",
+                    "entries": [
+                        "You gain the ability to cast the spell {@spell Planar Translation|CompendiumofAcadia} without a spell slot, and you always have it prepared. To use this feature, you must expend one use of your Pathfinding feature from the {@feat World Traveler|CompendiumofAcadia} feat."
+                    ]
+                }
+            ],
+            "hasFluffImages": true
+        },
+        {
+            "name": "Acadian Latent Power",
+            "source": "CompendiumofAcadia",
+            "category": "EB",
+            "prerequisite": [
+                {
+                    "otherSummary": {
+                        "entry": "Be an {@variantrule Acadian|CompendiumofAcadia}",
+                        "entrySummary": "Special"
+                    }
+                }
+            ],
+            "entries": [
+                "You awaken an Acadian Latent Power, a unique ability tailored to your character's narrative and thematic elements. These powers are developed collaboratively with your DM and should align with the power level of a Wizard subclass feature of the same level.",
+                "Each power must use Mana as a fuel source. If the ability is passive, it must also include an optional feature or enhancement that consumes Mana to activate or function at a greater scale.",
+                "You can gain this feat up to four times, but each acquisition has a level requirement: level 3 for the first, level 6 for the second, level 10 for the third, and level 14 for the fourth.",
+                {
+                    "name": "Example Acadian Latent Powers",
+                    "type": "entries",
+                    "entries": [
+                        {
+                            "name": "Forge Holy Weapon",
+                            "type": "entries",
+                            "entries": [
+                                "You can summon a sacred weapon associated with your deity. By using a Magic action, you conjure a melee martial weapon into existence. The weapon's damage die becomes {@damage 1d10} and it deals Radiant damage instead of its usual type.",
+                                "If the weapon is versatile or two-handed, it deals {@damage 1d12} damage when wielded with two hands.",
+                                "After hitting a creature with this weapon, you can expend 2 {@variantrule ⚪ White Mana|CompendiumofAcadia} to deal an additional {@damage 2d8} Radiant damage."
+                            ]
+                        },
+                        {
+                            "name": "Reality Ripple",
+                            "type": "entries",
+                            "entries": [
+                                "You can momentarily shift through space, allowing you to teleport up to 15 feet to an unoccupied space you can see. This requires a bonus action and can be used a number of times equal to your proficiency bonus.",
+                                "All expended uses are restored when you finish a Long Rest.",
+                                "If you have no remaining uses, you can spend 1 {@variantrule 🔵 Blue Mana|CompendiumofAcadia} to regain a number of uses equal to half your proficiency bonus."
+                            ]
+                        },
+                        {
+                            "name": "Bad Omen",
+                            "type": "entries",
+                            "entries": [
+                                "You gain the {@feat Lucky|XPHB} feat.",
+                                "At the start of your turn, you can spend 2 {@variantrule ⚫ Black Mana|CompendiumofAcadia} to extend your luck to others for 1 minute.",
+                                "During this time, you can use your Lucky rerolls on {@variantrule D20 Test|XPHB|d20 Tests} made by any creature you can see within 30 feet."
+                            ]
+                        },
+                        {
+                            "name": "Dark Blood",
+                            "type": "entries",
+                            "entries": [
+                                "When you roll initiative, you gain 5 temporary hit points as your vitality surges.",
+                                "By expending 1 {@variantrule 🔴 Red Mana|CompendiumofAcadia}, you can enhance this effect, gaining 15 temporary hit points instead.",
+                                "Additionally, you can use a Magic action to spend 2 {@variantrule 🔴 Red Mana|CompendiumofAcadia} and gain 15 temporary hit points at any time during combat."
+                            ]
+                        },
+                        {
+                            "name": "Fury of the Forest Protector",
+                            "type": "entries",
+                            "entries": [
+                                "You can channel the raw strength of nature to empower your melee strikes. As a bonus action, you can change the mastery of your melee weapon to 'Push' for 1 minute. If you do not normally have access to weapon masteries, this feature grants you temporary access to the 'Push' mastery for the weapon you are wielding when activating this feature.",
+                                "Additionally, you can spend 1 {@variantrule 🟢 Green Mana|CompendiumofAcadia} when you activate this ability to deal extra damage if a creature is pushed into a wall or similar structure. For every 5 feet the creature is unable to move due to the obstruction, it takes {@damage 1d6} bludgeoning damage. At the DM's discretion, the wall or structure may also take the same amount of damage."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "hasFluffImages": true
+        },
+        {
+            "name": "Mage Catcher",
+            "source": "CompendiumofAcadia",
+            "category": "G",
+            "prerequisite": [
+                {
+                    "level": 4,
+                    "ability": [
+                        {
+                            "str": 13
+                        }
+                    ]
+                }
+            ],
+            "ability": [
+                {
+                    "str": 1
+                }
+            ],
+            "entries": [
+                "You gain the following benefits.",
+                {
+                    "type": "entries",
+                    "name": "Great Stability",
+                    "entries": [
+                        "You gain {@variantrule Advantage|XPHB} on Saving Throws against effects that would forcibly move you."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Deny Casting",
+                    "entries": [
+                        "When a creature you're grappling attempts to cast a spell with Verbal, Somatic, or Material Components, they must make a Concentration Check (DC 8 + your Strength modifier + Proficiency Bonus). On failure, the spell fails and the spell slot isn't expended."
+                    ]
+                }
+            ]
+        }
+    ]
+}
