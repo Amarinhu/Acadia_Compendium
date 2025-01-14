@@ -171865,9 +171865,13 @@
 				"paralyzed",
 				"poisoned"
 			],
-			"token": {
-				"name": "",
-				"source": ""
+			"environment": [
+				"urban"
+			],
+			"isNpc": true,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://i.ibb.co/wwdr9ts/Rei-Thalronis2.png"
 			},
 			"damageTags": [
 				"B"
