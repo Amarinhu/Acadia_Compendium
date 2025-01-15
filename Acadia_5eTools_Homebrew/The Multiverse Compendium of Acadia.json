@@ -171739,7 +171739,7 @@
 				"Aquan",
 				"Sahuagin"
 			],
-			"cr": "7",
+			"cr": "9",
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
@@ -171750,6 +171750,7 @@
 						"0": {
 							"spells": [
 								"{@spell chill touch|CompendiumofAcadia} (3d10)",
+								"{@spell mending|CompendiumofAcadia}",
 								"{@spell ray of frost|CompendiumofAcadia} (3d8)",
 								"{@spell shape water|CompendiumofAcadia}",
 								"{@spell true strike|CompendiumofAcadia} (2d6)"
@@ -171767,7 +171768,6 @@
 						"2": {
 							"spells": [
 								"{@spell air bubble|CompendiumofAcadia}",
-								"{@spell crown of madness|CompendiumofAcadia}",
 								"{@spell shatter|CompendiumofAcadia}"
 							],
 							"slots": 3
@@ -171775,7 +171775,6 @@
 						"3": {
 							"spells": [
 								"{@spell dispel magic}",
-								"{@spell life transference|CompendiumofAcadia}",
 								"{@spell tidal wave|CompendiumofAcadia}",
 								"{@spell wall of water|CompendiumofAcadia}"
 							],
@@ -171791,14 +171790,14 @@
 						},
 						"5": {
 							"spells": [
-								"{@spell commune with nature}",
-								"{@spell conjure elemental} (only Water Elemental)"
+								"{@spell commune with nature} (Ritual only)",
+								"{@spell conjure elemental} (only Water Elemental)",
+								"{@spell far step|CompendiumofAcadia}"
 							],
 							"slots": 2
 						},
 						"6": {
 							"spells": [
-								"{@spell investiture of ice|CompendiumofAcadia}",
 								"{@spell Tenser's transformation|CompendiumofAcadia}"
 							],
 							"slots": 1
@@ -171812,7 +171811,7 @@
 				{
 					"name": "Arcane Engine",
 					"entries": [
-						"The Arcane Engine cannot gain the benefits of {@variantrule Short Rest|XPHB|Short Rests}, and can only get the benefits of {@variantrule Long Rest|XPHB|Long Rests} if it consume a Arcane Concentrate as part of it's rest."
+						"The Arcane Engine cannot benefit from {@variantrule Short Rest|XPHB|Short Rests} and can only gain the benefits of {@variantrule Long Rest|XPHB|Long Rests} if it consumes one pound of {@item Residuum|TDCSR} as part of the resting process."
 					]
 				}
 			],
@@ -171820,7 +171819,7 @@
 				{
 					"name": "Quarterstaff",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage, or 4 ({@damage 1d8}) bludgeoning damage if used with two hands."
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage, or 6 ({@damage 1d8 + 2}) bludgeoning damage if used with two hands."
 					]
 				}
 			],
@@ -171875,6 +171874,19 @@
 			},
 			"damageTags": [
 				"B"
+			],
+			"damageTagsSpell": [
+				"B",
+				"C",
+				"N",
+				"O",
+				"R",
+				"T"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"constitution",
+				"dexterity"
 			]
 		}
 	]
