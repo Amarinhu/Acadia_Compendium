@@ -53915,18 +53915,18 @@
 				}
 			],
 			"entries": [
-				"This spell attunes a willing creature to the plane or world it currently occupies, transforming and adapting it to its essence. The target begins to siphon the plane's energies, memories, and influences, becoming more like a native of that place. While under the effects of this spell, it gains one or more of the following benefits (you choose):  ",
+				"This spell attunes a willing creature to its current Realm (plane or world), aligning the creature with the essence of its environment. The target begins siphoning the Realm's energy, memories, and influences, gradually becoming akin to a native of the place. While the spell is active, the target gains one or more of the following benefits of your choice:",
 				{
 					"type": "list",
 					"items": [
-						"<b>Babel Tower.</b> Languages you speak are seamlessly translated into their closest equivalents on this plane. This includes historical, cultural, or stylistic nuances such as local dialects and mannerisms. For example, if you speak {@language Elvish}, it will adapt to the plane's variant of {@language Elvish}. If the plane lacks any languages, you lose knowledge of languages you know. If the plane's communication relies on telepathy, you gain the ability to telepathically speak with creatures as appropriate.",
-						"<b>Omni Species.</b> If your race is not native to the plane, you are transformed into the closest native equivalent, as determined by the DM. Your racial traits and abilities adjust to reflect your new form. You are considered a native of this plane for all purposes. This transformation imposes one level of {@condition exhaustion} as your body adjusts to its new form.",
-						"<b>Transfigured Equipment.</b> Your clothing, armor, and equipment transform to match the plane's native style, materials, and craftsmanship while retaining their functionality. For example, a steel longsword may appear as volcanic obsidian if that material is commonly used for swords on this plane. Money in your possession also transforms into the local currency, including symbols, weight, and composition.",
-						"<b>Knowledge Siphon.</b> Your knowledge reshapes to align with the plane's history, culture, and customs. All your skill proficiencies adapt to reflect local knowledge, such as adjusting lockpicking techniques for the plane's locks or aligning arcane, martial, or religious knowledge with local traditions. You must succeed on a DC 15 Intelligence saving throw. On a failure, your memories of your home plane are suppressed until the spell ends, you take {@damage 6d6} Psychic damage, and you begin to doubt whether you were ever truly from another plane.",
-						"<b>Symbol of All.</b> Your magic and symbols seamlessly adapt to the traditions of the plane you are on. Spells, divine symbols, and magical effects shift in appearance and form to align with local customs and cultural practices. For example, a {@spell Fireball|CompendiumofAcadia} might require different hand gestures or manifest as blue flames if that reflects the plane's norms. Similarly, a god's holy symbol or heraldry transforms to represent the plane's equivalent deity or conceptual counterpart. Caution: This adaptation may temporarily alter your connection to your original faith. Prayers and divine power might be redirected to the translated deity or entity, which some gods may perceive as a betrayal unless properly justified."
+						"<b>Babel Tower.</b> Languages you speak are seamlessly translated into their closest equivalents within the Realm, reflecting local dialects, cultural nuances, and stylistic variations. For example, {@language Elvish} adapts to the local variant of {@language Elvish}. If the Realm lacks spoken languages, you lose all knowledge of languages. You also gain telepathic communication, provided telepathy is the Realm's standard form of communication.",
+						"<b>Omni Species.</b> If your race is not native to the Realm, you transform into the closest native equivalent, as determined by the DM. Your racial traits and abilities adjust to suit your new form, and you are treated as a native of the Realm for all purposes. This transformation imposes one level of {@condition exhaustion} as your body acclimates.",
+						"<b>Transfigured Equipment.</b> Your clothing, armor, and equipment transform to match the native style, materials, and craftsmanship of the Realm while maintaining their functionality. For example, a steel longsword might appear as volcanic obsidian if that material is commonly used. Similarly, any money you carry transforms into the local currency, adapting its symbols, weight, and composition.",
+						"<b>Knowledge Siphon.</b> Your knowledge reshapes to align with the Realm's history, culture, and customs. All your skill proficiencies adjust to reflect local expertise, such as adapting lockpicking techniques for the Realm's locks or reshaping arcane, martial, or religious expertise to fit local traditions. You must succeed on a DC 15 Intelligence saving throw. On a failure, your memories of your home Realm are suppressed until the spell ends, you take {@damage 6d6} Psychic damage, and you begin to question whether you were ever truly from another Realm.",
+						"<b>Symbol of All.</b> Your magic and symbols adapt to the traditions of the Realm you occupy. Spells, divine symbols, and magical effects change in appearance and form to align with local customs. For example, a {@spell Fireball|CompendiumofAcadia} might require different gestures or manifest as blue flames if such traits reflect the Realm's norms. Similarly, a god's holy symbol transforms to represent the Realm's equivalent deity or concept. <i><b>Caution:</b> This adaptation may alter your connection to your original faith, potentially redirecting prayers and divine power to the local deity, which some gods may interpret as betrayal unless justified.</i>"
 					]
 				},
-				"The spell ends immediately if the target leaves the plane or world to which they were translated."
+				"The spell ends immediately if the target leaves the Realm to which it was translated."
 			],
 			"areaTags": [
 				"ST"
@@ -112365,6 +112365,154 @@
 			]
 		},
 		{
+			"name": "Suffocate",
+			"source": "CompendiumofAcadia",
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a leather glove"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create a pair of grasping hands made from {@condition invisible} forces. Make a spell attack against one creature that you can see within range. On a hit, the creature is {@condition restrained} as the hands crush their throat or bodily equivalent.",
+				"If the creature requires air to breathe, it begins to suffocate. A suffocating creature can survive for a number of rounds equal to 1 + its Constitution modifier (minimum of 1 round). At the start of its next turn after those rounds are over, it becomes {@condition unconscious}, and it can't regain hit points until it can breathe again.",
+				"A conscious creature {@condition restrained} by the hands can use its action to make a Strength or Dexterity check (its choice) against your spell save DC. On a success, the spell ends on the target."
+			],
+			"conditionInflict": [
+				"invisible",
+				"restrained",
+				"unconscious"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB",
+						"definedInSource": "GHLoE"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB",
+						"definedInSource": "GHLoE"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB",
+						"definedInSource": "GHLoE"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB",
+						"definedInSource": "GHLoE"
+					},
+					{
+						"name": "Bard",
+						"source": "XPHB",
+						"definedInSource": "GHLoE"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "XPHB",
+						"definedInSource": "GHLoE"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB",
+						"definedInSource": "GHLoE"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB",
+						"definedInSource": "GHLoE"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Bard",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "College of Lore",
+							"shortName": "Lore",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Phantom Steed",
 			"source": "CompendiumofAcadia",
 			"page": 304,
@@ -168683,282 +168831,6 @@
 					"source": "GGR"
 				}
 			]
-		},
-		{
-			"name": "Sanctuary Orb",
-			"source": "CompendiumofAcadia",
-			"level": 4,
-			"school": "A",
-			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 30
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "a highly ornate crystal orb worth 100+ GP"
-			},
-			"duration": [
-				{
-					"type": "permanent",
-					"ends": [
-						"dispel"
-					]
-				}
-			],
-			"entries": [
-				"You hurl a magical orb imbued with binding energy at a creature, trapping it temporarily within the orb. Arcane sigils and symbols appear above the orb, representing the creature's name.",
-				"<b>Effect:</b> Choose an {@condition unconscious} or willing creature within range. The target is drawn into a harmless extradimensional space contained within the crystal orb, which serves as the material component for this spell. This pocket dimension is small but stable, offering a safe haven devoid of sustenance. While inside, the creature can breathe normally, and the extradimensional space adapts to the creature's size and equipment. The interior provides a faintly pleasant sensation, though it cannot house more than one creature at a time. The spell fails if you attempt to maintain six or more active crystal orbs.",
-				"While inside the orb, the creature gains limited awareness of its surroundings through the orb’s vision, which extends 30 feet in all directions and includes darkvision up to 30 feet. The creature may use an Action to emerge from the orb, appearing in an unoccupied space within 10 feet of the orb and ending the spell.",
-				"If the crystal orb is destroyed (AC 15, 10 HP) or its magic is dispelled, the trapped creature immediately reappears in a random unoccupied space within 10 feet of the orb.",
-				"As a bonus action, you can compel the trapped creature to make a Wisdom saving throw. On a failure, you learn the creature's name or discover that it has none. On a success, the creature resists the attempt and cannot be targeted by this effect for the next 24 hours."
-			],
-			"savingThrow": [
-				"charisma"
-			],
-			"miscTags": [
-				"SCT",
-				"SGT"
-			],
-			"areaTags": [
-				"ST"
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Cleric",
-						"source": "XPHB"
-					},
-					{
-						"name": "Sorcerer",
-						"source": "XPHB"
-					},
-					{
-						"name": "Warlock",
-						"source": "XPHB"
-					},
-					{
-						"name": "Wizard",
-						"source": "XPHB"
-					},
-					{
-						"name": "Paladin",
-						"source": "XPHB"
-					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Community Domain",
-							"shortName": "Community",
-							"source": "HWCS"
-						}
-					},
-					{
-						"class": {
-							"name": "Fighter",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Eldritch Knight",
-							"shortName": "Eldritch Knight",
-							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Oath of Vengeance",
-							"shortName": "Vengeance",
-							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Oath of the Crown",
-							"shortName": "Crown",
-							"source": "SCAG"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Oath of the Watchers",
-							"shortName": "Watchers",
-							"source": "TCE"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Horizon Walker",
-							"shortName": "Horizon Walker",
-							"source": "XGE"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Monster Slayer",
-							"shortName": "Monster Slayer",
-							"source": "XGE"
-						}
-					},
-					{
-						"class": {
-							"name": "Rogue",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Arcane Trickster",
-							"shortName": "Arcane Trickster",
-							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Sorcerer",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Divine Soul",
-							"shortName": "Divine Soul",
-							"source": "XGE"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "XPHB"
-						},
-						"subclass": {
-							"name": "Community Domain",
-							"shortName": "Community",
-							"source": "HWCS"
-						}
-					},
-					{
-						"class": {
-							"name": "Fighter",
-							"source": "XPHB"
-						},
-						"subclass": {
-							"name": "Eldritch Knight",
-							"shortName": "Eldritch Knight",
-							"source": "XPHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "XPHB"
-						},
-						"subclass": {
-							"name": "Oath of the Crown",
-							"shortName": "Crown",
-							"source": "SCAG"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "XPHB"
-						},
-						"subclass": {
-							"name": "Oath of the Watchers",
-							"shortName": "Watchers",
-							"source": "TCE"
-						}
-					},
-					{
-						"class": {
-							"name": "Paladin",
-							"source": "XPHB"
-						},
-						"subclass": {
-							"name": "Oath of Vengeance",
-							"shortName": "Vengeance",
-							"source": "XPHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "XPHB"
-						},
-						"subclass": {
-							"name": "Horizon Walker",
-							"shortName": "Horizon Walker",
-							"source": "XGE"
-						}
-					},
-					{
-						"class": {
-							"name": "Ranger",
-							"source": "XPHB"
-						},
-						"subclass": {
-							"name": "Monster Slayer",
-							"shortName": "Monster Slayer",
-							"source": "XGE"
-						}
-					},
-					{
-						"class": {
-							"name": "Rogue",
-							"source": "XPHB"
-						},
-						"subclass": {
-							"name": "Arcane Trickster",
-							"shortName": "Arcane Trickster",
-							"source": "XPHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Sorcerer",
-							"source": "XPHB"
-						},
-						"subclass": {
-							"name": "Divine Soul",
-							"shortName": "Divine Soul",
-							"source": "XGE"
-						}
-					}
-				]
-			},
-			"meta": {
-				"ritual": true
-			}
 		}
 	],
 	"item": [
@@ -169967,9 +169839,10 @@
 	"variantrule": [
 		{
 			"source": "CompendiumofAcadia",
-			"name": "Called Shots",
+			"name": "Called Shots (Legacy)",
 			"ruleType": "O",
 			"entries": [
+				"This legacy rule on called shots serves as a guideline for creating unique mechanics for specific monsters, rather than applying it universally.",
 				"Once per round, when you declare an {@action Attack|XPHB}, you can choose to make a Called Shot to impose specific effects on the target. The effect only applies if the targeted part qualifies under the following guidelines, subject to the DM's discretion.",
 				"If the effect requires a saving throw, the DC is determined by the attribute used for the attack roll.",
 				"If your Called Shot exceeds the target's AC by 5 or more, you may apply one of the following effects:",
@@ -170126,12 +169999,50 @@
 			"name": "Destroying Magical Barriers, and Similars",
 			"ruleType": "O",
 			"entries": [
-				"Magical barriers, force creatures, and similar effects, such as Leomund's Tiny Hut, Tiny Servant, Arcane Gate, Wall of Force, Mordenkainen's Faithful Hound, and Arcane Eye, can be destroyed using magical weapons.",
-				"<b>HP and AC:</b> These effects have hit points equal to 30 times the spell level that was used in their creation, is immune to Psychic and Poison damage, as well as all nonmagical damage, fails all saving throws, has an AC of 20, and is vulnerable to Force damage.",
-				"<b>Destruction:</b> Only magic weapons can damage them, with the required rarity depending on the spell level: Common (1st-level), Uncommon (3rd-level), Rare (6th-level), Very Rare (8th-level), and Legendary (9th-level).",
-				"<b>DM Discretion:</b> The DM may rule that some effects are more resistant or immune to specific magical effects or items."
+				"Magical barriers, force-based constructs, and similar effects such as {@spell Leomund's Tiny Hut|CompendiumofAcadia}, {@spell Tiny Servant|CompendiumofAcadia}, {@spell Arcane Gate|CompendiumofAcadia}, {@spell Wall of Force|CompendiumofAcadia}, {@spell Mordenkainen's Faithful Hound|CompendiumofAcadia}, and {@spell Arcane Eye|CompendiumofAcadia} can be destroyed by specific damage types.",
+				"<b>HP and AC:</b> These effects have hit points equal to 30 times the spell level that was used in their creation, are immune to all damage except Necrotic and Radiant, fail all saving throws, have an AC of 20, and are vulnerable to Force damage."
 			]
 		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Equivalency of Magic and Magic Items",
+			"ruleType": "C",
+			"entries": [
+			  "This rule establishes equivalency between magic items and spells based on their power levels. The table below provides a guideline for understanding the relationship between spell levels and magic item rarities:",
+			  {
+				"type": "table",
+				"caption": "Equivalency of Magic and Magic Items",
+				"colLabels": [
+				  "Spell Level",
+				  "Item Rarity"
+				],
+				"rows": [
+				  [
+					"1st-Level",
+					"Common (e.g., Candle of the Deep, Driftglobe)"
+				  ],
+				  [
+					"3rd-Level",
+					"Uncommon (e.g., +1 Weapons, Wand of Magic Missile)"
+				  ],
+				  [
+					"6th-Level",
+					"Rare (e.g., Cloak of Displacement, Wand of Fireballs)"
+				  ],
+				  [
+					"8th-Level",
+					"Very Rare (e.g., Ring of Regeneration, Staff of Power)"
+				  ],
+				  [
+					"9th-Level",
+					"Legendary (e.g., Holy Avenger, Deck of Many Things)"
+				  ]
+				]
+			  },
+			  "Note: These guidelines reflect the general relationship between the power of spells and the rarity of magic items, but exceptions may exist depending on the item's unique properties."
+			]
+		  }
+,		  
 		{
 			"source": "CompendiumofAcadia",
 			"name": "Coup de Grace",
@@ -170347,7 +170258,7 @@
 									"Up the level to 2nd."
 								],
 								[
-									"Tiny Hut ({@spell Tiny Hut|XPHB} → {@spell Tiny Hut|CompendiumofAcadia})",
+									"Leomund's Tiny Hut ({@spell Leomund's Tiny Hut|XPHB} → {@spell Leomund's Tiny Hut|CompendiumofAcadia})",
 									"Nerfed",
 									"Now have hitpoints."
 								],
@@ -170533,10 +170444,6 @@
 									"Banned: Resurrection is hard in Acadia; their effects will be accommodated by items. [{@item Rod of Revivification|CompendiumofAcadia} / {@item Shard of Resurrection|CompendiumofAcadia} / {@item Shard of Revivification|CompendiumofAcadia} / {@item Rod of Resurrection|CompendiumofAcadia}]"
 								],
 								[
-									"Suffocate ({@spell Suffocate|GHLoE})",
-									"Banned: Too exploitable."
-								],
-								[
 									"Wish ({@spell Wish|XPHB})",
 									"Banned: Added Lesser Wish ({@spell Lesser Wish|CompendiumofAcadia}); the Wish effect will be limited to items. [{@item Ring of The Wishing Star|CompendiumofAcadia} / {@item Aberrant Statue of Wishes|CompendiumofAcadia}]"
 								],
@@ -170570,10 +170477,6 @@
 								[
 									"{@spell Pathfinding|CompendiumofAcadia}",
 									"Enables planar or same-plane travel to a location you have seen before."
-								],
-								[
-									"{@spell Sanctuary Orb|CompendiumofAcadia}",
-									"Captures a willing or unconscious creature in a safe extradimensional space, with the option to extract its true name."
 								],
 								[
 									"{@spell Lesser Wish|CompendiumofAcadia}",
@@ -170892,59 +170795,43 @@
 					"entries": [
 						{
 							"type": "entries",
+							"entries": [
+								"<div style='text-align: center;'><img src='https://i.ibb.co/0ynjJfJ/Acadia-Reborn-3.jpg' width='350' height='350'></div>"
+							]
+						},
+						{
+							"type": "entries",
 							"name": "🟢 Green Mana",
 							"entries": [
-								"See: {@variantrule 🟢 Green Mana|CompendiumofAcadia}.",
-								"Green Mana oppresses {@variantrule ⚫ Black Mana|CompendiumofAcadia}, symbolizing growth and vitality overcoming entropy and decay. However, it is oppressed by {@variantrule ⚪ White Mana|CompendiumofAcadia}, representing order and rationality constraining primal forces."
+								"See: {@variantrule 🟢 Green Mana|CompendiumofAcadia}."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "🔵 Blue Mana",
 							"entries": [
-								"See: {@variantrule 🔵 Blue Mana|CompendiumofAcadia}.",
-								"Blue Mana is neutral and does not participate in the cycle of oppression. It often acts as a stabilizing or mediating force among the other mana types."
+								"See: {@variantrule 🔵 Blue Mana|CompendiumofAcadia}."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "⚫ Black Mana",
 							"entries": [
-								"See: {@variantrule ⚫ Black Mana|CompendiumofAcadia}.",
-								"Black Mana oppresses {@variantrule 🔴 Red Mana|CompendiumofAcadia}, consuming its passion and vitality with entropy and inevitability. It is, however, oppressed by {@variantrule 🟢 Green Mana|CompendiumofAcadia}, which counters decay with growth and renewal."
+								"See: {@variantrule ⚫ Black Mana|CompendiumofAcadia}."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "⚪ White Mana",
 							"entries": [
-								"See: {@variantrule ⚪ White Mana|CompendiumofAcadia}.",
-								"White Mana oppresses {@variantrule 🟢 Green Mana|CompendiumofAcadia} by overriding natural chaos and growth with mental constructs and rationality. However, it is oppressed by {@variantrule 🔴 Red Mana|CompendiumofAcadia}, which counters rigidity with raw passion and emotion."
+								"See: {@variantrule ⚪ White Mana|CompendiumofAcadia}."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "🔴 Red Mana",
 							"entries": [
-								"See: {@variantrule 🔴 Red Mana|CompendiumofAcadia}.",
-								"Red Mana oppresses {@variantrule ⚪ White Mana|CompendiumofAcadia}, breaking through structure and order with chaos and passion. However, it is oppressed by {@variantrule ⚫ Black Mana|CompendiumofAcadia}, which consumes its vitality with entropy."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Rules of Oppression",
-							"entries": [
-								"<div style='text-align: center;'><img src='https://i.ibb.co/ZNkFXng/Acadia-Reborn-1-1.png' width='350' height='350'></div>",
-								{
-									"type": "list",
-									"items": [
-										"<b>Oppress Elementals.</b> After dealing damage to a Elemental, you can spend a Bonus action and 1 Mana immediately to deal 2d8 Radiant damage that ignores immunity and resistance.",
-										"<b>Oppress Undeads.</b> After dealing damage to a Undead, you can spend a Bonus action and 1 Mana immediately to deal 2d8 Elemental Damage of your choice damage that ignores immunity and resistance.",
-										"<b>Oppress Humanoid.</b> After dealing damage to a Humanoid, you can spend a Bonus action and 1 Mana immediately to deal 2d8 Necrotic damage that ignores immunity and resistance.",
-										"<b>Oppress Celestials.</b> After dealing damage to a Celetial, you can spend a Bonus action and 1 Mana immediately to deal 2d8 Physical Damage of your choice damage that ignores immunity and resistance.",
-										"<b>Oppress Constructs.</b> After dealing damage to a Construct, you can spend a Bonus action and 1 Mana immediately to deal 2d8 Force damage that ignores immunity and resistance."
-									]
-								}
+								"See: {@variantrule 🔴 Red Mana|CompendiumofAcadia}."
 							]
 						}
 					]
