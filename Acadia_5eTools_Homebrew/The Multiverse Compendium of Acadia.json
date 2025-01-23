@@ -170014,28 +170014,34 @@
 				"caption": "Equivalency of Magic and Magic Items",
 				"colLabels": [
 				  "Spell Level",
-				  "Item Rarity"
+				  "Item Rarity",
+				  "Gold Cost"
 				],
 				"rows": [
 				  [
 					"1st-Level",
-					"Common (e.g., Candle of the Deep, Driftglobe)"
+					"Common (Candle of the Deep, Driftglobe)",
+					"50 gp"
 				  ],
 				  [
 					"3rd-Level",
-					"Uncommon (e.g., +1 Weapons, Wand of Magic Missile)"
+					"Uncommon (+1 Weapons, Wand of Magic Missile)",
+					"300 gp"
 				  ],
 				  [
 					"6th-Level",
-					"Rare (e.g., Cloak of Displacement, Wand of Fireballs)"
+					"Rare (Cloak of Displacement, Wand of Fireballs)",
+					"20,000 gp"
 				  ],
 				  [
 					"8th-Level",
-					"Very Rare (e.g., Ring of Regeneration, Staff of Power)"
+					"Very Rare (Ring of Regeneration, Staff of Power)",
+					"30,000 gp"
 				  ],
 				  [
 					"9th-Level",
-					"Legendary (e.g., Holy Avenger, Deck of Many Things)"
+					"Legendary (Holy Avenger, Deck of Many Things)",
+					"100,000 gp"
 				  ]
 				]
 			  },
@@ -170098,7 +170104,7 @@
 					"items": [
 						"It can only regain hit points if it is {@variantrule Stable|XPHB}.",
 						"If it would regain 5 or more hit points, it becomes {@variantrule Stable|XPHB} instead of healing. Healing for less than 5 hit points has no effect.",
-						"Rolling a natural 20 on a {@variantrule Death Saving Throw|XScreen|death saving throw} causes it to become {@variantrule Stable|XPHB} and restore 1 hit point afterwards."
+						"Rolling a natural 20 on a {@variantrule Death Saving Throws|XScreen|death saving throw} causes it to become {@variantrule Stable|XPHB} and restore 1 hit point afterwards."
 					]
 				}
 			]
@@ -170690,7 +170696,7 @@
 							{
 								"type": "list",
 								"items": [
-									"Increase your AC by half the card's value (rounded down) until the end of this turn; or",
+									"Increase your AC by half the card's value (rounded down) until the start of your next turn; or",
 									"Gain resistance to a damage type until the end of this turn (Aces grant resistance to all damage types); or",
 									"Gain temporary {@variantrule 🟢 Green Mana|CompendiumofAcadia} equal to half your level (round up), expiring after a Long Rest."
 								]
@@ -170947,8 +170953,8 @@
 							{
 								"type": "list",
 								"items": [
-									"<b>Arcane Affinity:</b> Gain {@variantrule Advantage|XPHB} on an {@skill Arcana} check.",
-									"<b>Fast Attunement:</b> As a bonus action, you can attune or unattune to any number of magic items you have equipped. This does not allow you to exceed your normal attunement limit.",
+									"<b>Arcane Affinity:</b> After failing an {@skill Arcana} check, reroll and keep the highest one.",
+									"<b>Fast Attunement:</b> As a bonus action, you can unattune to a magic item you have equipped and attune to another one.",
 									"<b>Spellcasting:</b> You can cast {@spell Prestidigitation|CompendiumOfAcadia}, {@spell Mending|CompendiumOfAcadia}, or {@spell Mage Hand|CompendiumOfAcadia}."
 								]
 							}
@@ -170970,7 +170976,7 @@
 								"type": "list",
 								"items": [
 									"<b>Arcane Slash.</b> As an Action, make a melee spell attack against a target within 10 feet. In a hit, it deals {@damage 3d10} Force damage.",
-									"<b>Essential Protection.</b> After getting hit by Force damage, reduce the Force damage by 4d4.",
+									"<b>Essential Protection.</b> After getting hit by Force damage, reduce the Force damage by 20.",
 									"<b>Spellcasting:</b> Cast {@spell Misty Step|CompendiumOfAcadia}, {@spell Nystul's Magic Aura|CompendiumOfAcadia}, or {@spell Wristpocket|CompendiumOfAcadia}."
 								]
 							}
@@ -171143,7 +171149,7 @@
 							{
 								"type": "list",
 								"items": [
-									"<b>Replicate Information.</b> As an Magic Action, You can replicate written text at 1 minute per page or images at 60 times the normal speed, provided you have the necessary tools and materials. You must concentrate as if on a spell and can maintain this for up to 1 hour. You may replicate text accurately or in your own style. This also applies to copying spells into your spellbook, taking 1 minute per spell level.",
+									"<b>Replicate Information.</b> As an Magic Action, You can replicate written text at 1 minute per page, provided you have the necessary tools and materials. You must concentrate in this as if on a spell and can maintain the effect for up to 1 hour. You may replicate text accurately or in your own style. Copying spells for your spellbook with this feature, takes 1 minute per spell level.",
 									"<b>Spellcasting:</b> Cast {@spell Vicious Mockery|CompendiumOfAcadia}, {@spell True Strike|CompendiumOfAcadia}, {@spell Light|CompendiumOfAcadia}, or {@spell Message|CompendiumOfAcadia}."
 								]
 							}
@@ -171153,7 +171159,7 @@
 							{
 								"type": "list",
 								"items": [
-									"<b>Sharp Mind.</b> As an Magic Action, you gain perfect recall and clarity for 8 hours, allowing you to remember anything you’ve seen or heard during this time. You also have advantage on Arcana, History, Nature, and Religion checks.",
+									"<b>Sharp Mind.</b> As an Magic Action, you gain perfect recall and clarity until the nest Long Rest, allowing you to remember anything you've seen or heard during this time. You also have advantage on Arcana, History, Nature, and Religion checks. You also knows the level and the scholl of magic of every spell you see being cast.",
 									"<b>Spellcasting:</b> Cast {@spell Charm Person|CompendiumOfAcadia}, {@spell Comprehend Languages|CompendiumOfAcadia}, {@spell Detect Magic|CompendiumOfAcadia}, or {@spell Identify|CompendiumOfAcadia}."
 								]
 							}
@@ -171173,7 +171179,7 @@
 							{
 								"type": "list",
 								"items": [
-									"<b>Vibrating Vision.</b> As an Action, for the next 8 hours, you have {@sense Tremorsense|XPHB} with a range of 60 feet.",
+									"<b>Vibrating Vision.</b> As an Action, until your next long rest, you have {@sense Tremorsense|XPHB} with a range of 60 feet.",
 									"<b>Spellcasting:</b> Cast {@spell Clairvoyance|CompendiumOfAcadia}, {@spell Intellect Fortress|CompendiumOfAcadia}, {@spell Tongues|CompendiumOfAcadia}, or {@spell Fear|CompendiumOfAcadia}."
 								]
 							}
@@ -171193,8 +171199,8 @@
 							{
 								"type": "list",
 								"items": [
-									"<b>Awaken Mind.</b> As an Action, you target a object or a willing creature no larger than Large. If its Intelligence is below 10, it becomes 10, and it learns a language you know if it doesn’t speak any. An object gains stats as an {@creature Animated Object|XPHB} with 10 Intelligence (choose Intelligence, Wisdom, or Charisma as its modifier if you lack a spellcasting ability) or another stat block like {@creature Awakened Shrub|XMM} or {@creature Awakened Tree|XMM}, as the DM decides. This lasts until dispelled. The target is Charmed for 30 days or until harmed by you or your allies, after which it chooses its attitude toward you.",
-									"<b>Spellcasting:</b> Cast {@spell Commune|CompendiumOfAcadia}, {@spell Dominate Person|CompendiumOfAcadia}, {@spell Modify Memory|CompendiumOfAcadia}, or {@spell Scrying|CompendiumOfAcadia}."
+									"<b>Awaken Mind.</b> As an Action, you can cast {@spell Commune|CompendiumOfAcadia}, but you can ask up to 3 questions intead. Or you can cast {@spell Commune With Nature|CompendiumOfAcadia} with the duration of 1 hour. Or you can cast {@spell Contact Other Plane|CompendiumOfAcadia}, but asking 7 questions instead.",
+									"<b>Spellcasting:</b> Cast {@spell Telekinesis|CompendiumOfAcadia}, {@spell Dominate Person|CompendiumOfAcadia}, {@spell Modify Memory|CompendiumOfAcadia}, or {@spell Scrying|CompendiumOfAcadia}."
 								]
 							}
 						]
@@ -171285,7 +171291,7 @@
 								"type": "list",
 								"items": [
 									"You cast {@spell Freedom of Movement|CompendiumOfAcadia} without components.",
-									"You cast {@spell Enlarge/Reduce|CompendiumOfAcadia} without components.",
+									"You get the effects of {@spell Enlarge/Reduce|CompendiumOfAcadia} (Enlarge option) without components.",
 									"As an Action, you gain Advantage in Strength, Dexterity and Constitution saving throws and ability checks for the next hour.",
 									"You cast {@spell Haste|CompendiumOfAcadia}, but you do not need to concetrate on the spell.",
 									"You cast {@spell Stoneskin|CompendiumOfAcadia} without components."
@@ -171299,7 +171305,7 @@
 								"items": [
 									"You cast {@spell Circle of Power|CompendiumOfAcadia} without components.",
 									"You cast {@spell Banishing Smite|CompendiumOfAcadia} without components.",
-									"As a reaction for being affected by a curse, exhaustion levels, Charmed or petrified condition, reduction to ability scores or reduction of maximum hitpoints, you cast {@spell Greater Restoration|CompendiumOfAcadia} on Self without components.",
+									"As a reaction for being affected by a curse, exhaustion levels, Charmed or petrified condition, reduction to ability scores or reduction of maximum hitpoints, you gain the effects of {@spell Greater Restoration|CompendiumOfAcadia} on Self.",
 									"You get an additional Action this turn, except a magic action. Immediatelly before taking it, you take 4d12 Necrotic damage that cannot be reduced or negated in any way.",
 									"Undertaker. As a Action, you make 6 unnarmed strikes against targets withing 10 feet, each of then deals 2d8 Bludgeoning damage on a hit."
 								]
