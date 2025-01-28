@@ -170005,50 +170005,283 @@
 		},
 		{
 			"source": "CompendiumofAcadia",
-			"name": "Equivalency of Magic and Magic Items",
-			"ruleType": "C",
+			"name": "Special Facilities Cap and Rebalancing",
+			"ruleType": "O",
 			"entries": [
-			  "This rule establishes equivalency between magic items and spells based on their power levels. The table below provides a guideline for understanding the relationship between spell levels and magic item rarities:",
-			  {
-				"type": "table",
-				"caption": "Equivalency of Magic and Magic Items",
-				"colLabels": [
-				  "Spell Level",
-				  "Item Rarity",
-				  "Gold Cost"
-				],
-				"rows": [
-				  [
-					"1st-Level",
-					"Common (Candle of the Deep, Driftglobe)",
-					"50 gp"
-				  ],
-				  [
-					"3rd-Level",
-					"Uncommon (+1 Weapons, Wand of Magic Missile)",
-					"300 gp"
-				  ],
-				  [
-					"6th-Level",
-					"Rare (Cloak of Displacement, Wand of Fireballs)",
-					"20,000 gp"
-				  ],
-				  [
-					"8th-Level",
-					"Very Rare (Ring of Regeneration, Staff of Power)",
-					"30,000 gp"
-				  ],
-				  [
-					"9th-Level",
-					"Legendary (Holy Avenger, Deck of Many Things)",
-					"100,000 gp"
-				  ]
-				]
-			  },
-			  "Note: These guidelines reflect the general relationship between the power of spells and the rarity of magic items, but exceptions may exist depending on the item's unique properties."
+				"Special Facilities for your bastion must be both constructed and purchased, similar to how Basic facilities are handled. The maximum number of Special Facilities you can have is equal to your proficiency modifier."
 			]
-		  }
-,		  
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Guideline. Wealth Progression",
+			"ruleType": "O",
+			"entries": [
+				{
+					"type": "table",
+					"colLabels": [
+						"Level",
+						"PC Wealth upon Reaching Level",
+						"Treasure Progression"
+					],
+					"rows": [
+						[
+							"1",
+							"125 GP",
+							"0 GP"
+						],
+						[
+							"2",
+							"200 GP",
+							"75 GP"
+						],
+						[
+							"3",
+							"400 GP",
+							"200 GP"
+						],
+						[
+							"4",
+							"700 GP",
+							"300 GP"
+						],
+						[
+							"5",
+							"1,500 GP",
+							"800 GP"
+						],
+						[
+							"6",
+							"3,000 GP",
+							"1,500 GP"
+						],
+						[
+							"7",
+							"5,500 GP",
+							"2,500 GP"
+						],
+						[
+							"8",
+							"8,700 GP",
+							"3,200 GP"
+						],
+						[
+							"9",
+							"12,000 GP",
+							"3,300 GP"
+						],
+						[
+							"10",
+							"17,000 GP",
+							"5,000 GP"
+						],
+						[
+							"11",
+							"21,200 GP",
+							"4,200 GP"
+						],
+						[
+							"12",
+							"30,200 GP",
+							"9,000 GP"
+						],
+						[
+							"13",
+							"40,000 GP",
+							"9,800 GP"
+						],
+						[
+							"14",
+							"58,000 GP",
+							"18,000 GP"
+						],
+						[
+							"15",
+							"75,500 GP",
+							"17,500 GP"
+						],
+						[
+							"16",
+							"105,000 GP",
+							"29,500 GP"
+						],
+						[
+							"17",
+							"130,000 GP",
+							"25,000 GP"
+						],
+						[
+							"18",
+							"225,000 GP",
+							"95,000 GP"
+						],
+						[
+							"19",
+							"390,000 GP",
+							"165,000 GP"
+						],
+						[
+							"20",
+							"560,000 GP",
+							"170,000 GP"
+						],
+						[
+							"20+",
+							"810,000 GP",
+							"250,000 GP"
+						]
+					]
+				}
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Guideline. Price Modifiers",
+			"ruleType": "O",
+			"entries": [
+				"Only the highest positive and highest negative modifiers are applied together. For example, a scenario with High Scarcity (+50%), Good Mood (-10%), and Local Origin (-25%) would result in a total modifier of +25% (highest positive +50% minus highest negative -25%).",
+				{
+					"type": "table",
+					"rows": [
+						[
+							"<b>Bartering:</b> Failed Check or Bad Relationship",
+							"+25%"
+						],
+						[
+							"<b>Bartering:</b> Successful Persuasion Check ≥ 20",
+							"-25%"
+						],
+						[
+							"\u00A0",
+							"\u00A0"
+						],
+						[
+							"<b>Delivery:</b> Dangerous",
+							"+50%"
+						],
+						[
+							"<b>Delivery:</b> High Priority",
+							"+25%"
+						],
+						[
+							"\u00A0",
+							"\u00A0"
+						],
+						[
+							"<b>Demand:</b> High",
+							"+50%"
+						],
+						[
+							"<b>Demand:</b> Low",
+							"-25%"
+						],
+						[
+							"\u00A0",
+							"\u00A0"
+						],
+						[
+							"<b>Item Condition:</b> Known to Be Stolen",
+							"-75%"
+						],
+						[
+							"<b>Item Condition:</b> Damaged",
+							"-50%"
+						],
+						[
+							"\u00A0",
+							"\u00A0"
+						],
+						[
+							"<b>Mood:</b> Greedy or Suspicious",
+							"+25%"
+						],
+						[
+							"<b>Mood:</b> Friendly or Generous",
+							"-25%"
+						],
+						[
+							"\u00A0",
+							"\u00A0"
+						],
+						[
+							"<b>Origin:</b> Exotic or Foreign",
+							"+50%"
+						],
+						[
+							"<b>Origin:</b> Local or Common",
+							"-25%"
+						],
+						[
+							"\u00A0",
+							"\u00A0"
+						],
+						[
+							"<b>Production:</b> Artisan-Crafted",
+							"+50%"
+						],
+						[
+							"<b>Production:</b> Industrialized",
+							"-75%"
+						],
+						[
+							"\u00A0",
+							"\u00A0"
+						],
+						[
+							"<b>Scarcity:</b> High",
+							"+50%"
+						],
+						[
+							"<b>Scarcity:</b> Low or Surplus",
+							"-25%"
+						]
+					]
+				}
+			]
+		},
+		{
+			"source": "CompendiumofAcadia",
+			"name": "Guideline. Magic Slots and Magic Items",
+			"ruleType": "O",
+			"entries": [
+				"This rule establishes equivalency between magic items and spells based on their power levels. The table below provides a guideline for understanding the relationship between spell levels and magic item rarities:",
+				{
+					"type": "table",
+					"colLabels": [
+						"Spell Level",
+						"Item Rarity",
+						"Gold Cost"
+					],
+					"rows": [
+						[
+							"1st-Level",
+							"Common (Candle of the Deep, Driftglobe)",
+							"50 gp"
+						],
+						[
+							"3rd-Level",
+							"Uncommon (+1 Weapons, Wand of Magic Missile)",
+							"300 gp"
+						],
+						[
+							"6th-Level",
+							"Rare (Cloak of Displacement, Wand of Fireballs)",
+							"20,000 gp"
+						],
+						[
+							"8th-Level",
+							"Very Rare (Ring of Regeneration, Staff of Power)",
+							"30,000 gp"
+						],
+						[
+							"9th-Level",
+							"Legendary (Holy Avenger, Deck of Many Things)",
+							"100,000 gp"
+						]
+					]
+				},
+				"Note: These guidelines reflect the general relationship between the power of spells and the rarity of magic items, but exceptions may exist depending on the item's unique properties."
+			]
+		},
 		{
 			"source": "CompendiumofAcadia",
 			"name": "Coup de Grace",
