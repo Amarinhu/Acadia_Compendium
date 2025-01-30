@@ -276,19 +276,6 @@
 			]
 		},
 		{
-			"name": "Alchemy Lab [PLACEHOLDER]",
-			"source": "CompendiumofAcadia",
-			"facilityType": "special",
-			"space": [
-				"cramped",
-				"roomy",
-				"vast"
-			],
-			"entries": [
-				"[PLACEHOLDER] A basic facility comes with nonmagical furnishings and decor appropriate for that facility."
-			]
-		},
-		{
 			"name": "Prison [PLACEHOLDER]",
 			"source": "CompendiumofAcadia",
 			"page": 339,
@@ -330,191 +317,6 @@
 			"source": "CompendiumofAcadia",
 			"page": 339,
 			"facilityType": "Basic",
-			"level": 5,
-			"space": [
-				"roomy",
-				"vast"
-			],
-			"hirelings": [
-				{
-					"exact": 1
-				}
-			],
-			"orders": [
-				"recruit"
-			],
-			"entries": [
-				"A Bastion can have more than one Barrack, each of which is furnished to serve as sleeping quarters for up to twelve Bastion Defenders.",
-				{
-					"type": "entries",
-					"name": "Recruit: Bastion Defenders",
-					"entries": [
-						"Each time you issue the {@book Recruit|XDMG|7|Recruit} order to this facility, up to four Bastion Defenders are recruited to your Bastion and assigned quarters in this Barrack. The recruitment costs no money. You can't issue the Recruit order to this facility if it's fully occupied.",
-						"Keep track of the Bastion Defenders housed in each of your Barracks. If you lose Bastion Defenders, deduct them from your roster. Assign names and personalities to your Bastion Defenders as you see fit."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Enlarging the Facility",
-					"entries": [
-						"You can enlarge your Barrack to a Vast facility by spending 2,000 GP. A Vast Barrack can accommodate up to twenty-five Bastion Defenders."
-					]
-				}
-			]
-		},
-		{
-			"name": "Seer's Chamber [PLACEHOLDER]",
-			"source": "CompendiumofAcadia",
-			"page": 339,
-			"facilityType": "special",
-			"level": 5,
-			"space": [
-				"roomy",
-				"vast"
-			],
-			"hirelings": [
-				{
-					"exact": 1
-				}
-			],
-			"orders": [
-				"recruit"
-			],
-			"entries": [
-				"A Bastion can have more than one Barrack, each of which is furnished to serve as sleeping quarters for up to twelve Bastion Defenders.",
-				{
-					"type": "entries",
-					"name": "Recruit: Bastion Defenders",
-					"entries": [
-						"Each time you issue the {@book Recruit|XDMG|7|Recruit} order to this facility, up to four Bastion Defenders are recruited to your Bastion and assigned quarters in this Barrack. The recruitment costs no money. You can't issue the Recruit order to this facility if it's fully occupied.",
-						"Keep track of the Bastion Defenders housed in each of your Barracks. If you lose Bastion Defenders, deduct them from your roster. Assign names and personalities to your Bastion Defenders as you see fit."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Enlarging the Facility",
-					"entries": [
-						"You can enlarge your Barrack to a Vast facility by spending 2,000 GP. A Vast Barrack can accommodate up to twenty-five Bastion Defenders."
-					]
-				}
-			]
-		},
-		{
-			"name": "Occult Collection [PLACEHOLDER]",
-			"source": "CompendiumofAcadia",
-			"page": 339,
-			"facilityType": "special",
-			"level": 5,
-			"space": [
-				"roomy",
-				"vast"
-			],
-			"hirelings": [
-				{
-					"exact": 1
-				}
-			],
-			"orders": [
-				"recruit"
-			],
-			"entries": [
-				"A Bastion can have more than one Barrack, each of which is furnished to serve as sleeping quarters for up to twelve Bastion Defenders.",
-				{
-					"type": "entries",
-					"name": "Recruit: Bastion Defenders",
-					"entries": [
-						"Each time you issue the {@book Recruit|XDMG|7|Recruit} order to this facility, up to four Bastion Defenders are recruited to your Bastion and assigned quarters in this Barrack. The recruitment costs no money. You can't issue the Recruit order to this facility if it's fully occupied.",
-						"Keep track of the Bastion Defenders housed in each of your Barracks. If you lose Bastion Defenders, deduct them from your roster. Assign names and personalities to your Bastion Defenders as you see fit."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Enlarging the Facility",
-					"entries": [
-						"You can enlarge your Barrack to a Vast facility by spending 2,000 GP. A Vast Barrack can accommodate up to twenty-five Bastion Defenders."
-					]
-				}
-			]
-		},
-		{
-			"name": "Market [PLACEHOLDER]",
-			"source": "CompendiumofAcadia",
-			"page": 339,
-			"facilityType": "special",
-			"level": 5,
-			"space": [
-				"roomy",
-				"vast"
-			],
-			"hirelings": [
-				{
-					"exact": 1
-				}
-			],
-			"orders": [
-				"recruit"
-			],
-			"entries": [
-				"A Bastion can have more than one Barrack, each of which is furnished to serve as sleeping quarters for up to twelve Bastion Defenders.",
-				{
-					"type": "entries",
-					"name": "Recruit: Bastion Defenders",
-					"entries": [
-						"Each time you issue the {@book Recruit|XDMG|7|Recruit} order to this facility, up to four Bastion Defenders are recruited to your Bastion and assigned quarters in this Barrack. The recruitment costs no money. You can't issue the Recruit order to this facility if it's fully occupied.",
-						"Keep track of the Bastion Defenders housed in each of your Barracks. If you lose Bastion Defenders, deduct them from your roster. Assign names and personalities to your Bastion Defenders as you see fit."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Enlarging the Facility",
-					"entries": [
-						"You can enlarge your Barrack to a Vast facility by spending 2,000 GP. A Vast Barrack can accommodate up to twenty-five Bastion Defenders."
-					]
-				}
-			]
-		},
-		{
-			"name": "Artisan's Guild [PLACEHOLDER]",
-			"source": "CompendiumofAcadia",
-			"page": 339,
-			"facilityType": "special",
-			"level": 5,
-			"space": [
-				"roomy",
-				"vast"
-			],
-			"hirelings": [
-				{
-					"exact": 1
-				}
-			],
-			"orders": [
-				"recruit"
-			],
-			"entries": [
-				"A Bastion can have more than one Barrack, each of which is furnished to serve as sleeping quarters for up to twelve Bastion Defenders.",
-				{
-					"type": "entries",
-					"name": "Recruit: Bastion Defenders",
-					"entries": [
-						"Each time you issue the {@book Recruit|XDMG|7|Recruit} order to this facility, up to four Bastion Defenders are recruited to your Bastion and assigned quarters in this Barrack. The recruitment costs no money. You can't issue the Recruit order to this facility if it's fully occupied.",
-						"Keep track of the Bastion Defenders housed in each of your Barracks. If you lose Bastion Defenders, deduct them from your roster. Assign names and personalities to your Bastion Defenders as you see fit."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Enlarging the Facility",
-					"entries": [
-						"You can enlarge your Barrack to a Vast facility by spending 2,000 GP. A Vast Barrack can accommodate up to twenty-five Bastion Defenders."
-					]
-				}
-			]
-		},
-		{
-			"name": "Dueling Grounds [PLACEHOLDER]",
-			"source": "CompendiumofAcadia",
-			"page": 339,
-			"facilityType": "special",
 			"level": 5,
 			"space": [
 				"roomy",
@@ -550,7 +352,6 @@
 		{
 			"name": "Workshop",
 			"source": "CompendiumofAcadia",
-			"page": 349,
 			"facilityType": "special",
 			"level": 5,
 			"space": [
@@ -638,7 +439,6 @@
 		{
 			"name": "War Room",
 			"source": "CompendiumofAcadia",
-			"page": 349,
 			"facilityType": "special",
 			"level": 17,
 			"prerequisite": [
@@ -691,7 +491,6 @@
 		{
 			"name": "Trophy Room",
 			"source": "CompendiumofAcadia",
-			"page": 349,
 			"facilityType": "special",
 			"level": 9,
 			"space": [
@@ -735,7 +534,6 @@
 		{
 			"name": "Training Area",
 			"source": "CompendiumofAcadia",
-			"page": 348,
 			"facilityType": "special",
 			"level": 9,
 			"space": [
@@ -766,7 +564,7 @@
 					"rows": [
 						[
 							"Battle Expert",
-							"When you take damage from an attack made with an {@variantrule Unarmed Strike|XPHB} or a weapon, you can take a Reaction to reduce this damage by {@dice 1d4}."
+							"When you take damage from an attack made with an {@variantrule Unarmed Strike|XPHB} or a weapon, you can take a Reaction to reduce this damage by {@dice 2d4}."
 						],
 						[
 							"Skills Expert",
@@ -798,7 +596,6 @@
 		{
 			"name": "Theater",
 			"source": "CompendiumofAcadia",
-			"page": 348,
 			"facilityType": "special",
 			"level": 9,
 			"space": [
@@ -879,7 +676,6 @@
 		{
 			"name": "Storehouse",
 			"source": "CompendiumofAcadia",
-			"page": 347,
 			"facilityType": "special",
 			"level": 5,
 			"space": [
@@ -899,7 +695,7 @@
 					"type": "entries",
 					"name": "Trade: Goods",
 					"entries": [
-						"When you issue the {@book Trade|XDMG|7|Trade} order to this facility, its hireling spends the next 7 days procuring nonmagical items that have a total value of 500 GP or less and stores them in the Storehouse, or the hireling uses those 7 days to sell goods in the Storehouse. You bear the total cost of any purchases, and the maximum value of the items purchased increases to 2,000 GP when you reach level 9 and 5,000 GP when you reach level 13.",
+						"When you issue the {@book Trade|XDMG|7|Trade} order to this facility, its hireling spends the next 7 days procuring nonmagical items that have a total value of 500 GP or less and stores them in the Storehouse, or the hireling uses those 7 days to sell goods in the Storehouse. You bear the total cost of any purchases, and the maximum value of the items purchased increases to 2,000 GP when you reach level 9 and 4,000 GP when you reach level 13.",
 						"When you sell goods from your Storehouse, the buyer pays you 10 percent more than the standard price; this profit increases to 20 percent when you reach level 9, 50 percent when you reach level 13, and 100 percent when you reach level 17."
 					]
 				}
@@ -908,7 +704,6 @@
 		{
 			"name": "Stable",
 			"source": "CompendiumofAcadia",
-			"page": 347,
 			"facilityType": "special",
 			"level": 9,
 			"space": [
@@ -990,7 +785,6 @@
 		{
 			"name": "Scriptorium",
 			"source": "CompendiumofAcadia",
-			"page": 346,
 			"facilityType": "special",
 			"level": 9,
 			"space": [
@@ -1090,17 +884,8 @@
 		{
 			"name": "Sanctuary",
 			"source": "CompendiumofAcadia",
-			"page": 345,
 			"facilityType": "special",
 			"level": 5,
-			"prerequisite": [
-				{
-					"spellcastingFocus": [
-						"holy",
-						"druid"
-					]
-				}
-			],
 			"space": [
 				"roomy"
 			],
@@ -1133,17 +918,8 @@
 		{
 			"name": "Sacristy",
 			"source": "CompendiumofAcadia",
-			"page": 344,
 			"facilityType": "special",
 			"level": 9,
-			"prerequisite": [
-				{
-					"spellcastingFocus": [
-						"holy",
-						"druid"
-					]
-				}
-			],
 			"space": [
 				"roomy"
 			],
@@ -1192,17 +968,8 @@
 		{
 			"name": "Reliquary",
 			"source": "CompendiumofAcadia",
-			"page": 344,
 			"facilityType": "special",
 			"level": 13,
-			"prerequisite": [
-				{
-					"spellcastingFocus": [
-						"holy",
-						"druid"
-					]
-				}
-			],
 			"space": [
 				"cramped"
 			],
@@ -1235,7 +1002,6 @@
 		{
 			"name": "Pub",
 			"source": "CompendiumofAcadia",
-			"page": 344,
 			"facilityType": "special",
 			"level": 13,
 			"space": [
@@ -1315,14 +1081,8 @@
 		{
 			"name": "Observatory",
 			"source": "CompendiumofAcadia",
-			"page": 343,
 			"facilityType": "special",
 			"level": 13,
-			"prerequisite": [
-				{
-					"spellcastingFocus": true
-				}
-			],
 			"space": [
 				"roomy"
 			],
@@ -1505,7 +1265,6 @@
 		{
 			"name": "Meditation Chamber",
 			"source": "CompendiumofAcadia",
-			"page": 342,
 			"facilityType": "special",
 			"level": 13,
 			"space": [
@@ -1577,7 +1336,6 @@
 		{
 			"name": "Library",
 			"source": "CompendiumofAcadia",
-			"page": 342,
 			"facilityType": "special",
 			"level": 5,
 			"space": [
@@ -1606,7 +1364,6 @@
 		{
 			"name": "Laboratory",
 			"source": "CompendiumofAcadia",
-			"page": 342,
 			"facilityType": "special",
 			"level": 9,
 			"space": [
@@ -1651,7 +1408,6 @@
 		{
 			"name": "Guildhall",
 			"source": "CompendiumofAcadia",
-			"page": 341,
 			"facilityType": "special",
 			"level": 17,
 			"prerequisite": [
@@ -1735,7 +1491,6 @@
 		{
 			"name": "Greenhouse",
 			"source": "CompendiumofAcadia",
-			"page": 341,
 			"facilityType": "special",
 			"level": 9,
 			"space": [
@@ -1786,7 +1541,6 @@
 		{
 			"name": "Garden",
 			"source": "CompendiumofAcadia",
-			"page": 340,
 			"facilityType": "special",
 			"level": 5,
 			"space": [
@@ -1864,7 +1618,6 @@
 		{
 			"name": "Gaming Hall",
 			"source": "CompendiumofAcadia",
-			"page": 340,
 			"facilityType": "special",
 			"level": 9,
 			"space": [
@@ -1921,7 +1674,6 @@
 		{
 			"name": "Demiplane",
 			"source": "CompendiumofAcadia",
-			"page": 340,
 			"facilityType": "special",
 			"level": 17,
 			"prerequisite": [
@@ -1965,7 +1717,6 @@
 		{
 			"name": "Barrack",
 			"source": "CompendiumofAcadia",
-			"page": 339,
 			"facilityType": "special",
 			"level": 5,
 			"space": [
@@ -1984,17 +1735,32 @@
 				"A Bastion can have more than one Barrack, each of which is furnished to serve as sleeping quarters for up to twelve Bastion Defenders.",
 				{
 					"type": "entries",
-					"name": "Recruit: Bastion Defenders",
+					"name": "Recruit Options",
 					"entries": [
-						"Each time you issue the {@book Recruit|XDMG|7|Recruit} order to this facility, up to four Bastion Defenders are recruited to your Bastion and assigned quarters in this Barrack. The recruitment costs no money. You can't issue the Recruit order to this facility if it's fully occupied.",
-						"Keep track of the Bastion Defenders housed in each of your Barracks. If you lose Bastion Defenders, deduct them from your roster. Assign names and personalities to your Bastion Defenders as you see fit."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Enlarging the Facility",
-					"entries": [
-						"You can enlarge your Barrack to a Vast facility by spending 2,000 GP. A Vast Barrack can accommodate up to twenty-five Bastion Defenders."
+						"When you issue the {@book Recruit|XDMG|7|Recruit} order to this facility, choose one of the following options:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Recruit",
+									"entry": "Bastion Defenders. Up to four Bastion Defenders are recruited to your Bastion and assigned quarters in this Barrack. The recruitment costs no money. You can't issue the Recruit order to this facility if it's fully occupied."
+								},
+								{
+									"type": "item",
+									"name": "Recruit",
+									"entry": "You can send any number of Bastion Defenders from the Barracks on a mercenary job for the week. Roll 6d6 (or 6d10 if you expend an Armory stock; magical armor stock equipment is only lost if all Mercenaries die). For each roll of 1, a Mercenary dies. After this, the Mercenaries that are alive, return being Bastion Defenders. <br>If at least one Mercenary survives, you earn 25 GP for every Mercenarie that came back alive. After that, Mercenaries cannot be used as Bastion Defenders for the next week, as they recover mentally and physically from the stress, becaming Bastion Defenders as usually after this."
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Enlarging the Facility",
+							"entries": [
+								"You can enlarge your Barrack to a Vast facility by spending 2,000 GP. A Vast Barrack can accommodate up to twenty-five Bastion Defenders."
+							]
+						}
 					]
 				}
 			]
@@ -2002,7 +1768,6 @@
 		{
 			"name": "Armory",
 			"source": "CompendiumofAcadia",
-			"page": 339,
 			"facilityType": "special",
 			"level": 5,
 			"space": [
@@ -2020,10 +1785,25 @@
 				"An Armory contains mannequins for displaying armor, hooks for holding Shields, racks for storing weapons, and chests for holding ammunition.",
 				{
 					"type": "entries",
-					"name": "Trade: Stock Armory",
+					"name": "Trade Options",
 					"entries": [
-						"When you issue the {@book Trade|XDMG|7|Trade} order to this facility, you commission the facility's hireling to stock the Armory with armor, {@item Shield|XPHB|Shields}, weapons, and ammunition. This equipment costs you 100 GP plus an extra 100 GP for each Bastion Defender in your Bastion. If your Bastion has a {@book Smithy|XDMG|7|Smithy}, the total cost is halved.",
-						"While your Armory is stocked, your Bastion Defenders are harder to kill. When any event causes you to roll dice to determine if your Bastion loses one or more of its defenders (see \"{@book Bastion Events|XDMG|7|Bastion Events}\" at the end of this chapter), roll {@dice 1d8} in place of each {@dice d6} you would normally roll. When the event is over, the equipment in your Armory is expended regardless of how many Bastion Defenders you have or how many you lost, leaving your Armory depleted until you issue another Trade order to the facility and pay the cost to restock it."
+						"When you issue the {@book Trade|XDMG|7|Trade} order to this facility, choose one of the following options:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Trade:",
+									"entry": "Stock Armory. Pay 100 GP + 100 GP per Bastion Defender (halved if your Bastion has a {@book Smithy|XDMG|7|Smithy}) to stock the Armory with equipment. While stocked, your Bastion Defenders are harder to kill. When rolling to determine Defender losses (see {@book Bastion Events|XDMG|7|Bastion Events}), roll 1d10 instead of 1d6.<br>After the event, the Armory is depleted and must be restocked."
+								},
+								{
+									"type": "item",
+									"name": "Trade:",
+									"entry": "Stock Armory (Magical). If you are level 9+, you can restock the Armory with magical equipment for 300 GP + 300 GP per Bastion Defender (following the same rules as Stock Armory). <br>This enchanted stock does not deplete when your Bastion loses Defenders unless an event reduces your Bastion to 0 Defenders, in which case the attackers loot the Armory, depleting it and requiring restocking."
+								}
+							]
+						}
 					]
 				}
 			]
@@ -2031,7 +1811,6 @@
 		{
 			"name": "Archive",
 			"source": "CompendiumofAcadia",
-			"page": 337,
 			"facilityType": "special",
 			"level": 13,
 			"space": [
@@ -2206,117 +1985,6 @@
 			"source": "CompendiumofAcadia",
 			"page": 339,
 			"facilityType": "Basic",
-			"level": 5,
-			"space": [
-				"roomy",
-				"vast"
-			],
-			"hirelings": [
-				{
-					"exact": 1
-				}
-			],
-			"orders": [
-				"recruit"
-			],
-			"entries": [
-				"A Bastion can have more than one Barrack, each of which is furnished to serve as sleeping quarters for up to twelve Bastion Defenders.",
-				{
-					"type": "entries",
-					"name": "Recruit: Bastion Defenders",
-					"entries": [
-						"Each time you issue the {@book Recruit|XDMG|7|Recruit} order to this facility, up to four Bastion Defenders are recruited to your Bastion and assigned quarters in this Barrack. The recruitment costs no money. You can't issue the Recruit order to this facility if it's fully occupied.",
-						"Keep track of the Bastion Defenders housed in each of your Barracks. If you lose Bastion Defenders, deduct them from your roster. Assign names and personalities to your Bastion Defenders as you see fit."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Enlarging the Facility",
-					"entries": [
-						"You can enlarge your Barrack to a Vast facility by spending 2,000 GP. A Vast Barrack can accommodate up to twenty-five Bastion Defenders."
-					]
-				}
-			]
-		},
-		{
-			"name": "Dock [PLACEHOLDER",
-			"source": "CompendiumofAcadia",
-			"page": 339,
-			"facilityType": "special",
-			"level": 5,
-			"space": [
-				"roomy",
-				"vast"
-			],
-			"hirelings": [
-				{
-					"exact": 1
-				}
-			],
-			"orders": [
-				"recruit"
-			],
-			"entries": [
-				"A Bastion can have more than one Barrack, each of which is furnished to serve as sleeping quarters for up to twelve Bastion Defenders.",
-				{
-					"type": "entries",
-					"name": "Recruit: Bastion Defenders",
-					"entries": [
-						"Each time you issue the {@book Recruit|XDMG|7|Recruit} order to this facility, up to four Bastion Defenders are recruited to your Bastion and assigned quarters in this Barrack. The recruitment costs no money. You can't issue the Recruit order to this facility if it's fully occupied.",
-						"Keep track of the Bastion Defenders housed in each of your Barracks. If you lose Bastion Defenders, deduct them from your roster. Assign names and personalities to your Bastion Defenders as you see fit."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Enlarging the Facility",
-					"entries": [
-						"You can enlarge your Barrack to a Vast facility by spending 2,000 GP. A Vast Barrack can accommodate up to twenty-five Bastion Defenders."
-					]
-				}
-			]
-		},
-		{
-			"name": "Crypt [PLACEHOLDER]",
-			"source": "CompendiumofAcadia",
-			"page": 339,
-			"facilityType": "special",
-			"level": 5,
-			"space": [
-				"roomy",
-				"vast"
-			],
-			"hirelings": [
-				{
-					"exact": 1
-				}
-			],
-			"orders": [
-				"recruit"
-			],
-			"entries": [
-				"A Bastion can have more than one Barrack, each of which is furnished to serve as sleeping quarters for up to twelve Bastion Defenders.",
-				{
-					"type": "entries",
-					"name": "Recruit: Bastion Defenders",
-					"entries": [
-						"Each time you issue the {@book Recruit|XDMG|7|Recruit} order to this facility, up to four Bastion Defenders are recruited to your Bastion and assigned quarters in this Barrack. The recruitment costs no money. You can't issue the Recruit order to this facility if it's fully occupied.",
-						"Keep track of the Bastion Defenders housed in each of your Barracks. If you lose Bastion Defenders, deduct them from your roster. Assign names and personalities to your Bastion Defenders as you see fit."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Enlarging the Facility",
-					"entries": [
-						"You can enlarge your Barrack to a Vast facility by spending 2,000 GP. A Vast Barrack can accommodate up to twenty-five Bastion Defenders."
-					]
-				}
-			]
-		},
-		{
-			"name": "Spellcasting Hall [PLACEHOLDER]",
-			"source": "CompendiumofAcadia",
-			"page": 339,
-			"facilityType": "special",
 			"level": 5,
 			"space": [
 				"roomy",
