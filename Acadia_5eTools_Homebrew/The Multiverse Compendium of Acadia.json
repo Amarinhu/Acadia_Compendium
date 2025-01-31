@@ -126045,44 +126045,7 @@
 				}
 			],
 			"entries": [
-				"At your touch, you try breaking the curses affecting one creature or object. If the object is a cursed magic item, its curse remains, but the spell breaks its owner's {@variantrule Attunement|XPHB} to the object, allowing it to be removed or discarded. ",
-				"For each ongoing curse on the target, make an ability check using your spellcasting ability. The DCs are defined like the following:",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Spell-created curse",
-							"entries": [
-								"The DC is 10 + the spell's level. You automatically succeed if the DC is 13 or lower."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Magic item curse",
-							"entries": [
-								"The DC is based on the item's rarity:",
-								{
-									"type": "list",
-									"items": [
-										"Common or Uncommon: The curse is automatically broken.",
-										"Rare: DC 16",
-										"Very Rare: DC 18",
-										"Legendary: DC 19"
-									]
-								}
-							]
-						},
-						{
-							"type": "item",
-							"name": "Creature-created curse",
-							"entries": [
-								"The DC equals to 10 + half the creature's {@variantrule Challenge Rating|XPHB}, up to a maximum of 19. You automatically succeed if the CR of the creature is 6 or lower."
-							]
-						}
-					]
-				}
+				"At your touch, you attempt to break a curse afflicting a creature or object. If the target is a cursed creature, make a spellcasting ability check against the curse’s DC: DC 14 if the curse lasts 10 minutes or more, DC 16 if 8 hours or longer, DC 18 if 24 hours or more, and DC 19 if the curse lasts until dispelled. Curses lasting 1 minute or less are removed automatically. If the target is a cursed magic item, the curse remains, but {@variantrule Attunement|XPHB} to it is broken, allowing removal or disposal."
 			],
 			"miscTags": [
 				"OBJ"
