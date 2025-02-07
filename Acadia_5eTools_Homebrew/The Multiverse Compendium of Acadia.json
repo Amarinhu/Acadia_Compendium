@@ -170551,6 +170551,163 @@
 					"source": "GGR"
 				}
 			]
+		},
+		{
+			"name": "Theseus's Judgment",
+			"source": "CompendiumofAcadia",
+			"level": 2,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Choose a creature that you can see within range. If the creature is holding an object, you may choose that object; otherwise, or if you prefer, you can forgo choosing an object.",
+				"Constructs, Elementals, Oozes, Plants, or Undead creatures are unaffected by this spell.",
+				"You cause the creature to experience searing pain as if its blood were boiling, forcing it to make a Constitution saving throw. On a failed save, the creature takes {@damage 1d8} Necrotic damage and, if you chose an object, drops that object; on a successful save, it only takes the damage.",
+				"On each of your subsequent turns, you can use a {@variantrule Bonus Action|XPHB} to force the creature to repeat the saving throw for the chosen object (or for a different object it holds). The creature takes {@damage 1d8} Necrotic damage on each turn, and if it fails the saving throw while an object was chosen, it drops that object.",
+				"If the creature ends its turn more than 60 feet away from you, it must make a Constitution saving throw, ending the spell on a success."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"The damage increases by {@scaledamage 2d8|2-9|1d8} for each spell slot level above 2."
+					]
+				}
+			],
+			"damageInflict": [
+				"lightning"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"miscTags": [
+				"UBA"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"hasFluffImages": true,
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "XPHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Bard",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "College of Lore",
+							"shortName": "Lore",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "XPHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "XPHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					}
+				]
+			},
+			"feats": [
+				{
+					"name": "Aberrant Dragonmark",
+					"source": "ERLW"
+				},
+				{
+					"name": "Divinely Favored",
+					"source": "DSotDQ"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "XPHB"
+				},
+				{
+					"name": "Strixhaven Initiate",
+					"source": "SCC"
+				}
+			]
 		}
 	],
 	"item": [
@@ -171871,8 +172028,8 @@
 							"-25%"
 						],
 						[
-							"\u00A0",
-							"\u00A0"
+							" ",
+							" "
 						],
 						[
 							"<b>Delivery:</b> Dangerous",
@@ -171883,8 +172040,8 @@
 							"+25%"
 						],
 						[
-							"\u00A0",
-							"\u00A0"
+							" ",
+							" "
 						],
 						[
 							"<b>Demand:</b> High",
@@ -171895,8 +172052,8 @@
 							"-25%"
 						],
 						[
-							"\u00A0",
-							"\u00A0"
+							" ",
+							" "
 						],
 						[
 							"<b>Item Condition:</b> Known to Be Stolen",
@@ -171907,8 +172064,8 @@
 							"-50%"
 						],
 						[
-							"\u00A0",
-							"\u00A0"
+							" ",
+							" "
 						],
 						[
 							"<b>Mood:</b> Greedy or Suspicious",
@@ -171919,8 +172076,8 @@
 							"-25%"
 						],
 						[
-							"\u00A0",
-							"\u00A0"
+							" ",
+							" "
 						],
 						[
 							"<b>Origin:</b> Exotic or Foreign",
@@ -171931,8 +172088,8 @@
 							"-25%"
 						],
 						[
-							"\u00A0",
-							"\u00A0"
+							" ",
+							" "
 						],
 						[
 							"<b>Production:</b> Artisan-Crafted",
@@ -171943,8 +172100,8 @@
 							"-75%"
 						],
 						[
-							"\u00A0",
-							"\u00A0"
+							" ",
+							" "
 						],
 						[
 							"<b>Scarcity:</b> High",
