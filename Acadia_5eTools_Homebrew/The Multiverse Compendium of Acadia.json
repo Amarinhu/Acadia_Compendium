@@ -172601,6 +172601,10 @@
 								[
 									"{@spell Planar Translation|CompendiumofAcadia}",
 									"Translate aspects of the creature to become more native to the plane or world it's in"
+								],
+								[
+									"{@spell Theseus's Judgment|CompendiumofAcadia}",
+									"?"
 								]
 							]
 						}
