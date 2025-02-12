@@ -170712,6 +170712,615 @@
 	],
 	"item": [
 		{
+			"name": "Lucidite",
+			"source": "CompendiumofAcadia",
+			"type": "$G|XDMG",
+			"rarity": "none",
+			"value": 100000,
+			"entries": [
+				"A gemstone crafted from Lucidite, a pristine white, highly polished mineral valued in Transmutation spells and enchantments. Its unique properties, repelling filth, blood, and liquids, make it a sought-after material."
+			]
+		},
+		{
+			"name": "Boots of False Tracks",
+			"source": "CompendiumofAcadia",
+			"value": 10000,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"While wearing these boots, you can have them leave tracks like those of any kind of Humanoid of your size.",
+				"<b><i>See the Recipe:</i></b> {@item Boots of False Tracks (Recipe)|CompendiumofAcadia}"
+			],
+			"lootTables": [
+				"Implements - Common|XDMG"
+			]
+		},
+		{
+			"name": "Candle of the Deep",
+			"source": "CompendiumofAcadia",
+			"value": 500,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"The flame of this candle isn't extinguished when immersed in water. It works as a normal candle extinguishing after 1 hour. It gives off light and heat like a normal candle.",
+				"<b><i>See the Recipe:</i></b> {@item Candle of the Deep (Recipe)|CompendiumofAcadia}"
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Implements - Common|XDMG"
+			]
+		},
+		{
+			"name": "Bead of Refreshment (Recipe)",
+			"source": "CompendiumofAcadia",
+			"type": "OTH|MCA",
+			"entries": [
+				"<b>Requirements:</b> Proficiency in Nature or Survival, or the {@feat Chef|XPHB} feat, and the <i>Spellcasting</i> feature.",
+				"<b>Materials:</b> 25 GP worth of animal bones, cartilage, skin, and special hydrating herbs or fungi.",
+				"<b>Time:</b> 2 days.",
+				"<b>Process:</b> The special hydrating herbs and fungi required for this recipe can be found in many environments, including the Underdark, desert oases, humid forests, swamps, mountains, grasslands, and coastal islands. To create this, a gelatin-like substance is first prepared using animal bones, cartilage, and skin. This mixture is then combined with the raw, hydrating herbs and/or fungi. Once the mixture is ready, it is shaped into a large gelatin cube and placed atop magical symbols that must be continuously reactivated to enhance its ability to purify and cool liquids. At the end of the process, the cube is divided into 10 {@item Bead of Refreshment|CompendiumofAcadia|Beads of Refreshment}."
+			]
+		},
+		{
+			"name": "Candle of the Deep (Recipe)",
+			"source": "CompendiumofAcadia",
+			"type": "OTH|MCA",
+			"entries": [
+				"Requirements: Ability to cast {@spell Produce Flame|CompendiumofAcadia}.",
+				"<b>Materials:</b> Ruby dust worth 50 GP.",
+				"<b>Time:</b> 5 days.",
+				"<b>Process:</b> Involves carving numerous evocation runes into each candle in a ritual, along with modified incantations of {@spell Produce Flame|CompendiumofAcadia}. These spells help embed the evocation runes into the wax. Once the process is complete, it produces 10 {@item Candle of the Deep|CompendiumofAcadia|Candles of the Deep}."
+			]
+		},
+		{
+			"name": "Boots of False Tracks (Recipe)",
+			"source": "CompendiumofAcadia",
+			"type": "OTH|MCA",
+			"entries": [
+				"<b>Requirements:</b> Proficiency in {@item Leatherworker's Tools|XPHB} or {@item Cobbler's Tools|XPHB}, and the ability to cast Transmutation spells.",
+				"<b>Materials:</b> A pair of boots, 50 GP worth of leather from a shapeshifting creature (such as a {@creature Mimic|XMM}, {@creature Doppelganger|XMM}, or {@creature Barghest|VGM}), and small sigils representing different humanoid footprints.",
+				"<b>Time:</b> 5 days.",
+				"<b>Process:</b> The leather from a shapeshifting creature is used to craft the straps or soles of the boots, allowing them to physically alter their footprint. Using Transmutation magic, the natural shape-changing properties of the hide are enhanced and stabilized. Small sigils, each representing the sole of a humanoid species, are inscribed onto the leather during the process."
+			]
+		},		
+		{
+			"name": "Bead of Refreshment",
+			"source": "CompendiumofAcadia",
+			"value": 500,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This flavorless, gelatinous bead dissolves in liquid, transforming up to a pint of the liquid into fresh, cold drinking water. The bead has no effect on magical liquids or harmful substances such as poison.",
+				"<b><i>See the Recipe:</i></b> {@item Bead of Refreshment (Recipe)|CompendiumofAcadia}"
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Implements - Common|XDMG"
+			],
+			"miscTags": [
+				"CNS"
+			]
+		},
+		{
+			"name": "Bead of Nourishment",
+			"source": "CompendiumofAcadia",
+			"value": 500,
+			"freeRules2024": true,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This flavorless, gelatinous bead dissolves on your tongue and provides as much nourishment as 1 day of Rations.",
+				"<b><i>See the Recipe:</i></b> {@item Bead of Nourishment (Recipe)|CompendiumofAcadia}"
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Implements - Common|XDMG"
+			],
+			"miscTags": [
+				"CF/W",
+				"CNS"
+			]
+		},
+		{
+			"name": "Armor of Gleaming",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"type": "LA|XPHB"
+				},
+				{
+					"type": "MA|XPHB"
+				},
+				{
+					"type": "HA|XPHB"
+				}
+			],
+			"source": "CompendiumofAcadia",
+			"page": 230,
+			"rarity": "common",
+			"value": 10000,
+			"entries": [
+				"This armor never gets dirty.",
+				"<b><i>See the Recipe:</i></b> {@item Armor of Gleaming (Recipe)|CompendiumofAcadia}"
+			],
+			"variants": [
+				{
+					"base": {
+						"name": "Breastplate",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "MA|XPHB",
+						"rarity": "none",
+						"weight": 20,
+						"value": 40000,
+						"ac": 14,
+						"armor": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Breastplate of Gleaming",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "MA|XPHB",
+						"rarity": "common",
+						"weight": 20,
+						"ac": 14,
+						"armor": true,
+						"entries": [],
+						"page": 230,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Armor of Gleaming",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Chain Mail",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "HA|XPHB",
+						"rarity": "none",
+						"weight": 55,
+						"value": 7500,
+						"ac": 16,
+						"strength": "13",
+						"armor": true,
+						"stealth": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Chain Mail of Gleaming",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "HA|XPHB",
+						"rarity": "common",
+						"weight": 55,
+						"ac": 16,
+						"strength": "13",
+						"armor": true,
+						"stealth": true,
+						"entries": [],
+						"page": 230,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Armor of Gleaming",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Chain Shirt",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "MA|XPHB",
+						"rarity": "none",
+						"weight": 20,
+						"value": 5000,
+						"ac": 13,
+						"armor": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Chain Shirt of Gleaming",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "MA|XPHB",
+						"rarity": "common",
+						"weight": 20,
+						"ac": 13,
+						"armor": true,
+						"entries": [],
+						"page": 230,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Armor of Gleaming",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Half Plate Armor",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "MA|XPHB",
+						"rarity": "none",
+						"weight": 40,
+						"value": 75000,
+						"ac": 15,
+						"armor": true,
+						"stealth": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Half Plate Armor of Gleaming",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "MA|XPHB",
+						"rarity": "common",
+						"weight": 40,
+						"ac": 15,
+						"armor": true,
+						"stealth": true,
+						"entries": [],
+						"page": 230,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Armor of Gleaming",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Hide Armor",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "MA|XPHB",
+						"rarity": "none",
+						"weight": 12,
+						"value": 1000,
+						"ac": 12,
+						"armor": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Hide Armor of Gleaming",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "MA|XPHB",
+						"rarity": "common",
+						"weight": 12,
+						"ac": 12,
+						"armor": true,
+						"entries": [],
+						"page": 230,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Armor of Gleaming",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Leather Armor",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "LA|XPHB",
+						"rarity": "none",
+						"weight": 10,
+						"value": 1000,
+						"ac": 11,
+						"armor": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Leather Armor of Gleaming",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "LA|XPHB",
+						"rarity": "common",
+						"weight": 10,
+						"ac": 11,
+						"armor": true,
+						"entries": [],
+						"page": 230,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Armor of Gleaming",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Padded Armor",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "LA|XPHB",
+						"rarity": "none",
+						"weight": 8,
+						"value": 500,
+						"ac": 11,
+						"armor": true,
+						"stealth": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Padded Armor of Gleaming",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "LA|XPHB",
+						"rarity": "common",
+						"weight": 8,
+						"ac": 11,
+						"armor": true,
+						"stealth": true,
+						"entries": [],
+						"page": 230,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Armor of Gleaming",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Plate Armor",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "HA|XPHB",
+						"rarity": "none",
+						"weight": 65,
+						"value": 150000,
+						"ac": 18,
+						"strength": "15",
+						"armor": true,
+						"stealth": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Plate Armor of Gleaming",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "HA|XPHB",
+						"rarity": "common",
+						"weight": 65,
+						"ac": 18,
+						"strength": "15",
+						"armor": true,
+						"stealth": true,
+						"entries": [],
+						"page": 230,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Armor of Gleaming",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Ring Mail",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "HA|XPHB",
+						"rarity": "none",
+						"weight": 40,
+						"value": 3000,
+						"ac": 14,
+						"armor": true,
+						"stealth": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Ring Mail of Gleaming",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "HA|XPHB",
+						"rarity": "common",
+						"weight": 40,
+						"ac": 14,
+						"armor": true,
+						"stealth": true,
+						"entries": [],
+						"page": 230,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Armor of Gleaming",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Scale Mail",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "MA|XPHB",
+						"rarity": "none",
+						"weight": 45,
+						"value": 5000,
+						"ac": 14,
+						"armor": true,
+						"stealth": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Scale Mail of Gleaming",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "MA|XPHB",
+						"rarity": "common",
+						"weight": 45,
+						"ac": 14,
+						"armor": true,
+						"stealth": true,
+						"entries": [],
+						"page": 230,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Armor of Gleaming",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Splint Armor",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "HA|XPHB",
+						"rarity": "none",
+						"weight": 60,
+						"value": 20000,
+						"ac": 17,
+						"strength": "15",
+						"armor": true,
+						"stealth": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Splint Armor of Gleaming",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "HA|XPHB",
+						"rarity": "common",
+						"weight": 60,
+						"ac": 17,
+						"strength": "15",
+						"armor": true,
+						"stealth": true,
+						"entries": [],
+						"page": 230,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Armor of Gleaming",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Studded Leather Armor",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "LA|XPHB",
+						"rarity": "none",
+						"weight": 13,
+						"value": 4500,
+						"ac": 12,
+						"armor": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Studded Leather Armor of Gleaming",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "LA|XPHB",
+						"rarity": "common",
+						"weight": 13,
+						"ac": 12,
+						"armor": true,
+						"entries": [],
+						"page": 230,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Armor of Gleaming",
+							"source": "XDMG"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Bead of Nourishment (Recipe)",
+			"source": "CompendiumofAcadia",
+			"type": "OTH|MCA",
+			"entries": [
+				"<b>Requirements:</b> Proficiency in Nature or Survival, or the {@feat Chef|XPHB} feat, and the <i>Spellcasting</i> feature.",
+				"<b>Materials:</b> 25 GP worth of animal bones, cartilage, skin, and special nutritive herbs or mushrooms.",
+				"<b>Time:</b> 2 days.",
+				"<b>Process:</b> The special nutritive herbs and mushrooms required for this recipe can be found in many environments, including the Underdark, desert oases, humid forests, swamps, mountains, grasslands, and coastal islands. To create this, a gelatin-like substance is first prepared using animal bones, cartilage, and skin. This mixture is then combined with the raw, highly nutritious herbs and/or mushrooms. Once the mixture is ready, it is shaped into a large gelatin cube and placed atop magical symbols that must be continuously reactivated to enhance its nutritional properties. At the end of the process, the cube is divided into 10 {@item Bead of Nourishment|CompendiumofAcadia|Beads of Nourishment}."
+			]
+		},
+		{
+			"name": "Armor of Gleaming (Recipe)",
+			"source": "CompendiumofAcadia",
+			"type": "OTH|MCA",
+			"entries": [
+				"<b>Requirements:</b> Ability to cast {@spell Prestidigitation|CompendiumofAcadia}.",
+				"<b>Materials:</b> 50 GP worth of {@item Lucidite|CompendiumofAcadia}.",
+				"<b>Time:</b> 5 days.",
+				"<b>Process:</b> Lucidite, a rare mineral found in deep caves and mining settlements, must be ground into fine powder (2 ounces per armor). Sprinkling this dust over the armor while reciting a modified {@spell Prestidigitation|CompendiumofAcadia} Transmutation incantation binds the material, making the armor permanently resistant to dirt and grime. This amount is sufficient for any armor designed for a Medium or Small creature."
+			]
+		},
+		{
 			"name": "Crown of the Silverymoon",
 			"source": "CompendiumofAcadia",
 			"rarity": "rare",
