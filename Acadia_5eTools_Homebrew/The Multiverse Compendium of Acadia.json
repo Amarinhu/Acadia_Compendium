@@ -170742,7 +170742,7 @@
 			"rarity": "common",
 			"wondrous": true,
 			"entries": [
-				"The flame of this candle isn't extinguished when immersed in water. It works as a normal candle extinguishing after 1 hour. It gives off light and heat like a normal candle.",
+				"The flame of this candle isn't extinguished when immersed in water. It gives off light and heat like a normal candle.",
 				"<b><i>See the Recipe:</i></b> {@item Candle of the Deep (Recipe)|CompendiumofAcadia}"
 			],
 			"lootTables": [
@@ -170755,7 +170755,6 @@
 			"source": "CompendiumofAcadia",
 			"type": "OTH|MCA",
 			"entries": [
-				"<b>Requirements:</b> Proficiency in Nature or Survival, or the {@feat Chef|XPHB} feat, and the <i>Spellcasting</i> feature.",
 				"<b>Materials:</b> 25 GP worth of animal bones, cartilage, skin, and special hydrating herbs or fungi.",
 				"<b>Time:</b> 2 days.",
 				"<b>Process:</b> The special hydrating herbs and fungi required for this recipe can be found in many environments, including the Underdark, desert oases, humid forests, swamps, mountains, grasslands, and coastal islands. To create this, a gelatin-like substance is first prepared using animal bones, cartilage, and skin. This mixture is then combined with the raw, hydrating herbs and/or fungi. Once the mixture is ready, it is shaped into a large gelatin cube and placed atop magical symbols that must be continuously reactivated to enhance its ability to purify and cool liquids. At the end of the process, the cube is divided into 10 {@item Bead of Refreshment|CompendiumofAcadia|Beads of Refreshment}."
@@ -170769,7 +170768,7 @@
 				"Requirements: Ability to cast {@spell Produce Flame|CompendiumofAcadia}.",
 				"<b>Materials:</b> Ruby dust worth 50 GP.",
 				"<b>Time:</b> 5 days.",
-				"<b>Process:</b> Involves carving numerous evocation runes into each candle in a ritual, along with modified incantations of {@spell Produce Flame|CompendiumofAcadia}. These spells help embed the evocation runes into the wax. Once the process is complete, it produces 10 {@item Candle of the Deep|CompendiumofAcadia|Candles of the Deep}."
+				"<b>Process:</b> Involves carving numerous evocation runes into each candle in a ritual, along with modified incantations of {@spell Produce Flame|CompendiumofAcadia}. These spells help embed the evocation runes into the wax. Once the process is complete, it produces a {@item Candle of the Deep|CompendiumofAcadia}."
 			]
 		},
 		{
@@ -170777,12 +170776,535 @@
 			"source": "CompendiumofAcadia",
 			"type": "OTH|MCA",
 			"entries": [
-				"<b>Requirements:</b> Proficiency in {@item Leatherworker's Tools|XPHB} or {@item Cobbler's Tools|XPHB}, and the ability to cast Transmutation spells.",
 				"<b>Materials:</b> A pair of boots, 50 GP worth of leather from a shapeshifting creature (such as a {@creature Mimic|XMM}, {@creature Doppelganger|XMM}, or {@creature Barghest|VGM}), and small sigils representing different humanoid footprints.",
 				"<b>Time:</b> 5 days.",
 				"<b>Process:</b> The leather from a shapeshifting creature is used to craft the straps or soles of the boots, allowing them to physically alter their footprint. Using Transmutation magic, the natural shape-changing properties of the hide are enhanced and stabilized. Small sigils, each representing the sole of a humanoid species, are inscribed onto the leather during the process."
 			]
-		},		
+		},
+		{
+			"name": "Charlatan's Die",
+			"source": "CompendiumofAcadia",
+			"rarity": "common",
+			"reqAttune": true,
+			"wondrous": true,
+			"value": "10000",
+			"entries": [
+				"Whenever you roll this six-sided die, you can control which number it rolls.",
+				"<b><i>See the Recipe:</i></b> {@item Charlatan's Die (Recipe)|CompendiumofAcadia}"
+			],
+			"lootTables": [
+				"Implements - Common|XDMG"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Charlatan's Die (Recipe)",
+			"source": "CompendiumofAcadia",
+			"type": "OTH|MCA",
+			"entries": [
+				"<b>Materials:</b> A small {@item Jade|XDMG} worth 50 GP.",
+				"<b>Time:</b> 5 days.",
+				"<b>Process:</b> Carefully etch telepathic and divinatory sigils onto the jade using a fine needle. These arcane markings imbue the stone with subtle powers that skew perception and probability. Once the sigils are complete, embed the jade within the core of a standard gaming die."
+			]
+		},
+		{
+			"name": "Cast-Off Armor (Recipe)",
+			"source": "CompendiumofAcadia",
+			"type": "OTH|MCA",
+			"entries": [
+				"<b>Materials:</b> 50 GP worth of special inks made for Conjuration magic + nonmagical armor.",
+				"<b>Time:</b> 5 days.",
+				"<b>Process:</b> The armor is inscribed with numerous tiny sigils related to teleportation, carefully placed across its surface. These sigils dictate the movement of the armor, ensuring it can accommodate the wearer's body when activated. Rituals are performed throughout the process, encoding precise instructions into the sigils on how the teleportation should function, allowing the armor to swiftly equip itself onto the user when needed."
+			]
+		},
+		{
+			"name": "Cast-Off Armor",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"type": "LA|XPHB"
+				},
+				{
+					"type": "MA|XPHB"
+				},
+				{
+					"type": "HA|XPHB"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Cast-Off ",
+				"source": "XDMG",
+				"page": 243,
+				"rarity": "common",
+				"entries": [
+					"You can doff this armor as a {@action Magic|XPHB} action."
+				],
+				"lootTables": [
+					"Armaments - Common|XDMG"
+				]
+			},
+			"source": "CompendiumofAcadia",
+			"value": "10000",
+			"rarity": "common",
+			"entries": [
+				"You can doff this armor as a {@action Magic|XPHB} action.",
+				"<b><i>See the Recipe:</i></b> {@item Cast-Off Armor (Recipe)|CompendiumofAcadia}"
+			],
+			"variants": [
+				{
+					"base": {
+						"name": "Breastplate",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "MA|XPHB",
+						"rarity": "none",
+						"weight": 20,
+						"value": 40000,
+						"ac": 14,
+						"armor": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Cast-Off Breastplate",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "MA|XPHB",
+						"rarity": "common",
+						"weight": 20,
+						"ac": 14,
+						"armor": true,
+						"entries": [],
+						"page": 243,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Cast-Off Armor",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Chain Mail",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "HA|XPHB",
+						"rarity": "none",
+						"weight": 55,
+						"value": 7500,
+						"ac": 16,
+						"strength": "13",
+						"armor": true,
+						"stealth": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Cast-Off Chain Mail",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "HA|XPHB",
+						"rarity": "common",
+						"weight": 55,
+						"ac": 16,
+						"strength": "13",
+						"armor": true,
+						"stealth": true,
+						"entries": [],
+						"page": 243,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Cast-Off Armor",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Chain Shirt",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "MA|XPHB",
+						"rarity": "none",
+						"weight": 20,
+						"value": 5000,
+						"ac": 13,
+						"armor": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Cast-Off Chain Shirt",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "MA|XPHB",
+						"rarity": "common",
+						"weight": 20,
+						"ac": 13,
+						"armor": true,
+						"entries": [],
+						"page": 243,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Cast-Off Armor",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Half Plate Armor",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "MA|XPHB",
+						"rarity": "none",
+						"weight": 40,
+						"value": 75000,
+						"ac": 15,
+						"armor": true,
+						"stealth": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Cast-Off Half Plate Armor",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "MA|XPHB",
+						"rarity": "common",
+						"weight": 40,
+						"ac": 15,
+						"armor": true,
+						"stealth": true,
+						"entries": [],
+						"page": 243,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Cast-Off Armor",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Hide Armor",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "MA|XPHB",
+						"rarity": "none",
+						"weight": 12,
+						"value": 1000,
+						"ac": 12,
+						"armor": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Cast-Off Hide Armor",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "MA|XPHB",
+						"rarity": "common",
+						"weight": 12,
+						"ac": 12,
+						"armor": true,
+						"entries": [],
+						"page": 243,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Cast-Off Armor",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Leather Armor",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "LA|XPHB",
+						"rarity": "none",
+						"weight": 10,
+						"value": 1000,
+						"ac": 11,
+						"armor": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Cast-Off Leather Armor",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "LA|XPHB",
+						"rarity": "common",
+						"weight": 10,
+						"ac": 11,
+						"armor": true,
+						"entries": [],
+						"page": 243,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Cast-Off Armor",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Padded Armor",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "LA|XPHB",
+						"rarity": "none",
+						"weight": 8,
+						"value": 500,
+						"ac": 11,
+						"armor": true,
+						"stealth": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Cast-Off Padded Armor",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "LA|XPHB",
+						"rarity": "common",
+						"weight": 8,
+						"ac": 11,
+						"armor": true,
+						"stealth": true,
+						"entries": [],
+						"page": 243,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Cast-Off Armor",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Plate Armor",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "HA|XPHB",
+						"rarity": "none",
+						"weight": 65,
+						"value": 150000,
+						"ac": 18,
+						"strength": "15",
+						"armor": true,
+						"stealth": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Cast-Off Plate Armor",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "HA|XPHB",
+						"rarity": "common",
+						"weight": 65,
+						"ac": 18,
+						"strength": "15",
+						"armor": true,
+						"stealth": true,
+						"entries": [],
+						"page": 243,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Cast-Off Armor",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Ring Mail",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "HA|XPHB",
+						"rarity": "none",
+						"weight": 40,
+						"value": 3000,
+						"ac": 14,
+						"armor": true,
+						"stealth": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Cast-Off Ring Mail",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "HA|XPHB",
+						"rarity": "common",
+						"weight": 40,
+						"ac": 14,
+						"armor": true,
+						"stealth": true,
+						"entries": [],
+						"page": 243,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Cast-Off Armor",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Scale Mail",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "MA|XPHB",
+						"rarity": "none",
+						"weight": 45,
+						"value": 5000,
+						"ac": 14,
+						"armor": true,
+						"stealth": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Cast-Off Scale Mail",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "MA|XPHB",
+						"rarity": "common",
+						"weight": 45,
+						"ac": 14,
+						"armor": true,
+						"stealth": true,
+						"entries": [],
+						"page": 243,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Cast-Off Armor",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Splint Armor",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "HA|XPHB",
+						"rarity": "none",
+						"weight": 60,
+						"value": 20000,
+						"ac": 17,
+						"strength": "15",
+						"armor": true,
+						"stealth": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Cast-Off Splint Armor",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "HA|XPHB",
+						"rarity": "common",
+						"weight": 60,
+						"ac": 17,
+						"strength": "15",
+						"armor": true,
+						"stealth": true,
+						"entries": [],
+						"page": 243,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Cast-Off Armor",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Studded Leather Armor",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "LA|XPHB",
+						"rarity": "none",
+						"weight": 13,
+						"value": 4500,
+						"ac": 12,
+						"armor": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Cast-Off Studded Leather Armor",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "LA|XPHB",
+						"rarity": "common",
+						"weight": 13,
+						"ac": 12,
+						"armor": true,
+						"entries": [],
+						"page": 243,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Cast-Off Armor",
+							"source": "XDMG"
+						}
+					}
+				}
+			]
+		},
 		{
 			"name": "Bead of Refreshment",
 			"source": "CompendiumofAcadia",
@@ -170876,7 +171398,7 @@
 						],
 						"genericVariant": {
 							"name": "Armor of Gleaming",
-							"source": "XDMG"
+							"source": "CompendiumofAcadia"
 						}
 					}
 				},
@@ -171303,7 +171825,6 @@
 			"source": "CompendiumofAcadia",
 			"type": "OTH|MCA",
 			"entries": [
-				"<b>Requirements:</b> Proficiency in Nature or Survival, or the {@feat Chef|XPHB} feat, and the <i>Spellcasting</i> feature.",
 				"<b>Materials:</b> 25 GP worth of animal bones, cartilage, skin, and special nutritive herbs or mushrooms.",
 				"<b>Time:</b> 2 days.",
 				"<b>Process:</b> The special nutritive herbs and mushrooms required for this recipe can be found in many environments, including the Underdark, desert oases, humid forests, swamps, mountains, grasslands, and coastal islands. To create this, a gelatin-like substance is first prepared using animal bones, cartilage, and skin. This mixture is then combined with the raw, highly nutritious herbs and/or mushrooms. Once the mixture is ready, it is shaped into a large gelatin cube and placed atop magical symbols that must be continuously reactivated to enhance its nutritional properties. At the end of the process, the cube is divided into 10 {@item Bead of Nourishment|CompendiumofAcadia|Beads of Nourishment}."
@@ -171314,8 +171835,7 @@
 			"source": "CompendiumofAcadia",
 			"type": "OTH|MCA",
 			"entries": [
-				"<b>Requirements:</b> Ability to cast {@spell Prestidigitation|CompendiumofAcadia}.",
-				"<b>Materials:</b> 50 GP worth of {@item Lucidite|CompendiumofAcadia}.",
+				"<b>Materials:</b> 50 GP worth of {@item Lucidite|CompendiumofAcadia} + nonmagical armor.",
 				"<b>Time:</b> 5 days.",
 				"<b>Process:</b> Lucidite, a rare mineral found in deep caves and mining settlements, must be ground into fine powder (2 ounces per armor). Sprinkling this dust over the armor while reciting a modified {@spell Prestidigitation|CompendiumofAcadia} Transmutation incantation binds the material, making the armor permanently resistant to dirt and grime. This amount is sufficient for any armor designed for a Medium or Small creature."
 			]
