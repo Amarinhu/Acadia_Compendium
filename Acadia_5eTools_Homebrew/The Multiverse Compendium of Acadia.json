@@ -170848,7 +170848,8 @@
 			"rarity": "common",
 			"entries": [
 				"You can doff this armor as a {@action Magic|XPHB} action.",
-				"<b><i>See the Recipe:</i></b> {@item Cast-Off Armor (Recipe)|CompendiumofAcadia}"
+				"<b><i>See the Recipe:</i></b> {@item Cast-Off Armor (Recipe)|CompendiumofAcadia}",
+				"<b>Price.</b> The Price of a Cast-Off Armor is equal to the price of the armor + 100 GP."
 			],
 			"variants": [
 				{
@@ -171344,6 +171345,51 @@
 			]
 		},
 		{
+			"name": "Clockwork Amulet",
+			"source": "XDMG",
+			"value" : 10000,
+			"rarity": "common",
+			"wondrous": true,
+			"recharge": "dawn",
+			"charges": 1,
+			"entries": [
+				"This copper amulet contains tiny interlocking gears and is powered by magic from Mechanus, a plane of clockwork predictability. Faint ticking and whirring noises emanate from within.",
+				"When you make an attack roll while wearing the amulet, you can forgo rolling the {@dice d20} to get a 10 on the die. Once used, this property can't be used again until the next dawn."
+			],
+			"lootTables": [
+				"Implements - Common|XDMG"
+			]
+		},
+		{
+			"name": "Cloak of Many Fashions",
+			"source": "CompendiumofAcadia",
+			"value" : 10000,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"While wearing this cloak, you can take a {@variantrule Bonus Action|XPHB} to change the style, color, and apparent quality of the garment. The cloak's weight doesn't change. Regardless of its appearance, the cloak can't be anything but a cloak. Although it can duplicate the appearance of other magic cloaks, it doesn't gain their magical properties."
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Implements - Common|XDMG"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Cloak of Billowing",
+			"source": "CompendiumofAcadia",
+			"value" : 10000,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"While wearing this cloak, you can take a {@variantrule Bonus Action|XPHB} to make it billow dramatically for 1 minute."
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG"
+			],
+			"hasFluffImages": true
+		},
+		{
 			"name": "Armor of Gleaming",
 			"type": "GV|XDMG",
 			"requires": [
@@ -171360,10 +171406,10 @@
 			"source": "CompendiumofAcadia",
 			"page": 230,
 			"rarity": "common",
-			"value": 10000,
 			"entries": [
 				"This armor never gets dirty.",
-				"<b><i>See the Recipe:</i></b> {@item Armor of Gleaming (Recipe)|CompendiumofAcadia}"
+				"<b><i>See the Recipe:</i></b> {@item Armor of Gleaming (Recipe)|CompendiumofAcadia}",
+				"<b>Price.</b> The Price of a Armor of Gleaming is equal to the price of the armor + 100 GP."
 			],
 			"variants": [
 				{
@@ -172091,231 +172137,6 @@
 		}
 	],
 	"table": [
-		{
-			"caption": "Food Shop: Common",
-			"colLabels": [
-				"Food",
-				"Cost",
-				"Food Effect"
-			],
-			"colStyles": [
-				"col-4 text-center",
-				"col-4 text-center",
-				"col-8 text-right"
-			],
-			"rows": [
-				[
-					"Common Snack",
-					"5 CP",
-					"You buy a Snack from {@variantrule Enhanced Foods|CompendiumofAcadia}."
-				],
-				[
-					"Squalid Meal",
-					"1 CP",
-					"Reduce -1d8 to the total hit points recovered when spending Hit Dice during a Short Rest."
-				],
-				[
-					"Poor Meal",
-					"2 CP",
-					"None"
-				],
-				[
-					"Modest Meal",
-					"1 SP",
-					"Choose one Meal effect from {@variantrule Enhanced Foods|CompendiumofAcadia}."
-				]
-			],
-			"name": "Food Shop: Common",
-			"source": "CompendiumofAcadia",
-			"type": "table"
-		},
-		{
-			"caption": "Food Shop: Uncommon",
-			"colLabels": [
-				"Type",
-				"Cost",
-				"Food Effect"
-			],
-			"colStyles": [
-				"col-4 text-center",
-				"col-4 text-center",
-				"col-8 text-right"
-			],
-			"rows": [
-				[
-					"Fine Snack",
-					"1 SP",
-					"You buy a Snack from {@variantrule Enhanced Foods|CompendiumofAcadia}."
-				],
-				[
-					"Comfortable Meal",
-					"8 SP",
-					"Choose one Meal effect from {@variantrule Enhanced Foods|CompendiumofAcadia}."
-				],
-				[
-					"Wealthy Meal",
-					"2 GP",
-					"Choose two Meal effects from {@variantrule Enhanced Foods|CompendiumofAcadia}."
-				],
-				[
-					"Aristocratic Meal",
-					"4 GP",
-					"Choose two Meal effects from {@variantrule Enhanced Foods|CompendiumofAcadia}."
-				]
-			],
-			"name": "Food Shop: Uncommon",
-			"source": "CompendiumofAcadia",
-			"type": "table"
-		},
-		{
-			"caption": "Food Shop: Rare",
-			"colLabels": [
-				"Type",
-				"Cost",
-				"Food Effect"
-			],
-			"colStyles": [
-				"col-4 text-center",
-				"col-4 text-center",
-				"col-8 text-right"
-			],
-			"rows": [
-				[
-					"Low Magic Snack",
-					"200 GP",
-					"You cast {@spell Arcane Vigor|CompendiumofAcadia}."
-				],
-				[
-					"Custom Low Magic Snack",
-					"200 GP",
-					"Choose a 2nd-level spell that is cast with a bonus action and has the Range of Self. The creature gains the effect after consuming the Treat."
-				],
-				[
-					"Custom Rare Meal",
-					"300 GP (3rd level spell) / 2000 GP (4th level spell)",
-					"Choose a 4th-level spell (2000 GP) or 3rd-level spell (300 GP). The creature has it prepared and can cast it once."
-				],
-				[
-					"Magical Meal (Aid)",
-					"150 GP",
-					"Replicate the effects of {@spell Aid|CompendiumofAcadia} at 3rd level on yourself."
-				],
-				[
-					"Magic Meal (Darkvision)",
-					"200 GP",
-					"Replicate the effects of {@spell Darkvision|CompendiumofAcadia} on yourself."
-				],
-				[
-					"Magic Meal (Death Ward)",
-					"1000 GP",
-					"Replicate the effects of {@spell Death Ward|CompendiumofAcadia} on yourself."
-				]
-			],
-			"name": "Food Shop: Rare",
-			"source": "CompendiumofAcadia",
-			"type": "table"
-		},
-		{
-			"caption": "Food Shop: Very Rare",
-			"colLabels": [
-				"Type",
-				"Cost",
-				"Food Effect"
-			],
-			"colStyles": [
-				"col-4 text-center",
-				"col-4 text-center",
-				"col-8 text-right"
-			],
-			"rows": [
-				[
-					"Magical Snack",
-					"2000 GP",
-					"You cast {@spell Guardian of Nature|CompendiumofAcadia}."
-				],
-				[
-					"Custom Very Rare Treat",
-					"2000 GP",
-					"Choose a 4th-level spell that is cast with a bonus action and has the Range of Self. The creature gains the effect after consuming the Treat."
-				],
-				[
-					"Custom Very Rare Meal",
-					"Varies",
-					"Choose a 5th-level spell. The creature has it prepared and can cast it once."
-				],
-				[
-					"Skill Cookie",
-					"3000 GP",
-					"You have {@spell Skill Empowerment|CompendiumofAcadia} prepared, and you can cast it once without a spell slot."
-				],
-				[
-					"Telekinetic Meal",
-					"3000 GP",
-					"You have {@spell Telekinesis|CompendiumofAcadia} prepared, and you can cast it once without a spell slot."
-				],
-				[
-					"Elemental Meal",
-					"3000 GP",
-					"You have {@spell Conjure Elemental|CompendiumofAcadia} prepared, and you can cast it once without a spell slot."
-				],
-				[
-					"Commune Meal",
-					"3000 GP",
-					"You have {@spell Commune|CompendiumofAcadia}, {@spell Commune with Nature|CompendiumofAcadia}, or {@spell Contact Other Plane|CompendiumofAcadia} prepared, and you can cast it once without a spell slot."
-				]
-			],
-			"name": "Food Shop: Very Rare",
-			"source": "CompendiumofAcadia",
-			"type": "table"
-		},
-		{
-			"caption": "Food Shop: Legendary",
-			"colLabels": [
-				"Type",
-				"Cost",
-				"Food Effect"
-			],
-			"colStyles": [
-				"col-4 text-center",
-				"col-4 text-center",
-				"col-8 text-right"
-			],
-			"rows": [
-				[
-					"Magical Stew",
-					"4000 GP",
-					"You cast {@spell Far Step|CompendiumofAcadia}."
-				],
-				[
-					"Custom Legendary Treat",
-					"4000 GP",
-					"Choose a 4th-level spell that is cast with a bonus action and has the Range of Self. The creature gains the effect after consuming the Treat."
-				],
-				[
-					"Custom Legendary Meal",
-					"Varies",
-					"Choose a 6th-level spell. The creature has it prepared and can cast it once."
-				],
-				[
-					"Medusa's Head Soup",
-					"20000 GP",
-					"You have {@spell Flesh to Stone|CompendiumofAcadia} prepared, and you can cast it once without a spell slot."
-				],
-				[
-					"True Seeing Meal",
-					"20000 GP",
-					"You have {@spell True Seeing|CompendiumofAcadia} prepared, and you can cast it once without a spell slot."
-				],
-				[
-					"Tenser's Stew",
-					"20000 GP",
-					"You have {@spell Tenser's Transformation|CompendiumofAcadia} prepared, and you can cast it once without a spell slot."
-				]
-			],
-			"name": "Food Shop: Legendary",
-			"source": "CompendiumofAcadia",
-			"type": "table"
-		},
 		{
 			"colLabels": [
 				"Shop List"
