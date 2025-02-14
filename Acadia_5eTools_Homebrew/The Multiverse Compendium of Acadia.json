@@ -170802,7 +170802,7 @@
 			"source": "CompendiumofAcadia",
 			"type": "OTH|MCA",
 			"entries": [
-				"<b>Materials:</b> A small {@item Jade|XDMG} worth 50 GP.",
+				"<b>Materials:</b> A small {@item Onyx|XDMG} worth 50 GP.",
 				"<b>Time:</b> 5 days.",
 				"<b>Process:</b> Carefully etch telepathic and divinatory sigils onto the jade using a fine needle. These arcane markings imbue the stone with subtle powers that skew perception and probability. Once the sigils are complete, embed the jade within the core of a standard gaming die."
 			]
@@ -170844,12 +170844,11 @@
 				]
 			},
 			"source": "CompendiumofAcadia",
-			"value": "10000",
 			"rarity": "common",
 			"entries": [
 				"You can doff this armor as a {@action Magic|XPHB} action.",
 				"<b><i>See the Recipe:</i></b> {@item Cast-Off Armor (Recipe)|CompendiumofAcadia}",
-				"<b>Price.</b> The Price of a Cast-Off Armor is equal to the price of the armor + 100 GP."
+				"<b><i>Price.</i></b> The Price of a Cast-Off Armor is equal to the price of the armor + 100 GP."
 			],
 			"variants": [
 				{
@@ -171345,9 +171344,6458 @@
 			]
 		},
 		{
+			"name": "Wand of Pyrotechnics",
+			"source": "CompendiumofAcadia",
+			"value": 10000,
+			"type": "WD|XDMG",
+			"rarity": "common",
+			"weight": 1,
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d6 + 1}",
+			"charges": 7,
+			"entries": [
+				"This wand has 7 charges. While holding it, you can take a {@action Magic|XPHB} action to expend 1 charge and create a harmless burst of multicolored light at a point you can see up to 120 feet away. The burst of light is accompanied by a crackling noise that can be heard up to 300 feet away. The light is as bright as a torch flame but lasts only a second.",
+				{
+					"type": "entries",
+					"name": "Regaining Charges",
+					"entries": [
+						"The wand regains {@dice 1d6 + 1} expended charges daily at dawn. If you expend the wand's last charge, roll {@dice 1d20}. On a 1, the wand erupts in a harmless pyrotechnic display and is destroyed."
+					]
+				}
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Implements - Common|XDMG"
+			]
+		},
+		{
+			"name": "Wand of Conducting",
+			"source": "CompendiumofAcadia",
+			"value": 10000,
+			"type": "WD|XDMG",
+			"rarity": "common",
+			"weight": 1,
+			"recharge": "dawn",
+			"rechargeAmount": 3,
+			"charges": 3,
+			"entries": [
+				"This wand has 3 charges. While holding it, you can take a {@action Magic|XPHB} action to expend 1 charge and create orchestral music by waving it around. The music can be heard out to 120 feet and ends when you stop waving the wand.",
+				{
+					"type": "entries",
+					"name": "Regaining Charges",
+					"entries": [
+						"The wand regains all expended charges daily at dawn. If you expend the wand's last charge, roll {@dice 1d20}. On a 1, a sad tuba sound plays as the wand crumbles into dust and is destroyed."
+					]
+				}
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Implements - Common|XDMG"
+			]
+		},
+		{
+			"name": "Walloping Ammunition",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"type": "A|XPHB"
+				},
+				{
+					"type": "AF|XDMG"
+				}
+			],
+			"ammo": true,
+			"inherits": {
+				"namePrefix": "Walloping ",
+				"source": "XDMG",
+				"page": 318,
+				"rarity": "common",
+				"entries": [
+					"A creature hit by this ammunition must succeed on a {@dc 10} Strength saving throw or have the {@condition Prone|XPHB} condition."
+				],
+				"lootTables": [
+					"Armaments - Common|XDMG",
+					"Implements - Common|XDMG"
+				]
+			},
+			"source": "CompendiumofAcadia",
+			"rarity": "common",
+			"lootTables": [
+				"Armaments - Common|XDMG",
+				"Implements - Common|XDMG"
+			],
+			"entries": [
+				"A creature hit by this ammunition must succeed on a {@dc 10} Strength saving throw or have the {@condition Prone|XPHB} condition.",
+				"<i><b>Price.</i></b> The Price of a Walloping Ammunition is equal to the price of the Ammunition + 50 GP."
+			],
+			"variants": [
+				{
+					"base": {
+						"name": "Arrow",
+						"source": "XPHB",
+						"page": 222,
+						"edition": "one",
+						"type": "A|XPHB",
+						"rarity": "none",
+						"weight": 0.05,
+						"value": 5,
+						"arrow": true,
+						"entries": [
+							"Arrows are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+							"Arrows are typically stored in a {@item Quiver|XPHB} (bought separately)."
+						]
+					},
+					"specificVariant": {
+						"name": "Walloping Arrow",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "A|XPHB",
+						"rarity": "common",
+						"weight": 0.05,
+						"arrow": true,
+						"entries": [
+							"Arrows are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+							"Arrows are typically stored in a {@item Quiver|XPHB} (bought separately)."
+						],
+						"page": 318,
+						"lootTables": [
+							"Armaments - Common|XDMG",
+							"Implements - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Walloping Ammunition",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Bolt",
+						"source": "XPHB",
+						"page": 222,
+						"edition": "one",
+						"type": "A|XPHB",
+						"rarity": "none",
+						"weight": 0.075,
+						"value": 5,
+						"bolt": true,
+						"entries": [
+							"Crossbow bolts are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+							"Bolts are typically stored in a {@item Crossbow Bolt Case|XPHB} (bought separately)."
+						]
+					},
+					"specificVariant": {
+						"name": "Walloping Bolt",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "A|XPHB",
+						"rarity": "common",
+						"weight": 0.075,
+						"bolt": true,
+						"entries": [
+							"Crossbow bolts are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+							"Bolts are typically stored in a {@item Crossbow Bolt Case|XPHB} (bought separately)."
+						],
+						"page": 318,
+						"lootTables": [
+							"Armaments - Common|XDMG",
+							"Implements - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Walloping Ammunition",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Energy Cell",
+						"source": "XDMG",
+						"page": 72,
+						"edition": "one",
+						"type": "AF|XDMG",
+						"rarity": "none",
+						"weight": 0.5,
+						"age": "futuristic",
+						"cellEnergy": true,
+						"miscTags": [
+							"CNS"
+						],
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Walloping Energy Cell",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "AF|XDMG",
+						"rarity": "common",
+						"weight": 0.5,
+						"age": "futuristic",
+						"cellEnergy": true,
+						"miscTags": [
+							"CNS"
+						],
+						"entries": [],
+						"page": 318,
+						"lootTables": [
+							"Armaments - Common|XDMG",
+							"Implements - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Walloping Ammunition",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Firearm Bullet",
+						"source": "XPHB",
+						"page": 222,
+						"edition": "one",
+						"type": "A|XPHB",
+						"rarity": "none",
+						"weight": 0.2,
+						"value": 30,
+						"bulletFirearm": true,
+						"entries": [
+							"The ammunition of a firearm is destroyed upon use.",
+							"Firearm Bullets are typically stored in a {@item Pouch|XPHB} (bought separately)."
+						],
+						"miscTags": [
+							"CNS"
+						]
+					},
+					"specificVariant": {
+						"name": "Walloping Firearm Bullet",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "A|XPHB",
+						"rarity": "common",
+						"weight": 0.2,
+						"bulletFirearm": true,
+						"entries": [
+							"The ammunition of a firearm is destroyed upon use.",
+							"Firearm Bullets are typically stored in a {@item Pouch|XPHB} (bought separately)."
+						],
+						"miscTags": [
+							"CNS"
+						],
+						"page": 318,
+						"lootTables": [
+							"Armaments - Common|XDMG",
+							"Implements - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Walloping Ammunition",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Needle",
+						"source": "XPHB",
+						"page": 222,
+						"edition": "one",
+						"type": "A|XPHB",
+						"rarity": "none",
+						"weight": 0.02,
+						"value": 2,
+						"needleBlowgun": true,
+						"entries": [
+							"Blowgun needles are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+							"Needles are typically stored in a {@item Pouch|XPHB} (bought separately)."
+						]
+					},
+					"specificVariant": {
+						"name": "Walloping Needle",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "A|XPHB",
+						"rarity": "common",
+						"weight": 0.02,
+						"needleBlowgun": true,
+						"entries": [
+							"Blowgun needles are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+							"Needles are typically stored in a {@item Pouch|XPHB} (bought separately)."
+						],
+						"page": 318,
+						"lootTables": [
+							"Armaments - Common|XDMG",
+							"Implements - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Walloping Ammunition",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Sling Bullet",
+						"source": "XPHB",
+						"page": 222,
+						"edition": "one",
+						"type": "A|XPHB",
+						"rarity": "none",
+						"weight": 0.075,
+						"value": 0.2,
+						"bulletSling": true,
+						"entries": [
+							"Sling bullets are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+							"Sling Bullets are typically stored in a {@item Pouch|XPHB} (bought separately)."
+						]
+					},
+					"specificVariant": {
+						"name": "Walloping Sling Bullet",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "A|XPHB",
+						"rarity": "common",
+						"weight": 0.075,
+						"bulletSling": true,
+						"entries": [
+							"Sling bullets are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+							"Sling Bullets are typically stored in a {@item Pouch|XPHB} (bought separately)."
+						],
+						"page": 318,
+						"lootTables": [
+							"Armaments - Common|XDMG",
+							"Implements - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Walloping Ammunition",
+							"source": "XDMG"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Veteran's Cane",
+			"source": "CompendiumofAcadia",
+			"value": 10000,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"As a {@variantrule Bonus Action|XPHB}, you can transform this walking cane into an ordinary Longsword or change the Longsword back into a walking cane. In either case, you must be holding the item."
+			],
+			"lootTables": [
+				"Armaments - Common|XDMG",
+				"Implements - Common|XDMG"
+			]
+		},
+		{
+			"name": "Tankard of Sobriety",
+			"source": "CompendiumofAcadia",
+			"value": 10000,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This tankard has a stern face sculpted into one side. You can drink ale, wine, or any other nonmagical alcoholic beverage poured into it without becoming inebriated. The tankard has no effect on magical liquids or harmful substances such as poison."
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Implements - Common|XDMG"
+			]
+		},
+		{
+			"name": "Talking Doll",
+			"source": "CompendiumofAcadia",
+			"value": 10000,
+			"rarity": "common",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"While this doll is within 5 feet of you, you can spend a {@variantrule Short Rest|XPHB} telling it to say up to six phrases, none of which can be more than six words long, and set a condition under which the doll speaks each phrase. You can also replace old phrases with new ones. Whatever the condition, it must occur within 5 feet of the doll to make it speak. For example, whenever someone picks up the doll, it might say, \"I want a piece of candy.\" The doll's phrases are lost when your {@variantrule Attunement|XPHB} to the doll ends."
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Implements - Common|XDMG"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Sylvan Talon",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"name": "Dagger",
+					"source": "XPHB"
+				},
+				{
+					"name": "Rapier",
+					"source": "XPHB"
+				},
+				{
+					"name": "Scimitar",
+					"source": "XPHB"
+				},
+				{
+					"name": "Shortsword",
+					"source": "XPHB"
+				},
+				{
+					"name": "Sickle",
+					"source": "XPHB"
+				},
+				{
+					"name": "Spear",
+					"source": "XPHB"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Sylvan Talon ",
+				"source": "XDMG",
+				"page": 314,
+				"rarity": "common",
+				"reqAttune": true,
+				"entries": [
+					"While this weapon is on your person, you understand the nonwritten communication of all Fey, and they understand yours.",
+					{
+						"type": "entries",
+						"name": "Secret Message",
+						"entries": [
+							"As a {@action Magic|XPHB} action, you can use the weapon to cast {@spell Message|XPHB}. Once this property is used, it can't be used again until the next dawn."
+						]
+					}
+				],
+				"attachedSpells": [
+					"message|xphb"
+				],
+				"lootTables": [
+					"Armaments - Common|XDMG",
+					"Implements - Common|XDMG"
+				]
+			},
+			"hasFluffImages": true,
+			"source": "CompendiumofAcadia",
+			"rarity": "common",
+			"reqAttune": true,
+			"attachedSpells": [
+				"message|xphb"
+			],
+			"lootTables": [
+				"Armaments - Common|XDMG",
+				"Implements - Common|XDMG"
+			],
+			"entries": [
+				"While this weapon is on your person, you understand the nonwritten communication of all Fey, and they understand yours.",
+				{
+					"type": "entries",
+					"name": "Secret Message",
+					"entries": [
+						"As a {@action Magic|XPHB} action, you can use the weapon to cast {@spell Message|XPHB}. Once this property is used, it can't be used again until the next dawn."
+					]
+				},
+				"<i><b>Price.</i></b> The Price of a Sylvan Talon is equal to the price of the weapon + 100 GP."
+			],
+			"variants": [
+				{
+					"base": {
+						"name": "Dagger",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 1,
+						"value": 200,
+						"weaponCategory": "simple",
+						"property": [
+							"F|XPHB",
+							"L|XPHB",
+							"T|XPHB"
+						],
+						"mastery": [
+							"Nick|XPHB"
+						],
+						"range": "20/60",
+						"dmg1": "1d4",
+						"dmgType": "P",
+						"dagger": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Sylvan Talon Dagger",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 1,
+						"weaponCategory": "simple",
+						"property": [
+							"F|XPHB",
+							"L|XPHB",
+							"T|XPHB"
+						],
+						"mastery": [
+							"Nick|XPHB"
+						],
+						"range": "20/60",
+						"dmg1": "1d4",
+						"dmgType": "P",
+						"dagger": true,
+						"weapon": true,
+						"entries": [],
+						"page": 314,
+						"reqAttune": true,
+						"attachedSpells": [
+							"message|xphb"
+						],
+						"lootTables": [
+							"Armaments - Common|XDMG",
+							"Implements - Common|XDMG"
+						],
+						"hasFluffImages": true,
+						"genericVariant": {
+							"name": "Sylvan Talon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Rapier",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"value": 2500,
+						"weaponCategory": "martial",
+						"property": [
+							"F|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"rapier": true,
+						"sword": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Sylvan Talon Rapier",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 2,
+						"weaponCategory": "martial",
+						"property": [
+							"F|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"rapier": true,
+						"sword": true,
+						"weapon": true,
+						"entries": [],
+						"page": 314,
+						"reqAttune": true,
+						"attachedSpells": [
+							"message|xphb"
+						],
+						"lootTables": [
+							"Armaments - Common|XDMG",
+							"Implements - Common|XDMG"
+						],
+						"hasFluffImages": true,
+						"genericVariant": {
+							"name": "Sylvan Talon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Scimitar",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 3,
+						"value": 2500,
+						"weaponCategory": "martial",
+						"property": [
+							"F|XPHB",
+							"L|XPHB"
+						],
+						"mastery": [
+							"Nick|XPHB"
+						],
+						"dmg1": "1d6",
+						"dmgType": "S",
+						"sword": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Sylvan Talon Scimitar",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 3,
+						"weaponCategory": "martial",
+						"property": [
+							"F|XPHB",
+							"L|XPHB"
+						],
+						"mastery": [
+							"Nick|XPHB"
+						],
+						"dmg1": "1d6",
+						"dmgType": "S",
+						"sword": true,
+						"weapon": true,
+						"entries": [],
+						"page": 314,
+						"reqAttune": true,
+						"attachedSpells": [
+							"message|xphb"
+						],
+						"lootTables": [
+							"Armaments - Common|XDMG",
+							"Implements - Common|XDMG"
+						],
+						"hasFluffImages": true,
+						"genericVariant": {
+							"name": "Sylvan Talon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Shortsword",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"value": 1000,
+						"weaponCategory": "martial",
+						"property": [
+							"F|XPHB",
+							"L|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"sword": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Sylvan Talon Shortsword",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 2,
+						"weaponCategory": "martial",
+						"property": [
+							"F|XPHB",
+							"L|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"sword": true,
+						"weapon": true,
+						"entries": [],
+						"page": 314,
+						"reqAttune": true,
+						"attachedSpells": [
+							"message|xphb"
+						],
+						"lootTables": [
+							"Armaments - Common|XDMG",
+							"Implements - Common|XDMG"
+						],
+						"hasFluffImages": true,
+						"genericVariant": {
+							"name": "Sylvan Talon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Sickle",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"value": 100,
+						"weaponCategory": "simple",
+						"property": [
+							"L|XPHB"
+						],
+						"mastery": [
+							"Nick|XPHB"
+						],
+						"dmg1": "1d4",
+						"dmgType": "S",
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Sylvan Talon Sickle",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 2,
+						"weaponCategory": "simple",
+						"property": [
+							"L|XPHB"
+						],
+						"mastery": [
+							"Nick|XPHB"
+						],
+						"dmg1": "1d4",
+						"dmgType": "S",
+						"weapon": true,
+						"entries": [],
+						"page": 314,
+						"reqAttune": true,
+						"attachedSpells": [
+							"message|xphb"
+						],
+						"lootTables": [
+							"Armaments - Common|XDMG",
+							"Implements - Common|XDMG"
+						],
+						"hasFluffImages": true,
+						"genericVariant": {
+							"name": "Sylvan Talon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Spear",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 3,
+						"value": 100,
+						"weaponCategory": "simple",
+						"property": [
+							"T|XPHB",
+							"V|XPHB"
+						],
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"range": "20/60",
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"dmg2": "1d8",
+						"spear": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Sylvan Talon Spear",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 3,
+						"weaponCategory": "simple",
+						"property": [
+							"T|XPHB",
+							"V|XPHB"
+						],
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"range": "20/60",
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"dmg2": "1d8",
+						"spear": true,
+						"weapon": true,
+						"entries": [],
+						"page": 314,
+						"reqAttune": true,
+						"attachedSpells": [
+							"message|xphb"
+						],
+						"lootTables": [
+							"Armaments - Common|XDMG",
+							"Implements - Common|XDMG"
+						],
+						"hasFluffImages": true,
+						"genericVariant": {
+							"name": "Sylvan Talon",
+							"source": "XDMG"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Staff of Flowers",
+			"source": "CompendiumofAcadia",
+			"value": 10000,
+			"type": "M|XPHB",
+			"rarity": "common",
+			"weight": 4,
+			"weaponCategory": "simple",
+			"property": [
+				"V|XPHB"
+			],
+			"mastery": [
+				"Topple|XPHB"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d6 + 4}",
+			"charges": 10,
+			"staff": true,
+			"entries": [
+				"This wooden staff has 10 charges. While holding it, you can take a {@action Magic|XPHB} action to expend 1 charge from the staff and cause a flower to sprout from a patch of earth or soil within 5 feet of yourself, or from the staff itself. Unless you choose a specific kind of flower, the staff creates a mild-scented daisy. The flower is harmless and nonmagical, and it grows or withers as a normal flower would.",
+				{
+					"type": "entries",
+					"name": "Regaining Charges",
+					"entries": [
+						"The staff regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll {@dice 1d20}. On a 1, the staff turns into flower petals and is lost forever."
+					]
+				}
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Relics - Common|XDMG"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Staff of Birdcalls",
+			"source": "CompendiumofAcadia",
+			"value": 10000,
+			"type": "M|XPHB",
+			"rarity": "common",
+			"weight": 4,
+			"weaponCategory": "simple",
+			"property": [
+				"V|XPHB"
+			],
+			"mastery": [
+				"Topple|XPHB"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d6 + 4}",
+			"charges": 10,
+			"staff": true,
+			"entries": [
+				"This wooden staff is decorated with bird carvings. It has 10 charges. While holding it, you can take a {@action Magic|XPHB} action to expend 1 charge from the staff and cause it to create one of the following sounds, which can be heard out to 120 feet: a finch's chirp, a raven's caw, a duck's quack, a chicken's cluck, a goose's honk, a loon's call, a turkey's gobble, a seagull's cry, an owl's hoot, or an eagle's shriek.",
+				{
+					"type": "entries",
+					"name": "Regaining Charges",
+					"entries": [
+						"The staff regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll {@dice 1d20}. On a 1, the staff explodes in a harmless cloud of bird feathers and is lost forever."
+					]
+				}
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Implements - Common|XDMG"
+			]
+		},
+		{
+			"name": "Staff of Adornment",
+			"source": "CompendiumofAcadia",
+			"value": 10000,
+			"type": "M|XPHB",
+			"rarity": "common",
+			"weight": 4,
+			"weaponCategory": "simple",
+			"property": [
+				"V|XPHB"
+			],
+			"mastery": [
+				"Topple|XPHB"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"staff": true,
+			"entries": [
+				"If you place a Tiny object weighing no more than 1 pound (such as a shard of crystal, an egg, or a stone) above the tip of this staff while holding it, the object floats an inch from the staff's tip and remains there until it is removed or until the staff is no longer in your possession. The staff can have up to three such objects floating over its tip at any given time. While holding the staff, you can make one or more of the objects slowly spin or turn in place."
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Relics - Common|XDMG"
+			]
+		},
+		{
+			"name": "Spell Scroll (Level 1)",
+			"source": "CompendiumofAcadia",
+			"freeRules2024": true,
+			"otherSources": [
+				{
+					"source": "XPHB",
+					"page": 228
+				}
+			],
+			"type": "SC|XPHB",
+			"rarity": "common",
+			"value": 5000,
+			"entries": [
+				"A Spell Scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your spell list, you can read the scroll and cast its spell without Material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the scroll crumbles to dust. If the casting is interrupted, the scroll isn't lost.",
+				"If the spell is on your spell list but of a higher level than you can normally cast, you make a {@dc 11} ability check using your spellcasting ability to determine whether you cast the spell. On a failed check, the spell disappears from the scroll with no other effect.",
+				"If the spell requires a saving throw or an attack roll, the spell save DC is 13, and the attack bonus is {@hit 5}.",
+				{
+					"type": "entries",
+					"name": "Copying a Scroll into a Spellbook",
+					"entries": [
+						"A Wizard spell on a Spell Scroll can be copied into a spellbook. When a level 1 spell is copied in this way, the copier must succeed on a {@dc 11} Intelligence ({@skill Arcana|XPHB}). On a successful check, the spell is copied. Whether the check succeeds or fails, the Spell Scroll is destroyed."
+					]
+				}
+			],
+			"spellScrollLevel": 1,
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Relics - Common|XDMG"
+			],
+			"miscTags": [
+				"CNS"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Spell Scroll (Cantrip)",
+			"source": "CompendiumofAcadia",
+			"freeRules2024": true,
+			"otherSources": [
+				{
+					"source": "XPHB",
+					"page": 228
+				}
+			],
+			"type": "SC|XPHB",
+			"rarity": "common",
+			"value": 3000,
+			"entries": [
+				"A Spell Scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your spell list, you can read the scroll and cast its spell without Material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the scroll crumbles to dust. If the casting is interrupted, the scroll isn't lost.",
+				"If the spell is on your spell list but of a higher level than you can normally cast, you make a {@dc 10} ability check using your spellcasting ability to determine whether you cast the spell. On a failed check, the spell disappears from the scroll with no other effect.",
+				"If the spell requires a saving throw or an attack roll, the spell save DC is 13, and the attack bonus is {@hit 5}.",
+				{
+					"type": "entries",
+					"name": "Copying a Scroll into a Spellbook",
+					"entries": [
+						"A Wizard spell on a Spell Scroll can be copied into a spellbook. When a cantrip is copied in this way, the copier must succeed on a {@dc 10} Intelligence ({@skill Arcana|XPHB}). On a successful check, the spell is copied. Whether the check succeeds or fails, the Spell Scroll is destroyed."
+					]
+				}
+			],
+			"spellScrollLevel": 0,
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Relics - Common|XDMG"
+			],
+			"miscTags": [
+				"CNS"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Smoldering Armor",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"type": "LA|XPHB"
+				},
+				{
+					"type": "MA|XPHB"
+				},
+				{
+					"type": "HA|XPHB"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Smoldering ",
+				"source": "XDMG",
+				"page": 305,
+				"rarity": "common",
+				"entries": [
+					"Wisps of harmless, odorless smoke rise from this armor while it is worn."
+				],
+				"lootTables": [
+					"Armaments - Common|XDMG",
+					"Relics - Common|XDMG"
+				]
+			},
+			"source": "CompendiumofAcadia",
+			"rarity": "common",
+			"lootTables": [
+				"Armaments - Common|XDMG",
+				"Relics - Common|XDMG"
+			],
+			"entries": [
+				"Wisps of harmless, odorless smoke rise from this armor while it is worn.",
+				"<b><i>Price</i></b>. The Price of a Smoldering Armor is equal to the price of the armor + 100 GP."
+			],
+			"variants": [
+				{
+					"base": {
+						"name": "Breastplate",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "MA|XPHB",
+						"rarity": "none",
+						"weight": 20,
+						"value": 40000,
+						"ac": 14,
+						"armor": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Smoldering Breastplate",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "MA|XPHB",
+						"rarity": "common",
+						"weight": 20,
+						"ac": 14,
+						"armor": true,
+						"entries": [],
+						"page": 305,
+						"lootTables": [
+							"Armaments - Common|XDMG",
+							"Relics - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Smoldering Armor",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Chain Mail",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "HA|XPHB",
+						"rarity": "none",
+						"weight": 55,
+						"value": 7500,
+						"ac": 16,
+						"strength": "13",
+						"armor": true,
+						"stealth": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Smoldering Chain Mail",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "HA|XPHB",
+						"rarity": "common",
+						"weight": 55,
+						"ac": 16,
+						"strength": "13",
+						"armor": true,
+						"stealth": true,
+						"entries": [],
+						"page": 305,
+						"lootTables": [
+							"Armaments - Common|XDMG",
+							"Relics - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Smoldering Armor",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Chain Shirt",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "MA|XPHB",
+						"rarity": "none",
+						"weight": 20,
+						"value": 5000,
+						"ac": 13,
+						"armor": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Smoldering Chain Shirt",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "MA|XPHB",
+						"rarity": "common",
+						"weight": 20,
+						"ac": 13,
+						"armor": true,
+						"entries": [],
+						"page": 305,
+						"lootTables": [
+							"Armaments - Common|XDMG",
+							"Relics - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Smoldering Armor",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Half Plate Armor",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "MA|XPHB",
+						"rarity": "none",
+						"weight": 40,
+						"value": 75000,
+						"ac": 15,
+						"armor": true,
+						"stealth": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Smoldering Half Plate Armor",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "MA|XPHB",
+						"rarity": "common",
+						"weight": 40,
+						"ac": 15,
+						"armor": true,
+						"stealth": true,
+						"entries": [],
+						"page": 305,
+						"lootTables": [
+							"Armaments - Common|XDMG",
+							"Relics - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Smoldering Armor",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Hide Armor",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "MA|XPHB",
+						"rarity": "none",
+						"weight": 12,
+						"value": 1000,
+						"ac": 12,
+						"armor": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Smoldering Hide Armor",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "MA|XPHB",
+						"rarity": "common",
+						"weight": 12,
+						"ac": 12,
+						"armor": true,
+						"entries": [],
+						"page": 305,
+						"lootTables": [
+							"Armaments - Common|XDMG",
+							"Relics - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Smoldering Armor",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Leather Armor",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "LA|XPHB",
+						"rarity": "none",
+						"weight": 10,
+						"value": 1000,
+						"ac": 11,
+						"armor": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Smoldering Leather Armor",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "LA|XPHB",
+						"rarity": "common",
+						"weight": 10,
+						"ac": 11,
+						"armor": true,
+						"entries": [],
+						"page": 305,
+						"lootTables": [
+							"Armaments - Common|XDMG",
+							"Relics - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Smoldering Armor",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Padded Armor",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "LA|XPHB",
+						"rarity": "none",
+						"weight": 8,
+						"value": 500,
+						"ac": 11,
+						"armor": true,
+						"stealth": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Smoldering Padded Armor",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "LA|XPHB",
+						"rarity": "common",
+						"weight": 8,
+						"ac": 11,
+						"armor": true,
+						"stealth": true,
+						"entries": [],
+						"page": 305,
+						"lootTables": [
+							"Armaments - Common|XDMG",
+							"Relics - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Smoldering Armor",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Plate Armor",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "HA|XPHB",
+						"rarity": "none",
+						"weight": 65,
+						"value": 150000,
+						"ac": 18,
+						"strength": "15",
+						"armor": true,
+						"stealth": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Smoldering Plate Armor",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "HA|XPHB",
+						"rarity": "common",
+						"weight": 65,
+						"ac": 18,
+						"strength": "15",
+						"armor": true,
+						"stealth": true,
+						"entries": [],
+						"page": 305,
+						"lootTables": [
+							"Armaments - Common|XDMG",
+							"Relics - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Smoldering Armor",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Ring Mail",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "HA|XPHB",
+						"rarity": "none",
+						"weight": 40,
+						"value": 3000,
+						"ac": 14,
+						"armor": true,
+						"stealth": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Smoldering Ring Mail",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "HA|XPHB",
+						"rarity": "common",
+						"weight": 40,
+						"ac": 14,
+						"armor": true,
+						"stealth": true,
+						"entries": [],
+						"page": 305,
+						"lootTables": [
+							"Armaments - Common|XDMG",
+							"Relics - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Smoldering Armor",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Scale Mail",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "MA|XPHB",
+						"rarity": "none",
+						"weight": 45,
+						"value": 5000,
+						"ac": 14,
+						"armor": true,
+						"stealth": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Smoldering Scale Mail",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "MA|XPHB",
+						"rarity": "common",
+						"weight": 45,
+						"ac": 14,
+						"armor": true,
+						"stealth": true,
+						"entries": [],
+						"page": 305,
+						"lootTables": [
+							"Armaments - Common|XDMG",
+							"Relics - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Smoldering Armor",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Splint Armor",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "HA|XPHB",
+						"rarity": "none",
+						"weight": 60,
+						"value": 20000,
+						"ac": 17,
+						"strength": "15",
+						"armor": true,
+						"stealth": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Smoldering Splint Armor",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "HA|XPHB",
+						"rarity": "common",
+						"weight": 60,
+						"ac": 17,
+						"strength": "15",
+						"armor": true,
+						"stealth": true,
+						"entries": [],
+						"page": 305,
+						"lootTables": [
+							"Armaments - Common|XDMG",
+							"Relics - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Smoldering Armor",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Studded Leather Armor",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "LA|XPHB",
+						"rarity": "none",
+						"weight": 13,
+						"value": 4500,
+						"ac": 12,
+						"armor": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Smoldering Studded Leather Armor",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "LA|XPHB",
+						"rarity": "common",
+						"weight": 13,
+						"ac": 12,
+						"armor": true,
+						"entries": [],
+						"page": 305,
+						"lootTables": [
+							"Armaments - Common|XDMG",
+							"Relics - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Smoldering Armor",
+							"source": "XDMG"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Silvered Weapon",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"weaponCategory": "simple"
+				},
+				{
+					"weaponCategory": "martial"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Silvered ",
+				"source": "XDMG",
+				"page": 304,
+				"rarity": "common",
+				"entries": [
+					"An alchemical process has bonded silver to this magic weapon. When you score a {@variantrule Critical Hit|XPHB} with it against a creature that is shape-shifted, the weapon deals one additional die of damage."
+				],
+				"lootTables": [
+					"Armaments - Common|XDMG"
+				]
+			},
+			"source": "CompendiumofAcadia",
+			"rarity": "common",
+			"lootTables": [
+				"Armaments - Common|XDMG"
+			],
+			"entries": [
+				"An alchemical process has bonded silver to this magic weapon. When you score a {@variantrule Critical Hit|XPHB} with it against a creature that is shape-shifted, the weapon deals one additional die of damage.",
+				"<b><i>Price</i></b>. The Price of a Silvered Weapon is equal to the price of the weapon + 100 GP."
+			],
+			"variants": [
+				{
+					"base": {
+						"name": "Antimatter Rifle",
+						"source": "XDMG",
+						"page": 73,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 10,
+						"valueRarity": "very rare",
+						"weaponCategory": "martial",
+						"age": "futuristic",
+						"property": [
+							"AF|XDMG",
+							"RLD|XDMG",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"range": "120/360",
+						"reload": 2,
+						"dmg1": "6d8",
+						"dmgType": "N",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "energy cell|xdmg",
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Antimatter Rifle",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "common",
+						"weight": 10,
+						"valueRarity": "very rare",
+						"weaponCategory": "martial",
+						"age": "futuristic",
+						"property": [
+							"AF|XDMG",
+							"RLD|XDMG",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"range": "120/360",
+						"reload": 2,
+						"dmg1": "6d8",
+						"dmgType": "N",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "energy cell|xdmg",
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Arquebus",
+						"source": "GPCodex",
+						"page": 6,
+						"type": "R",
+						"srd": false,
+						"rarity": "none",
+						"weaponCategory": "martial",
+						"firearm": true,
+						"weapon": true,
+						"value": 20000,
+						"dmg1": "1d10",
+						"dmgType": "P",
+						"weight": 12,
+						"age": "renaissance",
+						"range": "30/90",
+						"property": [
+							"A",
+							"GCRLD",
+							"MSF",
+							"2H",
+							"LD"
+						],
+						"reload": 1,
+						"ammoType": "musketball",
+						"customProperties": {
+							"misfire": 3
+						},
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Arquebus",
+						"source": "XDMG",
+						"type": "R",
+						"rarity": "common",
+						"weaponCategory": "martial",
+						"firearm": true,
+						"weapon": true,
+						"dmg1": "1d10",
+						"dmgType": "P",
+						"weight": 12,
+						"age": "renaissance",
+						"range": "30/90",
+						"property": [
+							"A",
+							"GCRLD",
+							"MSF",
+							"2H",
+							"LD"
+						],
+						"reload": 1,
+						"ammoType": "musketball",
+						"customProperties": {
+							"misfire": 3
+						},
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Automatic Rifle",
+						"source": "XDMG",
+						"page": 73,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 8,
+						"valueRarity": "rare",
+						"weaponCategory": "martial",
+						"age": "modern",
+						"property": [
+							"AF|XDMG",
+							"BF|XDMG",
+							"RLD|XDMG",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"range": "80/240",
+						"reload": 30,
+						"dmg1": "2d8",
+						"dmgType": "P",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "firearm bullet|xphb",
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Automatic Rifle",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "common",
+						"weight": 8,
+						"valueRarity": "rare",
+						"weaponCategory": "martial",
+						"age": "modern",
+						"property": [
+							"AF|XDMG",
+							"BF|XDMG",
+							"RLD|XDMG",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"range": "80/240",
+						"reload": 30,
+						"dmg1": "2d8",
+						"dmgType": "P",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "firearm bullet|xphb",
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Axe",
+						"source": "TLotRR",
+						"page": 73,
+						"type": "M",
+						"rarity": "none",
+						"weight": 3,
+						"value": 50,
+						"currencyConversion": "M-E",
+						"weaponCategory": "simple",
+						"property": [
+							"V"
+						],
+						"dmg1": "1d6",
+						"dmgType": "S",
+						"dmg2": "1d8",
+						"axe": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Axe",
+						"source": "XDMG",
+						"type": "M",
+						"rarity": "common",
+						"weight": 3,
+						"currencyConversion": "M-E",
+						"weaponCategory": "simple",
+						"property": [
+							"V"
+						],
+						"dmg1": "1d6",
+						"dmgType": "S",
+						"dmg2": "1d8",
+						"axe": true,
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Battle Axe",
+						"source": "TLotRR",
+						"page": 73,
+						"type": "M",
+						"rarity": "none",
+						"weight": 4,
+						"value": 100,
+						"currencyConversion": "M-E",
+						"weaponCategory": "martial",
+						"property": [
+							"V"
+						],
+						"dmg1": "1d8",
+						"dmgType": "S",
+						"dmg2": "1d10",
+						"axe": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Battle Axe",
+						"source": "XDMG",
+						"type": "M",
+						"rarity": "common",
+						"weight": 4,
+						"currencyConversion": "M-E",
+						"weaponCategory": "martial",
+						"property": [
+							"V"
+						],
+						"dmg1": "1d8",
+						"dmgType": "S",
+						"dmg2": "1d10",
+						"axe": true,
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Battleaxe",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 4,
+						"value": 1000,
+						"weaponCategory": "martial",
+						"property": [
+							"V|XPHB"
+						],
+						"mastery": [
+							"Topple|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "S",
+						"dmg2": "1d10",
+						"axe": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Battleaxe",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 4,
+						"weaponCategory": "martial",
+						"property": [
+							"V|XPHB"
+						],
+						"mastery": [
+							"Topple|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "S",
+						"dmg2": "1d10",
+						"axe": true,
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Bayonet",
+						"source": "GPCodex",
+						"page": 5,
+						"type": "M",
+						"srd": "false",
+						"rarity": "none",
+						"weaponCategory": "simple",
+						"weapon": true,
+						"value": 500,
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"dmg2": "1d8",
+						"weight": 1,
+						"age": "renaissance",
+						"property": [
+							"V",
+							"S"
+						],
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Special",
+								"entries": [
+									"If attached to a one-handed weapon, it may only use the listed one-handed damage. If attached to a two-handed firearm, it can be used as a versatile weapon. If used on its own, unattached to a firearm, a bayonet uses the statistics of a dagger."
+								]
+							}
+						]
+					},
+					"specificVariant": {
+						"name": "Silvered Bayonet",
+						"source": "XDMG",
+						"type": "M",
+						"rarity": "common",
+						"weaponCategory": "simple",
+						"weapon": true,
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"dmg2": "1d8",
+						"weight": 1,
+						"age": "renaissance",
+						"property": [
+							"V",
+							"S"
+						],
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Special",
+								"entries": [
+									"If attached to a one-handed weapon, it may only use the listed one-handed damage. If attached to a two-handed firearm, it can be used as a versatile weapon. If used on its own, unattached to a firearm, a bayonet uses the statistics of a dagger."
+								]
+							}
+						],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Blowgun",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 1,
+						"value": 1000,
+						"weaponCategory": "martial",
+						"property": [
+							"A|XPHB",
+							"LD|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"range": "25/100",
+						"dmg1": "1",
+						"dmgType": "P",
+						"weapon": true,
+						"ammoType": "needle|xphb",
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Blowgun",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "common",
+						"weight": 1,
+						"weaponCategory": "martial",
+						"property": [
+							"A|XPHB",
+							"LD|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"range": "25/100",
+						"dmg1": "1",
+						"dmgType": "P",
+						"weapon": true,
+						"ammoType": "needle|xphb",
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Club",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"value": 10,
+						"weaponCategory": "simple",
+						"property": [
+							"L|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"dmg1": "1d4",
+						"dmgType": "B",
+						"club": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Club",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 2,
+						"weaponCategory": "simple",
+						"property": [
+							"L|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"dmg1": "1d4",
+						"dmgType": "B",
+						"club": true,
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Dagger",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 1,
+						"value": 200,
+						"weaponCategory": "simple",
+						"property": [
+							"F|XPHB",
+							"L|XPHB",
+							"T|XPHB"
+						],
+						"mastery": [
+							"Nick|XPHB"
+						],
+						"range": "20/60",
+						"dmg1": "1d4",
+						"dmgType": "P",
+						"dagger": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Dagger",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 1,
+						"weaponCategory": "simple",
+						"property": [
+							"F|XPHB",
+							"L|XPHB",
+							"T|XPHB"
+						],
+						"mastery": [
+							"Nick|XPHB"
+						],
+						"range": "20/60",
+						"dmg1": "1d4",
+						"dmgType": "P",
+						"dagger": true,
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Dart",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 0.25,
+						"value": 5,
+						"weaponCategory": "simple",
+						"property": [
+							"F|XPHB",
+							"T|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"range": "20/60",
+						"dmg1": "1d4",
+						"dmgType": "P",
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Dart",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "common",
+						"weight": 0.25,
+						"weaponCategory": "simple",
+						"property": [
+							"F|XPHB",
+							"T|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"range": "20/60",
+						"dmg1": "1d4",
+						"dmgType": "P",
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Double-Bladed Scimitar",
+						"source": "ERLW",
+						"page": 21,
+						"type": "M",
+						"rarity": "none",
+						"weight": 6,
+						"value": 10000,
+						"weaponCategory": "martial",
+						"property": [
+							"S",
+							"2H"
+						],
+						"dmg1": "2d4",
+						"dmgType": "S",
+						"sword": true,
+						"weapon": true,
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Special",
+								"entries": [
+									"If you attack with a double-bladed scimitar as part of the {@action Attack} action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals {@damage 1d4} slashing damage on a hit, instead of {@damage 2d4}."
+								]
+							}
+						],
+						"hasFluff": true
+					},
+					"specificVariant": {
+						"name": "Silvered Double-Bladed Scimitar",
+						"source": "XDMG",
+						"type": "M",
+						"rarity": "common",
+						"weight": 6,
+						"weaponCategory": "martial",
+						"property": [
+							"2H",
+							"S"
+						],
+						"dmg1": "2d4",
+						"dmgType": "S",
+						"sword": true,
+						"weapon": true,
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Special",
+								"entries": [
+									"If you attack with a double-bladed scimitar as part of the {@action Attack} action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals {@damage 1d4} slashing damage on a hit, instead of {@damage 2d4}."
+								]
+							}
+						],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Flail",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"value": 1000,
+						"weaponCategory": "martial",
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "B",
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Flail",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 2,
+						"weaponCategory": "martial",
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "B",
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Flintlock Pistol",
+						"source": "GPCodex",
+						"page": 6,
+						"type": "R",
+						"srd": false,
+						"rarity": "none",
+						"weaponCategory": "martial",
+						"firearm": true,
+						"weapon": true,
+						"value": 15000,
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"weight": 2,
+						"age": "renaissance",
+						"range": "15/60",
+						"property": [
+							"A",
+							"GCRLD",
+							"MSF",
+							"L",
+							"LD"
+						],
+						"reload": 1,
+						"ammoType": "musketball",
+						"customProperties": {
+							"misfire": 2
+						},
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Flintlock Pistol",
+						"source": "XDMG",
+						"type": "R",
+						"rarity": "common",
+						"weaponCategory": "martial",
+						"firearm": true,
+						"weapon": true,
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"weight": 2,
+						"age": "renaissance",
+						"range": "15/60",
+						"property": [
+							"A",
+							"GCRLD",
+							"MSF",
+							"L",
+							"LD"
+						],
+						"reload": 1,
+						"ammoType": "musketball",
+						"customProperties": {
+							"misfire": 2
+						},
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Glaive",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 6,
+						"value": 2000,
+						"weaponCategory": "martial",
+						"property": [
+							"H|XPHB",
+							"R|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Graze|XPHB"
+						],
+						"dmg1": "1d10",
+						"dmgType": "S",
+						"polearm": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Glaive",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 6,
+						"weaponCategory": "martial",
+						"property": [
+							"H|XPHB",
+							"R|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Graze|XPHB"
+						],
+						"dmg1": "1d10",
+						"dmgType": "S",
+						"polearm": true,
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Greataxe",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 7,
+						"value": 3000,
+						"weaponCategory": "martial",
+						"property": [
+							"H|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Cleave|XPHB"
+						],
+						"dmg1": "1d12",
+						"dmgType": "S",
+						"axe": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Greataxe",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 7,
+						"weaponCategory": "martial",
+						"property": [
+							"H|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Cleave|XPHB"
+						],
+						"dmg1": "1d12",
+						"dmgType": "S",
+						"axe": true,
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Greatclub",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 10,
+						"value": 20,
+						"weaponCategory": "simple",
+						"property": [
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Push|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "B",
+						"club": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Greatclub",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 10,
+						"weaponCategory": "simple",
+						"property": [
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Push|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "B",
+						"club": true,
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Greatsword",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 6,
+						"value": 5000,
+						"weaponCategory": "martial",
+						"property": [
+							"H|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Graze|XPHB"
+						],
+						"dmg1": "2d6",
+						"dmgType": "S",
+						"sword": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Greatsword",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 6,
+						"weaponCategory": "martial",
+						"property": [
+							"H|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Graze|XPHB"
+						],
+						"dmg1": "2d6",
+						"dmgType": "S",
+						"sword": true,
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Halberd",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 6,
+						"value": 2000,
+						"weaponCategory": "martial",
+						"property": [
+							"H|XPHB",
+							"R|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Cleave|XPHB"
+						],
+						"dmg1": "1d10",
+						"dmgType": "S",
+						"polearm": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Halberd",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 6,
+						"weaponCategory": "martial",
+						"property": [
+							"H|XPHB",
+							"R|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Cleave|XPHB"
+						],
+						"dmg1": "1d10",
+						"dmgType": "S",
+						"polearm": true,
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Hammer",
+						"source": "TLotRR",
+						"page": 73,
+						"type": "M",
+						"rarity": "none",
+						"weight": 3,
+						"value": 20,
+						"currencyConversion": "M-E",
+						"weaponCategory": "simple",
+						"dmg1": "1d6",
+						"dmgType": "B",
+						"hammer": true,
+						"weapon": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Hammer",
+						"source": "XDMG",
+						"type": "M",
+						"rarity": "common",
+						"weight": 3,
+						"currencyConversion": "M-E",
+						"weaponCategory": "simple",
+						"dmg1": "1d6",
+						"dmgType": "B",
+						"hammer": true,
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Hand Crossbow",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 3,
+						"value": 7500,
+						"weaponCategory": "martial",
+						"property": [
+							"A|XPHB",
+							"L|XPHB",
+							"LD|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"range": "30/120",
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"crossbow": true,
+						"weapon": true,
+						"ammoType": "bolt|xphb",
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Hand Crossbow",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "common",
+						"weight": 3,
+						"weaponCategory": "martial",
+						"property": [
+							"A|XPHB",
+							"L|XPHB",
+							"LD|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"range": "30/120",
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"crossbow": true,
+						"weapon": true,
+						"ammoType": "bolt|xphb",
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Handaxe",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"value": 500,
+						"weaponCategory": "simple",
+						"property": [
+							"L|XPHB",
+							"T|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"range": "20/60",
+						"dmg1": "1d6",
+						"dmgType": "S",
+						"axe": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Handaxe",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 2,
+						"weaponCategory": "simple",
+						"property": [
+							"L|XPHB",
+							"T|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"range": "20/60",
+						"dmg1": "1d6",
+						"dmgType": "S",
+						"axe": true,
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Heavy Crossbow",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 18,
+						"value": 5000,
+						"weaponCategory": "martial",
+						"property": [
+							"A|XPHB",
+							"H|XPHB",
+							"LD|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Push|XPHB"
+						],
+						"range": "100/400",
+						"dmg1": "1d10",
+						"dmgType": "P",
+						"crossbow": true,
+						"weapon": true,
+						"ammoType": "bolt|xphb",
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Heavy Crossbow",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "common",
+						"weight": 18,
+						"weaponCategory": "martial",
+						"property": [
+							"A|XPHB",
+							"H|XPHB",
+							"LD|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Push|XPHB"
+						],
+						"range": "100/400",
+						"dmg1": "1d10",
+						"dmgType": "P",
+						"crossbow": true,
+						"weapon": true,
+						"ammoType": "bolt|xphb",
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Heavy Hammer",
+						"source": "TLotRR",
+						"page": 73,
+						"type": "M",
+						"rarity": "none",
+						"weight": 4,
+						"value": 100,
+						"currencyConversion": "M-E",
+						"weaponCategory": "martial",
+						"property": [
+							"H",
+							"V"
+						],
+						"dmg1": "1d8",
+						"dmgType": "B",
+						"dmg2": "1d10",
+						"hammer": true,
+						"weapon": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Heavy Hammer",
+						"source": "XDMG",
+						"type": "M",
+						"rarity": "common",
+						"weight": 4,
+						"currencyConversion": "M-E",
+						"weaponCategory": "martial",
+						"property": [
+							"H",
+							"V"
+						],
+						"dmg1": "1d8",
+						"dmgType": "B",
+						"dmg2": "1d10",
+						"hammer": true,
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Hooked Shortspear",
+						"source": "OotA",
+						"page": 224,
+						"type": "M",
+						"rarity": "unknown",
+						"weight": 2,
+						"weaponCategory": "martial",
+						"property": [
+							"L"
+						],
+						"dmg1": "1d4",
+						"dmgType": "P",
+						"weapon": true,
+						"entries": [
+							"On a hit with this weapon, the wielder can forgo dealing damage and attempt to trip the target, in which case the target must succeed on a Strength saving throw or fall {@condition prone}. The DC is 8 + the wielder's Strength modifier + the wielder's proficiency bonus."
+						]
+					},
+					"specificVariant": {
+						"name": "Silvered Hooked Shortspear",
+						"source": "XDMG",
+						"type": "M",
+						"rarity": "common",
+						"weight": 2,
+						"weaponCategory": "martial",
+						"property": [
+							"L"
+						],
+						"dmg1": "1d4",
+						"dmgType": "P",
+						"weapon": true,
+						"entries": [
+							"On a hit with this weapon, the wielder can forgo dealing damage and attempt to trip the target, in which case the target must succeed on a Strength saving throw or fall {@condition prone}. The DC is 8 + the wielder's Strength modifier + the wielder's proficiency bonus."
+						],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Hoopak",
+						"source": "DSotDQ",
+						"page": 188,
+						"type": "M",
+						"rarity": "none",
+						"weight": 2,
+						"value": 10,
+						"weaponCategory": "martial",
+						"property": [
+							"A",
+							"F",
+							"S",
+							"2H"
+						],
+						"range": "40/160",
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"weapon": true,
+						"entries": [
+							"A hoopak is a sturdy stick with a sling at one end and a pointed tip at the other.",
+							{
+								"type": "entries",
+								"name": "Special",
+								"entries": [
+									"When you make a melee attack with this weapon, you ignore its ammunition property. You can use the hoopak as a martial ranged weapon. If you do, it uses the ammunition property, uses sling bullets, and deals {@damage 1d4} bludgeoning damage on a hit."
+								]
+							}
+						],
+						"ammoType": "sling bullet|phb",
+						"hasFluffImages": true
+					},
+					"specificVariant": {
+						"name": "Silvered Hoopak",
+						"source": "XDMG",
+						"type": "M",
+						"rarity": "common",
+						"weight": 2,
+						"weaponCategory": "martial",
+						"property": [
+							"A",
+							"F",
+							"S",
+							"2H"
+						],
+						"range": "40/160",
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"weapon": true,
+						"entries": [
+							"A hoopak is a sturdy stick with a sling at one end and a pointed tip at the other.",
+							{
+								"type": "entries",
+								"name": "Special",
+								"entries": [
+									"When you make a melee attack with this weapon, you ignore its ammunition property. You can use the hoopak as a martial ranged weapon. If you do, it uses the ammunition property, uses sling bullets, and deals {@damage 1d4} bludgeoning damage on a hit."
+								]
+							}
+						],
+						"ammoType": "sling bullet|phb",
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Hunting Rifle",
+						"source": "XDMG",
+						"page": 73,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 8,
+						"valueRarity": "rare",
+						"weaponCategory": "martial",
+						"age": "modern",
+						"property": [
+							"AF|XDMG",
+							"RLD|XDMG",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"range": "80/240",
+						"reload": 5,
+						"dmg1": "2d10",
+						"dmgType": "P",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "firearm bullet|xphb",
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Hunting Rifle",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "common",
+						"weight": 8,
+						"valueRarity": "rare",
+						"weaponCategory": "martial",
+						"age": "modern",
+						"property": [
+							"AF|XDMG",
+							"RLD|XDMG",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"range": "80/240",
+						"reload": 5,
+						"dmg1": "2d10",
+						"dmgType": "P",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "firearm bullet|xphb",
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Javelin",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"value": 50,
+						"weaponCategory": "simple",
+						"property": [
+							"T|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"range": "30/120",
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"spear": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Javelin",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 2,
+						"weaponCategory": "simple",
+						"property": [
+							"T|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"range": "30/120",
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"spear": true,
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Lance",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 6,
+						"value": 1000,
+						"weaponCategory": "martial",
+						"property": [
+							"H|XPHB",
+							"R|XPHB",
+							{
+								"uid": "2H|XPHB",
+								"note": "unless mounted"
+							}
+						],
+						"mastery": [
+							"Topple|XPHB"
+						],
+						"dmg1": "1d10",
+						"dmgType": "P",
+						"lance": true,
+						"weapon": true,
+						"entries": [
+							"A Lance requires two hands to wield when you aren't mounted."
+						],
+						"hasFluffImages": true
+					},
+					"specificVariant": {
+						"name": "Silvered Lance",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 6,
+						"weaponCategory": "martial",
+						"property": [
+							"H|XPHB",
+							"R|XPHB",
+							{
+								"uid": "2H|XPHB",
+								"note": "unless mounted"
+							}
+						],
+						"mastery": [
+							"Topple|XPHB"
+						],
+						"dmg1": "1d10",
+						"dmgType": "P",
+						"lance": true,
+						"weapon": true,
+						"entries": [
+							"A Lance requires two hands to wield when you aren't mounted."
+						],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Laser Pistol",
+						"source": "XDMG",
+						"page": 73,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"valueRarity": "very rare",
+						"weaponCategory": "martial",
+						"age": "futuristic",
+						"property": [
+							"AF|XDMG",
+							"RLD|XDMG"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"range": "40/120",
+						"reload": 50,
+						"dmg1": "3d6",
+						"dmgType": "R",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "energy cell|xdmg",
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Laser Pistol",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "common",
+						"weight": 2,
+						"valueRarity": "very rare",
+						"weaponCategory": "martial",
+						"age": "futuristic",
+						"property": [
+							"AF|XDMG",
+							"RLD|XDMG"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"range": "40/120",
+						"reload": 50,
+						"dmg1": "3d6",
+						"dmgType": "R",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "energy cell|xdmg",
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Laser Rifle",
+						"source": "XDMG",
+						"page": 73,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 7,
+						"valueRarity": "very rare",
+						"weaponCategory": "martial",
+						"age": "futuristic",
+						"property": [
+							"AF|XDMG",
+							"RLD|XDMG",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"range": "100/300",
+						"reload": 30,
+						"dmg1": "3d8",
+						"dmgType": "R",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "energy cell|xdmg",
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Laser Rifle",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "common",
+						"weight": 7,
+						"valueRarity": "very rare",
+						"weaponCategory": "martial",
+						"age": "futuristic",
+						"property": [
+							"AF|XDMG",
+							"RLD|XDMG",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"range": "100/300",
+						"reload": 30,
+						"dmg1": "3d8",
+						"dmgType": "R",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "energy cell|xdmg",
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Light Crossbow",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 5,
+						"value": 2500,
+						"weaponCategory": "simple",
+						"property": [
+							"A|XPHB",
+							"LD|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"range": "80/320",
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"crossbow": true,
+						"weapon": true,
+						"ammoType": "bolt|xphb",
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Light Crossbow",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "common",
+						"weight": 5,
+						"weaponCategory": "simple",
+						"property": [
+							"A|XPHB",
+							"LD|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"range": "80/320",
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"crossbow": true,
+						"weapon": true,
+						"ammoType": "bolt|xphb",
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Light Hammer",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"value": 200,
+						"weaponCategory": "simple",
+						"property": [
+							"L|XPHB",
+							"T|XPHB"
+						],
+						"mastery": [
+							"Nick|XPHB"
+						],
+						"range": "20/60",
+						"dmg1": "1d4",
+						"dmgType": "B",
+						"hammer": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Light Hammer",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 2,
+						"weaponCategory": "simple",
+						"property": [
+							"L|XPHB",
+							"T|XPHB"
+						],
+						"mastery": [
+							"Nick|XPHB"
+						],
+						"range": "20/60",
+						"dmg1": "1d4",
+						"dmgType": "B",
+						"hammer": true,
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Light Repeating Crossbow",
+						"source": "OotA",
+						"page": 224,
+						"type": "R",
+						"rarity": "unknown",
+						"weight": 5,
+						"weaponCategory": "simple",
+						"property": [
+							"A",
+							"2H"
+						],
+						"range": "40/160",
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"crossbow": true,
+						"weapon": true,
+						"entries": [
+							"This crossbow is fitted with a cartridge that can hold up to six crossbow bolts. It automatically reloads after firing until the cartridge runs out of ammunition. Reloading the cartridge takes an action."
+						],
+						"ammoType": "crossbow bolt|phb"
+					},
+					"specificVariant": {
+						"name": "Silvered Light Repeating Crossbow",
+						"source": "XDMG",
+						"type": "R",
+						"rarity": "common",
+						"weight": 5,
+						"weaponCategory": "simple",
+						"property": [
+							"A",
+							"2H"
+						],
+						"range": "40/160",
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"crossbow": true,
+						"weapon": true,
+						"entries": [
+							"This crossbow is fitted with a cartridge that can hold up to six crossbow bolts. It automatically reloads after firing until the cartridge runs out of ammunition. Reloading the cartridge takes an action."
+						],
+						"ammoType": "crossbow bolt|phb",
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Long Sword",
+						"source": "TLotRR",
+						"page": 73,
+						"type": "M",
+						"rarity": "none",
+						"weight": 3,
+						"value": 200,
+						"currencyConversion": "M-E",
+						"weaponCategory": "martial",
+						"property": [
+							"H",
+							"V"
+						],
+						"dmg1": "1d8",
+						"dmgType": "S",
+						"dmg2": "1d10",
+						"sword": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Long Sword",
+						"source": "XDMG",
+						"type": "M",
+						"rarity": "common",
+						"weight": 3,
+						"currencyConversion": "M-E",
+						"weaponCategory": "martial",
+						"property": [
+							"H",
+							"V"
+						],
+						"dmg1": "1d8",
+						"dmgType": "S",
+						"dmg2": "1d10",
+						"sword": true,
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Longbow",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"value": 5000,
+						"weaponCategory": "martial",
+						"property": [
+							"A|XPHB",
+							"H|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"range": "150/600",
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"bow": true,
+						"weapon": true,
+						"ammoType": "arrow|xphb",
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Longbow",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "common",
+						"weight": 2,
+						"weaponCategory": "martial",
+						"property": [
+							"A|XPHB",
+							"H|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"range": "150/600",
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"bow": true,
+						"weapon": true,
+						"ammoType": "arrow|xphb",
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Longsword",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 3,
+						"value": 1500,
+						"weaponCategory": "martial",
+						"property": [
+							"V|XPHB"
+						],
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "S",
+						"dmg2": "1d10",
+						"sword": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Longsword",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 3,
+						"weaponCategory": "martial",
+						"property": [
+							"V|XPHB"
+						],
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "S",
+						"dmg2": "1d10",
+						"sword": true,
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Mace",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 4,
+						"value": 500,
+						"weaponCategory": "simple",
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"dmg1": "1d6",
+						"dmgType": "B",
+						"mace": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Mace",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 4,
+						"weaponCategory": "simple",
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"dmg1": "1d6",
+						"dmgType": "B",
+						"mace": true,
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Mattock",
+						"source": "TLotRR",
+						"page": 73,
+						"type": "M",
+						"rarity": "none",
+						"weight": 10,
+						"value": 100,
+						"currencyConversion": "M-E",
+						"weaponCategory": "martial",
+						"property": [
+							"H",
+							"2H"
+						],
+						"dmg1": "1d12",
+						"dmgType": "P",
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Mattock",
+						"source": "XDMG",
+						"type": "M",
+						"rarity": "common",
+						"weight": 10,
+						"currencyConversion": "M-E",
+						"weaponCategory": "martial",
+						"property": [
+							"H",
+							"2H"
+						],
+						"dmg1": "1d12",
+						"dmgType": "P",
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Maul",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 10,
+						"value": 1000,
+						"weaponCategory": "martial",
+						"property": [
+							"H|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Topple|XPHB"
+						],
+						"dmg1": "2d6",
+						"dmgType": "B",
+						"hammer": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Maul",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 10,
+						"weaponCategory": "martial",
+						"property": [
+							"H|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Topple|XPHB"
+						],
+						"dmg1": "2d6",
+						"dmgType": "B",
+						"hammer": true,
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Morningstar",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 4,
+						"value": 1500,
+						"weaponCategory": "martial",
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"mace": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Morningstar",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 4,
+						"weaponCategory": "martial",
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"mace": true,
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Musket",
+						"source": "GPCodex",
+						"page": 6,
+						"type": "R",
+						"srd": false,
+						"rarity": "none",
+						"weaponCategory": "martial",
+						"firearm": true,
+						"weapon": true,
+						"value": 75000,
+						"dmg1": "1d12",
+						"dmgType": "P",
+						"weight": 10,
+						"age": "renaissance",
+						"range": "40/120",
+						"property": [
+							"A",
+							"GCRLD",
+							"MSF",
+							"2H",
+							"LD"
+						],
+						"reload": 1,
+						"ammoType": "musketball",
+						"customProperties": {
+							"misfire": 2
+						},
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Musket",
+						"source": "XDMG",
+						"type": "R",
+						"rarity": "common",
+						"weaponCategory": "martial",
+						"firearm": true,
+						"weapon": true,
+						"dmg1": "1d12",
+						"dmgType": "P",
+						"weight": 10,
+						"age": "renaissance",
+						"range": "40/120",
+						"property": [
+							"A",
+							"GCRLD",
+							"MSF",
+							"2H",
+							"LD"
+						],
+						"reload": 1,
+						"ammoType": "musketball",
+						"customProperties": {
+							"misfire": 2
+						},
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Musket",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 10,
+						"value": 50000,
+						"weaponCategory": "martial",
+						"property": [
+							"A|XPHB",
+							"LD|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"range": "40/120",
+						"dmg1": "1d12",
+						"dmgType": "P",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "firearm bullet|xphb",
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Musket",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "common",
+						"weight": 10,
+						"weaponCategory": "martial",
+						"property": [
+							"A|XPHB",
+							"LD|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"range": "40/120",
+						"dmg1": "1d12",
+						"dmgType": "P",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "firearm bullet|xphb",
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Pike",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 18,
+						"value": 500,
+						"weaponCategory": "martial",
+						"property": [
+							"H|XPHB",
+							"R|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Push|XPHB"
+						],
+						"dmg1": "1d10",
+						"dmgType": "P",
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Pike",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 18,
+						"weaponCategory": "martial",
+						"property": [
+							"H|XPHB",
+							"R|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Push|XPHB"
+						],
+						"dmg1": "1d10",
+						"dmgType": "P",
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Pistol",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 3,
+						"value": 25000,
+						"weaponCategory": "martial",
+						"property": [
+							"A|XPHB",
+							"LD|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"range": "30/90",
+						"dmg1": "1d10",
+						"dmgType": "P",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "firearm bullet|xphb",
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Pistol",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "common",
+						"weight": 3,
+						"weaponCategory": "martial",
+						"property": [
+							"A|XPHB",
+							"LD|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"range": "30/90",
+						"dmg1": "1d10",
+						"dmgType": "P",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "firearm bullet|xphb",
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Pocket Pistol",
+						"source": "GPCodex",
+						"page": 6,
+						"type": "R",
+						"srd": false,
+						"rarity": "none",
+						"weaponCategory": "martial",
+						"firearm": true,
+						"weapon": true,
+						"value": 12500,
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"weight": 1,
+						"age": "renaissance",
+						"range": "10/40",
+						"property": [
+							"A",
+							"GCRLD",
+							"MSF",
+							"L",
+							"CV",
+							"LD"
+						],
+						"reload": 1,
+						"ammoType": "musketball",
+						"customProperties": {
+							"misfire": 3
+						},
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Pocket Pistol",
+						"source": "XDMG",
+						"type": "R",
+						"rarity": "common",
+						"weaponCategory": "martial",
+						"firearm": true,
+						"weapon": true,
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"weight": 1,
+						"age": "renaissance",
+						"range": "10/40",
+						"property": [
+							"A",
+							"GCRLD",
+							"MSF",
+							"L",
+							"CV",
+							"LD"
+						],
+						"reload": 1,
+						"ammoType": "musketball",
+						"customProperties": {
+							"misfire": 3
+						},
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Quarterstaff",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 4,
+						"value": 20,
+						"weaponCategory": "simple",
+						"property": [
+							"V|XPHB"
+						],
+						"mastery": [
+							"Topple|XPHB"
+						],
+						"dmg1": "1d6",
+						"dmgType": "B",
+						"dmg2": "1d8",
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Quarterstaff",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 4,
+						"weaponCategory": "simple",
+						"property": [
+							"V|XPHB"
+						],
+						"mastery": [
+							"Topple|XPHB"
+						],
+						"dmg1": "1d6",
+						"dmgType": "B",
+						"dmg2": "1d8",
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Rapier",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"value": 2500,
+						"weaponCategory": "martial",
+						"property": [
+							"F|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"rapier": true,
+						"sword": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Rapier",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 2,
+						"weaponCategory": "martial",
+						"property": [
+							"F|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"rapier": true,
+						"sword": true,
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Revolver",
+						"source": "XDMG",
+						"page": 73,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 3,
+						"valueRarity": "rare",
+						"weaponCategory": "martial",
+						"age": "modern",
+						"property": [
+							"AF|XDMG",
+							"RLD|XDMG"
+						],
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"range": "40/120",
+						"reload": 6,
+						"dmg1": "2d8",
+						"dmgType": "P",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "firearm bullet|xphb",
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Revolver",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "common",
+						"weight": 3,
+						"valueRarity": "rare",
+						"weaponCategory": "martial",
+						"age": "modern",
+						"property": [
+							"AF|XDMG",
+							"RLD|XDMG"
+						],
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"range": "40/120",
+						"reload": 6,
+						"dmg1": "2d8",
+						"dmgType": "P",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "firearm bullet|xphb",
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Scattergun",
+						"source": "GPCodex",
+						"page": 6,
+						"type": "R",
+						"srd": false,
+						"rarity": "none",
+						"weaponCategory": "martial",
+						"firearm": true,
+						"weapon": true,
+						"value": 50000,
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"weight": 10,
+						"age": "renaissance",
+						"range": "15/30",
+						"property": [
+							"A",
+							"GCRLD",
+							"MSF",
+							"2H",
+							"SCT"
+						],
+						"reload": 1,
+						"ammoType": "buckshot",
+						"customProperties": {
+							"misfire": 2
+						},
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Scattergun",
+						"source": "XDMG",
+						"type": "R",
+						"rarity": "common",
+						"weaponCategory": "martial",
+						"firearm": true,
+						"weapon": true,
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"weight": 10,
+						"age": "renaissance",
+						"range": "15/30",
+						"property": [
+							"A",
+							"GCRLD",
+							"MSF",
+							"2H",
+							"SCT"
+						],
+						"reload": 1,
+						"ammoType": "buckshot",
+						"customProperties": {
+							"misfire": 2
+						},
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Scimitar",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 3,
+						"value": 2500,
+						"weaponCategory": "martial",
+						"property": [
+							"F|XPHB",
+							"L|XPHB"
+						],
+						"mastery": [
+							"Nick|XPHB"
+						],
+						"dmg1": "1d6",
+						"dmgType": "S",
+						"sword": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Scimitar",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 3,
+						"weaponCategory": "martial",
+						"property": [
+							"F|XPHB",
+							"L|XPHB"
+						],
+						"mastery": [
+							"Nick|XPHB"
+						],
+						"dmg1": "1d6",
+						"dmgType": "S",
+						"sword": true,
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Semiautomatic Pistol",
+						"source": "XDMG",
+						"page": 73,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 3,
+						"valueRarity": "rare",
+						"weaponCategory": "martial",
+						"age": "modern",
+						"property": [
+							"AF|XDMG",
+							"RLD|XDMG"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"range": "50/150",
+						"reload": 15,
+						"dmg1": "2d6",
+						"dmgType": "P",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "firearm bullet|xphb",
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Semiautomatic Pistol",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "common",
+						"weight": 3,
+						"valueRarity": "rare",
+						"weaponCategory": "martial",
+						"age": "modern",
+						"property": [
+							"AF|XDMG",
+							"RLD|XDMG"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"range": "50/150",
+						"reload": 15,
+						"dmg1": "2d6",
+						"dmgType": "P",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "firearm bullet|xphb",
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Shortbow",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"value": 2500,
+						"weaponCategory": "simple",
+						"property": [
+							"A|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"range": "80/320",
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"bow": true,
+						"weapon": true,
+						"ammoType": "arrow|xphb",
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Shortbow",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "common",
+						"weight": 2,
+						"weaponCategory": "simple",
+						"property": [
+							"A|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"range": "80/320",
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"bow": true,
+						"weapon": true,
+						"ammoType": "arrow|xphb",
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Shortsword",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"value": 1000,
+						"weaponCategory": "martial",
+						"property": [
+							"F|XPHB",
+							"L|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"sword": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Shortsword",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 2,
+						"weaponCategory": "martial",
+						"property": [
+							"F|XPHB",
+							"L|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"sword": true,
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Shotgun",
+						"source": "XDMG",
+						"page": 73,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 7,
+						"valueRarity": "rare",
+						"weaponCategory": "martial",
+						"age": "modern",
+						"property": [
+							"AF|XDMG",
+							"RLD|XDMG",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Push|XPHB"
+						],
+						"range": "30/90",
+						"reload": 2,
+						"dmg1": "2d8",
+						"dmgType": "P",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "firearm bullet|xphb",
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Shotgun",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "common",
+						"weight": 7,
+						"valueRarity": "rare",
+						"weaponCategory": "martial",
+						"age": "modern",
+						"property": [
+							"AF|XDMG",
+							"RLD|XDMG",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Push|XPHB"
+						],
+						"range": "30/90",
+						"reload": 2,
+						"dmg1": "2d8",
+						"dmgType": "P",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "firearm bullet|xphb",
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Sickle",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"value": 100,
+						"weaponCategory": "simple",
+						"property": [
+							"L|XPHB"
+						],
+						"mastery": [
+							"Nick|XPHB"
+						],
+						"dmg1": "1d4",
+						"dmgType": "S",
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Sickle",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 2,
+						"weaponCategory": "simple",
+						"property": [
+							"L|XPHB"
+						],
+						"mastery": [
+							"Nick|XPHB"
+						],
+						"dmg1": "1d4",
+						"dmgType": "S",
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Sling",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"value": 10,
+						"weaponCategory": "simple",
+						"property": [
+							"A|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"range": "30/120",
+						"dmg1": "1d4",
+						"dmgType": "B",
+						"weapon": true,
+						"ammoType": "sling bullet|xphb",
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Sling",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "common",
+						"weaponCategory": "simple",
+						"property": [
+							"A|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"range": "30/120",
+						"dmg1": "1d4",
+						"dmgType": "B",
+						"weapon": true,
+						"ammoType": "sling bullet|xphb",
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Spear",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 3,
+						"value": 100,
+						"weaponCategory": "simple",
+						"property": [
+							"T|XPHB",
+							"V|XPHB"
+						],
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"range": "20/60",
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"dmg2": "1d8",
+						"spear": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Spear",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 3,
+						"weaponCategory": "simple",
+						"property": [
+							"T|XPHB",
+							"V|XPHB"
+						],
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"range": "20/60",
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"dmg2": "1d8",
+						"spear": true,
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Staff",
+						"source": "TLotRR",
+						"page": 73,
+						"type": "M",
+						"rarity": "none",
+						"weight": 2,
+						"value": 2,
+						"currencyConversion": "M-E",
+						"weaponCategory": "simple",
+						"property": [
+							"V"
+						],
+						"dmg1": "1d4",
+						"dmgType": "B",
+						"dmg2": "1d6",
+						"staff": true,
+						"weapon": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Staff",
+						"source": "XDMG",
+						"type": "M",
+						"rarity": "common",
+						"weight": 2,
+						"currencyConversion": "M-E",
+						"weaponCategory": "simple",
+						"property": [
+							"V"
+						],
+						"dmg1": "1d4",
+						"dmgType": "B",
+						"dmg2": "1d6",
+						"staff": true,
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Staff",
+						"source": "XPHB",
+						"page": 224,
+						"edition": "one",
+						"type": "SCF|XPHB",
+						"scfType": "arcane",
+						"rarity": "none",
+						"weight": 4,
+						"value": 500,
+						"weaponCategory": "simple",
+						"property": [
+							"V"
+						],
+						"dmg1": "1d6",
+						"dmgType": "B",
+						"dmg2": "1d8",
+						"staff": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Staff",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "SCF|XPHB",
+						"scfType": "arcane",
+						"rarity": "common",
+						"weight": 4,
+						"weaponCategory": "simple",
+						"property": [
+							"V"
+						],
+						"dmg1": "1d6",
+						"dmgType": "B",
+						"dmg2": "1d8",
+						"staff": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Sword",
+						"source": "TLotRR",
+						"page": 73,
+						"type": "M",
+						"rarity": "none",
+						"weight": 2,
+						"value": 150,
+						"currencyConversion": "M-E",
+						"weaponCategory": "martial",
+						"property": [
+							"F",
+							"V"
+						],
+						"dmg1": "1d6",
+						"dmgType": "S",
+						"dmg2": "1d8",
+						"sword": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Sword",
+						"source": "XDMG",
+						"type": "M",
+						"rarity": "common",
+						"weight": 2,
+						"currencyConversion": "M-E",
+						"weaponCategory": "martial",
+						"property": [
+							"F",
+							"V"
+						],
+						"dmg1": "1d6",
+						"dmgType": "S",
+						"dmg2": "1d8",
+						"sword": true,
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Trident",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 4,
+						"value": 500,
+						"weaponCategory": "martial",
+						"property": [
+							"T|XPHB",
+							"V|XPHB"
+						],
+						"mastery": [
+							"Topple|XPHB"
+						],
+						"range": "20/60",
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"dmg2": "1d10",
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Trident",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 4,
+						"weaponCategory": "martial",
+						"property": [
+							"T|XPHB",
+							"V|XPHB"
+						],
+						"mastery": [
+							"Topple|XPHB"
+						],
+						"range": "20/60",
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"dmg2": "1d10",
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "War Pick",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"value": 500,
+						"weaponCategory": "martial",
+						"property": [
+							"V|XPHB"
+						],
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"dmg2": "1d10",
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered War Pick",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 2,
+						"weaponCategory": "martial",
+						"property": [
+							"V|XPHB"
+						],
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"dmg2": "1d10",
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Warhammer",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 5,
+						"value": 1500,
+						"weaponCategory": "martial",
+						"property": [
+							"V|XPHB"
+						],
+						"mastery": [
+							"Push|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "B",
+						"dmg2": "1d10",
+						"hammer": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Warhammer",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 5,
+						"weaponCategory": "martial",
+						"property": [
+							"V|XPHB"
+						],
+						"mastery": [
+							"Push|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "B",
+						"dmg2": "1d10",
+						"hammer": true,
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Whip",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 3,
+						"value": 200,
+						"weaponCategory": "martial",
+						"property": [
+							"F|XPHB",
+							"R|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"dmg1": "1d4",
+						"dmgType": "S",
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Whip",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 3,
+						"weaponCategory": "martial",
+						"property": [
+							"F|XPHB",
+							"R|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"dmg1": "1d4",
+						"dmgType": "S",
+						"weapon": true,
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Wooden Staff",
+						"source": "XPHB",
+						"page": 225,
+						"edition": "one",
+						"type": "SCF|XPHB",
+						"scfType": "druid",
+						"rarity": "none",
+						"weight": 4,
+						"value": 500,
+						"weaponCategory": "simple",
+						"property": [
+							"V"
+						],
+						"dmg1": "1d6",
+						"dmgType": "B",
+						"dmg2": "1d8",
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Silvered Wooden Staff",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "SCF|XPHB",
+						"scfType": "druid",
+						"rarity": "common",
+						"weight": 4,
+						"weaponCategory": "simple",
+						"property": [
+							"V"
+						],
+						"dmg1": "1d6",
+						"dmgType": "B",
+						"dmg2": "1d8",
+						"entries": [],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Yklwa",
+						"source": "ToA",
+						"page": 32,
+						"type": "M",
+						"rarity": "none",
+						"weight": 3,
+						"value": 100,
+						"weaponCategory": "simple",
+						"property": [
+							"T"
+						],
+						"range": "10/30",
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"weapon": true,
+						"entries": [
+							"A yklwa (pronounced YICK-ul-wah) is a simple melee weapon that is the traditional weapon of Chultan warriors. A yklwa consists of a 3-foot wooden shaft with a steel or stone blade up to 18 inches long. Although it has the thrown weapon property, the yklwa is not well balanced for throwing."
+						]
+					},
+					"specificVariant": {
+						"name": "Silvered Yklwa",
+						"source": "XDMG",
+						"type": "M",
+						"rarity": "common",
+						"weight": 3,
+						"weaponCategory": "simple",
+						"property": [
+							"T"
+						],
+						"range": "10/30",
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"weapon": true,
+						"entries": [
+							"A yklwa (pronounced YICK-ul-wah) is a simple melee weapon that is the traditional weapon of Chultan warriors. A yklwa consists of a 3-foot wooden shaft with a steel or stone blade up to 18 inches long. Although it has the thrown weapon property, the yklwa is not well balanced for throwing."
+						],
+						"page": 304,
+						"lootTables": [
+							"Armaments - Common|XDMG"
+						],
+						"genericVariant": {
+							"name": "Silvered Weapon",
+							"source": "XDMG"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Shield of Expression",
+			"source": "CompendiumofAcadia",
+			"value": 10000,
+			"baseItem": "shield|xphb",
+			"type": "S|XPHB",
+			"rarity": "common",
+			"weight": 6,
+			"ac": 2,
+			"entries": [
+				"The front of this Shield is shaped in the likeness of a face. While bearing the Shield, you can take a {@variantrule Bonus Action|XPHB} to alter the face's expression."
+			],
+			"lootTables": [
+				"Armaments - Common|XDMG",
+				"Relics - Common|XDMG"
+			]
+		},
+		{
+			"name": "Ruby of the War Mage",
+			"source": "CompendiumofAcadia",
+			"value": 10000,
+			"rarity": "common",
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"wondrous": true,
+			"focus": true,
+			"entries": [
+				"Etched with eldritch runes, this 1-inch-diameter ruby allows you to use a Simple or Martial weapon as a {@variantrule Spellcasting Focus|XPHB} for your spells. For this property to work, you must attach the ruby to the weapon by pressing the ruby against it for at least 10 minutes. Thereafter, the ruby can't be removed unless you detach it as a {@action Magic|XPHB} action, the weapon is destroyed, or your {@variantrule Attunement|XPHB} to the ruby ends."
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Relics - Common|XDMG"
+			]
+		},
+		{
+			"name": "Rope of Mending",
+			"source": "CompendiumofAcadia",
+			"value": 10000,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This 50-foot coil of rope can repair itself when cut into any number of smaller pieces. As a {@action Magic|XPHB} action, you can cause all pieces of the rope that are in contact with each other and not otherwise in use to knit back together. A Rope of Mending is forever shortened if a section of it is lost or destroyed."
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Implements - Common|XDMG"
+			]
+		},
+		{
+			"name": "Rival Coin",
+			"source": "CompendiumofAcadia",
+			"value": 10000,
+			"rarity": "common",
+			"wondrous": true,
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"entries": [
+				"This gold coin has a creature embossed on each side. The two depicted creatures must be famous rivals or enemies of each other. For example, a Rival Coin might show {@book Iggwilv|XDMG|8|Iggwilv} on one side and {@book Mordenkainen|XDMG|8|Mordenkainen} on the other, or {@book Venger|XDMG|8|Venger} on one side and {@book Tiamat|XDMG|8|Tiamat} on the other. One of these figures is on the \"heads\" side of the coin, the other on the \"tails\" side.",
+				"The coin has 1 charge and regains its expended charge daily at dawn. You can take a {@action Magic|XPHB} action to toss the coin, expending its charge. Roll any die to determine whether the coin comes up heads (on an even number) or tails (on an odd number). The roll also determines the effect:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Heads",
+							"entries": [
+								"Target one creature you can see within 60 feet of yourself. The target makes a {@dc 13} Wisdom saving throw. On a failed save, the target takes {@damage 2d4} Psychic damage and has {@variantrule Disadvantage|XPHB} on the next attack roll it makes before the end of its next turn. On a successful save, the target takes half as much damage only."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Tails",
+							"entries": [
+								"You take {@damage 1d4} Psychic damage."
+							]
+						}
+					]
+				}
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Prosthetic Limb",
+			"source": "CompendiumofAcadia",
+			"value": 10000,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This magic item replaces a lost limb—a hand, an arm, a foot, a leg, or a similar body part. While the prosthetic is attached, it functions identically to the part it replaces. You can detach or reattach it as a {@action Magic|XPHB} action, and it can't be removed against your will while you are alive."
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Implements - Common|XDMG"
+			]
+		},
+		{
+			"name": "Potion of Healing",
+			"source": "CompendiumofAcadia",
+			"value": 5000,
+			"freeRules2024": true,
+			"otherSources": [
+				{
+					"source": "XPHB",
+					"page": 228
+				}
+			],
+			"type": "P|XPHB",
+			"rarity": "common",
+			"weight": 0.5,
+			"value": 5000,
+			"entries": [
+				"This potion is a magic item. As a {@variantrule Bonus Action|XPHB}, you can drink it or administer it to another creature within 5 feet of yourself. The creature that drinks the magical red fluid in this vial regains {@dice 2d4 + 2} {@variantrule Hit Points|XPHB}. The potion's red liquid glimmers when agitated."
+			],
+			"lootTables": [
+				"Implements - Common|XDMG",
+				"Relics - Common|XDMG"
+			],
+			"miscTags": [
+				"CNS"
+			]
+		},
+		{
+			"name": "Potion of Comprehension",
+			"source": "CompendiumofAcadia",
+			"value": 5000,
+			"type": "P|XPHB",
+			"rarity": "common",
+			"weight": 0.5,
+			"entries": [
+				"When you drink this potion, you gain the effect of the {@spell Comprehend Languages|XPHB} spell for 1 hour.",
+				"This potion's liquid is a clear concoction with bits of salt and soot swirling in it."
+			],
+			"attachedSpells": [
+				"comprehend languages|xphb"
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Implements - Common|XDMG"
+			],
+			"miscTags": [
+				"CNS"
+			]
+		},
+		{
+			"name": "Potion of Climbing",
+			"source": "CompendiumofAcadia",
+			"value": 5000,
+			"freeRules2024": true,
+			"type": "P|XPHB",
+			"rarity": "common",
+			"weight": 0.5,
+			"modifySpeed": {
+				"equal": {
+					"climb": "walk"
+				}
+			},
+			"entries": [
+				"When you drink this potion, you gain a {@variantrule Climb Speed|XPHB} equal to your {@variantrule Speed|XPHB} for 1 hour. During this time, you have {@variantrule Advantage|XPHB} on Strength ({@skill Athletics|XPHB}) checks to climb.",
+				"This potion is separated into brown, silver, and gray layers resembling bands of stone. Shaking the bottle fails to mix the colors."
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Implements - Common|XDMG"
+			],
+			"miscTags": [
+				"CNS"
+			]
+		},
+		{
+			"name": "Pot of Awakening",
+			"source": "CompendiumofAcadia",
+			"value": 10000,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"If you plant an ordinary shrub in this 10-pound clay pot and let it grow for 30 days, the shrub magically transforms into an {@creature Awakened Shrub|XMM} at the end of that time. When the shrub awakens, its roots break the pot, destroying it.",
+				"The awakened shrub is {@variantrule Friendly [Attitude]|XPHB|Friendly} toward you and obeys your commands. Absent commands from you, it does nothing."
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Relics - Common|XDMG"
+			]
+		},
+		{
+			"name": "Pole of Collapsing",
+			"source": "CompendiumofAcadia",
+			"value": 10000,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This item functions as a Pole. While holding it, you can take a {@action Magic|XPHB} action to collapse it into a 1-foot-long rod for ease of storage (the pole's weight doesn't change) or cause the 1-foot-long rod to revert to a Pole. The rod elongates only as far as the surrounding space allows."
+			],
+			"lootTables": [
+				"Implements - Common|XDMG"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Pole of Angling",
+			"source": "CompendiumofAcadia",
+			"value": 10000,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This item functions as a Pole. While holding it, you can take a {@action Magic|XPHB} action to cause it to transform into a fishing pole with a hook, a line, and a reel, or have the fishing pole revert to a Pole."
+			],
+			"lootTables": [
+				"Implements - Common|XDMG"
+			]
+		},
+		{
+			"name": "Pipe of Smoke Monsters",
+			"source": "CompendiumofAcadia",
+			"value": 10000,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"While smoking this pipe, you can take a {@action Magic|XPHB} action to exhale a puff of smoke that takes the form of a creature, such as a dragon, a flumph, or a slaad. The form must be small enough to fit in a 1-foot cube and loses its shape after a few seconds, becoming an ordinary puff of smoke."
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Implements - Common|XDMG"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Perfume of Bewitching",
+			"source": "CompendiumofAcadia",
+			"value": 5000,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This tiny vial contains magic perfume, enough for one use. You can take a {@action Magic|XPHB} action to apply the perfume to yourself, and its effect lasts 1 hour. For the duration, you have {@variantrule Advantage|XPHB} on all Charisma ({@skill Deception|XPHB} and {@skill Persuasion|XPHB}) checks made to influence a creature within 5 feet of yourself."
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Implements - Common|XDMG"
+			]
+		},
+		{
+			"name": "Orb of Direction",
+			"source": "CompendiumofAcadia",
+			"value": 10000,
+			"scfType": "arcane",
+			"rarity": "common",
+			"wondrous": true,
+			"weight": 3,
+			"entries": [
+				"This orb can be used as an Arcane Focus.",
+				"While holding this orb, you can take a {@action Magic|XPHB} action to determine which way is magnetic north. Nothing happens if the orb is used in a location that has no magnetic north."
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Implements - Common|XDMG"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Orb of Time",
+			"source": "CompendiumofAcadia",
+			"value": 10000,
+			"scfType": "arcane",
+			"rarity": "common",
+			"wondrous": true,
+			"weight": 3,
+			"entries": [
+				"This orb can be used as an Arcane Focus.",
+				"While holding the orb, you can take a {@action Magic|XPHB} action to determine whether it is morning, afternoon, evening, or nighttime. This property functions only on the Material Plane."
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Implements - Common|XDMG"
+			]
+		},
+		{
+			"name": "Mystery Key",
+			"source": "CompendiumofAcadia",
+			"value": 5000,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"A question mark is worked into the head of this key. The key has a {@chance 5} chance of unlocking any lock into which it's inserted. Once it unlocks something, the key disappears."
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Implements - Common|XDMG"
+			]
+		},
+		{
+			"name": "Moon-Touched Sword",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"sword": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Moon-Touched ",
+				"source": "XDMG",
+				"rarity": "common",
+				"entries": [
+					"In {@variantrule Darkness|XPHB}, the unsheathed blade of this weapon sheds moonlight, creating {@variantrule Bright Light|XPHB} in a 15-foot radius and {@variantrule Dim Light|XPHB} for an additional 15 feet."
+				],
+				"light": [
+					{
+						"bright": 15,
+						"dim": 30
+					}
+				],
+				"lootTables": [
+					"Armaments - Common|XDMG",
+					"Implements - Common|XDMG"
+				]
+			},
+			"hasFluffImages": true,
+			"source": "CompendiumofAcadia",
+			"rarity": "common",
+			"light": [
+				{
+					"bright": 15,
+					"dim": 30
+				}
+			],
+			"lootTables": [
+				"Armaments - Common|XDMG",
+				"Implements - Common|XDMG"
+			],
+			"entries": [
+				"In {@variantrule Darkness|XPHB}, the unsheathed blade of this weapon sheds moonlight, creating {@variantrule Bright Light|XPHB} in a 15-foot radius and {@variantrule Dim Light|XPHB} for an additional 15 feet.",
+				"<b><i>Price.</i></b> The Price of a Moon-Touched Sword is equal to the price of the weapon + 100 GP."
+			],
+			"variants": [
+				{
+					"base": {
+						"name": "Double-Bladed Scimitar",
+						"source": "ERLW",
+						"page": 21,
+						"type": "M",
+						"rarity": "none",
+						"weight": 6,
+						"value": 10000,
+						"weaponCategory": "martial",
+						"property": [
+							"2H",
+							"S"
+						],
+						"dmg1": "2d4",
+						"dmgType": "S",
+						"sword": true,
+						"weapon": true,
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Special",
+								"entries": [
+									"If you attack with a double-bladed scimitar as part of the {@action Attack} action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals {@damage 1d4} slashing damage on a hit, instead of {@damage 2d4}."
+								]
+							}
+						],
+						"hasFluff": true
+					},
+					"specificVariant": {
+						"name": "Moon-Touched Double-Bladed Scimitar",
+						"source": "XDMG",
+						"type": "M",
+						"rarity": "common",
+						"weight": 6,
+						"weaponCategory": "martial",
+						"property": [
+							"2H",
+							"S"
+						],
+						"dmg1": "2d4",
+						"dmgType": "S",
+						"sword": true,
+						"weapon": true,
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Special",
+								"entries": [
+									"If you attack with a double-bladed scimitar as part of the {@action Attack} action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals {@damage 1d4} slashing damage on a hit, instead of {@damage 2d4}."
+								]
+							}
+						],
+						"page": 280,
+						"light": [
+							{
+								"bright": 15,
+								"dim": 30
+							}
+						],
+						"lootTables": [
+							"Armaments - Common|XDMG",
+							"Implements - Common|XDMG"
+						],
+						"hasFluffImages": true,
+						"genericVariant": {
+							"name": "Moon-Touched Sword",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Greatsword",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 6,
+						"value": 5000,
+						"weaponCategory": "martial",
+						"property": [
+							"H|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Graze|XPHB"
+						],
+						"dmg1": "2d6",
+						"dmgType": "S",
+						"sword": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Moon-Touched Greatsword",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 6,
+						"weaponCategory": "martial",
+						"property": [
+							"H|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Graze|XPHB"
+						],
+						"dmg1": "2d6",
+						"dmgType": "S",
+						"sword": true,
+						"weapon": true,
+						"entries": [],
+						"page": 280,
+						"light": [
+							{
+								"bright": 15,
+								"dim": 30
+							}
+						],
+						"lootTables": [
+							"Armaments - Common|XDMG",
+							"Implements - Common|XDMG"
+						],
+						"hasFluffImages": true,
+						"genericVariant": {
+							"name": "Moon-Touched Sword",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Long Sword",
+						"source": "TLotRR",
+						"page": 73,
+						"type": "M",
+						"rarity": "none",
+						"weight": 3,
+						"value": 200,
+						"currencyConversion": "M-E",
+						"weaponCategory": "martial",
+						"property": [
+							"H",
+							"V"
+						],
+						"dmg1": "1d8",
+						"dmgType": "S",
+						"dmg2": "1d10",
+						"sword": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Moon-Touched Long Sword",
+						"source": "XDMG",
+						"type": "M",
+						"rarity": "common",
+						"weight": 3,
+						"currencyConversion": "M-E",
+						"weaponCategory": "martial",
+						"property": [
+							"H",
+							"V"
+						],
+						"dmg1": "1d8",
+						"dmgType": "S",
+						"dmg2": "1d10",
+						"sword": true,
+						"weapon": true,
+						"entries": [],
+						"page": 280,
+						"light": [
+							{
+								"bright": 15,
+								"dim": 30
+							}
+						],
+						"lootTables": [
+							"Armaments - Common|XDMG",
+							"Implements - Common|XDMG"
+						],
+						"hasFluffImages": true,
+						"genericVariant": {
+							"name": "Moon-Touched Sword",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Longsword",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 3,
+						"value": 1500,
+						"weaponCategory": "martial",
+						"property": [
+							"V|XPHB"
+						],
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "S",
+						"dmg2": "1d10",
+						"sword": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Moon-Touched Longsword",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 3,
+						"weaponCategory": "martial",
+						"property": [
+							"V|XPHB"
+						],
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "S",
+						"dmg2": "1d10",
+						"sword": true,
+						"weapon": true,
+						"entries": [],
+						"page": 280,
+						"light": [
+							{
+								"bright": 15,
+								"dim": 30
+							}
+						],
+						"lootTables": [
+							"Armaments - Common|XDMG",
+							"Implements - Common|XDMG"
+						],
+						"hasFluffImages": true,
+						"genericVariant": {
+							"name": "Moon-Touched Sword",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Rapier",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"value": 2500,
+						"weaponCategory": "martial",
+						"property": [
+							"F|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"rapier": true,
+						"sword": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Moon-Touched Rapier",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 2,
+						"weaponCategory": "martial",
+						"property": [
+							"F|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"rapier": true,
+						"sword": true,
+						"weapon": true,
+						"entries": [],
+						"page": 280,
+						"light": [
+							{
+								"bright": 15,
+								"dim": 30
+							}
+						],
+						"lootTables": [
+							"Armaments - Common|XDMG",
+							"Implements - Common|XDMG"
+						],
+						"hasFluffImages": true,
+						"genericVariant": {
+							"name": "Moon-Touched Sword",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Scimitar",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 3,
+						"value": 2500,
+						"weaponCategory": "martial",
+						"property": [
+							"F|XPHB",
+							"L|XPHB"
+						],
+						"mastery": [
+							"Nick|XPHB"
+						],
+						"dmg1": "1d6",
+						"dmgType": "S",
+						"sword": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Moon-Touched Scimitar",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 3,
+						"weaponCategory": "martial",
+						"property": [
+							"F|XPHB",
+							"L|XPHB"
+						],
+						"mastery": [
+							"Nick|XPHB"
+						],
+						"dmg1": "1d6",
+						"dmgType": "S",
+						"sword": true,
+						"weapon": true,
+						"entries": [],
+						"page": 280,
+						"light": [
+							{
+								"bright": 15,
+								"dim": 30
+							}
+						],
+						"lootTables": [
+							"Armaments - Common|XDMG",
+							"Implements - Common|XDMG"
+						],
+						"hasFluffImages": true,
+						"genericVariant": {
+							"name": "Moon-Touched Sword",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Shortsword",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"value": 1000,
+						"weaponCategory": "martial",
+						"property": [
+							"F|XPHB",
+							"L|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"sword": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Moon-Touched Shortsword",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "common",
+						"weight": 2,
+						"weaponCategory": "martial",
+						"property": [
+							"F|XPHB",
+							"L|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"sword": true,
+						"weapon": true,
+						"entries": [],
+						"page": 280,
+						"light": [
+							{
+								"bright": 15,
+								"dim": 30
+							}
+						],
+						"lootTables": [
+							"Armaments - Common|XDMG",
+							"Implements - Common|XDMG"
+						],
+						"hasFluffImages": true,
+						"genericVariant": {
+							"name": "Moon-Touched Sword",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Sword",
+						"source": "TLotRR",
+						"page": 73,
+						"type": "M",
+						"rarity": "none",
+						"weight": 2,
+						"value": 150,
+						"currencyConversion": "M-E",
+						"weaponCategory": "martial",
+						"property": [
+							"F",
+							"V"
+						],
+						"dmg1": "1d6",
+						"dmgType": "S",
+						"dmg2": "1d8",
+						"sword": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "Moon-Touched Sword",
+						"source": "XDMG",
+						"type": "M",
+						"rarity": "common",
+						"weight": 2,
+						"currencyConversion": "M-E",
+						"weaponCategory": "martial",
+						"property": [
+							"F",
+							"V"
+						],
+						"dmg1": "1d6",
+						"dmgType": "S",
+						"dmg2": "1d8",
+						"sword": true,
+						"weapon": true,
+						"entries": [],
+						"page": 280,
+						"light": [
+							{
+								"bright": 15,
+								"dim": 30
+							}
+						],
+						"lootTables": [
+							"Armaments - Common|XDMG",
+							"Implements - Common|XDMG"
+						],
+						"hasFluffImages": true,
+						"genericVariant": {
+							"name": "Moon-Touched Sword",
+							"source": "XDMG"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Dread Helm",
+			"source": "CompendiumofAcadia",
+			"value": 10000,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"While you're wearing this fearsome steel helm, your eyes glow red and the rest of your face is hidden in shadow."
+			],
+			"lootTables": [
+				"Armaments - Common|XDMG"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Hat of Vermin",
+			"source": "CompendiumofAcadia",
+			"value": 10000,
+			"rarity": "common",
+			"wondrous": true,
+			"recharge": "dawn",
+			"rechargeAmount": 3,
+			"charges": 3,
+			"entries": [
+				"This hat has 3 charges. While holding the hat, you can take a {@action Magic|XPHB} action to expend 1 charge and summon your choice of a {@creature Bat|XMM}, a {@creature Frog|XMM}, or a {@creature Rat|XMM}. The summoned creature magically appears in the hat and tries to get away from you as quickly as possible. The creature is {@variantrule Indifferent [Attitude]|XPHB|Indifferent} toward you and other creatures, and it isn't under your control. It behaves as an ordinary creature of its kind and disappears after 1 hour or when it drops to 0 {@variantrule Hit Points|XPHB}. The hat regains all expended charges daily at dawn."
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Ersatz Eye",
+			"source": "CompendiumofAcadia",
+			"value": 10000,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This magical eye replaces a real one that was lost or removed. While the Ersatz Eye is embedded in your eye socket, you can see through the tiny orb as though it were your natural eye. You can insert or remove the Ersatz Eye as a {@action Magic|XPHB} action, and it can't be removed against your will while you are alive."
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Implements - Common|XDMG"
+			]
+		},
+		{
+			"name": "Enduring Spellbook",
+			"source": "CompendiumofAcadia",
+			"value": 10000,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This spellbook, along with anything written on its pages, can't be damaged by fire or water. In addition, the spellbook doesn't deteriorate with age."
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG"
+			]
+		},
+		{
+			"name": "Ear Horn of Hearing",
+			"source": "CompendiumofAcadia",
+			"value": 10000,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"While held up to your ear, this horn suppresses the effects of the {@condition Deafened|XPHB} condition on you."
+			],
+			"lootTables": [
+				"Implements - Common|XDMG",
+				"Relics - Common|XDMG"
+			]
+		},
+		{
+			"name": "Lock of Trickery",
+			"source": "CompendiumofAcadia",
+			"value": 10000,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This lock appears to be an ordinary {@item Lock|XPHB} (of the type described in chapter 6 of the {@book Player's Handbook|XPHB}) and comes with a single key. The tumblers in this lock magically adjust to thwart burglars. Dexterity checks made to pick the lock have {@variantrule Disadvantage|XPHB}."
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Implements - Common|XDMG"
+			]
+		},
+		{
+			"name": "Instrument of Scribing",
+			"source": "CompendiumofAcadia",
+			"value": 10000,
+			"rarity": "common",
+			"wondrous": true,
+			"recharge": "dawn",
+			"rechargeAmount": 3,
+			"charges": 3,
+			"entries": [
+				"This {@item musical instrument|XPHB} has 3 charges and regains all expended charges daily at dawn. While you are playing it, you can take a {@action Magic|XPHB} action to expend 1 charge and write a magical message on a nonmagical object or surface that you can see within 30 feet of yourself. The message can be up to six words long and is written in a language you know. If you are a Bard, you can scribe an additional seven words and make the message glow faintly, allowing it to be seen in nonmagical {@variantrule Darkness|XPHB}. Casting the {@spell Dispel Magic|XPHB} spell on the message erases it. Otherwise, the message fades away after 24 hours."
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Implements - Common|XDMG"
+			]
+		},
+		{
+			"name": "Instrument of Illusions",
+			"source": "CompendiumofAcadia",
+			"value": 10000,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"While you are playing this {@item musical instrument|XPHB}, you can take a {@action Magic|XPHB} action to create harmless, illusory visual effects within a 5-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the instrument. If you are a Bard, the size of the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} increases to 15 feet. Sample visual effects include luminous musical notes, a spectral dancer, butterflies, and gently falling snow. The magical effects have neither substance nor sound, and they are obviously illusory. The effects end when you stop playing."
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Implements - Common|XDMG"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Horn of Silent Alarm",
+			"source": "CompendiumofAcadia",
+			"value": 10000,
+			"rarity": "common",
+			"wondrous": true,
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d4}",
+			"charges": 4,
+			"entries": [
+				"This horn has 4 charges and regains {@dice 1d4} expended charges daily at dawn. As a {@action Magic|XPHB} action, you can blow the horn while expending 1 charge. One creature of your choice hears the horn's blare, provided that creature is within 600 feet of the horn. No other creature hears the horn."
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Implements - Common|XDMG"
+			]
+		},
+		{
+			"name": "Heward's Handy Spice Pouch",
+			"source": "CompendiumofAcadia",
+			"value": 10000,
+			"rarity": "common",
+			"wondrous": true,
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d6 + 4}",
+			"charges": 10,
+			"entries": [
+				"This belt pouch appears empty and has 10 charges. While holding the pouch, you can take a {@action Magic|XPHB} action to expend 1 charge, name any nonmagical food seasoning (such as salt, pepper, saffron, or cilantro), and remove a pinch of the desired seasoning from the pouch. A pinch is enough to season a single meal. The pouch regains {@dice 1d6 + 4} expended charges daily at dawn."
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Implements - Common|XDMG"
+			]
+		},
+		{
+			"name": "Hat of Wizardry",
+			"source": "CompendiumofAcadia",
+			"value": 20000,
+			"rarity": "common",
+			"reqAttune": "by a wizard",
+			"reqAttuneTags": [
+				{
+					"class": "wizard"
+				}
+			],
+			"wondrous": true,
+			"focus": [
+				"Wizard"
+			],
+			"entries": [
+				"This cone-shaped hat is adorned with moons and stars. While you are wearing it, you gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Spellcasting Focus",
+					"entries": [
+						"You can use the hat as a {@variantrule Spellcasting Focus|XPHB} for your Wizard spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Unknown Spell",
+					"entries": [
+						"As a {@action Magic|XPHB} action, you can try to cast a cantrip that you don't know. The cantrip must be on the Wizard spell list and have a casting time of an action, and you make a {@dc 10} Intelligence ({@skill Arcana|XPHB}) check. On a successful check, you cast the spell. On a failed check, the spell fails, and the action used to cast the spell is wasted. In either case, you can't use this property again until you finish a {@variantrule Long Rest|XPHB}."
+					]
+				}
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Dark Shard Amulet",
+			"source": "CompendiumofAcadia",
+			"value": 20000,
+			"rarity": "common",
+			"reqAttune": "by a warlock",
+			"reqAttuneTags": [
+				{
+					"class": "warlock"
+				}
+			],
+			"wondrous": true,
+			"weight": 1,
+			"focus": [
+				"Warlock"
+			],
+			"entries": [
+				"This amulet is fashioned from a shard of resilient material originating from an otherworldly realm. While you are wearing it, you gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Spellcasting Focus",
+					"entries": [
+						"You can use the amulet as a {@variantrule Spellcasting Focus|XPHB} for your Warlock spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Unknown Spell",
+					"entries": [
+						"As a {@action Magic|XPHB} action, you can try to cast a cantrip that you don't know. The cantrip must be on the Warlock spell list and have a casting time of an action, and you make a {@dc 10} Intelligence ({@skill Arcana|XPHB}) check. On a successful check, you cast the spell. On a failed check, the spell fails, and the action used to cast it is wasted. In either case, you can't use this property again until you finish a {@variantrule Long Rest|XPHB}."
+					]
+				}
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG"
+			],
+			"hasFluffImages": true
+		},
+		{
 			"name": "Clockwork Amulet",
-			"source": "XDMG",
-			"value" : 10000,
+			"source": "CompendiumofAcadia",
+			"value": 20000,
 			"rarity": "common",
 			"wondrous": true,
 			"recharge": "dawn",
@@ -171361,9 +177809,22 @@
 			]
 		},
 		{
+			"name": "Clothes of Mending",
+			"source": "CompendiumofAcadia",
+			"value": 10000,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This elegant outfit magically mends itself to counteract daily wear and tear. Pieces of the outfit that are destroyed can't be repaired in this way."
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG"
+			]
+		},
+		{
 			"name": "Cloak of Many Fashions",
 			"source": "CompendiumofAcadia",
-			"value" : 10000,
+			"value": 10000,
 			"rarity": "common",
 			"wondrous": true,
 			"entries": [
@@ -171378,7 +177839,7 @@
 		{
 			"name": "Cloak of Billowing",
 			"source": "CompendiumofAcadia",
-			"value" : 10000,
+			"value": 10000,
 			"rarity": "common",
 			"wondrous": true,
 			"entries": [
@@ -171409,7 +177870,7 @@
 			"entries": [
 				"This armor never gets dirty.",
 				"<b><i>See the Recipe:</i></b> {@item Armor of Gleaming (Recipe)|CompendiumofAcadia}",
-				"<b>Price.</b> The Price of a Armor of Gleaming is equal to the price of the armor + 100 GP."
+				"<b><i>Price.</i></b> The Price of a Armor of Gleaming is equal to the price of the armor + 100 GP."
 			],
 			"variants": [
 				{
