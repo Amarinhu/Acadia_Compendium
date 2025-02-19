@@ -58462,7 +58462,7 @@
 				"You touch a willing creature and put it into a cataleptic state that is indistinguishable from death.",
 				"For the duration, the target appears dead to outward inspection and to spells used to determine the target's status. The target has the {@condition Blinded|XPHB} and {@condition Incapacitated|XPHB} conditions, and its {@variantrule Speed|XPHB} is 0.",
 				"The target also has {@variantrule Resistance|XPHB} to all damage except Psychic damage, and it has {@variantrule Immunity|XPHB} to the {@condition Poisoned|XPHB} condition.",
-				"This spell effect cannot be detected or perceived by divination magic, including spells such as {@spell Detect Magic|CompendiumofAcadia}."
+				"This spell effect cannot be detected or perceived by Divination spells, such as {@spell Detect Magic|CompendiumofAcadia}."
 			],
 			"damageResist": [
 				"acid",
@@ -178398,25 +178398,371 @@
 			]
 		},
 		{
-			"name": "+1 Arcane Grimoire",
-			"source": "CompendiumofAcadia",
-			"rarity": "uncommon",
-			"reqAttune": "by a wizard",
-			"reqAttuneTags": [
+			"name": "+1 Shield (*)",
+			"type": "GV|XDMG",
+			"requires": [
 				{
-					"class": "wizard"
+					"type": "S|XPHB"
 				}
 			],
-			"wondrous": true,
-			"weight": 3,
-			"bonusSpellAttack": "+1",
-			"bonusSpellSaveDc": "+1",
-			"focus": [
-				"Wizard"
+			"entries": [
+				"{@note * This generic variant has the same name and source as the item {@item +1 Shield|XDMG}}.",
+				"While holding this Shield, you have a +1 bonus to {@variantrule Armor Class|XPHB}, in addition to the Shield's normal bonus to AC.",
+				"<b><i>Price.</i></b> The Price of a +1 Shield is equal to the price of the shield + 400 GP."
+			],
+			"inherits": {
+				"namePrefix": "+1 ",
+				"source": "XDMG",
+				"page": 303,
+				"freeRules2024": true,
+				"rarity": "uncommon",
+				"bonusAc": "+1",
+				"entries": [
+					"While holding this Shield, you have a {=bonusAc} bonus to {@variantrule Armor Class|XPHB}, in addition to the Shield's normal bonus to AC."
+				],
+				"lootTables": [
+					"Armaments - Uncommon|XDMG"
+				]
+			},
+			"source": "CompendiumofAcadia",
+			"freeRules2024": true,
+			"rarity": "uncommon",
+			"bonusAc": "+1",
+			"lootTables": [
+				"Armaments - Uncommon|XDMG"
+			],
+			"variants": [
+				{
+					"base": {
+						"name": "Shield",
+						"source": "XPHB",
+						"page": 219,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "S|XPHB",
+						"rarity": "none",
+						"weight": 6,
+						"value": 1000,
+						"ac": 2,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Shield",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "S|XPHB",
+						"rarity": "uncommon",
+						"weight": 6,
+						"ac": 2,
+						"entries": [],
+						"page": 303,
+						"freeRules2024": true,
+						"bonusAc": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Shield (*)",
+							"source": "XDMG"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "+1 Ammunition",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"type": "A|XPHB"
+				},
+				{
+					"type": "AF|XDMG"
+				}
+			],
+			"ammo": true,
+			"inherits": {
+				"namePrefix": "+1 ",
+				"source": "XDMG",
+				"page": 228,
+				"freeRules2024": true,
+				"rarity": "uncommon",
+				"bonusWeapon": "+1",
+				"entries": [
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical."
+				],
+				"lootTables": [
+					"Armaments - Uncommon|XDMG",
+					"Implements - Uncommon|XDMG"
+				]
+			},
+			"source": "CompendiumofAcadia",
+			"freeRules2024": true,
+			"rarity": "uncommon",
+			"bonusWeapon": "+1",
+			"lootTables": [
+				"Armaments - Uncommon|XDMG",
+				"Implements - Uncommon|XDMG"
 			],
 			"entries": [
-				"While you are holding this leather-bound book, you can use it as a spellcasting focus for your wizard spells, and you gain a +1 bonus to the saving throw DCs of your wizard spells.",
-				"You can use this book as a spellbook. In addition, when you use your Arcane Recovery feature, you can increase the number of spell slot levels you regain by 1."
+				"You have a +1 bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+				"<b><i>Price.</i></b> The Price of a +1 Ammunition is equal to the price of the ammunition + 5 GP."
+			],
+			"variants": [
+				{
+					"base": {
+						"name": "Arrow",
+						"source": "XPHB",
+						"page": 222,
+						"edition": "one",
+						"type": "A|XPHB",
+						"rarity": "none",
+						"weight": 0.05,
+						"value": 5,
+						"arrow": true,
+						"entries": [
+							"Arrows are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+							"Arrows are typically stored in a {@item Quiver|XPHB} (bought separately)."
+						]
+					},
+					"specificVariant": {
+						"name": "+1 Arrow",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "A|XPHB",
+						"rarity": "uncommon",
+						"weight": 0.05,
+						"arrow": true,
+						"entries": [
+							"Arrows are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+							"Arrows are typically stored in a {@item Quiver|XPHB} (bought separately)."
+						],
+						"page": 228,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG",
+							"Implements - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Ammunition",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Bolt",
+						"source": "XPHB",
+						"page": 222,
+						"edition": "one",
+						"type": "A|XPHB",
+						"rarity": "none",
+						"weight": 0.075,
+						"value": 5,
+						"bolt": true,
+						"entries": [
+							"Crossbow bolts are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+							"Bolts are typically stored in a {@item Crossbow Bolt Case|XPHB} (bought separately)."
+						]
+					},
+					"specificVariant": {
+						"name": "+1 Bolt",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "A|XPHB",
+						"rarity": "uncommon",
+						"weight": 0.075,
+						"bolt": true,
+						"entries": [
+							"Crossbow bolts are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+							"Bolts are typically stored in a {@item Crossbow Bolt Case|XPHB} (bought separately)."
+						],
+						"page": 228,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG",
+							"Implements - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Ammunition",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Energy Cell",
+						"source": "XDMG",
+						"page": 72,
+						"edition": "one",
+						"type": "AF|XDMG",
+						"rarity": "none",
+						"weight": 0.5,
+						"age": "futuristic",
+						"cellEnergy": true,
+						"miscTags": [
+							"CNS"
+						],
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Energy Cell",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "AF|XDMG",
+						"rarity": "uncommon",
+						"weight": 0.5,
+						"age": "futuristic",
+						"cellEnergy": true,
+						"miscTags": [
+							"CNS"
+						],
+						"entries": [],
+						"page": 228,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG",
+							"Implements - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Ammunition",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Firearm Bullet",
+						"source": "XPHB",
+						"page": 222,
+						"edition": "one",
+						"type": "A|XPHB",
+						"rarity": "none",
+						"weight": 0.2,
+						"value": 30,
+						"bulletFirearm": true,
+						"entries": [
+							"The ammunition of a firearm is destroyed upon use.",
+							"Firearm Bullets are typically stored in a {@item Pouch|XPHB} (bought separately)."
+						],
+						"miscTags": [
+							"CNS"
+						]
+					},
+					"specificVariant": {
+						"name": "+1 Firearm Bullet",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "A|XPHB",
+						"rarity": "uncommon",
+						"weight": 0.2,
+						"bulletFirearm": true,
+						"entries": [
+							"The ammunition of a firearm is destroyed upon use.",
+							"Firearm Bullets are typically stored in a {@item Pouch|XPHB} (bought separately)."
+						],
+						"miscTags": [
+							"CNS"
+						],
+						"page": 228,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG",
+							"Implements - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Ammunition",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Needle",
+						"source": "XPHB",
+						"page": 222,
+						"edition": "one",
+						"type": "A|XPHB",
+						"rarity": "none",
+						"weight": 0.02,
+						"value": 2,
+						"needleBlowgun": true,
+						"entries": [
+							"Blowgun needles are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+							"Needles are typically stored in a {@item Pouch|XPHB} (bought separately)."
+						]
+					},
+					"specificVariant": {
+						"name": "+1 Needle",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "A|XPHB",
+						"rarity": "uncommon",
+						"weight": 0.02,
+						"needleBlowgun": true,
+						"entries": [
+							"Blowgun needles are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+							"Needles are typically stored in a {@item Pouch|XPHB} (bought separately)."
+						],
+						"page": 228,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG",
+							"Implements - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Ammunition",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Sling Bullet",
+						"source": "XPHB",
+						"page": 222,
+						"edition": "one",
+						"type": "A|XPHB",
+						"rarity": "none",
+						"weight": 0.075,
+						"value": 0.2,
+						"bulletSling": true,
+						"entries": [
+							"Sling bullets are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+							"Sling Bullets are typically stored in a {@item Pouch|XPHB} (bought separately)."
+						]
+					},
+					"specificVariant": {
+						"name": "+1 Sling Bullet",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "A|XPHB",
+						"rarity": "uncommon",
+						"weight": 0.075,
+						"bulletSling": true,
+						"entries": [
+							"Sling bullets are used with a weapon that has the ammunition property to make a ranged attack. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+							"Sling Bullets are typically stored in a {@item Pouch|XPHB} (bought separately)."
+						],
+						"page": 228,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG",
+							"Implements - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Ammunition",
+							"source": "XDMG"
+						}
+					}
+				}
 			]
 		},
 		{
