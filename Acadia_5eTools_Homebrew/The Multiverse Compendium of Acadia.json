@@ -59591,7 +59591,7 @@
 				}
 			],
 			"entries": [
-				"You learn the location of any trap within range that is within Line of Sight. A trap, for the Purpose of this spell, includes anything that would inflict a sudden or unexpected Effect you consider harmful or undesirable, which was specifically intended as such by its creator. Thus, the spell would sense an area affected by the {@spell Alarm|CompendiumofAcadia} spell, a {@spell Glyph of Warding|CompendiumofAcadia}, or a mechanical Pit Trap, but it would not reveal a natural weakness in the floor, an unstable ceiling, or a hidden sinkhole."
+				"You learn the location of any trap within range that is within line of sight. A trap, for the purpose of this spell, includes anything that would inflict a sudden or unexpected effect you consider harmful or undesirable, which was specifically intended as such by its creator. Thus, the spell would sense an area affected by the {@spell Alarm|CompendiumofAcadia} spell, a {@spell Glyph of Warding|CompendiumofAcadia}, or a mechanical Pit Trap, but it would not reveal a natural weakness in the floor, an unstable ceiling, or a hidden sinkhole."
 			],
 			"miscTags": [
 				"SGT"
@@ -64426,7 +64426,7 @@
 				"An immobile, {@condition Invisible|XPHB}, Cube-shaped prison composed of magical force springs into existence around an area you choose within range. The prison can be a cage or a solid box, as you choose.",
 				"A prison in the shape of a cage can be up to 20 feet on a side and is made from 1/2-inch diameter bars spaced 1/2 inch apart. A prison in the shape of a box can be up to 10 feet on a side, creating a solid barrier that prevents any matter from passing through it and blocking any spells cast into or out from the area.",
 				"When you cast the spell, any creature that is completely inside the cage's area is trapped. Creatures only partially within the area, or those too large to fit inside it, are pushed away from the center of the area until they are completely outside it.",
-				"The prison has 200 hit points, is immune to Psychic and Poison damage, as well as all nonmagical damage, has an AC of 20, and is vulnerable to Force damage. If the creature tries to use teleportation or interplanar travel to leave, it must first make a Charisma saving throw. On a successful save, the creature can use that magic to exit the cage. On a failed save, the creature doesn't exit the cage and wastes the spell or effect. The cage also extends into the Ethereal Plane, blocking ethereal travel.",
+				"The prison has 200 hit points, is vulnerable to Force damage, immune to all other damage except Necrotic and Radiant, fail all saving throws, and has an AC of 20. If the creature tries to use teleportation or interplanar travel to leave, it must first make a Charisma saving throw. On a successful save, the creature can use that magic to exit the cage. On a failed save, the creature doesn't exit the cage and wastes the spell or effect. The cage also extends into the Ethereal Plane, blocking ethereal travel.",
 				"This spell can't be dispelled by {@spell Dispel Magic|CompendiumofAcadia}."
 			],
 			"savingThrow": [
@@ -91763,7 +91763,7 @@
 				"A 10-foot Emanation springs into existence around you and remains stationary for the duration. The spell fails when you cast it if the Emanation isn't big enough to fully encapsulate all creatures in its area.",
 				"Creatures and objects within the Emanation when you cast the spell can move through it freely. All other creatures and objects are barred from passing through it. Spells of level 3 or lower can't be cast through it, and the effects of such spells can't extend into it.",
 				"The atmosphere inside the Emanation is comfortable and dry, regardless of the weather outside. Until the spell ends, you can command the interior to have {@variantrule Dim Light|XPHB} or {@variantrule Darkness|XPHB} (no action required). The Emanation is opaque from the outside and of any color you choose, but it's transparent from the inside.",
-				"The sphere has 50 hit points, is immune to Psychic and Poison damage, as well as all nonmagical damage, has an AC of 20, and is vulnerable to Force damage.",
+				"The sphere has 50 hit points, is vulnerable to Force damage, immune to all other damage except Necrotic and Radiant, fail all saving throws, and has an AC of 20.",
 				"The spell ends early if you leave the Emanation or if you cast it again."
 			],
 			"miscTags": [
@@ -112427,7 +112427,7 @@
 			],
 			"entries": [
 				"A shimmering sphere encloses a Large or smaller creature or object within range. An unwilling creature must succeed on a Dexterity saving throw or be enclosed for the duration.",
-				"Nothing—not physical objects, energy, or other spell effects—can pass through the barrier, in or out, though a creature in the sphere can breathe there. The sphere has 100 hit points, is immune to Psychic and Poison damage, as well as all nonmagical damage, has an AC of 20, and is vulnerable to Force damage. A creature or object inside can't be damaged by attacks or effects originating from outside, nor can a creature inside the sphere damage anything outside it.",
+				"Nothing—not physical objects, energy, or other spell effects—can pass through the barrier, in or out, though a creature in the sphere can breathe there. The sphere has 100 hit points, is vulnerable to Force damage, immune to all other damage except Necrotic and Radiant, fail all saving throws, and has an AC of 20. A creature or object inside can't be damaged by attacks or effects originating from outside, nor can a creature inside the sphere damage anything outside it.",
 				"The sphere is weightless and just large enough to contain the creature or object inside. An enclosed creature can take an action to push against the sphere's walls and thus roll the sphere at up to half the creature's {@variantrule Speed|XPHB}. Similarly, the globe can be picked up and moved by other creatures.",
 				"A {@spell Disintegrate|CompendiumofAcadia} spell targeting the globe destroys it without harming anything inside."
 			],
@@ -131618,7 +131618,7 @@
 				}
 			],
 			"entries": [
-				"When you cast this spell, a gnarled wooden revolver appears in your hand. This conjured firearm has the same basic statistics as a mundane revolver, with a range of 40/120 feet (long range imposes disadvantage as normal). Make a ranged spell attack against a target within range. On a hit, the target takes {@damage 3d10} Piercing damage. As long as you maintain concentration on this spell, you may use your action on subsequent turns to continue firing the gun; as soon as the weapon has been discharged six times, it immediately disintegrates."
+				"When you cast this spell, a gnarled wooden revolver appears in your hand. This conjured firearm has the same basic statistics as a mundane revolver, with a range of 40/120 feet (long range imposes disadvantage as normal). Make a ranged spell attack against a target within range. On a hit, the target takes {@damage 4d10} Piercing damage. As long as you maintain concentration on this spell, you may use your action on subsequent turns to continue firing the gun; as soon as the weapon has been discharged six times, it immediately disintegrates."
 			],
 			"entriesHigherLevel": [
 				{
@@ -163037,7 +163037,7 @@
 			],
 			"entries": [
 				"An {@condition Invisible|XPHB} wall of force springs into existence at a point you choose within range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or resting on a solid surface. You can form it into a hemispherical dome or a globe with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. In any form, the wall is 1/4 inch thick and lasts for the duration. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (you choose which side).",
-				"Nothing can physically pass through the wall. Each panel has 100 hit points, is immune to Psychic and Poison damage, as well as all nonmagical damage, has an AC of 20, and is vulnerable to Force damage. The wall cannot be dispelled by {@spell Dispel Magic|CompendiumofAcadia}, but a {@spell Disintegrate|CompendiumofAcadia} spell destroys it instantly. The wall also extends into the Ethereal Plane, blocking ethereal travel."
+				"Nothing can physically pass through the wall. Each panel has 100 hit points, is vulnerable to Force damage, immune to all other damage except Necrotic and Radiant, fail all saving throws, and has an AC of 20. The wall cannot be dispelled by {@spell Dispel Magic|CompendiumofAcadia}, but a {@spell Disintegrate|CompendiumofAcadia} spell destroys it instantly. The wall also extends into the Ethereal Plane, blocking ethereal travel."
 			],
 			"areaTags": [
 				"W"
@@ -178398,6 +178398,598 @@
 			]
 		},
 		{
+			"name": "+1 Assassin's Dagger",
+			"source": "CompendiumofAcadia",
+			"value" : 50000,
+			"baseItem": "dagger|phb",
+			"rarity": "uncommon",
+						"reqAttune": "by an rogue",
+					"reqAttuneTags": [
+						{
+							"class": "rogue|xphb"
+						}
+					],
+			"weight": 1,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"bonusWeapon": "+1",
+			"entries": [
+				"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+				"Your Sneak Attack feature deal an extra {@damage 1d6} damage."
+			]
+		},
+		{
+			"name": "+1 All-Purpose Tool",
+			"source": "CompendiumofAcadia",
+			"value": 50000,
+			"rarity": "uncommon",
+			"reqAttune": "by an artificer",
+			"reqAttuneTags": [
+				{
+					"class": "artificer|tce"
+				}
+			],
+			"wondrous": true,
+			"bonusSpellAttack": "+1",
+			"bonusSpellSaveDc": "+1",
+			"focus": [
+				"Artificer"
+			],
+			"entries": [
+				"This simple screwdriver can transform into a variety of tools; as an action, you can touch the item and transform it into any type of artisan's tool of your choice (see the \"Equipment\" chapter in the {@book Player's Handbook|PHB} for a list of {@item artisan's tools|PHB}). Whatever form the tool takes, you are proficient with it.",
+				"While holding this tool, you gain a +1 bonus to the spell attack rolls and the saving throw DCs of your artificer spells.",
+				"As an {@action Magic|XPHB} action, you can focus on the tool to channel your creative forces. Choose a cantrip that you don't know from any class list. For 8 hours, you can cast that cantrip, and it counts as an artificer cantrip for you. Once this property is used, it can't be used again until the next dawn."
+			]
+		},
+		{
+			"name": "+1 Dragonhide Belt",
+			"source": "CompendiumofAcadia",
+			"value": 50000,
+			"rarity": "uncommon",
+			"reqAttune": "by a monk",
+			"reqAttuneTags": [
+				{
+					"class": "monk"
+				}
+			],
+			"wondrous": true,
+			"entries": [
+				"This finely detailed belt is made of dragonhide. While wearing it, you gain a +1 bonus to the saving throw DCs of your ki features.",
+				"In addition, you can regain ki points equal to a roll of your Martial Arts die as a {@action Magic|XPHB} action while holding or wearing this vial. You can't use this property again until you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "+1 Amulet of the Devout",
+			"source": "CompendiumofAcadia",
+			"value": 50000,
+			"rarity": "uncommon",
+			"reqAttune": "by a cleric or paladin",
+			"reqAttuneTags": [
+				{
+					"class": "cleric"
+				},
+				{
+					"class": "paladin"
+				}
+			],
+			"wondrous": true,
+			"weight": 1,
+			"bonusSpellAttack": "+1",
+			"bonusSpellSaveDc": "+1",
+			"entries": [
+				"This amulet bears the symbol of a deity inlaid with precious stones or metals. While you wear the holy symbol, you gain a +1 bonus to spell attack rolls and the saving throw DCs of your spells.",
+				"While you wear this amulet, you can use your Channel Divinity feature without expending one of the feature's uses. Once this property is used, it can't be used again until the next dawn."
+			]
+		},
+		{
+			"name": "+1 Moon Sickle",
+			"source": "CompendiumofAcadia",
+			"value": 50000,
+			"baseItem": "sickle|PHB",
+			"type" : "M",
+			"rarity": "uncommon",
+			"reqAttune": "by a druid or ranger",
+			"reqAttuneTags": [
+				{
+					"class": "druid"
+				},
+				{
+					"class": "ranger"
+				}
+			],
+			"weight": 2,
+			"weaponCategory": "simple",
+			"property": [
+				"L"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"bonusWeapon": "+1",
+			"bonusSpellAttack": "+1",
+			"bonusSpellSaveDc": "+1",
+			"focus": [
+				"Druid",
+				"Ranger"
+			],
+			"entries": [
+				"This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a +1 bonus to spell attack rolls and the saving throw DCs of your druid and ranger spells. In addition, you can use the sickle as a spellcasting focus for your druid and ranger spells.",
+				"When you cast a spell that restores hit points, you can roll a {@dice d4} and add the number rolled to the amount of hit points restored, provided you are holding the sickle."
+			]
+		},
+		{
+			"name": "+1 Arcane Grimoire",
+			"source": "CompendiumofAcadia",
+			"rarity": "uncommon",
+			"value": 50000,
+			"reqAttune": "by a wizard",
+			"reqAttuneTags": [
+				{
+					"class": "wizard"
+				}
+			],
+			"wondrous": true,
+			"weight": 3,
+			"bonusSpellAttack": "+1",
+			"bonusSpellSaveDc": "+1",
+			"focus": [
+				"Wizard"
+			],
+			"entries": [
+				"While you are holding this leather-bound book, you can use it as a spellcasting focus for your wizard spells, and you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your wizard spells.",
+				"You can use this book as a spellbook. In addition, when you use your Arcane Recovery feature, you can increase the number of spell slot levels you regain by 1."
+			]
+		},
+		{
+			"name": "+1 Bloodwell Vial",
+			"source": "CompendiumofAcadia",
+			"rarity": "uncommon",
+			"reqAttune": "by a sorcerer",
+			"reqAttuneTags": [
+				{
+					"class": "sorcerer"
+				}
+			],
+			"wondrous": true,
+			"bonusSpellAttack": "+1",
+			"bonusSpellSaveDc": "+1",
+			"focus": [
+				"Sorcerer"
+			],
+			"entries": [
+				"To attune to this vial, you must place a few drops of your blood into it. The vial can't be opened while your attunement to it lasts. If your attunement to the vial ends, the contained blood turns to ash. You can use the vial as a spellcasting focus for your spells while wearing or holding it, and you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your sorcerer spells.",
+				"In addition, you can regain 2 sorcery points as a {@action Magic|XPHB} action while holding or wearing this vial. You can't use this property again until you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "+1 Magical Instrument",
+			"type": "INS|XPHB",
+			"reqAttune": "by a bard",
+			"reqAttuneTags": [
+				{
+					"class": "bard"
+				}
+			],
+			"requires": [
+				{
+					"type": "INS|XPHB"
+				}
+			],
+			"entries": [
+				"While holding this {@item Musical Instrument|XPHB}, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your bard spells.",
+				"In addition, you can regain two uses of your Bardic Inspiration feature as a {@action Magic|XPHB} action while holding the instrument. You can't use this property again until you finish a {@variantrule Long Rest|XPHB}.",
+				"<b><i>Price.</i></b> The Price of a +1 Magical Instrument is equal to the price of the instrument + 400 GP."
+			],
+			"inherits": {
+				"namePrefix": "+1 ",
+				"source": "CompendiumofAcadia",
+				"freeRules2024": true,
+				"rarity": "uncommon",
+				"bonusSpellAttack": "+1",
+				"bonusSpellSaveDc": "+1",
+				"entries": [
+					"While holding this {@item Musical Instrument|XPHB}, you gain a {=bonusSpellAttack} bonus to spell attack rolls and to the saving throw DCs of your bard spells.",
+					"In addition, you can regain two uses of your Bardic Inspiration feature as a {@action Magic|XPHB} action while holding the instrument. You can't use this property again until you finish a {@variantrule Long Rest|XPHB}."
+				],
+				"lootTables": [
+					"Armaments - Uncommon|XDMG"
+				]
+			},
+			"source": "CompendiumofAcadia",
+			"freeRules2024": true,
+			"rarity": "uncommon",
+			"bonusSpellAttack": "+1",
+			"bonusSpellSaveDc": "+1",
+			"lootTables": [
+				"Armaments - Uncommon|XDMG"
+			],
+			"variants": [
+				{
+					"base": {
+						"name": "Bagpipes",
+						"source": "XPHB",
+						"page": 221,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "INS|XPHB",
+						"rarity": "none",
+						"weight": 6,
+						"value": 3000,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Bagpipes",
+						"source": "CompendiumofAcadia",
+						"edition": "one",
+						"type": "INS|XPHB",
+						"rarity": "uncommon",
+						"weight": 6,
+						"entries": [],
+						"freeRules2024": true,
+						"bonusSpellAttack": "+1",
+						"bonusSpellSaveDc": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Magical Instrument",
+							"source": "CompendiumofAcadia"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Drum",
+						"source": "XPHB",
+						"page": 221,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "INS|XPHB",
+						"rarity": "none",
+						"weight": 3,
+						"value": 600,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Drum",
+						"source": "CompendiumofAcadia",
+						"edition": "one",
+						"type": "INS|XPHB",
+						"rarity": "uncommon",
+						"weight": 3,
+						"entries": [],
+						"freeRules2024": true,
+						"bonusSpellAttack": "+1",
+						"bonusSpellSaveDc": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Magical Instrument",
+							"source": "CompendiumofAcadia"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Dulcimer",
+						"source": "XPHB",
+						"page": 221,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "INS|XPHB",
+						"rarity": "none",
+						"weight": 10,
+						"value": 2500,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Dulcimer",
+						"source": "CompendiumofAcadia",
+						"edition": "one",
+						"type": "INS|XPHB",
+						"rarity": "uncommon",
+						"weight": 10,
+						"entries": [],
+						"freeRules2024": true,
+						"bonusSpellAttack": "+1",
+						"bonusSpellSaveDc": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Magical Instrument",
+							"source": "CompendiumofAcadia"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Flute",
+						"source": "XPHB",
+						"page": 221,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "INS|XPHB",
+						"rarity": "none",
+						"weight": 1,
+						"value": 200,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Flute",
+						"source": "CompendiumofAcadia",
+						"edition": "one",
+						"type": "INS|XPHB",
+						"rarity": "uncommon",
+						"weight": 1,
+						"entries": [],
+						"freeRules2024": true,
+						"bonusSpellAttack": "+1",
+						"bonusSpellSaveDc": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Magical Instrument",
+							"source": "CompendiumofAcadia"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Horn",
+						"source": "XPHB",
+						"page": 221,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "INS|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"value": 300,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Horn",
+						"source": "CompendiumofAcadia",
+						"edition": "one",
+						"type": "INS|XPHB",
+						"rarity": "uncommon",
+						"weight": 2,
+						"entries": [],
+						"freeRules2024": true,
+						"bonusSpellAttack": "+1",
+						"bonusSpellSaveDc": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Magical Instrument",
+							"source": "CompendiumofAcadia"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Lute",
+						"source": "XPHB",
+						"page": 221,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "INS|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"value": 3500,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Lute",
+						"source": "CompendiumofAcadia",
+						"edition": "one",
+						"type": "INS|XPHB",
+						"rarity": "uncommon",
+						"weight": 2,
+						"entries": [],
+						"freeRules2024": true,
+						"bonusSpellAttack": "+1",
+						"bonusSpellSaveDc": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Magical Instrument",
+							"source": "CompendiumofAcadia"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Lyre",
+						"source": "XPHB",
+						"page": 221,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "INS|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"value": 3000,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Lyre",
+						"source": "CompendiumofAcadia",
+						"edition": "one",
+						"type": "INS|XPHB",
+						"rarity": "uncommon",
+						"weight": 2,
+						"entries": [],
+						"freeRules2024": true,
+						"bonusSpellAttack": "+1",
+						"bonusSpellSaveDc": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Magical Instrument",
+							"source": "CompendiumofAcadia"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Pan Flute",
+						"source": "XPHB",
+						"page": 221,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "INS|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"value": 3000,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Pan Flute",
+						"source": "CompendiumofAcadia",
+						"edition": "one",
+						"type": "INS|XPHB",
+						"rarity": "uncommon",
+						"weight": 2,
+						"entries": [],
+						"freeRules2024": true,
+						"bonusSpellAttack": "+1",
+						"bonusSpellSaveDc": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Magical Instrument",
+							"source": "CompendiumofAcadia"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Shawm",
+						"source": "XPHB",
+						"page": 221,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "INS|XPHB",
+						"rarity": "none",
+						"weight": 1,
+						"value": 200,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Shawm",
+						"source": "CompendiumofAcadia",
+						"edition": "one",
+						"type": "INS|XPHB",
+						"rarity": "uncommon",
+						"weight": 1,
+						"entries": [],
+						"freeRules2024": true,
+						"bonusSpellAttack": "+1",
+						"bonusSpellSaveDc": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Magical Instrument",
+							"source": "CompendiumofAcadia"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Viol",
+						"source": "XPHB",
+						"page": 221,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "INS|XPHB",
+						"rarity": "none",
+						"weight": 1,
+						"value": 3000,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Viol",
+						"source": "CompendiumofAcadia",
+						"edition": "one",
+						"type": "INS|XPHB",
+						"rarity": "uncommon",
+						"weight": 1,
+						"entries": [],
+						"freeRules2024": true,
+						"bonusSpellAttack": "+1",
+						"bonusSpellSaveDc": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Magical Instrument",
+							"source": "CompendiumofAcadia"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "+1 Wand of the War Mage",
+			"source": "CompendiumofAcadia",
+			"value": 40000,
+			"freeRules2024": true,
+			"type": "WD|XDMG",
+			"rarity": "uncommon",
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"weight": 1,
+			"bonusSpellAttack": "+1",
+			"entries": [
+				"While holding this wand, you gain a +1 bonus to spell attack rolls. In addition, you ignore {@variantrule Cover|XPHB|Half Cover} when making a spell attack roll."
+			],
+			"lootTables": [
+				"Arcana - Uncommon|XDMG",
+				"Relics - Uncommon|XDMG"
+			]
+		},
+		{
+			"name": "+1 Wraps of Unarmed Power",
+			"source": "CompendiumofAcadia",
+			"value": 40000,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"bonusWeapon": "+1",
+			"entries": [
+				"While wearing these wraps, you have a +1 bonus to attack rolls and damage rolls made with your Unarmed Strikes. Those strikes deal your choice of Force damage or their normal damage type."
+			],
+			"lootTables": [
+				"Armaments - Uncommon|XDMG"
+			]
+		},
+		{
 			"name": "+1 Shield (*)",
 			"type": "GV|XDMG",
 			"requires": [
@@ -178468,6 +179060,4739 @@
 						}
 					}
 				}
+			]
+		},
+		{
+			"name": "+1 Weapon",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "+1 ",
+				"source": "XDMG",
+				"page": 324,
+				"freeRules2024": true,
+				"rarity": "uncommon",
+				"bonusWeapon": "+1",
+				"entries": [
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon."
+				],
+				"lootTables": [
+					"Armaments - Uncommon|XDMG"
+				]
+			},
+			"source": "CompendiumofAcadia",
+			"freeRules2024": true,
+			"rarity": "uncommon",
+			"bonusWeapon": "+1",
+			"lootTables": [
+				"Armaments - Uncommon|XDMG"
+			],
+			"entries": [
+				"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+				"<b><i>Price.</b></i> The Price of a +1 Weapon is equal to the price of the weapon + 400 GP."
+			],
+			"variants": [
+				{
+					"base": {
+						"name": "Antimatter Rifle",
+						"source": "XDMG",
+						"page": 73,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 10,
+						"valueRarity": "very rare",
+						"weaponCategory": "martial",
+						"age": "futuristic",
+						"property": [
+							"AF|XDMG",
+							"RLD|XDMG",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"range": "120/360",
+						"reload": 2,
+						"dmg1": "6d8",
+						"dmgType": "N",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "energy cell|xdmg",
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Antimatter Rifle",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "uncommon",
+						"weight": 10,
+						"valueRarity": "very rare",
+						"weaponCategory": "martial",
+						"age": "futuristic",
+						"property": [
+							"AF|XDMG",
+							"RLD|XDMG",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"range": "120/360",
+						"reload": 2,
+						"dmg1": "6d8",
+						"dmgType": "N",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "energy cell|xdmg",
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Arquebus",
+						"source": "GPCodex",
+						"page": 6,
+						"type": "R",
+						"srd": false,
+						"rarity": "none",
+						"weaponCategory": "martial",
+						"firearm": true,
+						"weapon": true,
+						"value": 20000,
+						"dmg1": "1d10",
+						"dmgType": "P",
+						"weight": 12,
+						"age": "renaissance",
+						"range": "30/90",
+						"property": [
+							"A",
+							"GCRLD",
+							"MSF",
+							"2H",
+							"LD"
+						],
+						"reload": 1,
+						"ammoType": "musketball",
+						"customProperties": {
+							"misfire": 3
+						},
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Arquebus",
+						"source": "XDMG",
+						"type": "R",
+						"rarity": "uncommon",
+						"weaponCategory": "martial",
+						"firearm": true,
+						"weapon": true,
+						"dmg1": "1d10",
+						"dmgType": "P",
+						"weight": 12,
+						"age": "renaissance",
+						"range": "30/90",
+						"property": [
+							"A",
+							"GCRLD",
+							"MSF",
+							"2H",
+							"LD"
+						],
+						"reload": 1,
+						"ammoType": "musketball",
+						"customProperties": {
+							"misfire": 3
+						},
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Automatic Rifle",
+						"source": "XDMG",
+						"page": 73,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 8,
+						"valueRarity": "rare",
+						"weaponCategory": "martial",
+						"age": "modern",
+						"property": [
+							"AF|XDMG",
+							"BF|XDMG",
+							"RLD|XDMG",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"range": "80/240",
+						"reload": 30,
+						"dmg1": "2d8",
+						"dmgType": "P",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "firearm bullet|xphb",
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Automatic Rifle",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "uncommon",
+						"weight": 8,
+						"valueRarity": "rare",
+						"weaponCategory": "martial",
+						"age": "modern",
+						"property": [
+							"AF|XDMG",
+							"BF|XDMG",
+							"RLD|XDMG",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"range": "80/240",
+						"reload": 30,
+						"dmg1": "2d8",
+						"dmgType": "P",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "firearm bullet|xphb",
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Axe",
+						"source": "TLotRR",
+						"page": 73,
+						"type": "M",
+						"rarity": "none",
+						"weight": 3,
+						"value": 50,
+						"currencyConversion": "M-E",
+						"weaponCategory": "simple",
+						"property": [
+							"V"
+						],
+						"dmg1": "1d6",
+						"dmgType": "S",
+						"dmg2": "1d8",
+						"axe": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Axe",
+						"source": "XDMG",
+						"type": "M",
+						"rarity": "uncommon",
+						"weight": 3,
+						"currencyConversion": "M-E",
+						"weaponCategory": "simple",
+						"property": [
+							"V"
+						],
+						"dmg1": "1d6",
+						"dmgType": "S",
+						"dmg2": "1d8",
+						"axe": true,
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Battle Axe",
+						"source": "TLotRR",
+						"page": 73,
+						"type": "M",
+						"rarity": "none",
+						"weight": 4,
+						"value": 100,
+						"currencyConversion": "M-E",
+						"weaponCategory": "martial",
+						"property": [
+							"V"
+						],
+						"dmg1": "1d8",
+						"dmgType": "S",
+						"dmg2": "1d10",
+						"axe": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Battle Axe",
+						"source": "XDMG",
+						"type": "M",
+						"rarity": "uncommon",
+						"weight": 4,
+						"currencyConversion": "M-E",
+						"weaponCategory": "martial",
+						"property": [
+							"V"
+						],
+						"dmg1": "1d8",
+						"dmgType": "S",
+						"dmg2": "1d10",
+						"axe": true,
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Battleaxe",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 4,
+						"value": 1000,
+						"weaponCategory": "martial",
+						"property": [
+							"V|XPHB"
+						],
+						"mastery": [
+							"Topple|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "S",
+						"dmg2": "1d10",
+						"axe": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Battleaxe",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "uncommon",
+						"weight": 4,
+						"weaponCategory": "martial",
+						"property": [
+							"V|XPHB"
+						],
+						"mastery": [
+							"Topple|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "S",
+						"dmg2": "1d10",
+						"axe": true,
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Bayonet",
+						"source": "GPCodex",
+						"page": 5,
+						"type": "M",
+						"srd": "false",
+						"rarity": "none",
+						"weaponCategory": "simple",
+						"weapon": true,
+						"value": 500,
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"dmg2": "1d8",
+						"weight": 1,
+						"age": "renaissance",
+						"property": [
+							"V",
+							"S"
+						],
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Special",
+								"entries": [
+									"If attached to a one-handed weapon, it may only use the listed one-handed damage. If attached to a two-handed firearm, it can be used as a versatile weapon. If used on its own, unattached to a firearm, a bayonet uses the statistics of a dagger."
+								]
+							}
+						]
+					},
+					"specificVariant": {
+						"name": "+1 Bayonet",
+						"source": "XDMG",
+						"type": "M",
+						"rarity": "uncommon",
+						"weaponCategory": "simple",
+						"weapon": true,
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"dmg2": "1d8",
+						"weight": 1,
+						"age": "renaissance",
+						"property": [
+							"V",
+							"S"
+						],
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Special",
+								"entries": [
+									"If attached to a one-handed weapon, it may only use the listed one-handed damage. If attached to a two-handed firearm, it can be used as a versatile weapon. If used on its own, unattached to a firearm, a bayonet uses the statistics of a dagger."
+								]
+							}
+						],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Blowgun",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 1,
+						"value": 1000,
+						"weaponCategory": "martial",
+						"property": [
+							"A|XPHB",
+							"LD|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"range": "25/100",
+						"dmg1": "1",
+						"dmgType": "P",
+						"weapon": true,
+						"ammoType": "needle|xphb",
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Blowgun",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "uncommon",
+						"weight": 1,
+						"weaponCategory": "martial",
+						"property": [
+							"A|XPHB",
+							"LD|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"range": "25/100",
+						"dmg1": "1",
+						"dmgType": "P",
+						"weapon": true,
+						"ammoType": "needle|xphb",
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Club",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"value": 10,
+						"weaponCategory": "simple",
+						"property": [
+							"L|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"dmg1": "1d4",
+						"dmgType": "B",
+						"club": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Club",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "uncommon",
+						"weight": 2,
+						"weaponCategory": "simple",
+						"property": [
+							"L|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"dmg1": "1d4",
+						"dmgType": "B",
+						"club": true,
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Dagger",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 1,
+						"value": 200,
+						"weaponCategory": "simple",
+						"property": [
+							"F|XPHB",
+							"L|XPHB",
+							"T|XPHB"
+						],
+						"mastery": [
+							"Nick|XPHB"
+						],
+						"range": "20/60",
+						"dmg1": "1d4",
+						"dmgType": "P",
+						"dagger": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Dagger",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "uncommon",
+						"weight": 1,
+						"weaponCategory": "simple",
+						"property": [
+							"F|XPHB",
+							"L|XPHB",
+							"T|XPHB"
+						],
+						"mastery": [
+							"Nick|XPHB"
+						],
+						"range": "20/60",
+						"dmg1": "1d4",
+						"dmgType": "P",
+						"dagger": true,
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Dart",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 0.25,
+						"value": 5,
+						"weaponCategory": "simple",
+						"property": [
+							"F|XPHB",
+							"T|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"range": "20/60",
+						"dmg1": "1d4",
+						"dmgType": "P",
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Dart",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "uncommon",
+						"weight": 0.25,
+						"weaponCategory": "simple",
+						"property": [
+							"F|XPHB",
+							"T|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"range": "20/60",
+						"dmg1": "1d4",
+						"dmgType": "P",
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Double Hunting Rifle",
+						"source": "GPCodex",
+						"page": 6,
+						"type": "R",
+						"srd": false,
+						"rarity": "none",
+						"weaponCategory": "advanced firearm",
+						"weapon": true,
+						"value": 350000,
+						"dmg1": "2d10",
+						"dmgType": "P",
+						"weight": 10,
+						"age": "industrial",
+						"range": "100/400",
+						"property": [
+							"A",
+							"GCAF",
+							"GCRLD",
+							"MSF",
+							"2H"
+						],
+						"reload": 2,
+						"ammoType": "cartridge",
+						"customProperties": {
+							"misfire": 2
+						},
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Double Hunting Rifle",
+						"source": "XDMG",
+						"type": "R",
+						"rarity": "uncommon",
+						"weaponCategory": "advanced firearm",
+						"weapon": true,
+						"dmg1": "2d10",
+						"dmgType": "P",
+						"weight": 10,
+						"age": "industrial",
+						"range": "100/400",
+						"property": [
+							"A",
+							"GCAF",
+							"GCRLD",
+							"MSF",
+							"2H"
+						],
+						"reload": 2,
+						"ammoType": "cartridge",
+						"customProperties": {
+							"misfire": 2
+						},
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Double-Bladed Scimitar",
+						"source": "ERLW",
+						"page": 21,
+						"type": "M",
+						"rarity": "none",
+						"weight": 6,
+						"value": 10000,
+						"weaponCategory": "martial",
+						"property": [
+							"S",
+							"2H"
+						],
+						"dmg1": "2d4",
+						"dmgType": "S",
+						"sword": true,
+						"weapon": true,
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Special",
+								"entries": [
+									"If you attack with a double-bladed scimitar as part of the {@action Attack} action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals {@damage 1d4} slashing damage on a hit, instead of {@damage 2d4}."
+								]
+							}
+						],
+						"hasFluff": true
+					},
+					"specificVariant": {
+						"name": "+1 Double-Bladed Scimitar",
+						"source": "XDMG",
+						"type": "M",
+						"rarity": "uncommon",
+						"weight": 6,
+						"weaponCategory": "martial",
+						"property": [
+							"S",
+							"2H"
+						],
+						"dmg1": "2d4",
+						"dmgType": "S",
+						"sword": true,
+						"weapon": true,
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Special",
+								"entries": [
+									"If you attack with a double-bladed scimitar as part of the {@action Attack} action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals {@damage 1d4} slashing damage on a hit, instead of {@damage 2d4}."
+								]
+							}
+						],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Flail",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"value": 1000,
+						"weaponCategory": "martial",
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "B",
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Flail",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "uncommon",
+						"weight": 2,
+						"weaponCategory": "martial",
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "B",
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Flintlock Pistol",
+						"source": "GPCodex",
+						"page": 6,
+						"type": "R",
+						"srd": false,
+						"rarity": "none",
+						"weaponCategory": "martial",
+						"firearm": true,
+						"weapon": true,
+						"value": 15000,
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"weight": 2,
+						"age": "renaissance",
+						"range": "15/60",
+						"property": [
+							"A",
+							"GCRLD",
+							"MSF",
+							"L",
+							"LD"
+						],
+						"reload": 1,
+						"ammoType": "musketball",
+						"customProperties": {
+							"misfire": 2
+						},
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Flintlock Pistol",
+						"source": "XDMG",
+						"type": "R",
+						"rarity": "uncommon",
+						"weaponCategory": "martial",
+						"firearm": true,
+						"weapon": true,
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"weight": 2,
+						"age": "renaissance",
+						"range": "15/60",
+						"property": [
+							"A",
+							"GCRLD",
+							"MSF",
+							"L",
+							"LD"
+						],
+						"reload": 1,
+						"ammoType": "musketball",
+						"customProperties": {
+							"misfire": 2
+						},
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Gatling Gun",
+						"source": "GPCodex",
+						"page": 6,
+						"type": "R",
+						"srd": false,
+						"rarity": "none",
+						"weaponCategory": "advanced firearm",
+						"weapon": true,
+						"value": 750000,
+						"dmg1": "2d8",
+						"dmgType": "P",
+						"weight": 20,
+						"age": "industrial",
+						"range": "30/90",
+						"property": [
+							"A",
+							"GCAF",
+							"GCRLD",
+							"MSF",
+							"2H",
+							"H"
+						],
+						"reload": 40,
+						"ammoType": "cartridge",
+						"customProperties": {
+							"misfire": 3
+						},
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Gatling Gun",
+						"source": "XDMG",
+						"type": "R",
+						"rarity": "uncommon",
+						"weaponCategory": "advanced firearm",
+						"weapon": true,
+						"dmg1": "2d8",
+						"dmgType": "P",
+						"weight": 20,
+						"age": "industrial",
+						"range": "30/90",
+						"property": [
+							"A",
+							"GCAF",
+							"GCRLD",
+							"MSF",
+							"2H",
+							"H"
+						],
+						"reload": 40,
+						"ammoType": "cartridge",
+						"customProperties": {
+							"misfire": 3
+						},
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Glaive",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 6,
+						"value": 2000,
+						"weaponCategory": "martial",
+						"property": [
+							"H|XPHB",
+							"R|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Graze|XPHB"
+						],
+						"dmg1": "1d10",
+						"dmgType": "S",
+						"polearm": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Glaive",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "uncommon",
+						"weight": 6,
+						"weaponCategory": "martial",
+						"property": [
+							"H|XPHB",
+							"R|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Graze|XPHB"
+						],
+						"dmg1": "1d10",
+						"dmgType": "S",
+						"polearm": true,
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Greataxe",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 7,
+						"value": 3000,
+						"weaponCategory": "martial",
+						"property": [
+							"H|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Cleave|XPHB"
+						],
+						"dmg1": "1d12",
+						"dmgType": "S",
+						"axe": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Greataxe",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "uncommon",
+						"weight": 7,
+						"weaponCategory": "martial",
+						"property": [
+							"H|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Cleave|XPHB"
+						],
+						"dmg1": "1d12",
+						"dmgType": "S",
+						"axe": true,
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Greatclub",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 10,
+						"value": 20,
+						"weaponCategory": "simple",
+						"property": [
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Push|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "B",
+						"club": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Greatclub",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "uncommon",
+						"weight": 10,
+						"weaponCategory": "simple",
+						"property": [
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Push|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "B",
+						"club": true,
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Greatsword",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 6,
+						"value": 5000,
+						"weaponCategory": "martial",
+						"property": [
+							"H|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Graze|XPHB"
+						],
+						"dmg1": "2d6",
+						"dmgType": "S",
+						"sword": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Greatsword",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "uncommon",
+						"weight": 6,
+						"weaponCategory": "martial",
+						"property": [
+							"H|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Graze|XPHB"
+						],
+						"dmg1": "2d6",
+						"dmgType": "S",
+						"sword": true,
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Halberd",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 6,
+						"value": 2000,
+						"weaponCategory": "martial",
+						"property": [
+							"H|XPHB",
+							"R|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Cleave|XPHB"
+						],
+						"dmg1": "1d10",
+						"dmgType": "S",
+						"polearm": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Halberd",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "uncommon",
+						"weight": 6,
+						"weaponCategory": "martial",
+						"property": [
+							"H|XPHB",
+							"R|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Cleave|XPHB"
+						],
+						"dmg1": "1d10",
+						"dmgType": "S",
+						"polearm": true,
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Hammer",
+						"source": "TLotRR",
+						"page": 73,
+						"type": "M",
+						"rarity": "none",
+						"weight": 3,
+						"value": 20,
+						"currencyConversion": "M-E",
+						"weaponCategory": "simple",
+						"dmg1": "1d6",
+						"dmgType": "B",
+						"hammer": true,
+						"weapon": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Hammer",
+						"source": "XDMG",
+						"type": "M",
+						"rarity": "uncommon",
+						"weight": 3,
+						"currencyConversion": "M-E",
+						"weaponCategory": "simple",
+						"dmg1": "1d6",
+						"dmgType": "B",
+						"hammer": true,
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Hand Crossbow",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 3,
+						"value": 7500,
+						"weaponCategory": "martial",
+						"property": [
+							"A|XPHB",
+							"L|XPHB",
+							"LD|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"range": "30/120",
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"crossbow": true,
+						"weapon": true,
+						"ammoType": "bolt|xphb",
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Hand Crossbow",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "uncommon",
+						"weight": 3,
+						"weaponCategory": "martial",
+						"property": [
+							"A|XPHB",
+							"L|XPHB",
+							"LD|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"range": "30/120",
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"crossbow": true,
+						"weapon": true,
+						"ammoType": "bolt|xphb",
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Handaxe",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"value": 500,
+						"weaponCategory": "simple",
+						"property": [
+							"L|XPHB",
+							"T|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"range": "20/60",
+						"dmg1": "1d6",
+						"dmgType": "S",
+						"axe": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Handaxe",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "uncommon",
+						"weight": 2,
+						"weaponCategory": "simple",
+						"property": [
+							"L|XPHB",
+							"T|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"range": "20/60",
+						"dmg1": "1d6",
+						"dmgType": "S",
+						"axe": true,
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Harmonica Gun",
+						"source": "GPCodex",
+						"page": 6,
+						"type": "R",
+						"srd": false,
+						"rarity": "none",
+						"weaponCategory": "advanced firearm",
+						"weapon": true,
+						"value": 300000,
+						"dmg1": "2d6",
+						"dmgType": "P",
+						"weight": 3,
+						"age": "industrial",
+						"range": "40/120",
+						"property": [
+							"A",
+							"GCAF",
+							"GCRLD",
+							"MSF"
+						],
+						"reload": 9,
+						"ammoType": "cartridge",
+						"customProperties": {
+							"misfire": 2
+						},
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Harmonica Gun",
+						"source": "XDMG",
+						"type": "R",
+						"rarity": "uncommon",
+						"weaponCategory": "advanced firearm",
+						"weapon": true,
+						"dmg1": "2d6",
+						"dmgType": "P",
+						"weight": 3,
+						"age": "industrial",
+						"range": "40/120",
+						"property": [
+							"A",
+							"GCAF",
+							"GCRLD",
+							"MSF"
+						],
+						"reload": 9,
+						"ammoType": "cartridge",
+						"customProperties": {
+							"misfire": 2
+						},
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Heavy Crossbow",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 18,
+						"value": 5000,
+						"weaponCategory": "martial",
+						"property": [
+							"A|XPHB",
+							"H|XPHB",
+							"LD|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Push|XPHB"
+						],
+						"range": "100/400",
+						"dmg1": "1d10",
+						"dmgType": "P",
+						"crossbow": true,
+						"weapon": true,
+						"ammoType": "bolt|xphb",
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Heavy Crossbow",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "uncommon",
+						"weight": 18,
+						"weaponCategory": "martial",
+						"property": [
+							"A|XPHB",
+							"H|XPHB",
+							"LD|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Push|XPHB"
+						],
+						"range": "100/400",
+						"dmg1": "1d10",
+						"dmgType": "P",
+						"crossbow": true,
+						"weapon": true,
+						"ammoType": "bolt|xphb",
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Heavy Hammer",
+						"source": "TLotRR",
+						"page": 73,
+						"type": "M",
+						"rarity": "none",
+						"weight": 4,
+						"value": 100,
+						"currencyConversion": "M-E",
+						"weaponCategory": "martial",
+						"property": [
+							"H",
+							"V"
+						],
+						"dmg1": "1d8",
+						"dmgType": "B",
+						"dmg2": "1d10",
+						"hammer": true,
+						"weapon": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Heavy Hammer",
+						"source": "XDMG",
+						"type": "M",
+						"rarity": "uncommon",
+						"weight": 4,
+						"currencyConversion": "M-E",
+						"weaponCategory": "martial",
+						"property": [
+							"H",
+							"V"
+						],
+						"dmg1": "1d8",
+						"dmgType": "B",
+						"dmg2": "1d10",
+						"hammer": true,
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Hooked Shortspear",
+						"source": "OotA",
+						"page": 224,
+						"type": "M",
+						"rarity": "unknown",
+						"weight": 2,
+						"weaponCategory": "martial",
+						"property": [
+							"L"
+						],
+						"dmg1": "1d4",
+						"dmgType": "P",
+						"weapon": true,
+						"entries": [
+							"On a hit with this weapon, the wielder can forgo dealing damage and attempt to trip the target, in which case the target must succeed on a Strength saving throw or fall {@condition prone}. The DC is 8 + the wielder's Strength modifier + the wielder's proficiency bonus."
+						]
+					},
+					"specificVariant": {
+						"name": "+1 Hooked Shortspear",
+						"source": "XDMG",
+						"type": "M",
+						"rarity": "uncommon",
+						"weight": 2,
+						"weaponCategory": "martial",
+						"property": [
+							"L"
+						],
+						"dmg1": "1d4",
+						"dmgType": "P",
+						"weapon": true,
+						"entries": [
+							"On a hit with this weapon, the wielder can forgo dealing damage and attempt to trip the target, in which case the target must succeed on a Strength saving throw or fall {@condition prone}. The DC is 8 + the wielder's Strength modifier + the wielder's proficiency bonus."
+						],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Hoopak",
+						"source": "DSotDQ",
+						"page": 188,
+						"type": "M",
+						"rarity": "none",
+						"weight": 2,
+						"value": 10,
+						"weaponCategory": "martial",
+						"property": [
+							"A",
+							"F",
+							"S",
+							"2H"
+						],
+						"range": "40/160",
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"weapon": true,
+						"entries": [
+							"A hoopak is a sturdy stick with a sling at one end and a pointed tip at the other.",
+							{
+								"type": "entries",
+								"name": "Special",
+								"entries": [
+									"When you make a melee attack with this weapon, you ignore its ammunition property. You can use the hoopak as a martial ranged weapon. If you do, it uses the ammunition property, uses sling bullets, and deals {@damage 1d4} bludgeoning damage on a hit."
+								]
+							}
+						],
+						"ammoType": "sling bullet|phb",
+						"hasFluffImages": true
+					},
+					"specificVariant": {
+						"name": "+1 Hoopak",
+						"source": "XDMG",
+						"type": "M",
+						"rarity": "uncommon",
+						"weight": 2,
+						"weaponCategory": "martial",
+						"property": [
+							"A",
+							"F",
+							"S",
+							"2H"
+						],
+						"range": "40/160",
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"weapon": true,
+						"entries": [
+							"A hoopak is a sturdy stick with a sling at one end and a pointed tip at the other.",
+							{
+								"type": "entries",
+								"name": "Special",
+								"entries": [
+									"When you make a melee attack with this weapon, you ignore its ammunition property. You can use the hoopak as a martial ranged weapon. If you do, it uses the ammunition property, uses sling bullets, and deals {@damage 1d4} bludgeoning damage on a hit."
+								]
+							}
+						],
+						"ammoType": "sling bullet|phb",
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Howdah Pistol",
+						"source": "GPCodex",
+						"page": 6,
+						"type": "R",
+						"srd": false,
+						"rarity": "none",
+						"weaponCategory": "advanced firearm",
+						"weapon": true,
+						"value": 200000,
+						"dmg1": "2d10",
+						"dmgType": "P",
+						"weight": 4,
+						"age": "industrial",
+						"range": "60/200",
+						"property": [
+							"GCRLD",
+							"GCAF",
+							"A",
+							"MSF"
+						],
+						"reload": 1,
+						"ammoType": "cartridge",
+						"customProperties": {
+							"misfire": 2
+						},
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Howdah Pistol",
+						"source": "XDMG",
+						"type": "R",
+						"rarity": "uncommon",
+						"weaponCategory": "advanced firearm",
+						"weapon": true,
+						"dmg1": "2d10",
+						"dmgType": "P",
+						"weight": 4,
+						"age": "industrial",
+						"range": "60/200",
+						"property": [
+							"GCRLD",
+							"GCAF",
+							"A",
+							"MSF"
+						],
+						"reload": 1,
+						"ammoType": "cartridge",
+						"customProperties": {
+							"misfire": 2
+						},
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Hunting Rifle",
+						"source": "GPCodex",
+						"page": 6,
+						"type": "R",
+						"srd": false,
+						"rarity": "none",
+						"weaponCategory": "advanced firearm",
+						"weapon": true,
+						"value": 300000,
+						"dmg1": "2d10",
+						"dmgType": "P",
+						"weight": 9,
+						"age": "industrial",
+						"range": "100/400",
+						"property": [
+							"A",
+							"GCAF",
+							"GCRLD",
+							"MSF",
+							"2H"
+						],
+						"reload": 1,
+						"ammoType": "cartridge",
+						"customProperties": {
+							"misfire": 2
+						},
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Hunting Rifle",
+						"source": "XDMG",
+						"type": "R",
+						"rarity": "uncommon",
+						"weaponCategory": "advanced firearm",
+						"weapon": true,
+						"dmg1": "2d10",
+						"dmgType": "P",
+						"weight": 9,
+						"age": "industrial",
+						"range": "100/400",
+						"property": [
+							"A",
+							"GCAF",
+							"GCRLD",
+							"MSF",
+							"2H"
+						],
+						"reload": 1,
+						"ammoType": "cartridge",
+						"customProperties": {
+							"misfire": 2
+						},
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Hunting Rifle",
+						"source": "XDMG",
+						"page": 73,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 8,
+						"valueRarity": "rare",
+						"weaponCategory": "martial",
+						"age": "modern",
+						"property": [
+							"AF|XDMG",
+							"RLD|XDMG",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"range": "80/240",
+						"reload": 5,
+						"dmg1": "2d10",
+						"dmgType": "P",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "firearm bullet|xphb",
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Hunting Rifle",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "uncommon",
+						"weight": 8,
+						"valueRarity": "rare",
+						"weaponCategory": "martial",
+						"age": "modern",
+						"property": [
+							"AF|XDMG",
+							"RLD|XDMG",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"range": "80/240",
+						"reload": 5,
+						"dmg1": "2d10",
+						"dmgType": "P",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "firearm bullet|xphb",
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Javelin",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"value": 50,
+						"weaponCategory": "simple",
+						"property": [
+							"T|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"range": "30/120",
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"spear": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Javelin",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "uncommon",
+						"weight": 2,
+						"weaponCategory": "simple",
+						"property": [
+							"T|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"range": "30/120",
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"spear": true,
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Lance",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 6,
+						"value": 1000,
+						"weaponCategory": "martial",
+						"property": [
+							"H|XPHB",
+							"R|XPHB",
+							{
+								"uid": "2H|XPHB",
+								"note": "unless mounted"
+							}
+						],
+						"mastery": [
+							"Topple|XPHB"
+						],
+						"dmg1": "1d10",
+						"dmgType": "P",
+						"lance": true,
+						"weapon": true,
+						"entries": [
+							"A Lance requires two hands to wield when you aren't mounted."
+						],
+						"hasFluffImages": true
+					},
+					"specificVariant": {
+						"name": "+1 Lance",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "uncommon",
+						"weight": 6,
+						"weaponCategory": "martial",
+						"property": [
+							"H|XPHB",
+							"R|XPHB",
+							{
+								"uid": "2H|XPHB",
+								"note": "unless mounted"
+							}
+						],
+						"mastery": [
+							"Topple|XPHB"
+						],
+						"dmg1": "1d10",
+						"dmgType": "P",
+						"lance": true,
+						"weapon": true,
+						"entries": [
+							"A Lance requires two hands to wield when you aren't mounted."
+						],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Laser Pistol",
+						"source": "XDMG",
+						"page": 73,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"valueRarity": "very rare",
+						"weaponCategory": "martial",
+						"age": "futuristic",
+						"property": [
+							"AF|XDMG",
+							"RLD|XDMG"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"range": "40/120",
+						"reload": 50,
+						"dmg1": "3d6",
+						"dmgType": "R",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "energy cell|xdmg",
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Laser Pistol",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "uncommon",
+						"weight": 2,
+						"valueRarity": "very rare",
+						"weaponCategory": "martial",
+						"age": "futuristic",
+						"property": [
+							"AF|XDMG",
+							"RLD|XDMG"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"range": "40/120",
+						"reload": 50,
+						"dmg1": "3d6",
+						"dmgType": "R",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "energy cell|xdmg",
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Laser Rifle",
+						"source": "XDMG",
+						"page": 73,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 7,
+						"valueRarity": "very rare",
+						"weaponCategory": "martial",
+						"age": "futuristic",
+						"property": [
+							"AF|XDMG",
+							"RLD|XDMG",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"range": "100/300",
+						"reload": 30,
+						"dmg1": "3d8",
+						"dmgType": "R",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "energy cell|xdmg",
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Laser Rifle",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "uncommon",
+						"weight": 7,
+						"valueRarity": "very rare",
+						"weaponCategory": "martial",
+						"age": "futuristic",
+						"property": [
+							"AF|XDMG",
+							"RLD|XDMG",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"range": "100/300",
+						"reload": 30,
+						"dmg1": "3d8",
+						"dmgType": "R",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "energy cell|xdmg",
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Lever-Action Rifle",
+						"source": "GPCodex",
+						"page": 6,
+						"type": "R",
+						"srd": false,
+						"rarity": "none",
+						"weaponCategory": "advanced firearm",
+						"weapon": true,
+						"value": 700000,
+						"dmg1": "2d8",
+						"dmgType": "P",
+						"weight": 8,
+						"age": "industrial",
+						"range": "80/240",
+						"property": [
+							"A",
+							"GCAF",
+							"GCRLD",
+							"MSF",
+							"2H"
+						],
+						"reload": 15,
+						"ammoType": "cartridge",
+						"customProperties": {
+							"misfire": 2
+						},
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Lever-Action Rifle",
+						"source": "XDMG",
+						"type": "R",
+						"rarity": "uncommon",
+						"weaponCategory": "advanced firearm",
+						"weapon": true,
+						"dmg1": "2d8",
+						"dmgType": "P",
+						"weight": 8,
+						"age": "industrial",
+						"range": "80/240",
+						"property": [
+							"A",
+							"GCAF",
+							"GCRLD",
+							"MSF",
+							"2H"
+						],
+						"reload": 15,
+						"ammoType": "cartridge",
+						"customProperties": {
+							"misfire": 2
+						},
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Light Crossbow",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 5,
+						"value": 2500,
+						"weaponCategory": "simple",
+						"property": [
+							"A|XPHB",
+							"LD|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"range": "80/320",
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"crossbow": true,
+						"weapon": true,
+						"ammoType": "bolt|xphb",
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Light Crossbow",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "uncommon",
+						"weight": 5,
+						"weaponCategory": "simple",
+						"property": [
+							"A|XPHB",
+							"LD|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"range": "80/320",
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"crossbow": true,
+						"weapon": true,
+						"ammoType": "bolt|xphb",
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Light Hammer",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"value": 200,
+						"weaponCategory": "simple",
+						"property": [
+							"L|XPHB",
+							"T|XPHB"
+						],
+						"mastery": [
+							"Nick|XPHB"
+						],
+						"range": "20/60",
+						"dmg1": "1d4",
+						"dmgType": "B",
+						"hammer": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Light Hammer",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "uncommon",
+						"weight": 2,
+						"weaponCategory": "simple",
+						"property": [
+							"L|XPHB",
+							"T|XPHB"
+						],
+						"mastery": [
+							"Nick|XPHB"
+						],
+						"range": "20/60",
+						"dmg1": "1d4",
+						"dmgType": "B",
+						"hammer": true,
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Light Repeating Crossbow",
+						"source": "OotA",
+						"page": 224,
+						"type": "R",
+						"rarity": "unknown",
+						"weight": 5,
+						"weaponCategory": "simple",
+						"property": [
+							"A",
+							"2H"
+						],
+						"range": "40/160",
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"crossbow": true,
+						"weapon": true,
+						"entries": [
+							"This crossbow is fitted with a cartridge that can hold up to six crossbow bolts. It automatically reloads after firing until the cartridge runs out of ammunition. Reloading the cartridge takes an action."
+						],
+						"ammoType": "crossbow bolt|phb"
+					},
+					"specificVariant": {
+						"name": "+1 Light Repeating Crossbow",
+						"source": "XDMG",
+						"type": "R",
+						"rarity": "uncommon",
+						"weight": 5,
+						"weaponCategory": "simple",
+						"property": [
+							"A",
+							"2H"
+						],
+						"range": "40/160",
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"crossbow": true,
+						"weapon": true,
+						"entries": [
+							"This crossbow is fitted with a cartridge that can hold up to six crossbow bolts. It automatically reloads after firing until the cartridge runs out of ammunition. Reloading the cartridge takes an action."
+						],
+						"ammoType": "crossbow bolt|phb",
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Long Sword",
+						"source": "TLotRR",
+						"page": 73,
+						"type": "M",
+						"rarity": "none",
+						"weight": 3,
+						"value": 200,
+						"currencyConversion": "M-E",
+						"weaponCategory": "martial",
+						"property": [
+							"H",
+							"V"
+						],
+						"dmg1": "1d8",
+						"dmgType": "S",
+						"dmg2": "1d10",
+						"sword": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Long Sword",
+						"source": "XDMG",
+						"type": "M",
+						"rarity": "uncommon",
+						"weight": 3,
+						"currencyConversion": "M-E",
+						"weaponCategory": "martial",
+						"property": [
+							"H",
+							"V"
+						],
+						"dmg1": "1d8",
+						"dmgType": "S",
+						"dmg2": "1d10",
+						"sword": true,
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Longbow",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"value": 5000,
+						"weaponCategory": "martial",
+						"property": [
+							"A|XPHB",
+							"H|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"range": "150/600",
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"bow": true,
+						"weapon": true,
+						"ammoType": "arrow|xphb",
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Longbow",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "uncommon",
+						"weight": 2,
+						"weaponCategory": "martial",
+						"property": [
+							"A|XPHB",
+							"H|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"range": "150/600",
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"bow": true,
+						"weapon": true,
+						"ammoType": "arrow|xphb",
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Longsword",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 3,
+						"value": 1500,
+						"weaponCategory": "martial",
+						"property": [
+							"V|XPHB"
+						],
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "S",
+						"dmg2": "1d10",
+						"sword": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Longsword",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "uncommon",
+						"weight": 3,
+						"weaponCategory": "martial",
+						"property": [
+							"V|XPHB"
+						],
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "S",
+						"dmg2": "1d10",
+						"sword": true,
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Mace",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 4,
+						"value": 500,
+						"weaponCategory": "simple",
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"dmg1": "1d6",
+						"dmgType": "B",
+						"mace": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Mace",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "uncommon",
+						"weight": 4,
+						"weaponCategory": "simple",
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"dmg1": "1d6",
+						"dmgType": "B",
+						"mace": true,
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Mattock",
+						"source": "TLotRR",
+						"page": 73,
+						"type": "M",
+						"rarity": "none",
+						"weight": 10,
+						"value": 100,
+						"currencyConversion": "M-E",
+						"weaponCategory": "martial",
+						"property": [
+							"H",
+							"2H"
+						],
+						"dmg1": "1d12",
+						"dmgType": "P",
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Mattock",
+						"source": "XDMG",
+						"type": "M",
+						"rarity": "uncommon",
+						"weight": 10,
+						"currencyConversion": "M-E",
+						"weaponCategory": "martial",
+						"property": [
+							"H",
+							"2H"
+						],
+						"dmg1": "1d12",
+						"dmgType": "P",
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Maul",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 10,
+						"value": 1000,
+						"weaponCategory": "martial",
+						"property": [
+							"H|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Topple|XPHB"
+						],
+						"dmg1": "2d6",
+						"dmgType": "B",
+						"hammer": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Maul",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "uncommon",
+						"weight": 10,
+						"weaponCategory": "martial",
+						"property": [
+							"H|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Topple|XPHB"
+						],
+						"dmg1": "2d6",
+						"dmgType": "B",
+						"hammer": true,
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Morningstar",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 4,
+						"value": 1500,
+						"weaponCategory": "martial",
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"mace": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Morningstar",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "uncommon",
+						"weight": 4,
+						"weaponCategory": "martial",
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"mace": true,
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Musket",
+						"source": "GPCodex",
+						"page": 6,
+						"type": "R",
+						"srd": false,
+						"rarity": "none",
+						"weaponCategory": "martial",
+						"firearm": true,
+						"weapon": true,
+						"value": 75000,
+						"dmg1": "1d12",
+						"dmgType": "P",
+						"weight": 10,
+						"age": "renaissance",
+						"range": "40/120",
+						"property": [
+							"A",
+							"GCRLD",
+							"MSF",
+							"2H",
+							"LD"
+						],
+						"reload": 1,
+						"ammoType": "musketball",
+						"customProperties": {
+							"misfire": 2
+						},
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Musket",
+						"source": "XDMG",
+						"type": "R",
+						"rarity": "uncommon",
+						"weaponCategory": "martial",
+						"firearm": true,
+						"weapon": true,
+						"dmg1": "1d12",
+						"dmgType": "P",
+						"weight": 10,
+						"age": "renaissance",
+						"range": "40/120",
+						"property": [
+							"A",
+							"GCRLD",
+							"MSF",
+							"2H",
+							"LD"
+						],
+						"reload": 1,
+						"ammoType": "musketball",
+						"customProperties": {
+							"misfire": 2
+						},
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Musket",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 10,
+						"value": 50000,
+						"weaponCategory": "martial",
+						"property": [
+							"A|XPHB",
+							"LD|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"range": "40/120",
+						"dmg1": "1d12",
+						"dmgType": "P",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "firearm bullet|xphb",
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Musket",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "uncommon",
+						"weight": 10,
+						"weaponCategory": "martial",
+						"property": [
+							"A|XPHB",
+							"LD|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"range": "40/120",
+						"dmg1": "1d12",
+						"dmgType": "P",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "firearm bullet|xphb",
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Pepperbox",
+						"source": "GPCodex",
+						"page": 6,
+						"type": "R",
+						"srd": false,
+						"rarity": "none",
+						"weaponCategory": "advanced firearm",
+						"weapon": true,
+						"value": 100000,
+						"dmg1": "1d10",
+						"dmgType": "P",
+						"weight": 4,
+						"age": "industrial",
+						"range": "40/120",
+						"property": [
+							"A",
+							"GCAF",
+							"GCRLD",
+							"MSF",
+							"L"
+						],
+						"reload": 4,
+						"ammoType": "cartridge",
+						"customProperties": {
+							"misfire": 2
+						},
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Pepperbox",
+						"source": "XDMG",
+						"type": "R",
+						"rarity": "uncommon",
+						"weaponCategory": "advanced firearm",
+						"weapon": true,
+						"dmg1": "1d10",
+						"dmgType": "P",
+						"weight": 4,
+						"age": "industrial",
+						"range": "40/120",
+						"property": [
+							"A",
+							"GCAF",
+							"GCRLD",
+							"MSF",
+							"L"
+						],
+						"reload": 4,
+						"ammoType": "cartridge",
+						"customProperties": {
+							"misfire": 2
+						},
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Pike",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 18,
+						"value": 500,
+						"weaponCategory": "martial",
+						"property": [
+							"H|XPHB",
+							"R|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Push|XPHB"
+						],
+						"dmg1": "1d10",
+						"dmgType": "P",
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Pike",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "uncommon",
+						"weight": 18,
+						"weaponCategory": "martial",
+						"property": [
+							"H|XPHB",
+							"R|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Push|XPHB"
+						],
+						"dmg1": "1d10",
+						"dmgType": "P",
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Pistol",
+						"source": "GPCodex",
+						"page": 6,
+						"type": "R",
+						"srd": false,
+						"rarity": "none",
+						"weaponCategory": "advanced firearm",
+						"weapon": true,
+						"value": 60000,
+						"dmg1": "1d10",
+						"dmgType": "P",
+						"weight": 3,
+						"age": "renaissance",
+						"range": "30/90",
+						"property": [
+							"A",
+							"GCAF",
+							"GCRLD",
+							"MSF",
+							"L",
+							"LD"
+						],
+						"reload": 2,
+						"ammoType": "musketball",
+						"customProperties": {
+							"misfire": 1
+						},
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Pistol",
+						"source": "XDMG",
+						"type": "R",
+						"rarity": "uncommon",
+						"weaponCategory": "advanced firearm",
+						"weapon": true,
+						"dmg1": "1d10",
+						"dmgType": "P",
+						"weight": 3,
+						"age": "renaissance",
+						"range": "30/90",
+						"property": [
+							"A",
+							"GCAF",
+							"GCRLD",
+							"MSF",
+							"L",
+							"LD"
+						],
+						"reload": 2,
+						"ammoType": "musketball",
+						"customProperties": {
+							"misfire": 1
+						},
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Pistol",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 3,
+						"value": 25000,
+						"weaponCategory": "martial",
+						"property": [
+							"A|XPHB",
+							"LD|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"range": "30/90",
+						"dmg1": "1d10",
+						"dmgType": "P",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "firearm bullet|xphb",
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Pistol",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "uncommon",
+						"weight": 3,
+						"weaponCategory": "martial",
+						"property": [
+							"A|XPHB",
+							"LD|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"range": "30/90",
+						"dmg1": "1d10",
+						"dmgType": "P",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "firearm bullet|xphb",
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Pocket Pistol",
+						"source": "GPCodex",
+						"page": 6,
+						"type": "R",
+						"srd": false,
+						"rarity": "none",
+						"weaponCategory": "martial",
+						"firearm": true,
+						"weapon": true,
+						"value": 12500,
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"weight": 1,
+						"age": "renaissance",
+						"range": "10/40",
+						"property": [
+							"A",
+							"GCRLD",
+							"MSF",
+							"L",
+							"CV",
+							"LD"
+						],
+						"reload": 1,
+						"ammoType": "musketball",
+						"customProperties": {
+							"misfire": 3
+						},
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Pocket Pistol",
+						"source": "XDMG",
+						"type": "R",
+						"rarity": "uncommon",
+						"weaponCategory": "martial",
+						"firearm": true,
+						"weapon": true,
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"weight": 1,
+						"age": "renaissance",
+						"range": "10/40",
+						"property": [
+							"A",
+							"GCRLD",
+							"MSF",
+							"L",
+							"CV",
+							"LD"
+						],
+						"reload": 1,
+						"ammoType": "musketball",
+						"customProperties": {
+							"misfire": 3
+						},
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Quarterstaff",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 4,
+						"value": 20,
+						"weaponCategory": "simple",
+						"property": [
+							"V|XPHB"
+						],
+						"mastery": [
+							"Topple|XPHB"
+						],
+						"dmg1": "1d6",
+						"dmgType": "B",
+						"dmg2": "1d8",
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Quarterstaff",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "uncommon",
+						"weight": 4,
+						"weaponCategory": "simple",
+						"property": [
+							"V|XPHB"
+						],
+						"mastery": [
+							"Topple|XPHB"
+						],
+						"dmg1": "1d6",
+						"dmgType": "B",
+						"dmg2": "1d8",
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Rapier",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"value": 2500,
+						"weaponCategory": "martial",
+						"property": [
+							"F|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"rapier": true,
+						"sword": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Rapier",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "uncommon",
+						"weight": 2,
+						"weaponCategory": "martial",
+						"property": [
+							"F|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"rapier": true,
+						"sword": true,
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Revolver",
+						"source": "GPCodex",
+						"page": 6,
+						"type": "R",
+						"srd": false,
+						"rarity": "none",
+						"weaponCategory": "advanced firearm",
+						"weapon": true,
+						"value": 300000,
+						"dmg1": "2d8",
+						"dmgType": "P",
+						"weight": 3,
+						"age": "industrial",
+						"range": "40/120",
+						"property": [
+							"A",
+							"GCAF",
+							"GCRLD",
+							"MSF",
+							"L"
+						],
+						"reload": 6,
+						"ammoType": "cartridge",
+						"customProperties": {
+							"misfire": 1
+						},
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Revolver",
+						"source": "XDMG",
+						"type": "R",
+						"rarity": "uncommon",
+						"weaponCategory": "advanced firearm",
+						"weapon": true,
+						"dmg1": "2d8",
+						"dmgType": "P",
+						"weight": 3,
+						"age": "industrial",
+						"range": "40/120",
+						"property": [
+							"A",
+							"GCAF",
+							"GCRLD",
+							"MSF",
+							"L"
+						],
+						"reload": 6,
+						"ammoType": "cartridge",
+						"customProperties": {
+							"misfire": 1
+						},
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Revolver",
+						"source": "XDMG",
+						"page": 73,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 3,
+						"valueRarity": "rare",
+						"weaponCategory": "martial",
+						"age": "modern",
+						"property": [
+							"AF|XDMG",
+							"RLD|XDMG"
+						],
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"range": "40/120",
+						"reload": 6,
+						"dmg1": "2d8",
+						"dmgType": "P",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "firearm bullet|xphb",
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Revolver",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "uncommon",
+						"weight": 3,
+						"valueRarity": "rare",
+						"weaponCategory": "martial",
+						"age": "modern",
+						"property": [
+							"AF|XDMG",
+							"RLD|XDMG"
+						],
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"range": "40/120",
+						"reload": 6,
+						"dmg1": "2d8",
+						"dmgType": "P",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "firearm bullet|xphb",
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Scattergun",
+						"source": "GPCodex",
+						"page": 6,
+						"type": "R",
+						"srd": false,
+						"rarity": "none",
+						"weaponCategory": "martial",
+						"firearm": true,
+						"weapon": true,
+						"value": 50000,
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"weight": 10,
+						"age": "renaissance",
+						"range": "15/30",
+						"property": [
+							"A",
+							"GCRLD",
+							"MSF",
+							"2H",
+							"SCT"
+						],
+						"reload": 1,
+						"ammoType": "buckshot",
+						"customProperties": {
+							"misfire": 2
+						},
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Scattergun",
+						"source": "XDMG",
+						"type": "R",
+						"rarity": "uncommon",
+						"weaponCategory": "martial",
+						"firearm": true,
+						"weapon": true,
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"weight": 10,
+						"age": "renaissance",
+						"range": "15/30",
+						"property": [
+							"A",
+							"GCRLD",
+							"MSF",
+							"2H",
+							"SCT"
+						],
+						"reload": 1,
+						"ammoType": "buckshot",
+						"customProperties": {
+							"misfire": 2
+						},
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Scimitar",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 3,
+						"value": 2500,
+						"weaponCategory": "martial",
+						"property": [
+							"F|XPHB",
+							"L|XPHB"
+						],
+						"mastery": [
+							"Nick|XPHB"
+						],
+						"dmg1": "1d6",
+						"dmgType": "S",
+						"sword": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Scimitar",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "uncommon",
+						"weight": 3,
+						"weaponCategory": "martial",
+						"property": [
+							"F|XPHB",
+							"L|XPHB"
+						],
+						"mastery": [
+							"Nick|XPHB"
+						],
+						"dmg1": "1d6",
+						"dmgType": "S",
+						"sword": true,
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Semiautomatic Pistol",
+						"source": "XDMG",
+						"page": 73,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 3,
+						"valueRarity": "rare",
+						"weaponCategory": "martial",
+						"age": "modern",
+						"property": [
+							"AF|XDMG",
+							"RLD|XDMG"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"range": "50/150",
+						"reload": 15,
+						"dmg1": "2d6",
+						"dmgType": "P",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "firearm bullet|xphb",
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Semiautomatic Pistol",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "uncommon",
+						"weight": 3,
+						"valueRarity": "rare",
+						"weaponCategory": "martial",
+						"age": "modern",
+						"property": [
+							"AF|XDMG",
+							"RLD|XDMG"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"range": "50/150",
+						"reload": 15,
+						"dmg1": "2d6",
+						"dmgType": "P",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "firearm bullet|xphb",
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Shortbow",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"value": 2500,
+						"weaponCategory": "simple",
+						"property": [
+							"A|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"range": "80/320",
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"bow": true,
+						"weapon": true,
+						"ammoType": "arrow|xphb",
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Shortbow",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "uncommon",
+						"weight": 2,
+						"weaponCategory": "simple",
+						"property": [
+							"A|XPHB",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"range": "80/320",
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"bow": true,
+						"weapon": true,
+						"ammoType": "arrow|xphb",
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Shortsword",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"value": 1000,
+						"weaponCategory": "martial",
+						"property": [
+							"F|XPHB",
+							"L|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"sword": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Shortsword",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "uncommon",
+						"weight": 2,
+						"weaponCategory": "martial",
+						"property": [
+							"F|XPHB",
+							"L|XPHB"
+						],
+						"mastery": [
+							"Vex|XPHB"
+						],
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"sword": true,
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Shotgun",
+						"source": "GPCodex",
+						"page": 7,
+						"type": "R",
+						"srd": false,
+						"rarity": "none",
+						"weaponCategory": "advanced firearm",
+						"weapon": true,
+						"value": 125000,
+						"dmg1": "2d8",
+						"dmgType": "P",
+						"weight": 7,
+						"age": "industrial",
+						"range": "15/30",
+						"property": [
+							"A",
+							"GCAF",
+							"GCRLD",
+							"MSF",
+							"2H",
+							"SCT"
+						],
+						"reload": 2,
+						"ammoType": "buckshot",
+						"customProperties": {
+							"misfire": 2
+						},
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Shotgun",
+						"source": "XDMG",
+						"type": "R",
+						"rarity": "uncommon",
+						"weaponCategory": "advanced firearm",
+						"weapon": true,
+						"dmg1": "2d8",
+						"dmgType": "P",
+						"weight": 7,
+						"age": "industrial",
+						"range": "15/30",
+						"property": [
+							"A",
+							"GCAF",
+							"GCRLD",
+							"MSF",
+							"2H",
+							"SCT"
+						],
+						"reload": 2,
+						"ammoType": "buckshot",
+						"customProperties": {
+							"misfire": 2
+						},
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Shotgun",
+						"source": "XDMG",
+						"page": 73,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"weight": 7,
+						"valueRarity": "rare",
+						"weaponCategory": "martial",
+						"age": "modern",
+						"property": [
+							"AF|XDMG",
+							"RLD|XDMG",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Push|XPHB"
+						],
+						"range": "30/90",
+						"reload": 2,
+						"dmg1": "2d8",
+						"dmgType": "P",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "firearm bullet|xphb",
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Shotgun",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "uncommon",
+						"weight": 7,
+						"valueRarity": "rare",
+						"weaponCategory": "martial",
+						"age": "modern",
+						"property": [
+							"AF|XDMG",
+							"RLD|XDMG",
+							"2H|XPHB"
+						],
+						"mastery": [
+							"Push|XPHB"
+						],
+						"range": "30/90",
+						"reload": 2,
+						"dmg1": "2d8",
+						"dmgType": "P",
+						"firearm": true,
+						"weapon": true,
+						"ammoType": "firearm bullet|xphb",
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Sickle",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"value": 100,
+						"weaponCategory": "simple",
+						"property": [
+							"L|XPHB"
+						],
+						"mastery": [
+							"Nick|XPHB"
+						],
+						"dmg1": "1d4",
+						"dmgType": "S",
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Sickle",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "uncommon",
+						"weight": 2,
+						"weaponCategory": "simple",
+						"property": [
+							"L|XPHB"
+						],
+						"mastery": [
+							"Nick|XPHB"
+						],
+						"dmg1": "1d4",
+						"dmgType": "S",
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Sling",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "none",
+						"value": 10,
+						"weaponCategory": "simple",
+						"property": [
+							"A|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"range": "30/120",
+						"dmg1": "1d4",
+						"dmgType": "B",
+						"weapon": true,
+						"ammoType": "sling bullet|xphb",
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Sling",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "R|XPHB",
+						"rarity": "uncommon",
+						"weaponCategory": "simple",
+						"property": [
+							"A|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"range": "30/120",
+						"dmg1": "1d4",
+						"dmgType": "B",
+						"weapon": true,
+						"ammoType": "sling bullet|xphb",
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Sniper Rifle",
+						"source": "GPCodex",
+						"page": 7,
+						"type": "R",
+						"srd": false,
+						"rarity": "none",
+						"weaponCategory": "advanced firearm",
+						"weapon": true,
+						"value": 500000,
+						"dmg1": "2d12",
+						"dmgType": "P",
+						"weight": 15,
+						"age": "industrial",
+						"range": "150/600",
+						"property": [
+							"A",
+							"GCAF",
+							"GCRLD",
+							"MSF",
+							"2H"
+						],
+						"reload": 1,
+						"ammoType": "cartridge",
+						"customProperties": {
+							"misfire": 2
+						},
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Sniper Rifle",
+						"source": "XDMG",
+						"type": "R",
+						"rarity": "uncommon",
+						"weaponCategory": "advanced firearm",
+						"weapon": true,
+						"dmg1": "2d12",
+						"dmgType": "P",
+						"weight": 15,
+						"age": "industrial",
+						"range": "150/600",
+						"property": [
+							"A",
+							"GCAF",
+							"GCRLD",
+							"MSF",
+							"2H"
+						],
+						"reload": 1,
+						"ammoType": "cartridge",
+						"customProperties": {
+							"misfire": 2
+						},
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Sniper Rifle, Revolver",
+						"source": "GPCodex",
+						"page": 7,
+						"type": "R",
+						"srd": false,
+						"rarity": "none",
+						"weaponCategory": "advanced firearm",
+						"weapon": true,
+						"value": 600000,
+						"dmg1": "2d12",
+						"dmgType": "P",
+						"weight": 17,
+						"age": "industrial",
+						"range": "150/600",
+						"property": [
+							"A",
+							"GCAF",
+							"GCRLD",
+							"MSF",
+							"2H"
+						],
+						"reload": 4,
+						"ammoType": "cartridge",
+						"customProperties": {
+							"misfire": 2
+						},
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Sniper Rifle, Revolver",
+						"source": "XDMG",
+						"type": "R",
+						"rarity": "uncommon",
+						"weaponCategory": "advanced firearm",
+						"weapon": true,
+						"dmg1": "2d12",
+						"dmgType": "P",
+						"weight": 17,
+						"age": "industrial",
+						"range": "150/600",
+						"property": [
+							"A",
+							"GCAF",
+							"GCRLD",
+							"MSF",
+							"2H"
+						],
+						"reload": 4,
+						"ammoType": "cartridge",
+						"customProperties": {
+							"misfire": 2
+						},
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Spear",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 3,
+						"value": 100,
+						"weaponCategory": "simple",
+						"property": [
+							"T|XPHB",
+							"V|XPHB"
+						],
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"range": "20/60",
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"dmg2": "1d8",
+						"spear": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Spear",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "uncommon",
+						"weight": 3,
+						"weaponCategory": "simple",
+						"property": [
+							"T|XPHB",
+							"V|XPHB"
+						],
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"range": "20/60",
+						"dmg1": "1d6",
+						"dmgType": "P",
+						"dmg2": "1d8",
+						"spear": true,
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Staff",
+						"source": "TLotRR",
+						"page": 73,
+						"type": "M",
+						"rarity": "none",
+						"weight": 2,
+						"value": 2,
+						"currencyConversion": "M-E",
+						"weaponCategory": "simple",
+						"property": [
+							"V"
+						],
+						"dmg1": "1d4",
+						"dmgType": "B",
+						"dmg2": "1d6",
+						"staff": true,
+						"weapon": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Staff",
+						"source": "XDMG",
+						"type": "M",
+						"rarity": "uncommon",
+						"weight": 2,
+						"currencyConversion": "M-E",
+						"weaponCategory": "simple",
+						"property": [
+							"V"
+						],
+						"dmg1": "1d4",
+						"dmgType": "B",
+						"dmg2": "1d6",
+						"staff": true,
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Sword",
+						"source": "TLotRR",
+						"page": 73,
+						"type": "M",
+						"rarity": "none",
+						"weight": 2,
+						"value": 150,
+						"currencyConversion": "M-E",
+						"weaponCategory": "martial",
+						"property": [
+							"F",
+							"V"
+						],
+						"dmg1": "1d6",
+						"dmgType": "S",
+						"dmg2": "1d8",
+						"sword": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Sword",
+						"source": "XDMG",
+						"type": "M",
+						"rarity": "uncommon",
+						"weight": 2,
+						"currencyConversion": "M-E",
+						"weaponCategory": "martial",
+						"property": [
+							"F",
+							"V"
+						],
+						"dmg1": "1d6",
+						"dmgType": "S",
+						"dmg2": "1d8",
+						"sword": true,
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Trident",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 4,
+						"value": 500,
+						"weaponCategory": "martial",
+						"property": [
+							"T|XPHB",
+							"V|XPHB"
+						],
+						"mastery": [
+							"Topple|XPHB"
+						],
+						"range": "20/60",
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"dmg2": "1d10",
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Trident",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "uncommon",
+						"weight": 4,
+						"weaponCategory": "martial",
+						"property": [
+							"T|XPHB",
+							"V|XPHB"
+						],
+						"mastery": [
+							"Topple|XPHB"
+						],
+						"range": "20/60",
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"dmg2": "1d10",
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "War Pick",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 2,
+						"value": 500,
+						"weaponCategory": "martial",
+						"property": [
+							"V|XPHB"
+						],
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"dmg2": "1d10",
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 War Pick",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "uncommon",
+						"weight": 2,
+						"weaponCategory": "martial",
+						"property": [
+							"V|XPHB"
+						],
+						"mastery": [
+							"Sap|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"dmg2": "1d10",
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Warhammer",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 5,
+						"value": 1500,
+						"weaponCategory": "martial",
+						"property": [
+							"V|XPHB"
+						],
+						"mastery": [
+							"Push|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "B",
+						"dmg2": "1d10",
+						"hammer": true,
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Warhammer",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "uncommon",
+						"weight": 5,
+						"weaponCategory": "martial",
+						"property": [
+							"V|XPHB"
+						],
+						"mastery": [
+							"Push|XPHB"
+						],
+						"dmg1": "1d8",
+						"dmgType": "B",
+						"dmg2": "1d10",
+						"hammer": true,
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Whip",
+						"source": "XPHB",
+						"page": 215,
+						"freeRules2024": true,
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "none",
+						"weight": 3,
+						"value": 200,
+						"weaponCategory": "martial",
+						"property": [
+							"F|XPHB",
+							"R|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"dmg1": "1d4",
+						"dmgType": "S",
+						"weapon": true,
+						"hasFluffImages": true,
+						"entries": []
+					},
+					"specificVariant": {
+						"name": "+1 Whip",
+						"source": "XDMG",
+						"edition": "one",
+						"type": "M|XPHB",
+						"rarity": "uncommon",
+						"weight": 3,
+						"weaponCategory": "martial",
+						"property": [
+							"F|XPHB",
+							"R|XPHB"
+						],
+						"mastery": [
+							"Slow|XPHB"
+						],
+						"dmg1": "1d4",
+						"dmgType": "S",
+						"weapon": true,
+						"entries": [],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				},
+				{
+					"base": {
+						"name": "Yklwa",
+						"source": "ToA",
+						"page": 32,
+						"type": "M",
+						"rarity": "none",
+						"weight": 3,
+						"value": 100,
+						"weaponCategory": "simple",
+						"property": [
+							"T"
+						],
+						"range": "10/30",
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"weapon": true,
+						"entries": [
+							"A yklwa (pronounced YICK-ul-wah) is a simple melee weapon that is the traditional weapon of Chultan warriors. A yklwa consists of a 3-foot wooden shaft with a steel or stone blade up to 18 inches long. Although it has the thrown weapon property, the yklwa is not well balanced for throwing."
+						]
+					},
+					"specificVariant": {
+						"name": "+1 Yklwa",
+						"source": "XDMG",
+						"type": "M",
+						"rarity": "uncommon",
+						"weight": 3,
+						"weaponCategory": "simple",
+						"property": [
+							"T"
+						],
+						"range": "10/30",
+						"dmg1": "1d8",
+						"dmgType": "P",
+						"weapon": true,
+						"entries": [
+							"A yklwa (pronounced YICK-ul-wah) is a simple melee weapon that is the traditional weapon of Chultan warriors. A yklwa consists of a 3-foot wooden shaft with a steel or stone blade up to 18 inches long. Although it has the thrown weapon property, the yklwa is not well balanced for throwing."
+						],
+						"page": 324,
+						"freeRules2024": true,
+						"bonusWeapon": "+1",
+						"lootTables": [
+							"Armaments - Uncommon|XDMG"
+						],
+						"genericVariant": {
+							"name": "+1 Weapon",
+							"source": "XDMG"
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "+1 Rod of the Pact Keeper",
+			"source": "CompendiumofAcadia",
+			"value": 50000,
+			"type": "RD|XDMG",
+			"rarity": "uncommon",
+			"reqAttune": "by a warlock",
+			"reqAttuneTags": [
+				{
+					"class": "warlock"
+				}
+			],
+			"weight": 2,
+			"bonusSpellAttack": "+1",
+			"bonusSpellSaveDc": "+1",
+			"entries": [
+				"While holding this rod, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your {@filter Warlock spells|spells|class=Warlock}.",
+				"In addition, you can regain one spell slot as a {@action Magic|XPHB} action while holding the rod. You can't use this property again until you finish a {@variantrule Long Rest|XPHB}."
 			]
 		},
 		{
@@ -178774,7 +184099,7 @@
 			"weight": 0.5,
 			"entries": [
 				"This small shard hums with faint magical energy. You can use a Magic Action to touch a creature that has died within the last minute and expend the shard's magic to revive the creature with 1 Hit Point. This effect can't revive a creature that has died of old age, nor does it restore any missing body parts.",
-				"Once used, the shard loses its magic and becomes an ordinary crystal worth 50 gp."
+				"Once used, the shard loses its magic and becomes an ordinary {@item Diamond|XDMG} worth 50 gp."
 			]
 		},
 		{
@@ -180126,7 +185451,7 @@
 									"Limited the saves to twice per round."
 								],
 								[
-									"Silvery Barbs ({@spell Silvery Barbs|XPHB} → {@spell Silvery Barbs|CompendiumofAcadia})",
+									"Silvery Barbs ({@spell Silvery Barbs|SCC} → {@spell Silvery Barbs|CompendiumofAcadia})",
 									"Nerfed",
 									"Up the level to 2nd."
 								],
@@ -180275,11 +185600,6 @@
 									"Carven Rifle ({@spell Carven Rifle|GPCodex} → {@spell Carven Rifle|CompendiumofAcadia})",
 									"Nerfed",
 									"Damage scaling decreased."
-								],
-								[
-									"Sequoia Six-Shooter ({@spell Sequoia Six-Shooter|GPCodex} → {@spell Sequoia Six-Shooter|CompendiumofAcadia})",
-									"Nerfed",
-									"Damage decreased."
 								]
 							]
 						}
@@ -180305,11 +185625,11 @@
 									"Banned: Spell is kind of a slog."
 								],
 								[
-									"Gust Barrier ({@spell Gust Barrier|HWCS})",
+									"Gust Barrier ({@spell Gust Barrier|HumblewoodCampaignSetting})",
 									"Banned: Too strong for a cantrip."
 								],
 								[
-									"Invoke the Amaranthine ({@spell Invoke the Amaranthine|HWCS})",
+									"Invoke the Amaranthine ({@spell Invoke the Amaranthine|HumblewoodCampaignSetting})",
 									"Banned: Undermines Divination Wizard."
 								],
 								[
@@ -180321,7 +185641,7 @@
 									"Banned: Added Lesser Wish ({@spell Lesser Wish|CompendiumofAcadia}); the Wish effect will be limited to items. [{@item Ring of The Wishing Star|CompendiumofAcadia} / {@item Aberrant Statue of Wishes|CompendiumofAcadia}]"
 								],
 								[
-									"Elevated Sight ({@spell Elevated Sight|HWCS})",
+									"Elevated Sight ({@spell Elevated Sight|HumblewoodCampaignSetting})",
 									"Banned: Is just a better version of Arcane Eye"
 								]
 							]
