@@ -178524,6 +178524,42 @@
 			]
 		},
 		{
+			"name": "Necklace of the Berserker",
+			"source": "CompendiumofAcadia",
+			"rarity": "uncommon",
+			"value": 40000,
+			"reqAttune": "by a barbarian",
+			"reqAttuneTags": [
+				{
+					"class": "barbarian"
+				}
+			],
+			"wondrous": true,
+			"weight": 1,
+			"entries": [
+				"While you are wearing this necklace, you gain a +2 bonus to your Rage damage.",
+				"In addition, you can use your Rage feature without expending one of the feature's uses. You can't use this property again until you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Champion's Medal",
+			"source": "CompendiumofAcadia",
+			"rarity": "uncommon",
+			"value": 40000,
+			"reqAttune": "by a fighter",
+			"reqAttuneTags": [
+				{
+					"class": "fighter"
+				}
+			],
+			"wondrous": true,
+			"weight": 1,
+			"entries": [
+				"While you are wearing this golden medal, you gain a +1 bonus to your Maneuvers saving throw DCs.",
+				"In addition, you can use your Second Wind feature without expending one of the feature's uses. You can't use this property again until you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
 			"name": "+1 Arcane Grimoire",
 			"source": "CompendiumofAcadia",
 			"rarity": "uncommon",
