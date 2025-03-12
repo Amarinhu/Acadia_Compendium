@@ -1,0 +1,85 @@
+Food Shop. You can only stack up to 2 food effects, one Meal and one Snack, if you get a new one, you need to choose what to keep.
+Common: You can buy food normally from @{table Food, Drink, and Lodging|XPHB}.
+Uncommon: You can buy everything of Common, but you can also buy a Meal for 1 GP and gain the effects of a Meal from @{variantrule Enhanced Foods|CompendiumofAcadia}.
+Rare: You can buy magic enhanced foods, they cost 50 GP (plus the material componentes if they have a cost) per meal and give you a cast of a spell up to 1st level. You can also pay 50 GP to get 3 snacks that give you a cast of a cantrip spell each. 
+Very Rare: You can buy a powerfull magic enhanced food, a Meal cost 300 GP (plus the value of the material componentes if they have a cost) and give you a cast of a spell up to 3rd level (lower level spells choosen are cast at 3rd level). You can also pay 300 to get 3 snacks that give you a cast of 1st level spell each.
+Legendary: meal costs 2000 GP, give a 5th level spell. 3 snacks that give you a cast of a 2nd level spell.
+
+Cloth Shop,
+Common: You can buy common or Fine Clothing.
+Uncommon: You can buy good clothing that gives you +1 in a ability check of your choice for 15 GP.
+Rare: You can buy fine extremely well made clothing that gives you +2 in a ability check of your choice for 50 GP.
+Very Rare: You cna buy magical clothing by their specific price up to Uncommon rarity, this includes basically ny type of clothing like cloaks, boots and hats like: Cloaks of Protection, Cloaks of Elvenkind, Clothes of Mending, Boots of Elvenkind, Boots of the WinterLands, hats of Disguise, Hat of Wizardry, Prism Glasses, Lupine Masks, Maks of the Beast, Goggles of Night and such.
+Legendary: You can buy some clothing magical clothing up to Rare rarity, like cloaks of Displacement, Cloak of the Bat, Boots of Speed, Boots of Levitation, Winged Boots, Nightstalker's Masks and such.
+
+Forge, 
+Common: You can buy non magical armor and Weapons of normal materials.
+Uncommon: You can buy pristine quality armor or tools that gives you +1 in a skill of your choice for the price of the armor doubled or +50 GP, whichever is lower.
+Rare: You can buy armor from special materials that gives you +2 in a skill of your choice for he price of the armor doubled or +100 GP, whichever is lower.
+Very Rare: You can buy magical armor or weapons up to Uncommon rarity, this includes basically any type of armor like Cast-Off Armor, Armor of Gleaming, Adamantine Armor, Enspelled Armors up to a spell of 1st Level, +1 Weapons, Mariner's Armor, MithralArmor, Gauntlets of Ogre Power, Helms of Tekepathy, and  Dread Helms.
+Legendary: You can buy magical armor up o Rare rarity, this includes +1 Armors, +2 Shields, Armors of Resistance, Arrow Catching Shields, +2 Weapons.
+
+Alchemy Lab, You can buy potions and poisons.
+Common: You can buy Potions, Oils and Elixirs of up to Common Rarity. Like potions of Climbing, Potions of COmprehension, Potions of Healing.
+Uncommon: You can buy Potions, Oils and Elixirs of up to Uncommon Rarity. Like Potions of Resistance, Philter of Lust, and Potions of Water Breathing.
+Rare: You can buy Potions, Oils and Elixirs of up to Rare Rarity. Like Elicirs of Health, Oil of Etherealness, Potion of Clairvoyance, Potions of Fire Giant Strength, Potion of Growth.
+Very Rare: You can buy Potions, Oils and Elixirs of up to Very Rare Rarity. Like potions of Greater Invisibility, Potion of Vitality etc.
+Legendary: You can buy Potions, Oils and Elixirs of up to Legendary Rarity.Like otions of Rejuvenating and Potions of Storm Giant Strength.
+
+General Store, 
+Common: You can buy non magical normal adventuring gear and such.
+Uncommon: You can buy non magical good quality adventuring gear. Work with your DM, but most of the time this is meant to give you a +1 on using that gear or adding a +1 to the DC of that gear. LIke a good Rope with a DC 21 to burst and a DC 16 to escape, backpacks taht can handle up to 40 pounds, ball bearings with DC 11, and such. The idea is that they cost double the cost or 15 GP, whatever is lower.
+Rare: You can buy non magical pristine quality adventuring gear. The same idea of Uncommon, but with a bigger bônus, like a backpack hat can handle 50 pounds, Ropes with DC 17 to escape. The idea is that they cost triple the value or 50 GP< whatever is lower.
+Very Rare: Useful adventure gear up to uncommon rarity, like Ropes of Mending, Lanterns of Revealing, bags of Holding, and such.
+Legendary: Useful adventure gear up to Rare rarity, like Folding Boat, Gems of Seeing, Ioun Stones of Sustenance
+
+Arcane Shop, 
+Common: You can buy various magic items of rarity up o Common.
+Uncommon: You can buy various magic items of rarity up o Uncommon. 
+Rare: You can buy various magic items of rarity up o Rare.
+Very Rare: You can buy various magic items of rarity up o Very Rare.
+Legendary:  You can buy various magic items of rarity up o Legendary.
+
+Jewelry Shop, 
+Common: You can buy and sell general gemstone up o 500 GP. Like: Jade, Spinels, Corals, Zircons, Ambers, Alexandrites, Aquamarines etc. You also can buy common Jewelry, like gold adorned chains and such, expending 500 GP.
+Uncommon: You can buy and sell general gemstones up to 5000 GP. like Diamonds, Ruviesm Star Sapphires, Jacinth etc. You can also buy expensive Jewelry, like Diamond escrusted necklaces, expeding 5000 GP.
+Rare: You can buy uncommon rarity magic jewerly, amulets, rings and such. Like Clockwork Amulets, Dark Shard Amulets, Rubies of Warmage, Ring of Jumping.
+Very Rare: You can buy Rare rarity magic jewerly. Ex: Amulets of Health, Ring of Resistance, Ring of Free Action, Rinf of Lightning.
+Legendary: You can buy Very Rare Magic jewerly. Ring of Regeneration, Ring of Telekinesis;
+
+Stable, 
+Common: You can buy Beasts with CR up to 1.
+Uncommon: You can buy Beasts with CR up to 3.
+Rare: You can buy Beasts with CR up to 4.
+Very Rare: Beasts and some Monstruosities up to CR 6.
+Legendary: Beasts and some Monstruosities up to CR 8.
+
+Library, 
+Common: Normal books of various topics. Sometimes spell scrolls up to 1st level.
+Uncommon: Books with more specific and exoteric topics, also Spellbooks. Also spell scrolls of up to 3rd level.
+Rare: Books with some legendary value and history, talking about obscure topics and habing some occult powers. Also spell scrolls up to 5th level.
+Very Rare: Books with powerfull names with just some in existance. Also spell scrolls up to 8th level.
+Legendary: Most powerful books you could ever find in a Library. Manual of Bodily Health, Manual of Clay Golems, Manual Iron Golemns, Manual of Cloning, Manual of Simulacrum. Spell Scrolls up to 9th level.
+
+Bank, Up to the value, the interest rate is around 2% per mounth. The most powerfull banks will make you soul bind, blood bound or will have multiplanar resources for making you pay your debt.
+Common: Normal bank, can lend you money if they believe in you, and will most certainly need some type of garantee or ask for a specific title they can believe in. Normally nothing more than 300 GP.
+Uncommon: Banks for high society, this can lend a lot of money. Up to 1000 GP. This only lend to people of high standard.
+Rare: This banks have you have some type of blood bond, or magical contract eforced by a magical force, powerful patron, magical shackles or things like that. This banks can lend you up to 5000 GP.
+Very Rare: This are multiversal banks normally integrated with Orhov or Some multiplanar authority. Can even have Maruts and Other forces that can hunt you on the multiverse, scry, and actually force you make your debt paid. And could lend you about 10000 GP.
+Legendary: This are banks bound by deities and archdevils. And the most powerfull beings in the multiverse, not paying here maight put you in eternal debt. This one's can lend you up to 25000 GP most of the time.
+
+Guildhall, 
+Common: You can hire hirelings that have sidekick levels up to 4rd level. Paying 1 GP/day, half if you provide then sustance and lodging.
+Uncommon: You can hire hireligs that have sidekick levels up to 10th level. Paying 2 GP/day, half if you provide then sustance and lodging.
+Rare: You can hire hirelings that have sideck levels up to 17th level. Paying 3 GP/day, half if you provide then sustance and lodging.
+Very Rare: You can hire hirelings that have sideck levels up to 20th level. Paying 6 GP/day, half if you provide then sustance and lodging.
+Legendary: You can hire epic hirelings. This hirelings have equivalency of 20th level sidekick level, but they have special features that makes then specially powerfull, normally having class features.
+
+Courier Office. 
+Common: 2 CP per mile, need to be in the same continent. Travel 24 miles per day. Walk by horse.
+Uncommon: 3 CP per mile, can be basically anywhere sufficiently secure in the same plane. Travel 36 miles per day. Walk with good horses.
+Rare: 1 GP per mile, can basically go anywhere in the same plane of existance. Travel about 120 miles per day. Uses magical or special mounts.
+Very Rare: 2000 GP. Can send a message basically to anywhere in any plane in an instant.
+Legendary: 20000 GP. Can send a message basically to anywhere in any plane in an instant and pass most of magical preventions, even send to places you are not exactly completely sure to where.
+
+Hagar, Sells boat ships, spelljammers, other types of ships.
